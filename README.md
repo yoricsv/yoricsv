@@ -1,3 +1,6 @@
+# **Hello, guest!** <br/> Thanks for your interest :raising_hand:
+-
+
 - Hello, I'm Sergey.
 
 - I am interested in working with embedded systems based on ARM-Cortex (for example: STMicroelectronics microcontrollers),
