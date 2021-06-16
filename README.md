@@ -17,7 +17,7 @@ In the near future I want to learn Java, Python for AI.
 
 - How to reach me:
 
-Way       | link
+**Way**   | **link**
 ---:      | :---
 LinkedIn: | [go to LinkedIn](https://www.linkedin.com/in/сергей-селивончик-221105207)
 email:    | yoricsv@yandex.ru
