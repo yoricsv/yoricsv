@@ -15,11 +15,13 @@ In the near future I want to learn Java, Python for AI.
 
 - I'm looking for someone who understands that he might get a good software engineer in the future.
 
-- How to reach me in [LinkedIn][1]
-           email:   yoricsv@yandex.ru;
-          mobile:   +375292639900.
+- How to reach me:
 
-          [1]: (https://www.linkedin.com/in/сергей-селивончик-221105207)
+Way       | link
+---:      | :---
+LinkedIn: | [go to LinkedIn](https://www.linkedin.com/in/сергей-селивончик-221105207)
+email:    | yoricsv@yandex.ru
+mobile:   | +375(29) 263-99-00
 
 
 
