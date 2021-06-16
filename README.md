@@ -1,5 +1,7 @@
-# **Hello, guest!** <br/> Thanks for your interest :raising_hand:
--
+#  <p align=center> <b>Hello, guest!</b>     :raising_hand: </p> 
+## <p align=center> Thanks for your interest :thumbsup:     </p>
+---
+
 
 - Hello, I'm Sergey.
 
@@ -13,10 +15,15 @@ In the near future I want to learn Java, Python for AI.
 
 - I'm looking for someone who understands that he might get a good software engineer in the future.
 
-- How to reach me in
-        LinkedIn:   https://www.linkedin.com/in/сергей-селивончик-221105207;
+- How to reach me in [LinkedIn][1]
            email:   yoricsv@yandex.ru;
           mobile:   +375292639900.
+
+          [1]: (https://www.linkedin.com/in/сергей-селивончик-221105207)
+
+
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoricsv)](https://github.com/anuraghazra/github-readme-stats)
 
 <!---
 yoricsv/yoricsv is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
