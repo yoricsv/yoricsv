@@ -23,6 +23,9 @@ LinkedIn: | [go to LinkedIn](https://www.linkedin.com/in/сергей-селив
 email:    | yoricsv@yandex.ru
 mobile:   | +375(29) 263-99-00
 
+# MY TASK LIST
+
+- [ ] Smth for me
 
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoricsv)](https://github.com/anuraghazra/github-readme-stats)
