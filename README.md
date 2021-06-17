@@ -51,7 +51,7 @@ mobile:   | +375(29) 263-99-00
    - [ ] VorbisFile (*API for decoding audio streams*) [- download package][13]
    - [ ] PThread (*POSIX Threads is a parallel execution model*) [- download package][14]
 
-[1]: (https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/f/freetype-2.10.4-3.fc34.i686.rpm)
+[1]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/f/freetype-2.10.4-3.fc34.i686.rpm
 [2]: (https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/l/libX11-1.7.0-3.fc34.x86_64.rpm)
 [3]: (https://docs.fedoraproject.org/ru-RU/Fedora_Core/5/html/Release_Notes/sn-Xorg.html)
 [4]: (https://docs.fedoraproject.org/en-US/quick-docs/configuring-x-window-system-using-the-xorg-conf-file/)
