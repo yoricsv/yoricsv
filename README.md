@@ -1,6 +1,6 @@
 #  <p align=center> <b>Hello, guest!</b>     :raising_hand: </p> 
-## <p align=center> Thanks for your interest :thumbsup:     </p>
-![Header](/res/img/maxresdefault.jpg)
+<!--## <p align=center> Thanks for your interest :thumbsup:     </p>-->
+![Header](yoricsv/res/img/img_0022.jpg)
 ---
 
 
