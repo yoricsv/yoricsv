@@ -52,19 +52,19 @@ mobile:   | +375(29) 263-99-00
    - [ ] PThread (*POSIX Threads is a parallel execution model*) [- download package][14]
 
 [1]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/f/freetype-2.10.4-3.fc34.i686.rpm
-[2]: (https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/l/libX11-1.7.0-3.fc34.x86_64.rpm)
-[3]: (https://docs.fedoraproject.org/ru-RU/Fedora_Core/5/html/Release_Notes/sn-Xorg.html)
-[4]: (https://docs.fedoraproject.org/en-US/quick-docs/configuring-x-window-system-using-the-xorg-conf-file/)
-[5]: (https://fedora.pkgs.org/34/fedora-x86_64/libXrandr-devel-1.5.2-6.fc34.x86_64.rpm.html)
-[6]: (https://rpmfind.net/linux/fedora/linux/updates/34/Everything/x86_64/Packages/s/systemd-udev-248.3-1.fc34.x86_64.rpm)
-[7]: (https://rpmfind.net/linux/fedora/linux/releases/33/Everything/x86_64/os/Packages/l/libglvnd-opengl-1.3.2-2.fc33.x86_64.rpm)
-[8]: (https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/o/openal-soft-1.19.1-12.fc34.x86_64.rpm)
-[9]: (https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/f/flac-1.3.3-7.fc34.x86_64.rpm)
-[10]: (https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/l/libogg-1.3.4-4.fc34.x86_64.rpm)
-[11]: (https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/v/vorbis-tools-1.4.2-2.fc34.x86_64.rpm)
-[12]: (https://fedora.pkgs.org/34/fedora-x86_64/libvorbis-devel-1.3.7-3.fc34.x86_64.rpm.html)
-[13]: (https://fedora.pkgs.org/34/fedora-x86_64/libvorbis-devel-1.3.7-3.fc34.x86_64.rpm.html)
-[14]: (https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/g/glibc-2.33-5.fc34.x86_64.rpm)
+[2]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/l/libX11-1.7.0-3.fc34.x86_64.rpm
+[3]: https://docs.fedoraproject.org/ru-RU/Fedora_Core/5/html/Release_Notes/sn-Xorg.html
+[4]: https://docs.fedoraproject.org/en-US/quick-docs/configuring-x-window-system-using-the-xorg-conf-file/
+[5]: https://fedora.pkgs.org/34/fedora-x86_64/libXrandr-devel-1.5.2-6.fc34.x86_64.rpm.html
+[6]: https://rpmfind.net/linux/fedora/linux/updates/34/Everything/x86_64/Packages/s/systemd-udev-248.3-1.fc34.x86_64.rpm
+[7]: https://rpmfind.net/linux/fedora/linux/releases/33/Everything/x86_64/os/Packages/l/libglvnd-opengl-1.3.2-2.fc33.x86_64.rpm
+[8]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/o/openal-soft-1.19.1-12.fc34.x86_64.rpm
+[9]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/f/flac-1.3.3-7.fc34.x86_64.rpm
+[10]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/l/libogg-1.3.4-4.fc34.x86_64.rpm
+[11]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/v/vorbis-tools-1.4.2-2.fc34.x86_64.rpm
+[12]: https://fedora.pkgs.org/34/fedora-x86_64/libvorbis-devel-1.3.7-3.fc34.x86_64.rpm.html
+[13]: https://fedora.pkgs.org/34/fedora-x86_64/libvorbis-devel-1.3.7-3.fc34.x86_64.rpm.html
+[14]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/g/glibc-2.33-5.fc34.x86_64.rpm
 
 ---
 <br/>
