@@ -23,10 +23,26 @@ LinkedIn: | [go to LinkedIn](https://www.linkedin.com/in/сергей-селив
 email:    | yoricsv@yandex.ru
 mobile:   | +375(29) 263-99-00
 
+<br/>
+---
 # MY TASK LIST
 
-- [ ] Smth for me
+- [ ] For compiling SFML on Linux I need to be install next packages:
+   - [ ] FreeType Engine (*TrueType font rendering engine*) [- download package](https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/f/freetype-2.10.4-3.fc34.i686.rpm)
+   - [ ] x11
+   - [ ] XRander
+   - [ ] Udev
+   - [ ] OpenGL
+   - [ ] OpenAL
+   - [ ] Flac compiler
+   - [ ] Ogg
+   - [ ] Vorbis
+   - [ ] VorbisEnc
+   - [ ] VorbisFile
+   - [ ] PThread
 
+---
+<br/>
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoricsv)](https://github.com/anuraghazra/github-readme-stats)
 
