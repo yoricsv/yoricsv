@@ -23,7 +23,7 @@ LinkedIn: | [go to LinkedIn](https://www.linkedin.com/in/сергей-селив
 email:    | yoricsv@yandex.ru
 mobile:   | +375(29) 263-99-00
 
-<br/>
+
 ---
 # MY TASKS LIST
 
