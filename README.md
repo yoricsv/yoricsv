@@ -1,5 +1,6 @@
 #  <p align=center> <b>Hello, guest!</b>     :raising_hand: </p> 
 ## <p align=center> Thanks for your interest :thumbsup:     </p>
+![Header](/res/img/maxresdefault.jpg)
 ---
 
 
@@ -51,7 +52,7 @@ mobile:   | +375(29) 263-99-00
    - [ ] VorbisFile (*API for decoding audio streams*) [- download package][13]
    - [ ] PThread (*POSIX Threads is a parallel execution model*) [- download package][14]
 
-   :warning:After installed those packages, don't forget to install their *Development Headers*:warning:
+:warning:After installed those packages, don't forget to install their *Development Headers*:warning:
 
 [1]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/f/freetype-2.10.4-3.fc34.i686.rpm
 [2]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/l/libX11-1.7.0-3.fc34.x86_64.rpm
@@ -72,16 +73,6 @@ mobile:   | +375(29) 263-99-00
 <br/>
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoricsv)](https://github.com/anuraghazra/github-readme-stats)
-
-<!---
-yoricsv/yoricsv is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
-
-
-
-
 
 
 
