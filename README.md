@@ -94,8 +94,8 @@ mobile:   | +375(29) 263-99-00
 [<Project_name>]
   |
   |->[.build]           // directory for building system
-  |     |->[CMakeFiles] // all necessary directories and files
-  |                     // for CMake build generator
+  |     |               // all necessary directories and files
+  |     |->[CMakeFiles] // for CMake build generator
   |
   |->[.git]             // all necessary directories and files
   |                     // for Git
