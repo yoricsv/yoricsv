@@ -16,8 +16,7 @@ In the near future I want to learn Java, Python for AI.
 
 - I'm looking for someone who understands that he might get a good software engineer in the future.
 
-- How to reach me:
-
+### How to reach me:
 **Way**   | **link**
 ---:      | :---
 LinkedIn: | [go to LinkedIn](https://www.linkedin.com/in/сергей-селивончик-221105207)
@@ -90,43 +89,43 @@ mobile:   | +375(29) 263-99-00
   ******************************************************************************
 -->
 
-<!-- *********************** PROJECT STRUCTURE (blank) ************************* //
-
+ ## LOCAL PROJECT STRUCTURE (as a reminder) 
+```
 [<Project_name>]
   |
   |->[.build]           // directory for building system
-  |   |
-  |   |->[CMakeFiles]   // all necessary directories and files for CMake build 
-  |                     // generator
+  |     |->[CMakeFiles] // all necessary directories and files
+  |                     // for CMake build generator
   |
-  |->[.git]             // all necessary directories and files for Git
+  |->[.git]             // all necessary directories and files
+  |                     // for Git
   |
+  |->[.settings]        // contains project file directories for
+  |                     // different IDEs
   |
-  |->[.settings]        // contains project file directories for different IDEs
-  |
-  |
-  |->[debug]            // contains compiller, linker, object files
-  |   |
-  |   |->[logs]         // contains logs
+  |->[debug]            // contains compiller, linker, object
+  |     |               // files
+  |     |->[logs]       // contains logs
   |
   |->[<Project_name Repository>]
-  |   |
-  |   |->[inc]          // contains public/private HEADERS (*.h) (might be split
-  |   |                 // into two directories public and privat)
-  |   |->[res]          // contains static/dynamic LIBRARIES     (might be split
-  |   |                 // into two directories static and dynamic)
-  |   |->[src]          // contains SOURCE files/code(s)   (.с; .cpp)
-  |   |
-  |   |->[ui]           // these directories for applications with USER INTERFACE
-  |                     // (might contains QML)
+  |     |
+  |     |->[inc]        // contains public/private HEADERS (*.h) 
+  |     |->[res]        // contains static/dynamic LIBRARIES
+  |     |               // (might be split into two directories
+  |     |               // static and dynamic)
+  |     |->[src]        // contains SOURCE files/code(s)(.с;.cpp)
+  |     |
+  |     |->[ui]         // these directories for applications
+  |                     // with USER INTERFACE
   |
   |->[output]           // directory for executable applications
   |
   |->[tests]            // directory for unit tests
   |
+  |-----> .gitignore
   |
-  |--- .gitignore
-  |--- CMakeLists.txt
-  |--- README.md
-
-  -->
+  |-----> CMakeLists.txt
+  |
+  |-----> README.md
+```
+  
