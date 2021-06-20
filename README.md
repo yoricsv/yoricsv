@@ -68,6 +68,10 @@ mobile:   | +375(29) 263-99-00
 [13]: https://fedora.pkgs.org/34/fedora-x86_64/libvorbis-devel-1.3.7-3.fc34.x86_64.rpm.html
 [14]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/g/glibc-2.33-5.fc34.x86_64.rpm
 
+- [X] Develop common layout for README.md !!!!!!!!!!
+- [ ] Check source code and remove unusable comments
+- [ ] Refactoring code
+
 ---
 <br/>
 
