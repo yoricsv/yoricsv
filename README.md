@@ -28,15 +28,15 @@ mobile:   | +375(29) 263-99-00
 # MY TASKS LIST
 
 - [ ] For compiling SFML on Linux I need to be install next packages:
-   - [ ] FreeType Engine (*TrueType font rendering engine*) [- download package][1]
-   - [ ] x11
+   - [X] FreeType Engine (*TrueType font rendering engine*) [- download package][1]
+   - [X] x11
       (*use following to install the package*) [- download package][2]
       ```bash
       sudo dnf install xorg-x11-apps      
       ```
       or 
       ```bash
-      sudo rpm install @base-x      
+      sudo dnf install @base-x      
       ```
       - [*System X Windows Manual*][3]
       - [*Configuring X Windows System*][4]
