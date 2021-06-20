@@ -40,16 +40,16 @@ mobile:   | +375(29) 263-99-00
       ```
       - [*System X Windows Manual*][3]
       - [*Configuring X Windows System*][4]
-   - [ ] XRandR (*configuration utility X Window System*) [- download package][5]
-   - [ ] Udev (*creates and removes device nodes*) [- download package][6]
-   - [ ] OpenGL (*API for rendering 2D and 3D vector graphics*) [- download package][7]
-   - [ ] OpenAL (*API for rendering of multichannel audio*) [- download package][8]
-   - [ ] FLAC (*Free Lossless Audio Codec*) [- download package][9]
-   - [ ] Ogg (*streaming and multimedia processing format*) [- download package][10]
-   - [ ] Vorbis (*audio encoding format*) [- download package][11]
-   - [ ] VorbisEnc (*encoder of raw float audio into a Vorbis stream*) [- download package][12]
-   - [ ] VorbisFile (*API for decoding audio streams*) [- download package][13]
-   - [ ] PThread (*POSIX Threads is a parallel execution model*) [- download package][14]
+   - [X] XRandR (*configuration utility X Window System*) [- download package][5]
+   - [X] Udev (*creates and removes device nodes*) [- download package][6]
+   - [X] OpenGL (*API for rendering 2D and 3D vector graphics*) [- download package][7]
+   - [X] OpenAL (*API for rendering of multichannel audio*) [- download package][8]
+   - [X] FLAC (*Free Lossless Audio Codec*) [- download package][9]
+   - [X] Ogg (*streaming and multimedia processing format*) [- download package][10]
+   - [X] Vorbis (*audio encoding format*) [- download package][11]
+   - [X] VorbisEnc (*encoder of raw float audio into a Vorbis stream*) [- download package][12]
+   - [X] VorbisFile (*API for decoding audio streams*) [- download package][13]
+   - [X] PThread (*POSIX Threads is a parallel execution model*) [- download package][14]
 
 :warning:After installed those packages, don't forget to install their *Development Headers*:warning:
 
