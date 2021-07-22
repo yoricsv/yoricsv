@@ -19,7 +19,7 @@ In the near future I want to learn Java, Python for AI.
 ### How to reach me:
 **Way**   | **link**
 ---:      | :---
-LinkedIn: | [go to LinkedIn](https://www.linkedin.com/in/сергей-селивончик-221105207)
+LinkedIn: | [go to LinkedIn](https://www.linkedin.com/in/yoric)
 email:    | yoricsv@yandex.ru
 mobile:   | +375(29) 263-99-00
 
@@ -76,22 +76,6 @@ mobile:   | +375(29) 263-99-00
 <br/>
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoricsv)](https://github.com/anuraghazra/github-readme-stats)
-
-
-
-<!--
-  ******************************************************************************
-  * @file           : README.md
-  * @brief          : Short description of the project
-  ******************************************************************************
-  * @attention
-  *
-  * The PROJECT STRUCTURE part describes the common structure of the project
-  * in order to understand where the code is and where the Cmake generator 
-  * finds the source files.
-  *
-  ******************************************************************************
--->
 
  ## LOCAL PROJECT STRUCTURE (as a reminder) 
 ```
