@@ -51,7 +51,8 @@ mobile:   | +375(29) 263-99-00
    - [X] VorbisFile (*API for decoding audio streams*) [- download package][13]
    - [X] PThread (*POSIX Threads is a parallel execution model*) [- download package][14]
 
-:warning:After installed those packages, don't forget to install their *Development Headers*:warning:
+> [!WARNING]
+> :warning:After installed those packages, don't forget to install their *Development Headers*:warning:
 
 [1]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/f/freetype-2.10.4-3.fc34.i686.rpm
 [2]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/l/libX11-1.7.0-3.fc34.x86_64.rpm
