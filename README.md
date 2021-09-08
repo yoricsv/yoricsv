@@ -17,11 +17,14 @@ In the near future I want to learn Java, Python for AI.
 - I'm looking for someone who understands that he might get a good software engineer in the future.
 
 ### How to reach me:
-**Way**   | **link**
----:      | :---
-LinkedIn: | [go to LinkedIn](https://www.linkedin.com/in/yoric)
-email:    | yoricsv@yandex.ru
-mobile:   | +375(29) 263-99-00
+**Way**        | **link**
+---:           | :---
+LinkedIn:      | [go to LinkedIn](https://www.linkedin.com/in/yoric)
+Microsoft:     | [go_to_msdoc](https://docs.microsoft.com/en-us/users/yoric/)
+StackOverflow: | [go_to_profile](https://stackoverflow.com/users/16232348/sergey-selivonchyk)
+HH:            | [go_to_profile](https://rabota.by/resume/3ed3914fff09156f230039ed1f6f526c467770)
+email:         | yoricsv@yandex.ru
+mobile:        | +375(29) 263-99-00
 
 
 ---
