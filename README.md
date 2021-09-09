@@ -9,7 +9,7 @@
    - [X] Java Virtual Machine
    - [X] Intellij IDEA
    - [X] Eclipse *(Installed but I don't use this)*
-   - [X] RESULT: [*001_JHelloWorld_*][1] Application
+   - [X] RESULT: Application [*001_JHelloWorld_*][1]
 - [ ] **STUDY AND PRACTICE (S&P)**:
    - [ ] Datatypes
    - [ ] Variables
