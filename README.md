@@ -3,7 +3,7 @@
 ##  <p align=center> <b>CHALLENGE FOR ME:</b><br/> I have to study JAVA (Basics) in 7 days before the Java Enterprise course starts<br/> *(Start 08-sep-2021 after signing the contract)*</p> 
 ---
 
-#  LEARN JAVA (BASICS).<br/> TASK LIST:
+#  LEARN JAVA (BASICS)<br/> TASK LIST:
 
 - [X] **SETUP ENVIRONMENT**:
    - [X] Java Virtual Machine
