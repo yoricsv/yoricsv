@@ -1,12 +1,206 @@
-#  <p align=center> <b>Hello, guest!</b>     :raising_hand: </p> 
+#  <p align=center> <b>Hello, I'm Sergey</b>     :raising_hand: </p>
+
+#  <p align=center> <b>CHALLENGE FOR ME:</b> I have to study JAVA (Basics) in 7 days before the Java Enterprise course starts *(Start 08-sep-2021 after signing the contract)*</p> 
+---
+
+#  LEARN JAVA (BASICS). TASK LIST:
+
+- [X] **SETUP ENVIRONMENT**:
+   - [X] Java Virtual Machine
+   - [X] Intellij IDEA
+   - [X] Eclipse *(Installed but I don't use this)*
+   - [X] RESULT: [*001_JHelloWorld_*][1] Application
+- [ ] **STUDY AND PRACTICE (S&P)**:
+   - [ ] Datatypes
+   - [ ] Variables
+   - [ ] Generic andEnumeration (enum)
+   - [ ] Operators
+   - [ ] if/switch operators
+   - [ ] Loops
+   - [ ] Arrays
+   - [ ] String
+   - [ ] Regular Expressions
+   - [ ] Exceptions
+   - [ ] File handling
+- [ ] **COLLECTIONS**:
+   - [ ] List
+   - [ ] Set
+   - [ ] Map
+- [ ] **OBJECT ORIENTED PROGRAMMING (OOP)**:
+   - [ ] Classes and Objects
+   - [ ] Inheritance & Polymorphism
+   - [ ] Anonymous classes
+- [ ] **THREAD CLASS**:
+   - [ ] Runnable Interface
+   - [ ] Interaction of threrd
+   - [ ] Producer-Customer
+   - [ ] Thread pools
+   - [ ] Asynchronous computation
+- [ ] **APIs**:
+   - [ ] Lambda
+   - [ ] Stream API
+   - [ ] Data Time API
+   - [ ] Reflection API
+- [ ] **DESIGN PRINCIPLES**:
+   - [ ] Software
+   - [ ] SOLID
+   - [ ] Patterns *(singleton, dao, front-controller, factory, command)*
+
+[1]: https://github.com/yoricsv/001_JHelloWorld_.git
+
+---
+
+# The program of the course "TECHNOLOGIES FOR DEVELOPING ENTERPRISE SOLUTIONS IN JAVA" *(Start 16-sep-2021)*:
+
+- [ ] **001 APACHE MAVEN (BASE)**:
+   - [ ] Configuring Maven for Windows
+   - [ ] Create a new project
+   - [ ] Compiling and Testing
+   - [ ] Project Object Model (POM)
+   - [ ] Life Cycle
+   - [ ] Build Profiles
+- [ ] **002 MAVEN DEVELOPING TECHNIQUES**:
+   - [ ] Build automation
+   - [ ] Modularity of the project
+   - [ ] Dependency management
+   - [ ] Project installation automation
+   - [ ] Building a web application
+- [ ] **003 THE WEB**:
+   - [ ] HTTP Protocol
+- [ ] **005 Data transfer by HTTP**:
+   - [ ] Java Servlet
+   - [ ] Servlet Filters
+- [ ] **004 APACHE TOMCAT SERVER**:
+   - [ ] Tomcat architecture
+   - [ ] Executing Tomcat server scripts
+   - [ ] Passing runtime configuration options to Catalina scripts
+   - [ ] Configuring the Tomcat server
+   - [ ] Host configuration
+   - [ ] Contexts configuration
+   - [ ] Tomcat Web Application manager (WAM)
+   - [ ] Gaining access to the WAM
+   - [ ] Access to the WAM by the web interface
+   - [ ] Tomcat Maven plugin
+- [ ] **006 JAVA SERVER PAGES (JSP)**:
+- [ ] **007 STANDARD TAG LIBRARY (JSTL)**:
+- [ ] **008 GIT BASICS**:
+   - [X] Concepts of version control
+   - [X] Getting an account at [*my_account*][21]
+   - [X] Installing the Git client
+   - [X] Create a local repository linked to a remote repository
+   - [X] Making your changes to the repository
+   - [X] Uploading local changes to a remote repository
+   - [X] Rollback changes in working copy
+   - [X] Basic and advanced Git commands
+- [ ] **009 DATABASES AND SQL**:
+   - [ ] 010 Normalization
+   - [ ] 010 Groupings
+   - [ ] 010 Joins
+   - [ ] 011 Java Database Connectivity (JDBC)
+- [ ] **012 PATTERN DAO**:
+   - [ ] Practice
+- [ ] **013 HIBERNATE**:
+   - [ ] Mechanism of data persistence
+   - [ ] Object-relational model (OR-model)
+   - [ ] Hibernate application
+   - [ ] Hibernate architecture
+- [ ] **014 HIBERNATE OBJECTS**:
+   - [ ] The state of Hibernate objects in the lifecycle 
+   - [ ] Data operations in Hibernate
+   - [ ] Loading, Saving, Updating and Removing objects
+   - [ ] The priority of flush operations
+- [ ] **015 DISPLAYING AN OBJECT-RELATIONAL MODEL (OR-MODEL)**:
+   - [ ] Entity declaration
+   - [ ] Declaring the mapping of entity fields
+   - [ ] Naming of tables and fields
+   - [ ] Understanding identity
+   - [ ] Component and entity concept
+- [ ] **016 Displaying the class hierarchy**
+   - [ ] Displaying heirs
+   - [ ] Relationship mapping
+   - [ ] Hibernate @OneToOne annotation
+   - [ ] Hibernate @OneToMany annotation
+   - [ ] Hibernate @ManyToMany annotation
+   - [ ] Cascading operations in a relationship
+   - [ ] HQL / JPQL: Object Oriented Query Language
+   - [ ] Description and structure of the HQL / JPQL language
+   - [ ] HQL / JPQL operations
+   - [ ] Named queries
+- [ ] CRITERIA JPA REQUESTS:
+   - [ ] Description of the Criteria instance structure
+   - [ ] Selection limiting operations
+   - [ ] Projections and Aggregation in Criteria
+   - [ ] Joins
+   - [ ] Detached Queries
+- [ ] TRANSACTIONS AND CONCURRENCY:
+   - [ ] Using transactions
+   - [ ] Transaction isolation levels
+   - [ ] Setting the transaction isolation level
+   - [ ] Pessimistic and optimistic locks, versioning
+   - [ ] Distributed transactions
+   - [ ] Session detailing
+   - [ ] Configuring the second level cache
+- [ ] SPRING:
+   - [ ] Description of the dependency injection mechanism
+   - [ ] Description of Spring modules
+   - [ ] Spring containers
+   - [ ] Spring bean life cycle
+   - [ ] Description of links between beans
+   - [ ] Bean declaration
+   - [ ] Introduction to the property of beans
+   - [ ] Description of SpEL expression language
+   - [ ] Minimizing XML Configuration in Spring
+   - [ ] Automatic linkage between beans
+   - [ ] Relationship with annotations
+   - [ ] Automatic bin detection
+- [ ] ASPECT ORIENTED PROGRAMMING IN SPRING:
+   - [ ] Configuration of aspects in the context of the application
+   - [ ] Configuration of aspects via annotations.
+- [ ] INTEGRATION OF HIBERNATE AND SPRING:
+   - [ ] Hibernate entity manager factory declaration
+   - [ ] Description of the configuration
+- [ ] TRANSACTION MANAGEMENT:
+   - [ ] Spring transactions
+   - [ ] Spring software transactions
+   - [ ] Spring declarative transactions
+- [ ] SPRING DATA COMPONENT:
+   - [ ] Repository interface
+   - [ ] CRUD Repository interface (basic CrudRepository functionality, using conditions and expressions in queries)
+   - [ ] JPA Repository interface (using @ Query-annotated queries)
+   - [ ] Pagination and sorting of queries
+   - [ ] Sample requests
+- [ ] SPRING MVC COMPONENT:
+   - [ ] MVC
+   - [ ] Basic controller implementation
+   - [ ] Processing controller parameters
+   - [ ] Form processing
+- [ ] SPRING REST:
+   - [ ] Features
+   - [ ] Annotations
+- [ ] SPRING SECURITY:
+   - [ ] Spring Security Module
+   - [ ] Security methods
+   - [ ] Web request security
+   - [ ] User authentication
+- [ ] Spring Boot:
+   - [ ] Components
+   - [ ] Launching a web application
+   - [ ] Integration with Spring-data
+   - [ ] Overriding system variables.
+- [ ] FINAL PROJECT:
+   - [ ] RESULT: [*001_JHelloWorld_*][31] Application
+
+[21]: https://github.com/yoricsv
+[31]: https://github.com/yoricsv
+
+---
+
 <!--## <p align=center> Thanks for your interest :thumbsup:     </p>-->
 ![Header](yoricsv/res/img/img_0022.jpg)
 ---
 
 
-- Hello, I'm Sergey.
-
-- I am interested in working with embedded systems based on ARM-Cortex (for example: STMicroelectronics microcontrollers),
+<!-- I am interested in working with embedded systems based on ARM-Cortex (for example: STMicroelectronics microcontrollers),
 in addition, since childhood, I was really interested in electronics. I designed and assembled simple electronic devices,
 but I didn't have enough tools and sources of components (few electronic stores). First of all, in my environment there
 was no one who would be interested in this, like me. Now I am studying programming in C, C++, C# and it's really cool.
@@ -15,7 +209,7 @@ In the near future I want to learn Java, Python for AI.
 - I am currently learning C, C++ and sometimes spend a little time learning C#.
 
 - I'm looking for someone who understands that he might get a good software engineer in the future.
-
+-->
 ### How to reach me:
 **Way**        | **link**
 ---:           | :---
@@ -27,7 +221,7 @@ email:         | yoricsv@yandex.ru
 mobile:        | +375(29) 263-99-00
 
 
----
+<!---
 # MY TASKS LIST
 
 - [ ] For compiling SFML on Linux I need to be install next packages:
@@ -77,7 +271,7 @@ mobile:        | +375(29) 263-99-00
 - [ ] Refactoring code
 
 ---
-<br/>
+<br/-->
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoricsv)](https://github.com/anuraghazra/github-readme-stats)
 
