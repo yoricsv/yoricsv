@@ -1,6 +1,6 @@
 #  <p align=center> <b>Hello, I'm Sergey</b>     :raising_hand: </p>
 
-##  <p align=center> <b>CHALLENGE FOR ME:</b><br/> I have to study JAVA (Basics) in 7 days before the Java Enterprise course starts *(Start 08-sep-2021 after signing the contract)*</p> 
+##  <p align=center> <b>CHALLENGE FOR ME:</b><br/> I have to study JAVA (Basics) in 7 days before the Java Enterprise course starts<br/> *(Start 08-sep-2021 after signing the contract)*</p> 
 ---
 
 #  LEARN JAVA (BASICS). TASK LIST:
