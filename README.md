@@ -11,42 +11,90 @@
    - [X] Eclipse *(Installed but I don't use this)*
    - [X] RESULT: Application [*001_JHelloWorld_*][1]
 - [ ] **002 STUDY AND PRACTICE (S&P)**:
-   - [ ] Datatypes
-   - [ ] Variables
-   - [ ] Generic andEnumeration (enum)
-   - [ ] Operators
-   - [ ] if/switch operators
-   - [ ] Loops
-   - [ ] Arrays
-   - [ ] String
-   - [ ] Regular Expressions
-   - [ ] Exceptions
-   - [ ] File handling
+   - [ ] .1 Datatypes
+   - [ ] .1 Variables
+   - [ ] .1 Loops
+   - [ ] .1 Arrays
+   - [ ] .1 Operators
+   - [ ] .1 if/switch operators
+   - [ ] RESULT: Application [*002.1_JDVLAOIS_*][2]
+   - [ ] .2 Generic and Enumeration (enum)
+   - [ ] RESULT: Application [*002.2_JGenericEnum_*][3]
+   - [ ] .3 String
+   - [ ] .3 Regular Expressions
+   - [ ] RESULT: Application [*002.3_JStringRegExp_*][4]
+   - [ ] .4 Exceptions
+   - [ ] RESULT: Application [*002.4_JExceptions_*][5]
+   - [ ] .5 File handling
+   - [ ] RESULT: Application [*002.5_JFileHandling_*][6]
 - [ ] **003 COLLECTIONS**:
-   - [ ] List
-   - [ ] Set
-   - [ ] Map
+   - [ ] .1 List
+   - [ ] RESULT: Application [*003.1_JList_*][7]
+   - [ ] .2 Set
+   - [ ] RESULT: Application [*003.2_JSet_*][8]
+   - [ ] .3 Map
+   - [ ] RESULT: Application [*003.3_JMap_*][9]
 - [ ] **004 OBJECT ORIENTED PROGRAMMING (OOP)**:
-   - [ ] Classes and Objects
-   - [ ] Inheritance & Polymorphism
-   - [ ] Anonymous classes
+   - [ ] .1 Classes and Objects
+   - [ ] .1 Inheritance & Polymorphism
+   - [ ] RESULT: Application [*004.1_JCOIP_*][10]
+   - [ ] .2 Anonymous classes
+   - [ ] RESULT: Application [*004.2_JAnonymous_*][11]
 - [ ] **005 THREAD CLASS**:
-   - [ ] Runnable Interface
-   - [ ] Interaction of threrd
-   - [ ] Producer-Customer
-   - [ ] Thread pools
-   - [ ] Asynchronous computation
+   - [ ] .1 Runnable Interface
+   - [ ] .1 Interaction of thread
+   - [ ] .1 Producer-Customer
+   - [ ] RESULT: Application [*005.1_JRunIPC_*][12]
+   - [ ] .2 Thread pools
+   - [ ] RESULT: Application [*005.2_JThreadPool_*][13]
+   - [ ] .3 Asynchronous computation
+   - [ ] RESULT: Application [*005.3_JAsyncThread_*][14]
 - [ ] **006 APIs**:
-   - [ ] Lambda
-   - [ ] Stream API
-   - [ ] Data Time API
-   - [ ] Reflection API
+   - [ ] .1 Lambda
+   - [ ] RESULT: Application [*006.1_JLambda_*][15]
+   - [ ] .2 Stream API
+   - [ ] RESULT: Application [*006.2_JStreamAPI_*][16]
+   - [ ] .3 Data Time API
+   - [ ] RESULT: Application [*006.3_JDataTimeAPI_*][17]
+   - [ ] .4 Reflection API
+   - [ ] RESULT: Application [*006.4_JReflectionAPI_*][18]
 - [ ] **007 DESIGN PRINCIPLES**:
+   - [ ] .1 Pattern Singleton
+   - [ ] RESULT: Application [*007.1_JPSingleton_*][19]
+   - [ ] .2 Pattern DAO
+   - [ ] RESULT: Application [*007.2_JPatternDAO_*][20]
+   - [ ] .3 Pattern Front-controller
+   - [ ] RESULT: Application [*007.3_JPFrontControl_*][21]
+   - [ ] .4 Pattern Factory
+   - [ ] RESULT: Application [*007.4_JPFactory_*][22]
+   - [ ] .5 Pattern Command
+   - [ ] RESULT: Application [*007.5_JPCommand_*][23]
    - [ ] Software
    - [ ] SOLID
-   - [ ] Patterns *(singleton, dao, front-controller, factory, command)*
 
 [1]: https://github.com/yoricsv/001_JHelloWorld_.git
+[2]: https://github.com/yoricsv/002.1_JDVLAOIS_.git
+[3]: https://github.com/yoricsv/002.2_JGenericEnum_.git
+[4]: https://github.com/yoricsv/002.3_JStringRegExp_.git
+[5]: https://github.com/yoricsv/002.4_JExceptions_.git
+[6]: https://github.com/yoricsv/002.5_JFileHandling_.git
+[7]: https://github.com/yoricsv/003.1_JList_.git
+[8]: https://github.com/yoricsv/003.2_JSet_.git
+[9]: https://github.com/yoricsv/003.3_JMap_.git
+[10]: https://github.com/yoricsv/004.1_JCOIP_.git
+[11]: https://github.com/yoricsv/004.2_JAnonymous_.git
+[12]: https://github.com/yoricsv/005.1_JRunIPC_.git
+[13]: https://github.com/yoricsv/005.2_JThreadPool_.git
+[14]: https://github.com/yoricsv/005.3_JAsyncThread_.git
+[15]: https://github.com/yoricsv/006.1_JLambda_.git
+[16]: https://github.com/yoricsv/006.2_JStreamAPI_.git
+[17]: https://github.com/yoricsv/006.3_JDataTimeAPI_.git
+[18]: https://github.com/yoricsv/006.4_JReflectionAPI_.git
+[19]: https://github.com/yoricsv/007.1_JPSingleton_.git
+[20]: https://github.com/yoricsv/007.2_JPatternDAO_.git
+[21]: https://github.com/yoricsv/007.3_JPFrontControl_.git
+[22]: https://github.com/yoricsv/007.4_JPFactory_.git
+[23]: https://github.com/yoricsv/007.5_JPCommand_.git
 
 ---
 
@@ -85,7 +133,7 @@
 - [ ] **007 STANDARD TAG LIBRARY (JSTL)**:
 - [ ] **008 GIT BASICS**:
    - [X] Concepts of version control
-   - [X] Getting an account at [*my_account*][21]
+   - [X] Getting an account at [*my_account*][30]
    - [X] Installing the Git client
    - [X] Create a local repository linked to a remote repository
    - [X] Making your changes to the repository
@@ -190,7 +238,7 @@
 - [ ] FINAL PROJECT:
    - [ ] RESULT: [*001_JHelloWorld_*][31] Application
 
-[21]: https://github.com/yoricsv
+[30]: https://github.com/yoricsv
 [31]: https://github.com/yoricsv
 
 ---
