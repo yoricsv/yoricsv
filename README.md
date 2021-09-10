@@ -5,12 +5,12 @@
 
 #  LEARN JAVA (BASICS)<br/> TASK LIST:
 
-- [X] **SETUP ENVIRONMENT**:
+- [X] **001 SETUP ENVIRONMENT**:
    - [X] Java Virtual Machine
    - [X] Intellij IDEA
    - [X] Eclipse *(Installed but I don't use this)*
    - [X] RESULT: Application [*001_JHelloWorld_*][1]
-- [ ] **STUDY AND PRACTICE (S&P)**:
+- [ ] **002 STUDY AND PRACTICE (S&P)**:
    - [ ] Datatypes
    - [ ] Variables
    - [ ] Generic andEnumeration (enum)
@@ -22,26 +22,26 @@
    - [ ] Regular Expressions
    - [ ] Exceptions
    - [ ] File handling
-- [ ] **COLLECTIONS**:
+- [ ] **003 COLLECTIONS**:
    - [ ] List
    - [ ] Set
    - [ ] Map
-- [ ] **OBJECT ORIENTED PROGRAMMING (OOP)**:
+- [ ] **004 OBJECT ORIENTED PROGRAMMING (OOP)**:
    - [ ] Classes and Objects
    - [ ] Inheritance & Polymorphism
    - [ ] Anonymous classes
-- [ ] **THREAD CLASS**:
+- [ ] **005 THREAD CLASS**:
    - [ ] Runnable Interface
    - [ ] Interaction of threrd
    - [ ] Producer-Customer
    - [ ] Thread pools
    - [ ] Asynchronous computation
-- [ ] **APIs**:
+- [ ] **006 APIs**:
    - [ ] Lambda
    - [ ] Stream API
    - [ ] Data Time API
    - [ ] Reflection API
-- [ ] **DESIGN PRINCIPLES**:
+- [ ] **007 DESIGN PRINCIPLES**:
    - [ ] Software
    - [ ] SOLID
    - [ ] Patterns *(singleton, dao, front-controller, factory, command)*
