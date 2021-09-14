@@ -19,7 +19,7 @@
    - [X] .1 if/switch operators
    - [X] **RESULT:** Application [*002.1_JDVLAOIS_*][2]
    - [ ] .2 Generic and Enumeration (enum)
-   - [ ] **RESULT:** Application [*002.2_JGenericEnum_*][3]
+   - [X] **RESULT:** Application [*002.2_JGenericEnum_*][3]
    - [ ] .3 String
    - [ ] .3 Regular Expressions
    - [ ] **RESULT:** Application [*002.3_JStringRegExp_*][4]
@@ -27,7 +27,7 @@
    - [ ] **RESULT:**: Application [*002.4_JExceptions_*][5]
    - [ ] .5 File handling
    - [ ] **RESULT:** Application [*002.5_JFileHandling_*][6]
-- [ ] **003 COLLECTIONS**:  (Deadline: 13-sep-2021)   WASTED!
+- [ ] **003 COLLECTIONS**:  (Deadline: 13-sep-2021)
    - [ ] .1 List
    - [ ] **RESULT:** Application [*003.1_JList_*][7]
    - [ ] .2 Set
@@ -40,7 +40,7 @@
    - [ ] **RESULT:** Application [*004.1_JCOIP_*][10]
    - [ ] .2 Anonymous classes
    - [ ] **RESULT:** Application [*004.2_JAnonymous_*][11]
-- [ ] **005 THREAD CLASS**:  (Deadline: 14-sep-2021)
+- [ ] **005 THREAD CLASS**:  (Deadline: 14-sep-2021)   WASTED!
    - [ ] .1 Runnable Interface
    - [ ] .1 Interaction of thread
    - [ ] .1 Producer-Customer
@@ -49,7 +49,7 @@
    - [ ] **RESULT:** Application [*005.2_JThreadPool_*][13]
    - [ ] .3 Asynchronous computation
    - [ ] **RESULT:** Application [*005.3_JAsyncThread_*][14]
-- [ ] **006 APIs**:  (Deadline: 15-sep-2021)
+- [ ] **006 APIs**:  (Deadline: 15-sep-2021) 
    - [ ] .1 Lambda
    - [ ] **RESULT:** Application [*006.1_JLambda_*][15]
    - [ ] .2 Stream API
