@@ -14,7 +14,7 @@
    - [X] .1 Datatypes
    - [X] .1 Variables
    - [X] .1 Loops
-   - [ ] .1 Arrays
+   - [X] .1 Arrays
    - [X] .1 Operators
    - [X] .1 if/switch operators
    - [ ] **RESULT:** Application [*002.1_JDVLAOIS_*][2]
@@ -27,7 +27,7 @@
    - [ ] **RESULT:**: Application [*002.4_JExceptions_*][5]
    - [ ] .5 File handling
    - [ ] **RESULT:** Application [*002.5_JFileHandling_*][6]
-- [ ] **003 COLLECTIONS**:  (Deadline: 13-sep-2021)
+- [ ] **003 COLLECTIONS**:  (Deadline: 13-sep-2021)   WASTED!
    - [ ] .1 List
    - [ ] **RESULT:** Application [*003.1_JList_*][7]
    - [ ] .2 Set
