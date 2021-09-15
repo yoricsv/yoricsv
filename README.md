@@ -18,7 +18,7 @@
    - [X] .1 Operators
    - [X] .1 if/switch operators
    - [X] **RESULT:** Application [*002.1_JDVLAOIS_*][2]
-   - [ ] .2 Generic and Enumeration (enum)
+   - [X] .2 Generic and Enumeration (enum)
    - [X] **RESULT:** Application [*002.2_JGenericEnum_*][3]
    - [ ] .3 String
    - [ ] .3 Regular Expressions
