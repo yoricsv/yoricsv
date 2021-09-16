@@ -2,6 +2,7 @@
 
 ##  <p align=center> <b>CHALLENGE FOR ME:</b><br/> I have to study JAVA (Basics) in 7 days before the Java Enterprise course starts<br/> *(Start 08-sep-2021 after signing the contract)*</p> 
 
+# <p align=center> <b> It's a FAILURE!!!! More than half I couldn't be done</b></p>
 
 #  LEARN JAVA (BASICS)<br/> TASK LIST:
 
@@ -35,15 +36,15 @@
    - [ ] .3 Map
    - [ ] **RESULT:** Application [*003.3_JMap_*][9]
 - [ ] **004 OBJECT ORIENTED PROGRAMMING (OOP)**:  (Deadline: 14-sep-2021)
-   - [ ] .1 Classes and Objects
+   - [X] .1 Classes and Objects
    - [ ] .1 Inheritance & Polymorphism
    - [ ] **RESULT:** Application [*004.1_JCOIP_*][10]
-   - [ ] .2 Anonymous classes
+   - [X] .2 Anonymous classes
    - [ ] **RESULT:** Application [*004.2_JAnonymous_*][11]
-- [ ] **005 THREAD CLASS**:  (Deadline: 14-sep-2021)   WASTED!
+- [ ] **005 THREAD CLASS**:  (Deadline: 14-sep-2021)
    - [ ] .1 Runnable Interface
    - [ ] .1 Interaction of thread
-   - [ ] .1 Producer-Customer
+   - [X] .1 Producer-Customer
    - [ ] **RESULT:** Application [*005.1_JRunIPC_*][12]
    - [ ] .2 Thread pools
    - [ ] **RESULT:** Application [*005.2_JThreadPool_*][13]
@@ -59,8 +60,8 @@
    - [ ] .4 Reflection API
    - [ ] **RESULT:** Application [*006.4_JReflectionAPI_*][18]
 - [ ] **007 DESIGN PRINCIPLES**:  (Deadline: 16-sep-2021)
-   - [ ] .1 Pattern Singleton
-   - [ ] **RESULT:** Application [*007.1_JPSingleton_*][19]
+   - [X] .1 Pattern Singleton
+   - [X] **RESULT:** Application [*007.1_JPSingleton_*][19]
    - [ ] .2 Pattern DAO
    - [ ] **RESULT:** Application [*007.2_JPatternDAO_*][20]
    - [ ] .3 Pattern Front-controller
