@@ -1,8 +1,6 @@
 #  <p align=center> <b>Hello, I'm Sergey</b>     :raising_hand: </p>
 
-##  <p align=center> <b>CHALLENGE FOR ME:</b><br/> I have to study JAVA (Basics) in 7 days before the Java Enterprise course starts<br/> *(Start 08-sep-2021 after signing the contract)*</p> 
-
-# <p align=center> <b> It's a FAILURE!!!! More than half I couldn't be done</b></p>
+##  <p align=center> <b>CHALLENGE WASTED:</b><br/> I haven't been able to learn JAVA (Basics) in 7 days<br/> *(Start 08-sep-2021 deadline 16-sep-2021)*</p> 
 
 #  LEARN JAVA (BASICS)<br/> TASK LIST:
 
