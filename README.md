@@ -323,6 +323,7 @@ mobile:        | +375(29) 263-99-00
 <br/-->
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoricsv)](https://github.com/anuraghazra/github-readme-stats)
+
 <!--
  ## LOCAL PROJECT STRUCTURE (as a reminder) 
 ```
@@ -357,11 +358,12 @@ mobile:        | +375(29) 263-99-00
   |
   |->[tests]            // directory for unit tests
   |
-  |-----> .gitignore
+  |----- .gitignore
   |
-  |-----> CMakeLists.txt
+  |----- CMakeLists.txt
   |
-  |-----> README.md
+  |----- README.md
 ```
+
 -->
   
