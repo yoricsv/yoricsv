@@ -1,77 +1,156 @@
-#  <p align=center> <b>Hello, I'm Sergey</b>     :raising_hand: </p>
+# <p align=center> <b>Hello, I'm Sergey</b></p>
 
-##  <p align=center> <b>CHALLENGE WASTED:</b><br/> I haven't been able to learn JAVA (Basics) in 7 days<br/> *(Start 08-sep-2021 deadline 16-sep-2021)*</p> 
 
-#  LEARN JAVA (BASICS)<br/> TASK LIST:
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoricsv)](https://github.com/anuraghazra/github-readme-stats)
+
+### How to reach me
+
+**Way**        | **link**
+---:           | :---
+LinkedIn:      | [go to LinkedIn](https://www.linkedin.com/in/yoric)
+Microsoft:     | [go to microsoft](https://docs.microsoft.com/en-us/users/yoric/)
+StackOverflow: | [go to profile](https://stackoverflow.com/users/16232348/sergey-selivonchyk)
+HH:            | [go to HH profile](https://rabota.by/resume/3ed3914fff09156f230039ed1f6f526c467770)
+email:         | yoricsv@yandex.ru
+mobile:        | +375(29) 263-99-00
+
+---
+<br/>
+
+# LEARN C++ (GAME DEVELOPMENT)
+
+> ***NOTE***: "C++ GAME DEVELOPMENT PROFFESSIONAL" *(Start 10-nov-2021)*
+
+> ***NOTE***: I don't mark topics without a description (READMEs).
+## COURSE CONTENT
+
+- [ ] **001 MICRO ENGINE**:
+  - [ ] .1 IDE setting up
+  - [ ] .2 Hello world
+  - [ ] **RESULT:** Application [*001.2_CppHelloWorld_std17*][CppGameDev_1]
+  - [ ] **RESULT:** Application [*001.2_CppHelloWorld_std17-O1*][CppGameDev_2]
+  - [ ] **RESULT:** Application [*001.2_CppHelloWorld_std17-O2*][CppGameDev_3]
+  - [ ] **RESULT:** Application [*001.2_CppHWRandNumber_std17-O2*][CppGameDev_4]
+  - [ ] .3 Main game loop
+  - [ ] .4 Input: keyboard, mouse, gamepad, joystick, device emulation
+  - [ ] .5 OpenGL ES2.0: Initialization, extensions, getting function pointers
+  - [ ] .6 Primitive rasterization, vertex shader, fragment shader
+  - [ ] .7 Texturing: buffers, textures, surfaces, attributes and constants (uniforms)
+  - [ ] .8 Matrices and vectors, display of the movement, scaling and rotation matrices
+  - [ ] .9 Vertex texture animation, morphing
+  - [ ] .10 Sound output principle, the mixer
+  - [ ] .11 Audio formats, codecs, containers and effects
+- [ ] **002 GAME PROTOTYPE**
+  - [ ] .1 Full-scale prototyping
+  - [ ] .2 Writing UML, class diagrams
+  - [ ] .3 Development of the main algorithm
+  - [ ] .4 Collision detection
+  - [ ] .5 Development of data formats (scene, levels, objects, etc.)
+  - [ ] .6 Loading and reloading the game (levels). Debugging, tricks to make development easier
+- [ ] **003 GAME EDITOR**
+  - [ ] .1 Adding ImGui
+  - [ ] .2 Level editor
+  - [ ] .3 Object editor
+  - [ ] .4 Screen editor
+  - [ ] .5 Creation of multiple levels and a finished game
+  - [ ] .6 Loading and reloading the game (levels). Debugging, tricks to make development easier
+- [ ] **004 Porting the game to Android OS**
+  - [ ] .1 Installing and configuring Android Strudio
+  - [ ] .2 Changing file uploads
+  - [ ] .3 Parse the AndroidManifest.xml
+  - [ ] .4 Adding a new type of control (touch) to the game
+
+<!--
+* [*001.2_CppHelloWorld_std17*][CppGameDev_1]
+* [*001.2_CppHelloWorld_std17-O1*][CppGameDev_2]
+* [*001.2_CppHelloWorld_std17-O2*][CppGameDev_3]
+* [*001.2_CppHWRandNumber_std17-O2*][CppGameDev_4]
+-->
+
+[CppGameDev_1]: https://github.com/yoricsv/001.2_CppHelloWorld_std17.git
+[CppGameDev_2]: https://github.com/yoricsv/001.2_CppHelloWorld_std17-O1.git
+[CppGameDev_3]: https://github.com/yoricsv/001.2_CppHelloWorld_std17-O2_.git
+[CppGameDev_4]: https://github.com/yoricsv/001.2_CppHWRandNumber_std17-O2.git
+
+---
+<br/>
+
+# LEARN JAVA (BASICS)
+
+> ***NOTE*:**  Learn Java (basics) in 7 days it was a challenge for me *(Start 08-sep-2021 deadline 16-sep-2021)*. - **I have failed!!!**
+
+> ***NOTE*:** This makes sense if you **only read** theory and **not practice**. It will take you **2 or 3 weeks** to reach your goal **with practice!**
+
+## TASK LIST
 
 - [X] **001 SETUP ENVIRONMENT**:
-   - [X] Java Virtual Machine
-   - [X] Intellij IDEA
-   - [X] Eclipse *(Installed but I don't use this)*
-   - [X] **RESULT:** Application [*001_JHelloWorld_*][1]
+  - [X] Java Virtual Machine
+  - [X] Intellij IDEA
+  - [X] Eclipse *(Installed but I don't use this)*
+  - [X] **RESULT:** Application [*001_JHelloWorld_*][1]
 - [ ] **002 STUDY AND PRACTICE (S&P)**: (Deadline: 13-sep-2021)
-   - [X] .1 Datatypes
-   - [X] .1 Variables
-   - [X] .1 Loops
-   - [X] .1 Arrays
-   - [X] .1 Operators
-   - [X] .1 if/switch operators
-   - [X] **RESULT:** Application [*002.1_JDVLAOIS_*][2]
-   - [X] .2 Generic and Enumeration (enum)
-   - [X] **RESULT:** Application [*002.2_JGenericEnum_*][3]
-   - [ ] .3 String
-   - [ ] .3 Regular Expressions
-   - [ ] **RESULT:** Application [*002.3_JStringRegExp_*][4]
-   - [ ] .4 Exceptions
-   - [ ] **RESULT:**: Application [*002.4_JExceptions_*][5]
-   - [ ] .5 File handling
-   - [ ] **RESULT:** Application [*002.5_JFileHandling_*][6]
+  - [X] .1 Datatypes
+  - [X] .1 Variables
+  - [X] .1 Loops
+  - [X] .1 Arrays
+  - [X] .1 Operators
+  - [X] .1 if/switch operators
+  - [X] **RESULT:** Application [*002.1_JDVLAOIS_*][2]
+  - [X] .2 Generic and Enumeration (enum)
+  - [X] **RESULT:** Application [*002.2_JGenericEnum_*][3]
+  - [X] .3 String
+  - [X] .3 Regular Expressions
+  - [ ] **RESULT:** Application [*002.3_JStringRegExp_*][4]
+  - [X] .4 Exceptions
+  - [ ] **RESULT:**: Application [*002.4_JExceptions_*][5]
+  - [X] .5 File handling
+  - [ ] **RESULT:** Application [*002.5_JFileHandling_*][6]
 - [ ] **003 COLLECTIONS**:  (Deadline: 13-sep-2021)
-   - [ ] .1 List
-   - [ ] **RESULT:** Application [*003.1_JList_*][7]
-   - [ ] .2 Set
-   - [ ] **RESULT:** Application [*003.2_JSet_*][8]
-   - [ ] .3 Map
-   - [ ] **RESULT:** Application [*003.3_JMap_*][9]
+  - [X] .1 List
+  - [ ] **RESULT:** Application [*003.1_JList_*][7]
+  - [X] .2 Set
+  - [ ] **RESULT:** Application [*003.2_JSet_*][8]
+  - [X] .3 Map
+  - [ ] **RESULT:** Application [*003.3_JMap_*][9]
 - [ ] **004 OBJECT ORIENTED PROGRAMMING (OOP)**:  (Deadline: 14-sep-2021)
-   - [X] .1 Classes and Objects
-   - [ ] .1 Inheritance & Polymorphism
-   - [ ] **RESULT:** Application [*004.1_JCOIP_*][10]
-   - [X] .2 Anonymous classes
-   - [ ] **RESULT:** Application [*004.2_JAnonymous_*][11]
+  - [X] .1 Classes and Objects
+  - [X] .1 Inheritance & Polymorphism
+  - [ ] **RESULT:** Application [*004.1_JCOIP_*][10]
+  - [X] .2 Anonymous classes
+  - [ ] **RESULT:** Application [*004.2_JAnonymous_*][11]
 - [ ] **005 THREAD CLASS**:  (Deadline: 14-sep-2021)
-   - [ ] .1 Runnable Interface
-   - [ ] .1 Interaction of thread
-   - [X] .1 Producer-Customer
-   - [ ] **RESULT:** Application [*005.1_JRunIPC_*][12]
-   - [ ] .2 Thread pools
-   - [ ] **RESULT:** Application [*005.2_JThreadPool_*][13]
-   - [ ] .3 Asynchronous computation
-   - [ ] **RESULT:** Application [*005.3_JAsyncThread_*][14]
-- [ ] **006 APIs**:  (Deadline: 15-sep-2021) 
-   - [ ] .1 Lambda
-   - [ ] **RESULT:** Application [*006.1_JLambda_*][15]
-   - [ ] .2 Stream API
-   - [ ] **RESULT:** Application [*006.2_JStreamAPI_*][16]
-   - [ ] .3 Data Time API
-   - [ ] **RESULT:** Application [*006.3_JDataTimeAPI_*][17]
-   - [ ] .4 Reflection API
-   - [ ] **RESULT:** Application [*006.4_JReflectionAPI_*][18]
+  - [ ] .1 Runnable Interface
+  - [ ] .1 Interaction of thread
+  - [X] .1 Producer-Customer
+  - [ ] **RESULT:** Application [*005.1_JRunIPC_*][12]
+  - [ ] .2 Thread pools
+  - [ ] **RESULT:** Application [*005.2_JThreadPool_*][13]
+  - [ ] .3 Asynchronous computation
+  - [ ] **RESULT:** Application [*005.3_JAsyncThread_*][14]
+- [ ] **006 APIs**:  (Deadline: 15-sep-2021)
+  - [X] .1 Lambda
+  - [ ] **RESULT:** Application [*006.1_JLambda_*][15]
+  - [ ] .2 Stream API
+  - [ ] **RESULT:** Application [*006.2_JStreamAPI_*][16]
+  - [ ] .3 Data Time API
+  - [ ] **RESULT:** Application [*006.3_JDataTimeAPI_*][17]
+  - [X] .4 Reflection API
+  - [ ] **RESULT:** Application [*006.4_JReflectionAPI_*][18]
 - [ ] **007 DESIGN PRINCIPLES**:  (Deadline: 16-sep-2021)
-   - [X] .1 Pattern Singleton
-   - [X] **RESULT:** Application [*007.1_JPSingleton_*][19]
-   - [ ] .2 Pattern DAO
-   - [ ] **RESULT:** Application [*007.2_JPatternDAO_*][20]
-   - [ ] .3 Pattern Front-controller
-   - [ ] **RESULT:** Application [*007.3_JPFrontControl_*][21]
-   - [ ] .4 Pattern Factory
-   - [ ] **RESULT:** Application [*007.4_JPFactory_*][22]
-   - [ ] .5 Pattern Command
-   - [ ] **RESULT:** Application [*007.5_JPCommand_*][23]
-   - [ ] Software
-   - [ ] SOLID
+  - [X] .1 Pattern Singleton
+  - [X] **RESULT:** Application [*007.1_JPSingleton_*][19]
+  - [X] .2 Pattern DAO
+  - [ ] **RESULT:** Application [*007.2_JPatternDAO_*][20]
+  - [ ] .3 Pattern Front-controller
+  - [ ] **RESULT:** Application [*007.3_JPFrontControl_*][21]
+  - [X] .4 Pattern Factory
+  - [ ] **RESULT:** Application [*007.4_JPFactory_*][22]
+  - [ ] .5 Pattern Command
+  - [ ] **RESULT:** Application [*007.5_JPCommand_*][23]
+  - [ ] Software
+  - [X] SOLID
 
-## *NOTE:* To save time, projects will be done after writing ReadMe, because they already contain all the necessary code. It help to create a project on any topic very quickly if I have a well-described ReadMe file.
+## *NOTE:* To save time, projects will be done after writing ReadMe, because they already contain all the necessary code. It help to create a project on any topic very quickly if I have a well-described ReadMe file
 
 [1]: https://github.com/yoricsv/001_JHelloWorld_.git
 [2]: https://github.com/yoricsv/002.1_JDVLAOIS_.git
@@ -98,146 +177,152 @@
 [23]: https://github.com/yoricsv/007.5_JPCommand_.git
 
 ---
+<br/>
 
-# The program of the course "TECHNOLOGIES FOR DEVELOPING ENTERPRISE SOLUTIONS IN JAVA" *(Start 16-sep-2021)*:
+# LEARN JAVA (ENTERPRISE EDITION)
+
+> ***NOTE***: "TECHNOLOGIES FOR DEVELOPING ENTERPRISE SOLUTIONS IN JAVA" *(Start 16-sep-2021)*
+
+> ***NOTE***: I don't mark topics without a description (READMEs).
+## COURSE CONTENT
 
 - [ ] **001 APACHE MAVEN (BASE)**:
-   - [ ] Configuring Maven for Windows
-   - [ ] Create a new project
-   - [ ] Compiling and Testing
-   - [ ] Project Object Model (POM)
-   - [ ] Life Cycle
-   - [ ] Build Profiles
+  - [X] Configuring Maven for Windows
+  - [X] Create a new project
+  - [ ] Compiling and Testing
+  - [ ] Project Object Model (POM)
+  - [ ] Life Cycle
+  - [ ] Build Profiles
 - [ ] **002 MAVEN DEVELOPING TECHNIQUES**:
-   - [ ] Build automation
-   - [ ] Modularity of the project
-   - [ ] Dependency management
-   - [ ] Project installation automation
-   - [ ] Building a web application
+  - [ ] Build automation
+  - [ ] Modularity of the project
+  - [ ] Dependency management
+  - [ ] Project installation automation
+  - [ ] Building a web application
 - [ ] **003 THE WEB**:
-   - [ ] HTTP Protocol
+  - [ ] HTTP Protocol
 - [ ] **005 Data transfer by HTTP**:
-   - [ ] Java Servlet
-   - [ ] Servlet Filters
+  - [ ] Java Servlet
+  - [ ] Servlet Filters
 - [ ] **004 APACHE TOMCAT SERVER**:
-   - [ ] Tomcat architecture
-   - [ ] Executing Tomcat server scripts
-   - [ ] Passing runtime configuration options to Catalina scripts
-   - [ ] Configuring the Tomcat server
-   - [ ] Host configuration
-   - [ ] Contexts configuration
-   - [ ] Tomcat Web Application manager (WAM)
-   - [ ] Gaining access to the WAM
-   - [ ] Access to the WAM by the web interface
-   - [ ] Tomcat Maven plugin
+  - [ ] Tomcat architecture
+  - [ ] Executing Tomcat server scripts
+  - [ ] Passing runtime configuration options to Catalina scripts
+  - [ ] Configuring the Tomcat server
+  - [ ] Host configuration
+  - [ ] Contexts configuration
+  - [ ] Tomcat Web Application manager (WAM)
+  - [ ] Gaining access to the WAM
+  - [ ] Access to the WAM by the web interface
+  - [ ] Tomcat Maven plugin
 - [ ] **006 JAVA SERVER PAGES (JSP)**:
 - [ ] **007 STANDARD TAG LIBRARY (JSTL)**:
 - [ ] **008 GIT BASICS**:
-   - [X] Concepts of version control
-   - [X] Getting an account at [*my_account*][30]
-   - [X] Installing the Git client
-   - [X] Create a local repository linked to a remote repository
-   - [X] Making your changes to the repository
-   - [X] Uploading local changes to a remote repository
-   - [X] Rollback changes in working copy
-   - [X] Basic and advanced Git commands
+  - [X] Concepts of version control
+  - [X] Getting an account at [*my_account*][30]
+  - [X] Installing the Git client
+  - [X] Create a local repository linked to a remote repository
+  - [X] Making your changes to the repository
+  - [X] Uploading local changes to a remote repository
+  - [X] Rollback changes in working copy
+  - [X] Basic and advanced Git commands
 - [ ] **009 DATABASES AND SQL**:
-   - [ ] 010 Normalization
-   - [ ] 010 Groupings
-   - [ ] 010 Joins
-   - [ ] 011 Java Database Connectivity (JDBC)
+  - [ ] 010 Normalization
+  - [ ] 010 Groupings
+  - [ ] 010 Joins
+  - [ ] 011 Java Database Connectivity (JDBC)
 - [ ] **012 PATTERN DAO**:
-   - [ ] Practice
+  - [ ] Practice
 - [ ] **013 HIBERNATE**:
-   - [ ] Mechanism of data persistence
-   - [ ] Object-relational model (OR-model)
-   - [ ] Hibernate application
-   - [ ] Hibernate architecture
+  - [ ] Mechanism of data persistence
+  - [ ] Object-relational model (OR-model)
+  - [ ] Hibernate application
+  - [ ] Hibernate architecture
 - [ ] **014 HIBERNATE OBJECTS**:
-   - [ ] The state of Hibernate objects in the lifecycle 
-   - [ ] Data operations in Hibernate
-   - [ ] Loading, Saving, Updating and Removing objects
-   - [ ] The priority of flush operations
+  - [ ] The state of Hibernate objects in the lifecycle
+  - [ ] Data operations in Hibernate
+  - [ ] Loading, Saving, Updating and Removing objects
+  - [ ] The priority of flush operations
 - [ ] **015 DISPLAYING AN OBJECT-RELATIONAL MODEL (OR-MODEL)**:
-   - [ ] Entity declaration
-   - [ ] Declaring the mapping of entity fields
-   - [ ] Naming of tables and fields
-   - [ ] Understanding identity
-   - [ ] Component and entity concept
+  - [ ] Entity declaration
+  - [ ] Declaring the mapping of entity fields
+  - [ ] Naming of tables and fields
+  - [ ] Understanding identity
+  - [ ] Component and entity concept
 - [ ] **016 Displaying the class hierarchy**
-   - [ ] Displaying heirs
-   - [ ] Relationship mapping
-   - [ ] Hibernate @OneToOne annotation
-   - [ ] Hibernate @OneToMany annotation
-   - [ ] Hibernate @ManyToMany annotation
-   - [ ] Cascading operations in a relationship
-   - [ ] HQL / JPQL: Object Oriented Query Language
-   - [ ] Description and structure of the HQL / JPQL language
-   - [ ] HQL / JPQL operations
-   - [ ] Named queries
+  - [ ] Displaying heirs
+  - [ ] Relationship mapping
+  - [ ] Hibernate @OneToOne annotation
+  - [ ] Hibernate @OneToMany annotation
+  - [ ] Hibernate @ManyToMany annotation
+  - [ ] Cascading operations in a relationship
+  - [ ] HQL / JPQL: Object Oriented Query Language
+  - [ ] Description and structure of the HQL / JPQL language
+  - [ ] HQL / JPQL operations
+  - [ ] Named queries
 - [ ] CRITERIA JPA REQUESTS:
-   - [ ] Description of the Criteria instance structure
-   - [ ] Selection limiting operations
-   - [ ] Projections and Aggregation in Criteria
-   - [ ] Joins
-   - [ ] Detached Queries
+  - [ ] Description of the Criteria instance structure
+  - [ ] Selection limiting operations
+  - [ ] Projections and Aggregation in Criteria
+  - [ ] Joins
+  - [ ] Detached Queries
 - [ ] TRANSACTIONS AND CONCURRENCY:
-   - [ ] Using transactions
-   - [ ] Transaction isolation levels
-   - [ ] Setting the transaction isolation level
-   - [ ] Pessimistic and optimistic locks, versioning
-   - [ ] Distributed transactions
-   - [ ] Session detailing
-   - [ ] Configuring the second level cache
+  - [ ] Using transactions
+  - [ ] Transaction isolation levels
+  - [ ] Setting the transaction isolation level
+  - [ ] Pessimistic and optimistic locks, versioning
+  - [ ] Distributed transactions
+  - [ ] Session detailing
+  - [ ] Configuring the second level cache
 - [ ] SPRING:
-   - [ ] Description of the dependency injection mechanism
-   - [ ] Description of Spring modules
-   - [ ] Spring containers
-   - [ ] Spring bean life cycle
-   - [ ] Description of links between beans
-   - [ ] Bean declaration
-   - [ ] Introduction to the property of beans
-   - [ ] Description of SpEL expression language
-   - [ ] Minimizing XML Configuration in Spring
-   - [ ] Automatic linkage between beans
-   - [ ] Relationship with annotations
-   - [ ] Automatic bin detection
+  - [ ] Description of the dependency injection mechanism
+  - [ ] Description of Spring modules
+  - [ ] Spring containers
+  - [ ] Spring bean life cycle
+  - [ ] Description of links between beans
+  - [ ] Bean declaration
+  - [ ] Introduction to the property of beans
+  - [ ] Description of SpEL expression language
+  - [ ] Minimizing XML Configuration in Spring
+  - [ ] Automatic linkage between beans
+  - [ ] Relationship with annotations
+  - [ ] Automatic bin detection
 - [ ] ASPECT ORIENTED PROGRAMMING IN SPRING:
-   - [ ] Configuration of aspects in the context of the application
-   - [ ] Configuration of aspects via annotations.
+  - [ ] Configuration of aspects in the context of the application
+  - [ ] Configuration of aspects via annotations.
 - [ ] INTEGRATION OF HIBERNATE AND SPRING:
-   - [ ] Hibernate entity manager factory declaration
-   - [ ] Description of the configuration
+  - [ ] Hibernate entity manager factory declaration
+  - [ ] Description of the configuration
 - [ ] TRANSACTION MANAGEMENT:
-   - [ ] Spring transactions
-   - [ ] Spring software transactions
-   - [ ] Spring declarative transactions
+  - [ ] Spring transactions
+  - [ ] Spring software transactions
+  - [ ] Spring declarative transactions
 - [ ] SPRING DATA COMPONENT:
-   - [ ] Repository interface
-   - [ ] CRUD Repository interface (basic CrudRepository functionality, using conditions and expressions in queries)
-   - [ ] JPA Repository interface (using @ Query-annotated queries)
-   - [ ] Pagination and sorting of queries
-   - [ ] Sample requests
+  - [ ] Repository interface
+  - [ ] CRUD Repository interface (basic CrudRepository functionality, using conditions and expressions in queries)
+  - [ ] JPA Repository interface (using @ Query-annotated queries)
+  - [ ] Pagination and sorting of queries
+  - [ ] Sample requests
 - [ ] SPRING MVC COMPONENT:
-   - [ ] MVC
-   - [ ] Basic controller implementation
-   - [ ] Processing controller parameters
-   - [ ] Form processing
+  - [ ] MVC
+  - [ ] Basic controller implementation
+  - [ ] Processing controller parameters
+  - [ ] Form processing
 - [ ] SPRING REST:
-   - [ ] Features
-   - [ ] Annotations
+  - [ ] Features
+  - [ ] Annotations
 - [ ] SPRING SECURITY:
-   - [ ] Spring Security Module
-   - [ ] Security methods
-   - [ ] Web request security
-   - [ ] User authentication
+  - [ ] Spring Security Module
+  - [ ] Security methods
+  - [ ] Web request security
+  - [ ] User authentication
 - [ ] Spring Boot:
-   - [ ] Components
-   - [ ] Launching a web application
-   - [ ] Integration with Spring-data
-   - [ ] Overriding system variables.
+  - [ ] Components
+  - [ ] Launching a web application
+  - [ ] Integration with Spring-data
+  - [ ] Overriding system variables.
 - [ ] FINAL PROJECT:
-   - [ ] RESULT: [*001_JHelloWorld_*][31] Application
+  - [ ] RESULT: [*001_JHelloWorld_*][31] Application
 
 [30]: https://github.com/yoricsv
 [31]: https://github.com/yoricsv
@@ -248,30 +333,8 @@
 ![Header](yoricsv/res/img/img_0022.jpg)
 ---
 
-
-<!-- I am interested in working with embedded systems based on ARM-Cortex (for example: STMicroelectronics microcontrollers),
-in addition, since childhood, I was really interested in electronics. I designed and assembled simple electronic devices,
-but I didn't have enough tools and sources of components (few electronic stores). First of all, in my environment there
-was no one who would be interested in this, like me. Now I am studying programming in C, C++, C# and it's really cool.
-In the near future I want to learn Java, Python for AI.   
-
-- I am currently learning C, C++ and sometimes spend a little time learning C#.
-
-- I'm looking for someone who understands that he might get a good software engineer in the future.
--->
-### How to reach me:
-**Way**        | **link**
----:           | :---
-LinkedIn:      | [go to LinkedIn](https://www.linkedin.com/in/yoric)
-Microsoft:     | [go to microsoft](https://docs.microsoft.com/en-us/users/yoric/)
-StackOverflow: | [go to profile](https://stackoverflow.com/users/16232348/sergey-selivonchyk)
-HH:            | [go to HH profile](https://rabota.by/resume/3ed3914fff09156f230039ed1f6f526c467770)
-email:         | yoricsv@yandex.ru
-mobile:        | +375(29) 263-99-00
-
-
 <!---
-# MY TASKS LIST
+# TASKS LIST
 
 - [ ] For compiling SFML on Linux I need to be install next packages:
    - [X] FreeType Engine (*TrueType font rendering engine*) [- download package][1]
@@ -297,7 +360,6 @@ mobile:        | +375(29) 263-99-00
    - [X] VorbisFile (*API for decoding audio streams*) [- download package][13]
    - [X] PThread (*POSIX Threads is a parallel execution model*) [- download package][14]
 
-
 :warning:After installed those packages, don't forget to install their *Development Headers*:warning:
 
 [1]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/f/freetype-2.10.4-3.fc34.i686.rpm
@@ -315,16 +377,10 @@ mobile:        | +375(29) 263-99-00
 [13]: https://fedora.pkgs.org/34/fedora-x86_64/libvorbis-devel-1.3.7-3.fc34.x86_64.rpm.html
 [14]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/g/glibc-2.33-5.fc34.x86_64.rpm
 
-- [X] Develop common layout for README.md !!!!!!!!!!
-- [ ] Check source code and remove unusable comments
-- [ ] Refactoring code
 
 ---
-<br/-->
+<br/>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoricsv)](https://github.com/anuraghazra/github-readme-stats)
-
-<!--
  ## LOCAL PROJECT STRUCTURE (as a reminder) 
 ```
 [<Project_name>]
