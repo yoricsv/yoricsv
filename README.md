@@ -1,6 +1,5 @@
 # <p align=center> <b>Hello, I'm Sergey</b></p>
 
-
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoricsv)](https://github.com/anuraghazra/github-readme-stats)
 
 ### How to reach me
@@ -17,14 +16,16 @@ mobile:        | +375(29) 263-99-00
 ---
 <br/>
 
-# LEARN C++ (GAME DEVELOPMENT)
+# [LEARN C++ (GAME DEVELOPMENT)][gameDev]
 
 > ***NOTE***: "C++ GAME DEVELOPMENT PROFFESSIONAL" *(Start 10-nov-2021)*
 
+<!-- 
 > ***NOTE***: I don't mark topics without a description (READMEs).
-## COURSE CONTENT
+> 
+## [COURSE CONTENT]
 
-- [ ] **001 MICRO ENGINE**:
+  - [ ] **001 MICRO ENGINE**:
   - [ ] .1 IDE setting up
   - [ ] .2 Hello world
   - [ ] **RESULT:** Application [*001.2_CppHelloWorld_std17*][CppGameDev_1]
@@ -60,272 +61,37 @@ mobile:        | +375(29) 263-99-00
   - [ ] .3 Parse the AndroidManifest.xml
   - [ ] .4 Adding a new type of control (touch) to the game
 
-<!--
+
 * [*001.2_CppHelloWorld_std17*][CppGameDev_1]
 * [*001.2_CppHelloWorld_std17-O1*][CppGameDev_2]
 * [*001.2_CppHelloWorld_std17-O2*][CppGameDev_3]
 * [*001.2_CppHWRandNumber_std17-O2*][CppGameDev_4]
--->
+
 
 [CppGameDev_1]: https://github.com/yoricsv/001.2_CppHelloWorld_std17.git
 [CppGameDev_2]: https://github.com/yoricsv/001.2_CppHelloWorld_std17-O1.git
 [CppGameDev_3]: https://github.com/yoricsv/001.2_CppHelloWorld_std17-O2_.git
-[CppGameDev_4]: https://github.com/yoricsv/001.2_CppHWRandNumber_std17-O2.git
+[CppGameDev_4]: https://github.com/yoricsv/001.2_CppHWRandNumber_std17-O2.git -->
+
+[gameDev]: https://github.com/yoricsv/_CPP_GAME_DEVELOPMENT_.git
 
 ---
 <br/>
 
-# LEARN JAVA (BASICS)
+# [LEARN JAVA (BASICS)][javaTaskList]
 
-> ***NOTE*:**  Learn Java (basics) in 7 days it was a challenge for me *(Start 08-sep-2021 deadline 16-sep-2021)*. - **I have failed!!!**
+> ***NOTE*:**  Learn Java (basics) in 7 days it was a challenge for me *(Start 08-sep-2021 deadline 16-sep-2021)*. - **Couldn't finish on time**
 
-> ***NOTE*:** This makes sense if you **only read** theory and **not practice**. It will take you **2 or 3 weeks** to reach your goal **with practice!**
-
-## TASK LIST
-
-- [X] **001 SETUP ENVIRONMENT**:
-  - [X] Java Virtual Machine
-  - [X] Intellij IDEA
-  - [X] Eclipse *(Installed but I don't use this)*
-  - [X] **RESULT:** Application [*001_JHelloWorld_*][1]
-- [ ] **002 STUDY AND PRACTICE (S&P)**: (Deadline: 13-sep-2021)
-  - [X] .1 Datatypes
-  - [X] .1 Variables
-  - [X] .1 Loops
-  - [X] .1 Arrays
-  - [X] .1 Operators
-  - [X] .1 if/switch operators
-  - [X] **RESULT:** Application [*002.1_JDVLAOIS_*][2]
-  - [X] .2 Generic and Enumeration (enum)
-  - [X] **RESULT:** Application [*002.2_JGenericEnum_*][3]
-  - [X] .3 String
-  - [X] .3 Regular Expressions
-  - [ ] **RESULT:** Application [*002.3_JStringRegExp_*][4]
-  - [X] .4 Exceptions
-  - [ ] **RESULT:**: Application [*002.4_JExceptions_*][5]
-  - [X] .5 File handling
-  - [ ] **RESULT:** Application [*002.5_JFileHandling_*][6]
-- [ ] **003 COLLECTIONS**:  (Deadline: 13-sep-2021)
-  - [X] .1 List
-  - [ ] **RESULT:** Application [*003.1_JList_*][7]
-  - [X] .2 Set
-  - [ ] **RESULT:** Application [*003.2_JSet_*][8]
-  - [X] .3 Map
-  - [ ] **RESULT:** Application [*003.3_JMap_*][9]
-- [ ] **004 OBJECT ORIENTED PROGRAMMING (OOP)**:  (Deadline: 14-sep-2021)
-  - [X] .1 Classes and Objects
-  - [X] .1 Inheritance & Polymorphism
-  - [ ] **RESULT:** Application [*004.1_JCOIP_*][10]
-  - [X] .2 Anonymous classes
-  - [ ] **RESULT:** Application [*004.2_JAnonymous_*][11]
-- [ ] **005 THREAD CLASS**:  (Deadline: 14-sep-2021)
-  - [ ] .1 Runnable Interface
-  - [ ] .1 Interaction of thread
-  - [X] .1 Producer-Customer
-  - [ ] **RESULT:** Application [*005.1_JRunIPC_*][12]
-  - [ ] .2 Thread pools
-  - [ ] **RESULT:** Application [*005.2_JThreadPool_*][13]
-  - [ ] .3 Asynchronous computation
-  - [ ] **RESULT:** Application [*005.3_JAsyncThread_*][14]
-- [ ] **006 APIs**:  (Deadline: 15-sep-2021)
-  - [X] .1 Lambda
-  - [ ] **RESULT:** Application [*006.1_JLambda_*][15]
-  - [ ] .2 Stream API
-  - [ ] **RESULT:** Application [*006.2_JStreamAPI_*][16]
-  - [ ] .3 Data Time API
-  - [ ] **RESULT:** Application [*006.3_JDataTimeAPI_*][17]
-  - [X] .4 Reflection API
-  - [ ] **RESULT:** Application [*006.4_JReflectionAPI_*][18]
-- [ ] **007 DESIGN PRINCIPLES**:  (Deadline: 16-sep-2021)
-  - [X] .1 Pattern Singleton
-  - [X] **RESULT:** Application [*007.1_JPSingleton_*][19]
-  - [X] .2 Pattern DAO
-  - [ ] **RESULT:** Application [*007.2_JPatternDAO_*][20]
-  - [ ] .3 Pattern Front-controller
-  - [ ] **RESULT:** Application [*007.3_JPFrontControl_*][21]
-  - [X] .4 Pattern Factory
-  - [ ] **RESULT:** Application [*007.4_JPFactory_*][22]
-  - [ ] .5 Pattern Command
-  - [ ] **RESULT:** Application [*007.5_JPCommand_*][23]
-  - [ ] Software
-  - [X] SOLID
-
-## *NOTE:* To save time, projects will be done after writing ReadMe, because they already contain all the necessary code. It help to create a project on any topic very quickly if I have a well-described ReadMe file
-
-[1]: https://github.com/yoricsv/001_JHelloWorld_.git
-[2]: https://github.com/yoricsv/002.1_JDVLAOIS_.git
-[3]: https://github.com/yoricsv/002.2_JGenericEnum_.git
-[4]: https://github.com/yoricsv/002.3_JStringRegExp_.git
-[5]: https://github.com/yoricsv/002.4_JExceptions_.git
-[6]: https://github.com/yoricsv/002.5_JFileHandling_.git
-[7]: https://github.com/yoricsv/003.1_JList_.git
-[8]: https://github.com/yoricsv/003.2_JSet_.git
-[9]: https://github.com/yoricsv/003.3_JMap_.git
-[10]: https://github.com/yoricsv/004.1_JCOIP_.git
-[11]: https://github.com/yoricsv/004.2_JAnonymous_.git
-[12]: https://github.com/yoricsv/005.1_JRunIPC_.git
-[13]: https://github.com/yoricsv/005.2_JThreadPool_.git
-[14]: https://github.com/yoricsv/005.3_JAsyncThread_.git
-[15]: https://github.com/yoricsv/006.1_JLambda_.git
-[16]: https://github.com/yoricsv/006.2_JStreamAPI_.git
-[17]: https://github.com/yoricsv/006.3_JDataTimeAPI_.git
-[18]: https://github.com/yoricsv/006.4_JReflectionAPI_.git
-[19]: https://github.com/yoricsv/007.1_JPSingleton_.git
-[20]: https://github.com/yoricsv/007.2_JPatternDAO_.git
-[21]: https://github.com/yoricsv/007.3_JPFrontControl_.git
-[22]: https://github.com/yoricsv/007.4_JPFactory_.git
-[23]: https://github.com/yoricsv/007.5_JPCommand_.git
+[javaTaskList]: https://github.com/yoricsv/001_JavaBasics_.git
 
 ---
 <br/>
 
-# LEARN JAVA (ENTERPRISE EDITION)
+# [LEARN JAVA (ENTERPRISE EDITION)][javaEE]
 
 > ***NOTE***: "TECHNOLOGIES FOR DEVELOPING ENTERPRISE SOLUTIONS IN JAVA" *(Start 16-sep-2021)*
 
-> ***NOTE***: I don't mark topics without a description (READMEs).
-## COURSE CONTENT
-
-- [ ] **001 APACHE MAVEN (BASE)**:
-  - [X] Configuring Maven for Windows
-  - [X] Create a new project
-  - [ ] Compiling and Testing
-  - [ ] Project Object Model (POM)
-  - [ ] Life Cycle
-  - [ ] Build Profiles
-- [ ] **002 MAVEN DEVELOPING TECHNIQUES**:
-  - [ ] Build automation
-  - [ ] Modularity of the project
-  - [ ] Dependency management
-  - [ ] Project installation automation
-  - [ ] Building a web application
-- [ ] **003 THE WEB**:
-  - [ ] HTTP Protocol
-- [ ] **005 Data transfer by HTTP**:
-  - [ ] Java Servlet
-  - [ ] Servlet Filters
-- [ ] **004 APACHE TOMCAT SERVER**:
-  - [ ] Tomcat architecture
-  - [ ] Executing Tomcat server scripts
-  - [ ] Passing runtime configuration options to Catalina scripts
-  - [ ] Configuring the Tomcat server
-  - [ ] Host configuration
-  - [ ] Contexts configuration
-  - [ ] Tomcat Web Application manager (WAM)
-  - [ ] Gaining access to the WAM
-  - [ ] Access to the WAM by the web interface
-  - [ ] Tomcat Maven plugin
-- [ ] **006 JAVA SERVER PAGES (JSP)**:
-- [ ] **007 STANDARD TAG LIBRARY (JSTL)**:
-- [ ] **008 GIT BASICS**:
-  - [X] Concepts of version control
-  - [X] Getting an account at [*my_account*][30]
-  - [X] Installing the Git client
-  - [X] Create a local repository linked to a remote repository
-  - [X] Making your changes to the repository
-  - [X] Uploading local changes to a remote repository
-  - [X] Rollback changes in working copy
-  - [X] Basic and advanced Git commands
-- [ ] **009 DATABASES AND SQL**:
-  - [ ] 010 Normalization
-  - [ ] 010 Groupings
-  - [ ] 010 Joins
-  - [ ] 011 Java Database Connectivity (JDBC)
-- [ ] **012 PATTERN DAO**:
-  - [ ] Practice
-- [ ] **013 HIBERNATE**:
-  - [ ] Mechanism of data persistence
-  - [ ] Object-relational model (OR-model)
-  - [ ] Hibernate application
-  - [ ] Hibernate architecture
-- [ ] **014 HIBERNATE OBJECTS**:
-  - [ ] The state of Hibernate objects in the lifecycle
-  - [ ] Data operations in Hibernate
-  - [ ] Loading, Saving, Updating and Removing objects
-  - [ ] The priority of flush operations
-- [ ] **015 DISPLAYING AN OBJECT-RELATIONAL MODEL (OR-MODEL)**:
-  - [ ] Entity declaration
-  - [ ] Declaring the mapping of entity fields
-  - [ ] Naming of tables and fields
-  - [ ] Understanding identity
-  - [ ] Component and entity concept
-- [ ] **016 Displaying the class hierarchy**
-  - [ ] Displaying heirs
-  - [ ] Relationship mapping
-  - [ ] Hibernate @OneToOne annotation
-  - [ ] Hibernate @OneToMany annotation
-  - [ ] Hibernate @ManyToMany annotation
-  - [ ] Cascading operations in a relationship
-  - [ ] HQL / JPQL: Object Oriented Query Language
-  - [ ] Description and structure of the HQL / JPQL language
-  - [ ] HQL / JPQL operations
-  - [ ] Named queries
-- [ ] CRITERIA JPA REQUESTS:
-  - [ ] Description of the Criteria instance structure
-  - [ ] Selection limiting operations
-  - [ ] Projections and Aggregation in Criteria
-  - [ ] Joins
-  - [ ] Detached Queries
-- [ ] TRANSACTIONS AND CONCURRENCY:
-  - [ ] Using transactions
-  - [ ] Transaction isolation levels
-  - [ ] Setting the transaction isolation level
-  - [ ] Pessimistic and optimistic locks, versioning
-  - [ ] Distributed transactions
-  - [ ] Session detailing
-  - [ ] Configuring the second level cache
-- [ ] SPRING:
-  - [ ] Description of the dependency injection mechanism
-  - [ ] Description of Spring modules
-  - [ ] Spring containers
-  - [ ] Spring bean life cycle
-  - [ ] Description of links between beans
-  - [ ] Bean declaration
-  - [ ] Introduction to the property of beans
-  - [ ] Description of SpEL expression language
-  - [ ] Minimizing XML Configuration in Spring
-  - [ ] Automatic linkage between beans
-  - [ ] Relationship with annotations
-  - [ ] Automatic bin detection
-- [ ] ASPECT ORIENTED PROGRAMMING IN SPRING:
-  - [ ] Configuration of aspects in the context of the application
-  - [ ] Configuration of aspects via annotations.
-- [ ] INTEGRATION OF HIBERNATE AND SPRING:
-  - [ ] Hibernate entity manager factory declaration
-  - [ ] Description of the configuration
-- [ ] TRANSACTION MANAGEMENT:
-  - [ ] Spring transactions
-  - [ ] Spring software transactions
-  - [ ] Spring declarative transactions
-- [ ] SPRING DATA COMPONENT:
-  - [ ] Repository interface
-  - [ ] CRUD Repository interface (basic CrudRepository functionality, using conditions and expressions in queries)
-  - [ ] JPA Repository interface (using @ Query-annotated queries)
-  - [ ] Pagination and sorting of queries
-  - [ ] Sample requests
-- [ ] SPRING MVC COMPONENT:
-  - [ ] MVC
-  - [ ] Basic controller implementation
-  - [ ] Processing controller parameters
-  - [ ] Form processing
-- [ ] SPRING REST:
-  - [ ] Features
-  - [ ] Annotations
-- [ ] SPRING SECURITY:
-  - [ ] Spring Security Module
-  - [ ] Security methods
-  - [ ] Web request security
-  - [ ] User authentication
-- [ ] Spring Boot:
-  - [ ] Components
-  - [ ] Launching a web application
-  - [ ] Integration with Spring-data
-  - [ ] Overriding system variables.
-- [ ] FINAL PROJECT:
-  - [ ] RESULT: [*001_JHelloWorld_*][31] Application
-
-[30]: https://github.com/yoricsv
-[31]: https://github.com/yoricsv
+[javaEE]: https://github.com/yoricsv/_JAVA_ENTERPRISE-EDITION_.git
 
 ---
 
@@ -376,50 +142,6 @@ mobile:        | +375(29) 263-99-00
 [12]: https://fedora.pkgs.org/34/fedora-x86_64/libvorbis-devel-1.3.7-3.fc34.x86_64.rpm.html
 [13]: https://fedora.pkgs.org/34/fedora-x86_64/libvorbis-devel-1.3.7-3.fc34.x86_64.rpm.html
 [14]: https://rpmfind.net/linux/fedora/linux/releases/34/Everything/x86_64/os/Packages/g/glibc-2.33-5.fc34.x86_64.rpm
-
-
----
-<br/>
-
- ## LOCAL PROJECT STRUCTURE (as a reminder) 
-```
-[<Project_name>]
-  |
-  |->[.build]           // directory for building system
-  |     |               // all necessary directories and files
-  |     |->[CMakeFiles] // for CMake build generator
-  |
-  |->[.git]             // all necessary directories and files
-  |                     // for Git
-  |
-  |->[.settings]        // contains project file directories for
-  |                     // different IDEs
-  |
-  |->[debug]            // contains compiller, linker, object
-  |     |               // files
-  |     |->[logs]       // contains logs
-  |
-  |->[<Project_name Repository>]
-  |     |
-  |     |->[inc]        // contains public/private HEADERS (*.h) 
-  |     |->[res]        // contains static/dynamic LIBRARIES
-  |     |               // (might be split into two directories
-  |     |               // static and dynamic)
-  |     |->[src]        // contains SOURCE files/code(s)(.с;.cpp)
-  |     |
-  |     |->[ui]         // these directories for applications
-  |                     // with USER INTERFACE
-  |
-  |->[output]           // directory for executable applications
-  |
-  |->[tests]            // directory for unit tests
-  |
-  |----- .gitignore
-  |
-  |----- CMakeLists.txt
-  |
-  |----- README.md
-```
 
 -->
   
