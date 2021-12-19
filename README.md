@@ -1,5 +1,3 @@
-# <p align=center> <b>Hello, I'm Sergey</b></p>
-
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoricsv)](https://github.com/anuraghazra/github-readme-stats)
 
 ### How to reach me
