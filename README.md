@@ -1,8 +1,10 @@
+# __<https://github.com/yoricsv>__
+
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoricsv)](https://github.com/anuraghazra/github-readme-stats)
 
-### How to reach me
+## How to reach me
 
-**Way**        | **link**
+Way        | link
 ---:           | :---
 LinkedIn:      | [go to LinkedIn](https://www.linkedin.com/in/yoric)
 Microsoft:     | [go to microsoft](https://docs.microsoft.com/en-us/users/yoric/)
@@ -12,41 +14,33 @@ email:         | yoricsv@yandex.ru
 mobile:        | +375(29) 263-99-00
 
 ---
-<br/>
 
-# [LEARN C++ (GAME DEVELOPMENT)][gameDev]
+## [LEARN C++ (GAME DEVELOPMENT)][gameDev]
 
-> ***NOTE***: "C++ GAME DEVELOPMENT PROFFESSIONAL" *(Start 10-nov-2021)*
+> __NOTE:__ "C++ GAME DEVELOPMENT PROFFESSIONAL" *(Start 10-nov-2021)*
 
 [gameDev]: https://github.com/yoricsv/_CPP_GAME_DEVELOPMENT_.git
 
 ---
-<br/>
 
-# [LEARN JAVA (ENTERPRISE EDITION)][javaEE]
+## [LEARN JAVA (ENTERPRISE EDITION)][javaEE]
 
-> ***NOTE***: "TECHNOLOGIES FOR DEVELOPING ENTERPRISE SOLUTIONS IN JAVA" *(Start 16-sep-2021)*
+> __NOTE:__ "TECHNOLOGIES FOR DEVELOPING ENTERPRISE SOLUTIONS IN JAVA" *(Start 16-sep-2021)*
 
 [javaEE]: https://github.com/yoricsv/_JAVA_ENTERPRISE-EDITION_.git
 
 ---
-<br/>
 
-# [LEARN JAVA (BASICS)][javaTaskList]
+## [LEARN JAVA (BASICS)][javaTaskList]
 
-> ***NOTE*:**  Learn Java (basics) in 7 days it was a challenge for me *(Start 08-sep-2021 deadline 16-sep-2021)*. - **Couldn't finish on time**
-
-[javaTaskList]: https://github.com/yoricsv/001_JavaBasics_.git
+> __NOTE:__  Learn Java (basics) in 7 days it was a challenge for me *(Start 08-sep-2021 deadline 16-sep-2021)*. - __Couldn't finish on time__
 
 ---
-<br/>
 
-# LEARN C++ (BASICS)
+## LEARN C++ (BASICS)
 <!-- # [LEARN C++ (BASICS)][javaTaskList] -->
 
-> ***NOTE*:**  I didn't know anything about Git until the last few lectures. Of course I couldn't add my projects *(Start 05-dec-2020 finish 10-mar-2021)*
-
-<br/>
+> __NOTE:__  I didn't know anything about Git until the last few lectures. Of course I couldn't add my projects *(Start 05-dec-2020 finish 10-mar-2021)*
 
 ![Header](yoricsv/res/img/img_0022.jpg)
 
