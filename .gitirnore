@@ -236,3 +236,10 @@ $RECYCLE.BIN/
 Desktop.ini
 ehthumbs.db
 Thumbs.db
+
+# PlantUML
+yoricsv/read/compiled_dagrams/
+yoricsv/read/samples/
+yoricsv/read/src/eng/
+yoricsv/read/src/ru/
+yoricsv/read/src/samples/
