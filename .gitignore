@@ -4,6 +4,11 @@
 .TEMPORARY/
 manual_build/
 tmp/
+read/diagrams/compiled_diagrams/
+read/diagrams/src/eng/
+read/diagrams/src/ru/
+read/diagrams/src/samples/
+PathToSkillsFromJavaProject.txt
 HELP.md
 pwsh.md
 
