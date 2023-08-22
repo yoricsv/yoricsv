@@ -10,12 +10,38 @@ LinkedIn:      | [go to LinkedIn](https://www.linkedin.com/in/yoric)
 Microsoft:     | [go to microsoft](https://docs.microsoft.com/en-us/users/yoric/)
 StackOverflow: | [go to profile](https://stackoverflow.com/users/16232348/sergey-selivonchyk)
 HH:            | [go to HH profile](https://rabota.by/resume/3ed3914fff09156f230039ed1f6f526c467770)
-email:         | yoricsv@yandex.ru
+email:         | <yoricsv@yandex.ru>
 mobile:        | +375(29) 263-99-00
 
 ---
 
-## [LEARN C++ (GAME DEVELOPMENT)][gameDev]
+## My Hard Skills Roadmaps
+
+> __NOTE:__
+>
+> *PlantUML Sources (.puml) for everyone:*
+>
+> - Frontend Roadmap  ([*Download*][pumlF])
+> - Backend Roadmap ([*Download*][pumlB])
+> - DevOps Roadmap ([*Download*][pumlD])
+
+[pumlF]: https://github.com/yoricsv/src/hard_skills_front.puml
+[pumlB]: https://github.com/yoricsv/src/hard_skills_back.puml
+[pumlD]: https://github.com/yoricsv/src/hard_skills_devops.puml
+
+- Frontend
+
+  ![frontend](yoricsv/read/diagrams/compiled/hard_skills-Frontend.svg)
+
+- Backend
+
+  ![backend](yoricsv/read/diagrams/compiled/hard_skills-Backend.svg)
+
+- DevOps
+
+  ![frontend](yoricsv/read/diagrams/compiled/hard_skills-DevOps.svg)
+
+### [LEARN C++ (GAME DEVELOPMENT)][gameDev]
 
 > __NOTE:__ "C++ GAME DEVELOPMENT PROFFESSIONAL" *(Start 10-nov-2021)*
 
@@ -23,7 +49,7 @@ mobile:        | +375(29) 263-99-00
 
 ---
 
-## [LEARN JAVA (ENTERPRISE EDITION)][javaEE]
+### [LEARN JAVA (ENTERPRISE EDITION)][javaEE]
 
 > __NOTE:__ "TECHNOLOGIES FOR DEVELOPING ENTERPRISE SOLUTIONS IN JAVA" *(Start 16-sep-2021)*
 
@@ -31,7 +57,7 @@ mobile:        | +375(29) 263-99-00
 
 ---
 
-## [LEARN JAVA (BASICS)][javaTaskList]
+### [LEARN JAVA (BASICS)][javaTaskList]
 
 > __NOTE:__  Learn Java (basics) in 7 days it was a challenge for me *(Start 08-sep-2021 deadline 16-sep-2021)*. - __Couldn't finish on time__
 
