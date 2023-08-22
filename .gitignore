@@ -4,10 +4,12 @@
 .TEMPORARY/
 manual_build/
 tmp/
-read/diagrams/compiled_diagrams/
-read/diagrams/src/eng/
-read/diagrams/src/ru/
-read/diagrams/src/samples/
+compiled_diagrams/
+yoricsv/read/diagrams/src/eng/
+yoricsv/read/diagrams/src/ru/
+yoricsv/read/diagrams/src/samples/
+hard_skills_comented.puml
+hard_skils.puml
 PathToSkillsFromJavaProject.txt
 HELP.md
 pwsh.md

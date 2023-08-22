@@ -1,0 +1,518 @@
+@startuml hard_skills
+
+title "Backend"
+
+'left to right direction
+'scale 1600 width
+
+<style>
+    title {
+        FontSize 24
+        FontColor black
+    }
+    legend {
+        FontSize 24
+        FontColor black
+    }
+    card {
+        BackGroundColor #Yellow
+        LineThickness 1
+        LineColor black
+    }
+    rectangle {
+        BackgroundColor none
+        Padding-left 10
+    }
+</style>
+
+skinparam linetype polyline
+skinparam linetype ortho
+skinparam componentStyle rectangle
+skinparam rectangle {
+    roundCorner 35
+}
+
+/'salt
+{+
+    Password | "**** "
+    [Cancel] | [ OK ]
+}'/
+
+legend top center
+    <color:Indigo><&task></color> - <b>Personal Recommendation</b> / Opinion
+    <color:Green><&check></color> - <b>Alternative</b> Option - Pick this or purple
+    <color:OrangeRed><&warning></color> - Order in roadmap <b>not strict</b> (<i>Learn anytime</i>)
+    <color:Red><&ban></color> - I <b>wouldn't</b> recommend
+    <color:LawnGreen><&media-stop></color> - (<i>highlight</i>) - I know it and <b>I use</b>
+    <color:LightBlue><&media-stop></color> - (<i>highlight</i>) - I know this, but I <b>did not have the opportunity</b> to use it
+end legend
+
+
+card "Backend" as BE
+
+start -[#blue;dashed;thickness=5]- BE
+
+component {
+    card "<color:Indigo><&task></color> <b>Internet"                 as inet  #text:Teal
+
+    rectangle "<i>What is __ " as inetw {
+        rectangle "<color:Indigo><&task></color> <i>HTTP?"           as inetwp #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>Domain Name?"    as inetwn #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>Hosting?"        as inetwh #LawnGreen
+    }
+    rectangle "<i>How is/does __ work?" as ineth {
+        rectangle "<color:Indigo><&task></color> <i>The internet"    as inethi #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>Browser"         as inethb #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>DNS"             as inethd #LawnGreen
+    }
+}
+inetwp .. inetwn
+inetwn .. inetwh
+
+inethi .. inethb
+inethb .. inethd
+
+inet .. inetw
+inet .l. ineth
+
+BE -[#blue;thickness=3]- inet
+
+component {
+    card "<color:Indigo><&task></color> <b>Basic Frontend Knowledge"    as bs  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> HTML"                      as bsh #LawnGreen
+
+    rectangle "<color:Indigo><&task></color> CSS"                       as bsc #LawnGreen
+    rectangle "<color:Indigo><&task></color> JavaScript"                as bsj #LightBlue
+}
+bs .l. bsh
+
+bs .r. bsc
+bs .. bsj
+
+inet -[#blue;thickness=3]- bs
+
+component {
+    card "<color:Indigo><&task></color> <b>OS and General Knowledge"                as os    #text:Teal
+
+    rectangle Management                                                            as osm {
+        rectangle "<color:Indigo><&task></color> Terminal Usage"                    as osmt  #LawnGreen
+        rectangle "<color:Indigo><&task></color> How OSs work in General"           as osmg  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Process Management"                as osmp  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Threads and Concurrency"           as osmc  #LawnGreen
+        rectangle "<color:Indigo><&task></color> \
+<b>Basic Terminal Commands</b>\n\
+<i>grep, awk, sed, lsof, curl, wget\n\
+tail, head, less, find, ssh, kill"                                                  as oscb  #LawnGreen
+    }
+    rectangle Exchange                                                              as ose {
+        rectangle "<color:Indigo><&task></color> Memory Management"                 as osem  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Interprocess Communication"        as osen  #LawnGreen
+        rectangle "<color:Indigo><&task></color> I/O Management"                    as osei  #LawnGreen
+        rectangle "<color:Indigo><&task></color> \
+<b>POSIX Basics<\b>\n\
+<i>stdin, stdout, stderr, pipes"                                                    as osex  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Basic Networking Concepts"         as osew  #LawnGreen
+    }
+}
+osmt .[hidden]. osmg
+osmg .[hidden]. osmp
+osmp .[hidden]. osmc
+osmc .[hidden]. oscb
+
+osem .[hidden]. osen
+osen .[hidden]. osei
+osei .[hidden]. osex
+osex .[hidden]. osew
+
+os .. osm
+os .r. ose
+
+bs -[#blue;thickness=3]- os
+
+component {
+    card "<b>Learn a Language</b>\n\
+<i>Make sure to learn its quirks. Core details about its\n\
+runtime e.g. concurrency, memory model etc."                as ll
+
+    rectangle "<color:Green><&check></color> Rust"          as llr
+    rectangle "<color:Green><&check></color> Go"            as llg
+
+    rectangle "<color:Green><&check></color> Java"          as llj #LawnGreen
+    rectangle "<color:Green><&check></color> C++"           as llc #LawnGreen
+    rectangle "<color:Green><&check></color> C#"            as llh #LightBlue
+    rectangle "<color:Green><&check></color> PHP"           as llp #LawnGreen
+
+    rectangle "<color:Indigo><&task></color> JavaScript"    as lls
+    rectangle "<color:Green><&check></color> Python"        as lly
+    rectangle "<color:Green><&check></color> Ruby"          as llu
+}
+ll .u. llh
+ll .u. llj
+ll .u. llp
+ll .u. lls
+ll .. llr
+ll .. llg
+ll .. llc
+ll .. lly
+ll .. llu
+
+os -[#blue;thickness=3]- ll
+
+component {
+    card "<b><color:Teal>Version Control Systems\n\
+<i>What are they and why you should use one"                     as vcs
+
+    rectangle "<color:Indigo><&task></color> Basic Usage of Git" as vcsu   #LawnGreen
+    rectangle "<b>Repo hosting services\n\
+<i>Create account and Learn to use GitHub"                       as vcsr   #LawnGreen
+        rectangle "<color:Indigo><&task></color> GitHub"         as vcsrh  #LawnGreen
+        rectangle "<color:Green><&check></color> GitLab"         as vcsrl  #LightBlue
+        rectangle "<color:Green><&check></color> Bitbucket"      as vcsrb  #LightBlue
+}
+vcsrh .u. vcsr
+vcsrl .u. vcsr
+vcsrb .u. vcsr
+
+vcs .. vcsu
+vcs .r. vcsr
+
+ll -[#blue;thickness=3]- vcs
+
+component {
+    card "<b>Relational Databases"                       as rd  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> PostgreSQL" as rdp #LawnGreen
+    rectangle "<color:Green><&check></color> MySQL"      as rdm #LawnGreen
+    rectangle "<color:Green><&check></color> MariaDB"    as rda #LawnGreen
+    rectangle "<color:Green><&check></color> MS SQL"     as rds #LightBlue
+    rectangle "<color:Green><&check></color> Oracle"     as rdo #LightBlue
+}
+rd .u. rdp
+rd .u. rdm
+rd .r. rda
+rd .. rds
+rd .. rdo
+
+vcs -[#blue;thickness=3]- rd
+
+component {
+    card "<b>NoSQL Databases"                                         as no  #text:HotPink
+
+    rectangle "Document <color:blue>MongoDB</color>, CouchDB"         as nod #LightBlue
+    rectangle "Column DBs <color:blue>Cassandra</color>"              as noc #LightBlue
+    rectangle "Time series <color:blue>InfluxDB</color>, TimescaleDB" as not
+    rectangle "Realtime <color:blue>Firebase</color>, RethinkDB"      as nor
+}
+no .u. nod
+no .u. noc
+no .. not
+no .. nor
+
+component {
+    card "<b>More about Databases"                                      as mdb  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> ORMs"                      as mbdo #LawnGreen
+    rectangle "<color:Indigo><&task></color> ACID"                      as mdba #LawnGreen
+    rectangle "<color:Indigo><&task></color> Transactions"              as mdbt #LawnGreen
+    rectangle "<color:Indigo><&task></color> N+1 Problem"               as mdbn
+    rectangle "<color:Indigo><&task></color> Database Normalization"    as mdbd #LawnGreen
+    rectangle "<color:Indigo><&task></color> Indexes and how they work" as mdbi #LawnGreen
+
+    rectangle "<color:OrangeRed><&warning></color> Sharding Strategies" as mdbs #LawnGreen
+    rectangle "<color:OrangeRed><&warning></color> Data Replication"    as mdbr #LawnGreen
+    rectangle "<color:OrangeRed><&warning></color> CAP Theorem"         as mdbc
+}
+mdb .u. mbdo
+mdb .u. mdba
+mdb .u. mdbt
+mdb .u. mdbn
+mdb .l. mdbd
+mdb .u. mdbi
+
+mdb .. mdbs
+mdb .. mdbr
+mdb .. mdbc
+
+rd  -[#blue;thickness=3]- mdb
+mdb -[#blue;thickness=3]- no
+
+component {
+    card "<b>Learn about APIs"                                                    as api      #text:Teal
+
+    rectangle "Types"                                                             as apit {
+        rectangle "<color:Indigo><&task></color> REST\n\
+(<i>Read Roy Fielding’s Paper</i>)"                                               as apitr    #LawnGreen
+        rectangle "<color:Indigo><&task></color> JSON APIs"                       as apitj    #LawnGreen
+        rectangle "<color:OrangeRed><&warning></color> SOAP"                      as apits
+        rectangle "<color:Indigo><&task></color> gRPC"                            as apitg
+        rectangle "<color:OrangeRed><&warning></color> HATEOAS"                   as apith
+        rectangle "<color:OrangeRed><&warning></color> Open API Spec and Swagger" as apito
+        rectangle "<color:Indigo><&task></color> Authentication"                  as apita    #LawnGreen
+    }
+    rectangle "Auth Types"                                                        as apitat {
+        rectangle "<color:OrangeRed><&warning></color> Cookie Based"              as apitatc  #LawnGreen
+        rectangle "<color:Indigo><&task></color> OAuth"                           as apitato  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Basic Authentication"            as apitatb  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Token Authentication"            as apitatt  #LawnGreen
+        rectangle "<color:Indigo><&task></color> JWT"                             as apitatj  #LawnGreen
+        rectangle "<color:OrangeRed><&warning></color> OpenID"                    as apitati  #LightBlue
+        rectangle "<color:OrangeRed><&warning></color> SAML"                      as apitats  #LightBlue
+    }
+}
+apitr .[hidden]. apitj
+apitj .[hidden]. apits
+apits .[hidden]. apitg
+apitg .[hidden]. apith
+apith .[hidden]. apito
+apito .[hidden]. apita
+
+apita .l. apitat
+
+apitatc .[hidden]. apitato
+apitato .[hidden]. apitatb
+apitatb .[hidden]. apitatt
+apitatt .[hidden]. apitatj
+apitatj .[hidden]. apitati
+apitati .[hidden]. apitats
+
+api .. apit
+
+mdb -[#blue;thickness=3]- api
+
+component {
+    card "<b>Caching"                                         as ch   #text:Teal
+
+    rectangle "<color:Indigo><&task></color> CDN"             as chd  #LightBlue
+    rectangle "Server Side"                                   as chs  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Redis"       as chsr #LawnGreen
+        rectangle "<color:Green><&check></color> Memcached"   as chsm #LawnGreen
+    rectangle "<color:Indigo><&task></color> Client Side"     as chc  #LawnGreen
+}
+ch .l. chd
+ch .. chs
+ch .u. chc
+
+chs .. chsr
+chs .. chsm
+
+api -[#blue;thickness=3]- ch
+
+component {
+    card "<b>Web Security Knowledge"                                        as sec    #text:teal
+
+    rectangle "<color:Indigo><&task></color> Hashing Algorithms"            as sech {
+        rectangle "<color:Indigo><&task></color> MD5 and why not to use it" as sechm  #LawnGreen
+        rectangle "<color:Indigo><&task></color> SHA Family"                as sechf  #LawnGreen
+        rectangle "<color:Indigo><&task></color> bcrypt"                    as sechb  #LawnGreen
+        rectangle "<color:Indigo><&task></color> scrypt"                    as sechs  #LawnGreen
+    }
+    rectangle "<color:Indigo><&task></color> Security Types"                as sect {
+        rectangle "<color:Indigo><&task></color> HTTPS"                     as secth  #LawnGreen
+        rectangle "<color:Indigo><&task></color> CORS"                      as sectc  #LightBlue
+        rectangle "<color:Indigo><&task></color> Content Security Policy"   as sectp  #LightBlue
+        rectangle "<color:Indigo><&task></color> SSL/TLS"                   as sects  #LawnGreen
+        rectangle "<color:Indigo><&task></color> OWASP Security Risks"      as sectr  #LawnGreen
+    }
+}
+sechm .[hidden]. sechf
+sechf .[hidden]. sechb
+sechb .[hidden]. sechs
+
+secth .[hidden]. sectc
+sectc .[hidden]. sectp
+sectp .[hidden]. sects
+sects .[hidden]. sectr
+
+sec .u. sech
+sec .. sect
+
+ch -[#blue;thickness=3]- sec
+
+component {
+    card "<b>Testing"                                     as tst  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> Integration" as tsti #LawnGreen
+    rectangle "<color:Indigo><&task></color> Unit"        as tstu #LawnGreen
+    rectangle "<color:Indigo><&task></color> Functional"  as tstf #LawnGreen
+}
+tst .. tsti
+tst .. tstu
+tst .. tstf
+
+sec -[#blue;thickness=3]- tst
+
+component {
+    card "<color:Indigo><&task></color> <b>CI / CD" as cid #text:Teal
+}
+
+tst -[#blue;thickness=3]- cid
+
+component {
+    card "<b>Design and Development Principles"                                 as ddp    #text:Teal
+
+    rectangle "<i>Principles"                                                   as ddpp {
+        rectangle "<color:OrangeRed><&warning></color> GOF Design Patterns"     as ddppg
+        rectangle "<color:OrangeRed><&warning></color> Domain Driven Design"    as ddpp3  #LawnGreen
+        rectangle "<color:OrangeRed><&warning></color> Test Driven Development" as ddppt  #LawnGreen
+        rectangle "<color:Indigo><&task></color> SOLID"                         as ddpps  #LawnGreen
+        rectangle "<color:Indigo><&task></color> KISS"                          as ddppk  #LawnGreen
+        rectangle "<color:Indigo><&task></color> YAGNI"                         as ddppy
+        rectangle "<color:Indigo><&task></color> DRY"                           as ddppd  #LawnGreen
+    }
+}
+ddppg .[hidden]. ddpp3
+ddpp3 .[hidden]. ddppt
+ddppt .[hidden]. ddpps
+ddpps .[hidden]. ddppk
+ddppk .[hidden]. ddppy
+ddppy .[hidden]. ddppd
+
+ddp .. ddpp
+
+cid -[#blue;thickness=3]- ddp
+
+component {
+    card "<b>Architectural Patterns"                                        as ap  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> Monolithic Apps"               as apn #LawnGreen
+    rectangle "<color:Indigo><&task></color> Microservices"                 as apm #LawnGreen
+    rectangle "<color:Indigo><&task></color> SOA"                           as aps #LawnGreen
+    rectangle "<color:OrangeRed><&warning></color> CQRS and Event Sourcing" as apc #LawnGreen
+    rectangle "<color:Indigo><&task></color> Serverless"                    as apl #LawnGreen
+}
+ap  .[hidden]. apn
+
+apn .. apm
+apm .. aps
+aps .. apc
+apc .. apl
+
+ddp -[#blue;thickness=3]- ap
+
+component {
+    card "<b>Search Engines"                                as se  #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> Elasticsearch" as see #LightBlue
+    rectangle "<color:Green><&check></color> Solr"          as ses
+}
+se  .. see
+
+see .. ses
+
+ddp -[#blue;thickness=3]- se
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Message Brokers"                          as mb  #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> <color:OrangeRed><&warning></color> RabbitMQ" as mbr #LightBlue
+    rectangle "<color:Green><&check></color> Kafka"                                        as mbk #LightBlue
+}
+mb .r. mbr
+mb .r. mbk
+
+se -[#blue;thickness=3]- mb
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Containerization vs Virtualization" as cv  #text:teal
+
+    rectangle "<color:Indigo><&task></color> Docker"                                 as cvd #LawnGreen
+    rectangle "<color:Red><&ban></color> rkt"                                        as cvr
+    rectangle "<color:Red><&ban></color> LXC"                                        as cvl
+}
+cv .l. cvd
+cv .l. cvr
+cv .l. cvl
+
+mb -[#blue;thickness=3]- cv
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>GraphQL"   as gql  #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> Apollo"        as gqla
+    rectangle "<color:Green><&check></color> Relay Modern"  as gqlr
+}
+gql .. gqla
+gql .. gqlr
+
+cv -[#blue;thickness=3]- gql
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Graph Databases"   as gdb  #text:HotPink
+
+    rectangle "<color:OrangeRed><&warning></color> Neo4j"           as gdbn
+}
+gdb .l. gdbn
+
+gql -[#blue;thickness=3]- gdb
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>WebSockets" as wsk #text:Teal
+}
+
+gdb -[#blue;thickness=3]- wsk
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Web Servers"                           as wsv  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> <color:OrangeRed><&warning></color> Nginx" as wsvn #LawnGreen
+    rectangle "<color:Green><&check></color> Apache"                                    as wsva #LawnGreen
+    rectangle "<color:Green><&check></color> Caddy"                                     as wsvc
+    rectangle "<color:Green><&check></color> MS IIS"                                    as wsvm
+}
+wsv .r. wsvn
+wsv .r. wsva
+wsv .l. wsvc
+wsv .l. wsvm
+
+wsk -[#blue;thickness=3]- wsv
+
+component {
+    card "<color:Indigo><&task></color> <b>Building for Scale\n\
+<i>General topics that you should learn\n\
+<i>and care about for the sustainability\n\
+<i>of the product."                                                          as bfs
+
+    rectangle "<color:Indigo><&task></color> Mitigation Strategies"          as bfst  #text:Teal {
+        rectangle "<i>Graceful Degradation"                                  as bfstg
+        rectangle "<i>Throttling"                                            as bfstt
+        rectangle "<i>Backpressure"                                          as bfstb
+        rectangle "<i>Loadshifting"                                          as bfstl
+        rectangle "<i>Circuit Breaker"                                       as bfstc
+    }
+    rectangle "Understand the Diff."                                         as bfsd  #text:Teal {
+        rectangle "<i>Instrumentation"                                       as bfsdi
+        rectangle "<i>Monitoring"                                            as bfsdm
+        rectangle "<i>Telemetry"                                             as bfsdt
+    }
+    rectangle "<color:Indigo><&task></color> Migration Strategies"           as bfsm  #LawnGreen
+    rectangle "<color:Indigo><&task></color> Horizontal vs Vertical Scaling" as bfss  #LawnGreen
+    rectangle "<color:Indigo><&task></color> \
+<b>Building with Observability in mind\n\
+<i>Metrics logging and other observable items\n\
+<i>that could help you in debugging and solving\n\
+<i>the issues when things go wrong"                                          as bfso  #LawnGreen
+}
+bfstg .[hidden]. bfstt
+bfstt .[hidden]. bfstb
+bfstb .[hidden]. bfstl
+bfstl .[hidden]. bfstc
+
+bfsdi .[hidden]. bfsdm
+bfsdm .[hidden]. bfsdt
+
+bfs .. bfst
+bfs .. bfsd
+
+bfs .r. bfsm
+bfs .l. bfss
+bfs .. bfso
+
+wsv -[#blue;thickness=3]- bfs
+
+card "Keep Learning" as KL
+
+bfs -[#blue;thickness=3]- KL
+KL  -[#blue;dashed;thickness=5]- end
+
+@enduml

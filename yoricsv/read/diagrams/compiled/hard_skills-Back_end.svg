@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1656px" preserveAspectRatio="none" style="width:2736px;height:1656px;background:#FFFFFF;" version="1.1" viewBox="0 0 2736 1656" width="2736.8px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="16.075" id="_title" style="stroke:none;stroke-width:0.4000000000000001;" width="46.8" x="1342.2" y="2"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="42.8" x="1344.2" y="13.9656">Back-end</text><rect fill="#DDDDDD" height="76.45" id="_legend" rx="3" ry="3" style="stroke:#000000;stroke-width:0.4000000000000001;" width="312.4" x="1209.4" y="25.275"/><path d="M1211.8,30.55 L1211.8,36.15 L1217.4,36.15 L1217.4,33.278 L1216.6,34.078 L1216.6,35.35 L1212.6,35.35 L1212.6,31.35 L1215.472,31.35 L1216.272,30.55 L1211.8,30.55 M1217.4,30.55 L1215,32.95 L1214.2,32.15 L1213.4,32.95 L1215,34.55 L1218.2,31.35 L1217.4,30.55 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="3.2" x="1221.4" y="37.2406">-</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="123.6" x="1227.4" y="37.2406">Personal Recommendation</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="39.2" x="1353.8" y="37.2406">/ Opinion</text><path d="M1216.928,42.625 L1216.376,43.201 L1214.152,45.425 L1213.504,44.801 L1212.928,44.225 L1211.8,45.353 L1212.376,45.929 L1213.576,47.129 L1214.128,47.705 L1214.704,47.129 L1217.504,44.329 L1218.08,43.753 L1216.928,42.625 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="3.2" x="1221.4" y="49.3156">-</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="49.2" x="1227.4" y="49.3156">Alternative</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="115.2" x="1279.4" y="49.3156">Option - Pick this or purple</text><path d="M1214.272,54.7 C1214.224,54.7 1214.192,54.732 1214.168,54.772 L1211.816,60.22 C1211.8,60.26 1211.792,60.324 1211.792,60.372 L1211.792,61.02 C1211.792,61.06 1211.824,61.092 1211.864,61.092 L1217.312,61.092 C1217.352,61.092 1217.384,61.06 1217.384,61.02 L1217.384,60.372 C1217.384,60.332 1217.376,60.26 1217.36,60.22 L1215.008,54.772 C1214.992,54.732 1214.952,54.7 1214.904,54.7 L1214.256,54.7 M1214.2,57.1 L1215,57.1 L1215,58.7 L1214.2,58.7 L1214.2,57.1 M1214.2,59.5 L1215,59.5 L1215,60.3 L1214.2,60.3 L1214.2,59.5 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="82" x="1221.4" y="61.3906">- Order in roadmap</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="41.2" x="1306.2" y="61.3906">not strict</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="3.2" x="1350.2" y="61.3906">(</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="60.4" x="1353.4" y="61.3906">Learn anytime</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="3.2" x="1413.8" y="61.3906">)</text><path d="M1215,66.775 C1213.24,66.775 1211.8,68.215 1211.8,69.975 C1211.8,71.735 1213.24,73.175 1215,73.175 C1216.76,73.175 1218.2,71.735 1218.2,69.975 C1218.2,68.215 1216.76,66.775 1215,66.775 M1215,67.575 C1215.528,67.575 1216.008,67.743 1216.4,68.023 L1213.048,71.375 C1212.768,70.983 1212.6,70.503 1212.6,69.975 C1212.6,68.647 1213.672,67.575 1215,67.575 M1216.952,68.575 C1217.232,68.967 1217.4,69.447 1217.4,69.975 C1217.4,71.303 1216.328,72.375 1215,72.375 C1214.472,72.375 1213.992,72.207 1213.6,71.927 L1216.952,68.575 " fill="#FF0000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="8.4" x="1221.4" y="73.4656">- I</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="40" x="1232.6" y="73.4656">wouldn't</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="50.8" x="1275.4" y="73.4656">recommend</text><path d="M1211.8,78.85 L1211.8,83.65 L1216.6,83.65 L1216.6,78.85 L1211.8,78.85 " fill="#7CFC00" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="9.2" x="1221.4" y="85.5406">- (</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="36" x="1230.6" y="85.5406">highlight</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="66.4" x="1266.6" y="85.5406">) - I know it and</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="22" x="1335.8" y="85.5406">I use</text><path d="M1211.8,90.925 L1211.8,95.725 L1216.6,95.725 L1216.6,90.925 L1211.8,90.925 " fill="#ADD8E6" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="9.2" x="1221.4" y="97.6156">- (</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="36" x="1230.6" y="97.6156">highlight</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="82.4" x="1266.6" y="97.6156">) - I know this, but I</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="131.2" x="1351.8" y="97.6156">did not have the opportunity</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="34" x="1485.8" y="97.6156">to use it</text><g id="cluster_##5"><rect fill="none" height="260.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="254" x="1422.8" y="174.525"/></g><!--MD5=[6ea261f873e3e4c8b3c6e1673c894913]
+cluster inetw--><g id="cluster_inetw"><rect fill="none" height="182.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="106.4" x="1435.6" y="239.725"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="47.6" x="1463.6" y="250.4906">What is __</text></g><!--MD5=[d5cce353650d2beb84bb303314ee08b1]
+cluster ineth--><g id="cluster_ineth"><rect fill="none" height="166.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="106" x="1558" y="187.325"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="99.6" x="1561.2" y="198.0906">How is/does __ work?</text></g><g id="cluster_##24"><rect fill="none" height="94.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="264" x="2026" y="256.125"/></g><g id="cluster_##35"><rect fill="none" height="385.2" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="368" x="2366.4" y="288.925"/></g><!--MD5=[d2703566731d42af3253775e1f80e478]
+cluster osm--><g id="cluster_osm"><rect fill="none" height="291.2" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="163.2" x="2379.2" y="370.125"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="58.8" x="2431.4" y="380.8906">Management</text></g><!--MD5=[9b496f62303d72f98403f9f6be9f5849]
+cluster ose--><g id="cluster_ose"><rect fill="none" height="291.2" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="163.2" x="2558.4" y="301.725"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="45.2" x="2617.4" y="312.4906">Exchange</text></g><g id="cluster_##61"><rect fill="none" height="165.6" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="263.6" x="1686.4" y="318.125"/></g><g id="cluster_##87"><rect fill="none" height="94.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="397.2" x="1959.6" y="444.925"/></g><g id="cluster_##104"><rect fill="none" height="138.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="185.2" x="1491.6" y="450.925"/></g><g id="cluster_##120"><rect fill="none" height="188.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="322.4" x="2.8" y="556.925"/></g><g id="cluster_##133"><rect fill="none" height="139" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="436" x="1046" y="506.925"/></g><g id="cluster_##162"><rect fill="none" height="751.2" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="340" x="1491.6" y="615.925"/></g><!--MD5=[e894a5b7f3e09ff961a5412af8a76e06]
+cluster apit--><g id="cluster_apit"><rect fill="none" height="355.6" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="167.2" x="1504.4" y="690.525"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="27.6" x="1574.2" y="701.2906">Types</text></g><!--MD5=[46c941e3382483727540ca6a14924bea]
+cluster apitat--><g id="cluster_apitat"><rect fill="none" height="360.6" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="131.2" x="1687.6" y="993.725"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="52.4" x="1727" y="1004.4906">Auth Types</text></g><g id="cluster_##197"><rect fill="none" height="235" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="139.6" x="896.8" y="613.125"/></g><g id="cluster_##213"><rect fill="none" height="375.2" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="339.6" x="334.8" y="683.725"/></g><!--MD5=[5f9644343b221b04e23a59ea76d4654d]
+cluster sech--><g id="cluster_sech"><rect fill="none" height="198.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="157.2" x="347.6" y="696.525"/><path d="M375.8,700.6 L375.8,706.2 L381.4,706.2 L381.4,703.328 L380.6,704.128 L380.6,705.4 L376.6,705.4 L376.6,701.4 L379.472,701.4 L380.272,700.6 L375.8,700.6 M381.4,700.6 L379,703 L378.2,702.2 L377.4,703 L379,704.6 L382.2,701.4 L381.4,700.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="91.6" x="385.4" y="707.2906">Hashing Algorithms</text></g><!--MD5=[cf8b6e79148dea82a97f15a4c5879326]
+cluster sect--><g id="cluster_sect"><rect fill="none" height="247.2" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="140.8" x="520.8" y="798.925"/><path d="M552.6,803 L552.6,808.6 L558.2,808.6 L558.2,805.728 L557.4,806.528 L557.4,807.8 L553.4,807.8 L553.4,803.8 L556.272,803.8 L557.072,803 L552.6,803 M558.2,803 L555.8,805.4 L555,804.6 L554.2,805.4 L555.8,807 L559,803.8 L558.2,803 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="68" x="562.2" y="809.6906">Security Types</text></g><g id="cluster_##238"><rect fill="none" height="74" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="203.2" x="684" y="818.125"/></g><g id="cluster_##248"><rect fill="none" height="27.2" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="62.4" x="1046" y="862.125"/></g><g id="cluster_##252"><rect fill="none" height="385.2" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="184.8" x="1134" y="908.125"/></g><!--MD5=[fb5124e8fcf14bd22c31ab5d1b39c88f]
+cluster ddpp--><g id="cluster_ddpp"><rect fill="none" height="339.2" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="148" x="1158" y="941.325"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="46" x="1209" y="952.0906">Principles</text></g><g id="cluster_##271"><rect fill="none" height="272.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="146.4" x="1328.4" y="960.525"/></g><g id="cluster_##285"><rect fill="none" height="140.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="92.8" x="684" y="960.525"/></g><g id="cluster_##293"><rect fill="none" height="32.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="251.2" x="829.6" y="1010.125"/></g><g id="cluster_##301"><rect fill="none" height="32.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="338" x="786.4" y="1068.525"/></g><g id="cluster_##314"><rect fill="none" height="74" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="149.2" x="975.2" y="1115.325"/></g><g id="cluster_##322"><rect fill="none" height="32.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="166.4" x="799.2" y="1156.525"/></g><g id="cluster_##329"><rect fill="none" height="27.2" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="88" x="866.8" y="1203.325"/></g><g id="cluster_##333"><rect fill="none" height="32.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="340" x="746.4" y="1244.525"/></g><g id="cluster_##347"><rect fill="none" height="350.8" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="469.2" x="656.8" y="1302.925"/></g><!--MD5=[b015dfc6173092dce164d6407eebf632]
+cluster bfst--><g id="cluster_bfst"><rect fill="none" height="261" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="126" x="870.8" y="1379.925"/><path d="M881.6,1384 L881.6,1389.6 L887.2,1389.6 L887.2,1386.728 L886.4,1387.528 L886.4,1388.8 L882.4,1388.8 L882.4,1384.8 L885.272,1384.8 L886.072,1384 L881.6,1384 M887.2,1384 L884.8,1386.4 L884,1385.6 L883.2,1386.4 L884.8,1388 L888,1384.8 L887.2,1384 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="95.2" x="891.2" y="1390.6906">Mitigation Strategies</text></g><!--MD5=[99575da44228637886a951a3bbc21d2a]
+cluster bfsd--><g id="cluster_bfsd"><rect fill="none" height="173" rx="7" ry="7" style="stroke:#181818;stroke-width:0.4000000000000001;" width="100.4" x="1012.8" y="1379.925"/><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="92" x="1017" y="1390.6906">Understand the Diff.</text></g><!--MD5=[0c061e797b6d396aa768da93940ea367]
+entity inet--><g id="elem_inet"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="53.2" x="1494.2" y="212.925"/><path d="M1498.6,217.4 L1498.6,223 L1504.2,223 L1504.2,220.128 L1503.4,220.928 L1503.4,222.2 L1499.4,222.2 L1499.4,218.2 L1502.272,218.2 L1503.072,217.4 L1498.6,217.4 M1504.2,217.4 L1501.8,219.8 L1501,219 L1500.2,219.8 L1501.8,221.4 L1505,218.2 L1504.2,217.4 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#008080" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="1505.4" y="224.0906"> </text><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="35.2" x="1508.2" y="224.0906">Internet</text></g><!--MD5=[3cf9696ae1a9194fc40017cd799863e8]
+entity inetwp--><g id="elem_inetwp"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="48.4" x="1466.2" y="262.525"/><path d="M1470.6,269.8 L1470.6,275.4 L1476.2,275.4 L1476.2,272.528 L1475.4,273.328 L1475.4,274.6 L1471.4,274.6 L1471.4,270.6 L1474.272,270.6 L1475.072,269.8 L1470.6,269.8 M1476.2,269.8 L1473.8,272.2 L1473,271.4 L1472.2,272.2 L1473.8,273.8 L1477,270.6 L1476.2,269.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="1477.4" y="276.4906"> </text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="30.4" x="1480.2" y="276.4906">HTTP?</text></g><!--MD5=[c521794d21d5809774dceb88a875c17d]
+entity inetwn--><g id="elem_inetwn"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="84" x="1448.4" y="324.525"/><path d="M1452.8,331.8 L1452.8,337.4 L1458.4,337.4 L1458.4,334.528 L1457.6,335.328 L1457.6,336.6 L1453.6,336.6 L1453.6,332.6 L1456.472,332.6 L1457.272,331.8 L1452.8,331.8 M1458.4,331.8 L1456,334.2 L1455.2,333.4 L1454.4,334.2 L1456,335.8 L1459.2,332.6 L1458.4,331.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="1459.6" y="338.4906"> </text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="66" x="1462.4" y="338.4906">Domain Name?</text></g><!--MD5=[ac2565e35d3e645c918cfa49fd98693b]
+entity inetwh--><g id="elem_inetwh"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="55.6" x="1462.6" y="392.925"/><path d="M1467,400.2 L1467,405.8 L1472.6,405.8 L1472.6,402.928 L1471.8,403.728 L1471.8,405 L1467.8,405 L1467.8,401 L1470.672,401 L1471.472,400.2 L1467,400.2 M1472.6,400.2 L1470.2,402.6 L1469.4,401.8 L1468.6,402.6 L1470.2,404.2 L1473.4,401 L1472.6,400.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="1473.8" y="406.8906"> </text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="37.6" x="1476.6" y="406.8906">Hosting?</text></g><!--MD5=[8d98236a7dc969d69c01074686482b96]
+entity inethi--><g id="elem_inethi"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="69.2" x="1580.2" y="210.125"/><path d="M1584.6,217.4 L1584.6,223 L1590.2,223 L1590.2,220.128 L1589.4,220.928 L1589.4,222.2 L1585.4,222.2 L1585.4,218.2 L1588.272,218.2 L1589.072,217.4 L1584.6,217.4 M1590.2,217.4 L1587.8,219.8 L1587,219 L1586.2,219.8 L1587.8,221.4 L1591,218.2 L1590.2,217.4 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="1591.4" y="224.0906"> </text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="51.2" x="1594.2" y="224.0906">The internet</text></g><!--MD5=[dc6cf6bff8771fab8cebad8a421fe6f4]
+entity inethb--><g id="elem_inethb"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="52.4" x="1588.6" y="262.525"/><path d="M1593,269.8 L1593,275.4 L1598.6,275.4 L1598.6,272.528 L1597.8,273.328 L1597.8,274.6 L1593.8,274.6 L1593.8,270.6 L1596.672,270.6 L1597.472,269.8 L1593,269.8 M1598.6,269.8 L1596.2,272.2 L1595.4,271.4 L1594.6,272.2 L1596.2,273.8 L1599.4,270.6 L1598.6,269.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="1599.8" y="276.4906"> </text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="34.4" x="1602.6" y="276.4906">Browser</text></g><!--MD5=[94eeeebd13c5d3ee1d6b47a5700c7f78]
+entity inethd--><g id="elem_inethd"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="38" x="1595.8" y="324.525"/><path d="M1600.2,331.8 L1600.2,337.4 L1605.8,337.4 L1605.8,334.528 L1605,335.328 L1605,336.6 L1601,336.6 L1601,332.6 L1603.872,332.6 L1604.672,331.8 L1600.2,331.8 M1605.8,331.8 L1603.4,334.2 L1602.6,333.4 L1601.8,334.2 L1603.4,335.8 L1606.6,332.6 L1605.8,331.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="1607" y="338.4906"> </text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="20" x="1609.8" y="338.4906">DNS</text></g><!--MD5=[f92115063e8dc9f632cc320845e472c3]
+entity bs--><g id="elem_bs"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="142.4" x="2089.6" y="265.325"/><path d="M2094,269.8 L2094,275.4 L2099.6,275.4 L2099.6,272.528 L2098.8,273.328 L2098.8,274.6 L2094.8,274.6 L2094.8,270.6 L2097.672,270.6 L2098.472,269.8 L2094,269.8 M2099.6,269.8 L2097.2,272.2 L2096.4,271.4 L2095.6,272.2 L2097.2,273.8 L2100.4,270.6 L2099.6,269.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#008080" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="2100.8" y="276.4906"> </text><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="124.4" x="2103.6" y="276.4906">Basic Frontend Knowledge</text></g><!--MD5=[dcd3805ea5cb311713d0337ab8d1b150]
+entity bsh--><g id="elem_bsh"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="43.2" x="2032.4" y="262.525"/><path d="M2036.8,269.8 L2036.8,275.4 L2042.4,275.4 L2042.4,272.528 L2041.6,273.328 L2041.6,274.6 L2037.6,274.6 L2037.6,270.6 L2040.472,270.6 L2041.272,269.8 L2036.8,269.8 M2042.4,269.8 L2040,272.2 L2039.2,271.4 L2038.4,272.2 L2040,273.8 L2043.2,270.6 L2042.4,269.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="25.2" x="2046.4" y="276.4906">HTML</text></g><!--MD5=[a513cdb68939dafbd216e8cf3ecc8190]
+entity bsc--><g id="elem_bsc"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="37.6" x="2246" y="262.525"/><path d="M2250.4,269.8 L2250.4,275.4 L2256,275.4 L2256,272.528 L2255.2,273.328 L2255.2,274.6 L2251.2,274.6 L2251.2,270.6 L2254.072,270.6 L2254.872,269.8 L2250.4,269.8 M2256,269.8 L2253.6,272.2 L2252.8,271.4 L2252,272.2 L2253.6,273.8 L2256.8,270.6 L2256,269.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="19.6" x="2260" y="276.4906">CSS</text></g><!--MD5=[17358a5d3d8e35e08871b7febdaa01b9]
+entity bsj--><g id="elem_bsj"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="62.4" x="2129.6" y="324.525"/><path d="M2134,331.8 L2134,337.4 L2139.6,337.4 L2139.6,334.528 L2138.8,335.328 L2138.8,336.6 L2134.8,336.6 L2134.8,332.6 L2137.672,332.6 L2138.472,331.8 L2134,331.8 M2139.6,331.8 L2137.2,334.2 L2136.4,333.4 L2135.6,334.2 L2137.2,335.8 L2140.4,332.6 L2139.6,331.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="44.4" x="2143.6" y="338.4906">JavaScript</text></g><!--MD5=[23ed0539382aa633e2b671a13e0bf3d6]
+entity os--><g id="elem_os"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="144.4" x="2373" y="327.325"/><path d="M2377.4,331.8 L2377.4,337.4 L2383,337.4 L2383,334.528 L2382.2,335.328 L2382.2,336.6 L2378.2,336.6 L2378.2,332.6 L2381.072,332.6 L2381.872,331.8 L2377.4,331.8 M2383,331.8 L2380.6,334.2 L2379.8,333.4 L2379,334.2 L2380.6,335.8 L2383.8,332.6 L2383,331.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#008080" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="2384.2" y="338.4906"> </text><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="126.4" x="2387" y="338.4906">OS and General Knowledge</text></g><!--MD5=[3d6ac781fc0c3667ad1ad8c7005df8b0]
+entity osmt--><g id="elem_osmt"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="85.6" x="2419.6" y="392.925"/><path d="M2424,400.2 L2424,405.8 L2429.6,405.8 L2429.6,402.928 L2428.8,403.728 L2428.8,405 L2424.8,405 L2424.8,401 L2427.672,401 L2428.472,400.2 L2424,400.2 M2429.6,400.2 L2427.2,402.6 L2426.4,401.8 L2425.6,402.6 L2427.2,404.2 L2430.4,401 L2429.6,400.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="67.6" x="2433.6" y="406.8906">Terminal Usage</text></g><!--MD5=[6801015a8be1e4746c40b1d1ceb2d1c9]
+entity osmg--><g id="elem_osmg"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="128.8" x="2398" y="457.325"/><path d="M2402.4,464.6 L2402.4,470.2 L2408,470.2 L2408,467.328 L2407.2,468.128 L2407.2,469.4 L2403.2,469.4 L2403.2,465.4 L2406.072,465.4 L2406.872,464.6 L2402.4,464.6 M2408,464.6 L2405.6,467 L2404.8,466.2 L2404,467 L2405.6,468.6 L2408.8,465.4 L2408,464.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="110.8" x="2412" y="471.2906">How OSs work in General</text></g><!--MD5=[6ff5bb52c790ae9b498115a1fbab4414]
+entity osmp--><g id="elem_osmp"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="111.2" x="2406.8" y="513.325"/><path d="M2411.2,520.6 L2411.2,526.2 L2416.8,526.2 L2416.8,523.328 L2416,524.128 L2416,525.4 L2412,525.4 L2412,521.4 L2414.872,521.4 L2415.672,520.6 L2411.2,520.6 M2416.8,520.6 L2414.4,523 L2413.6,522.2 L2412.8,523 L2414.4,524.6 L2417.6,521.4 L2416.8,520.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="93.2" x="2420.8" y="527.2906">Process Management</text></g><!--MD5=[0dc2e73257b67c27254e16b1c2369228]
+entity osmc--><g id="elem_osmc"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="130" x="2397.4" y="563.325"/><path d="M2401.8,570.6 L2401.8,576.2 L2407.4,576.2 L2407.4,573.328 L2406.6,574.128 L2406.6,575.4 L2402.6,575.4 L2402.6,571.4 L2405.472,571.4 L2406.272,570.6 L2401.8,570.6 M2407.4,570.6 L2405,573 L2404.2,572.2 L2403.4,573 L2405,574.6 L2408.2,571.4 L2407.4,570.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="112" x="2411.4" y="577.2906">Threads and Concurrency</text></g><!--MD5=[5b09074a949f4c5ea5a5ed1ecdce718f]
+entity oscb--><g id="elem_oscb"><rect fill="#7CFC00" height="44.225" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="140.8" x="2392" y="607.325"/><path d="M2396.4,614.6 L2396.4,620.2 L2402,620.2 L2402,617.328 L2401.2,618.128 L2401.2,619.4 L2397.2,619.4 L2397.2,615.4 L2400.072,615.4 L2400.872,614.6 L2396.4,614.6 M2402,614.6 L2399.6,617 L2398.8,616.2 L2398,617 L2399.6,618.6 L2402.8,615.4 L2402,614.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="2403.2" y="621.2906"> </text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="122.8" x="2406" y="621.2906">Basic Terminal Commands</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="128.8" x="2396" y="633.3656">grep, awk, sed, lsof, curl, wget</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="122" x="2396" y="645.4406">tail, head, less, find, ssh, kill</text></g><!--MD5=[60f419bac8ffb9e8a6c013921d5c0d5e]
+entity osem--><g id="elem_osem"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="110.8" x="2586.2" y="324.525"/><path d="M2590.6,331.8 L2590.6,337.4 L2596.2,337.4 L2596.2,334.528 L2595.4,335.328 L2595.4,336.6 L2591.4,336.6 L2591.4,332.6 L2594.272,332.6 L2595.072,331.8 L2590.6,331.8 M2596.2,331.8 L2593.8,334.2 L2593,333.4 L2592.2,334.2 L2593.8,335.8 L2597,332.6 L2596.2,331.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="92.8" x="2600.2" y="338.4906">Memory Management</text></g><!--MD5=[e55c79315092045a7aa87953b1324cc3]
+entity osen--><g id="elem_osen"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="140.4" x="2571.4" y="392.925"/><path d="M2575.8,400.2 L2575.8,405.8 L2581.4,405.8 L2581.4,402.928 L2580.6,403.728 L2580.6,405 L2576.6,405 L2576.6,401 L2579.472,401 L2580.272,400.2 L2575.8,400.2 M2581.4,400.2 L2579,402.6 L2578.2,401.8 L2577.4,402.6 L2579,404.2 L2582.2,401 L2581.4,400.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="122.4" x="2585.4" y="406.8906">Interprocess Communication</text></g><!--MD5=[3698bd481bb632bca8f30128a99c1159]
+entity osei--><g id="elem_osei"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="89.6" x="2596.8" y="457.325"/><path d="M2601.2,464.6 L2601.2,470.2 L2606.8,470.2 L2606.8,467.328 L2606,468.128 L2606,469.4 L2602,469.4 L2602,465.4 L2604.872,465.4 L2605.672,464.6 L2601.2,464.6 M2606.8,464.6 L2604.4,467 L2603.6,466.2 L2602.8,467 L2604.4,468.6 L2607.6,465.4 L2606.8,464.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="71.6" x="2610.8" y="471.2906">I/O Management</text></g><!--MD5=[4eb577aaac04c7335e7f7a776ba8e8c2]
+entity osex--><g id="elem_osex"><rect fill="#7CFC00" height="32.15" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="118.4" x="2582.4" y="507.325"/><path d="M2586.8,514.6 L2586.8,520.2 L2592.4,520.2 L2592.4,517.328 L2591.6,518.128 L2591.6,519.4 L2587.6,519.4 L2587.6,515.4 L2590.472,515.4 L2591.272,514.6 L2586.8,514.6 M2592.4,514.6 L2590,517 L2589.2,516.2 L2588.4,517 L2590,518.6 L2593.2,515.4 L2592.4,514.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="2593.6" y="521.2906"> </text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="82.4" x="2596.4" y="521.2906">POSIX Basics&lt;\b&gt;</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="110.4" x="2586.4" y="533.3656">stdin, stdout, stderr, pipes</text></g><!--MD5=[b846950546de15767cd22021d1f64639]
+entity osew--><g id="elem_osew"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="135.6" x="2573.8" y="563.325"/><path d="M2578.2,570.6 L2578.2,576.2 L2583.8,576.2 L2583.8,573.328 L2583,574.128 L2583,575.4 L2579,575.4 L2579,571.4 L2581.872,571.4 L2582.672,570.6 L2578.2,570.6 M2583.8,570.6 L2581.4,573 L2580.6,572.2 L2579.8,573 L2581.4,574.6 L2584.6,571.4 L2583.8,570.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="117.6" x="2587.8" y="577.2906">Basic Networking Concepts</text></g><!--MD5=[e5e4aff23692c45099a835661ee4ea5b]
+entity ll--><g id="elem_ll"><rect fill="#FFFF00" height="38.625" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="224" x="1719.6" y="383.525"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="82.4" x="1723.6" y="394.6906">Learn a Language</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="216" x="1723.6" y="406.7656">Make sure to learn its quirks. Core details about its</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="194.8" x="1723.6" y="418.8406">runtime e.g. concurrency, memory model etc.</text></g><!--MD5=[e83e3540f843ec28396c467a50a99315]
+entity llr--><g id="elem_llr"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="38" x="1860.6" y="457.325"/><path d="M1870.128,464.6 L1869.576,465.176 L1867.352,467.4 L1866.704,466.776 L1866.128,466.2 L1865,467.328 L1865.576,467.904 L1866.776,469.104 L1867.328,469.68 L1867.904,469.104 L1870.704,466.304 L1871.28,465.728 L1870.128,464.6 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="20" x="1874.6" y="471.2906">Rust</text></g><!--MD5=[f4eb19b890befa22be5fdd99cb47f184]
+entity llg--><g id="elem_llg"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="30.8" x="1912.6" y="457.325"/><path d="M1922.128,464.6 L1921.576,465.176 L1919.352,467.4 L1918.704,466.776 L1918.128,466.2 L1917,467.328 L1917.576,467.904 L1918.776,469.104 L1919.328,469.68 L1919.904,469.104 L1922.704,466.304 L1923.28,465.728 L1922.128,464.6 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="12.8" x="1926.6" y="471.2906">Go</text></g><!--MD5=[8521c9b42717245237fa8b767d1b9fcb]
+entity llj--><g id="elem_llj"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="37.6" x="1769.6" y="324.525"/><path d="M1779.128,331.8 L1778.576,332.376 L1776.352,334.6 L1775.704,333.976 L1775.128,333.4 L1774,334.528 L1774.576,335.104 L1775.776,336.304 L1776.328,336.88 L1776.904,336.304 L1779.704,333.504 L1780.28,332.928 L1779.128,331.8 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="19.6" x="1783.6" y="338.4906">Java</text></g><!--MD5=[5cdf0d95514ec6a942a9f0f4c7d19ce0]
+entity llc--><g id="elem_llc"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="36" x="1692.8" y="457.325"/><path d="M1702.328,464.6 L1701.776,465.176 L1699.552,467.4 L1698.904,466.776 L1698.328,466.2 L1697.2,467.328 L1697.776,467.904 L1698.976,469.104 L1699.528,469.68 L1700.104,469.104 L1702.904,466.304 L1703.48,465.728 L1702.328,464.6 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="18" x="1706.8" y="471.2906">C++</text></g><!--MD5=[ec1d0dc65e50657909302810e77eba56]
+entity llh--><g id="elem_llh"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="30" x="1725.4" y="324.525"/><path d="M1734.928,331.8 L1734.376,332.376 L1732.152,334.6 L1731.504,333.976 L1730.928,333.4 L1729.8,334.528 L1730.376,335.104 L1731.576,336.304 L1732.128,336.88 L1732.704,336.304 L1735.504,333.504 L1736.08,332.928 L1734.928,331.8 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="12" x="1739.4" y="338.4906">C#</text></g><!--MD5=[2e444586d170e2b4c2f8059ac0c856f9]
+entity llp--><g id="elem_llp"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="37.6" x="1821.2" y="324.525"/><path d="M1830.728,331.8 L1830.176,332.376 L1827.952,334.6 L1827.304,333.976 L1826.728,333.4 L1825.6,334.528 L1826.176,335.104 L1827.376,336.304 L1827.928,336.88 L1828.504,336.304 L1831.304,333.504 L1831.88,332.928 L1830.728,331.8 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="19.6" x="1835.2" y="338.4906">PHP</text></g><!--MD5=[6281835975b3b1ee18a096727c51b4cb]
+entity lls--><g id="elem_lls"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="62.4" x="1872.8" y="324.525"/><path d="M1877.2,331.8 L1877.2,337.4 L1882.8,337.4 L1882.8,334.528 L1882,335.328 L1882,336.6 L1878,336.6 L1878,332.6 L1880.872,332.6 L1881.672,331.8 L1877.2,331.8 M1882.8,331.8 L1880.4,334.2 L1879.6,333.4 L1878.8,334.2 L1880.4,335.8 L1883.6,332.6 L1882.8,331.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="44.4" x="1886.8" y="338.4906">JavaScript</text></g><!--MD5=[12ae0054b19b2416b0b91052c3a164db]
+entity lly--><g id="elem_lly"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="48.4" x="1743" y="457.325"/><path d="M1752.528,464.6 L1751.976,465.176 L1749.752,467.4 L1749.104,466.776 L1748.528,466.2 L1747.4,467.328 L1747.976,467.904 L1749.176,469.104 L1749.728,469.68 L1750.304,469.104 L1753.104,466.304 L1753.68,465.728 L1752.528,464.6 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="30.4" x="1757" y="471.2906">Python</text></g><!--MD5=[aad994c57d6fbe0b22be2573db755ff5]
+entity llu--><g id="elem_llu"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="40.8" x="1805.6" y="457.325"/><path d="M1815.128,464.6 L1814.576,465.176 L1812.352,467.4 L1811.704,466.776 L1811.128,466.2 L1810,467.328 L1810.576,467.904 L1811.776,469.104 L1812.328,469.68 L1812.904,469.104 L1815.704,466.304 L1816.28,465.728 L1815.128,464.6 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="22.8" x="1819.6" y="471.2906">Ruby</text></g><!--MD5=[96b7a0bd075c899d742a7dc4370616da]
+entity vcs--><g id="elem_vcs"><rect fill="#FFFF00" height="26.55" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="190.8" x="1966.2" y="454.125"/><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="114" x="1970.2" y="465.2906">Version Control Systems</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="182.8" x="1970.2" y="477.3656">What are they and why you should use one</text></g><!--MD5=[bf938f76f0518f57a6b392d6e0f2dc29]
+entity vcsu--><g id="elem_vcsu"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="97.6" x="2012.8" y="513.325"/><path d="M2017.2,520.6 L2017.2,526.2 L2022.8,526.2 L2022.8,523.328 L2022,524.128 L2022,525.4 L2018,525.4 L2018,521.4 L2020.872,521.4 L2021.672,520.6 L2017.2,520.6 M2022.8,520.6 L2020.4,523 L2019.6,522.2 L2018.8,523 L2020.4,524.6 L2023.6,521.4 L2022.8,520.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="79.6" x="2026.8" y="527.2906">Basic Usage of Git</text></g><!--MD5=[7fee2a2cd9d19a730657920b1c39002a]
+entity vcsr--><g id="elem_vcsr"><rect fill="#7CFC00" height="32.15" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="179.2" x="2171.2" y="451.325"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="102.4" x="2175.2" y="465.2906">Repo hosting services</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="171.2" x="2175.2" y="477.3656">Create account and Learn to use GitHub</text></g><!--MD5=[11bcc9dddf9d51c028f81c08550fb3d7]
+entity vcsrh--><g id="elem_vcsrh"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="48.4" x="2236.6" y="513.325"/><path d="M2241,520.6 L2241,526.2 L2246.6,526.2 L2246.6,523.328 L2245.8,524.128 L2245.8,525.4 L2241.8,525.4 L2241.8,521.4 L2244.672,521.4 L2245.472,520.6 L2241,520.6 M2246.6,520.6 L2244.2,523 L2243.4,522.2 L2242.6,523 L2244.2,524.6 L2247.4,521.4 L2246.6,520.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="30.4" x="2250.6" y="527.2906">GitHub</text></g><!--MD5=[94df275ba0c98dc045e05df0d8663176]
+entity vcsrl--><g id="elem_vcsrl"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="46.4" x="2299.2" y="513.325"/><path d="M2308.728,520.6 L2308.176,521.176 L2305.952,523.4 L2305.304,522.776 L2304.728,522.2 L2303.6,523.328 L2304.176,523.904 L2305.376,525.104 L2305.928,525.68 L2306.504,525.104 L2309.304,522.304 L2309.88,521.728 L2308.728,520.6 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="28.4" x="2313.2" y="527.2906">GitLab</text></g><!--MD5=[2e5894885941c26a64e99438cda29555]
+entity vcsrb--><g id="elem_vcsrb"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="58" x="2164.6" y="513.325"/><path d="M2174.128,520.6 L2173.576,521.176 L2171.352,523.4 L2170.704,522.776 L2170.128,522.2 L2169,523.328 L2169.576,523.904 L2170.776,525.104 L2171.328,525.68 L2171.904,525.104 L2174.704,522.304 L2175.28,521.728 L2174.128,520.6 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="40" x="2178.6" y="527.2906">Bitbucket</text></g><!--MD5=[3df74d0e0ef6e3d4152e0268750447c9]
+entity rd--><g id="elem_rd"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="104" x="1498" y="516.125"/><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="96" x="1502" y="527.2906">Relational Databases</text></g><!--MD5=[07fff26ffae7f265c2918f5f6514cb04]
+entity rdp--><g id="elem_rdp"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="70.4" x="1506.4" y="457.325"/><path d="M1510.8,464.6 L1510.8,470.2 L1516.4,470.2 L1516.4,467.328 L1515.6,468.128 L1515.6,469.4 L1511.6,469.4 L1511.6,465.4 L1514.472,465.4 L1515.272,464.6 L1510.8,464.6 M1516.4,464.6 L1514,467 L1513.2,466.2 L1512.4,467 L1514,468.6 L1517.2,465.4 L1516.4,464.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="52.4" x="1520.4" y="471.2906">PostgreSQL</text></g><!--MD5=[bd81f823199d893b618bb5753b8d5557]
+entity rdm--><g id="elem_rdm"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="49.6" x="1590.8" y="457.325"/><path d="M1600.328,464.6 L1599.776,465.176 L1597.552,467.4 L1596.904,466.776 L1596.328,466.2 L1595.2,467.328 L1595.776,467.904 L1596.976,469.104 L1597.528,469.68 L1598.104,469.104 L1600.904,466.304 L1601.48,465.728 L1600.328,464.6 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="31.6" x="1604.8" y="471.2906">MySQL</text></g><!--MD5=[844955e80b0d11a5cb2a14725af7de01]
+entity rda--><g id="elem_rda"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="54.4" x="1616" y="513.325"/><path d="M1625.528,520.6 L1624.976,521.176 L1622.752,523.4 L1622.104,522.776 L1621.528,522.2 L1620.4,523.328 L1620.976,523.904 L1622.176,525.104 L1622.728,525.68 L1623.304,525.104 L1626.104,522.304 L1626.68,521.728 L1625.528,520.6 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="36.4" x="1630" y="527.2906">MariaDB</text></g><!--MD5=[78922e3f719f32bf869a7a66bdadb0f4]
+entity rds--><g id="elem_rds"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="54" x="1510.6" y="563.325"/><path d="M1520.128,570.6 L1519.576,571.176 L1517.352,573.4 L1516.704,572.776 L1516.128,572.2 L1515,573.328 L1515.576,573.904 L1516.776,575.104 L1517.328,575.68 L1517.904,575.104 L1520.704,572.304 L1521.28,571.728 L1520.128,570.6 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="36" x="1524.6" y="577.2906">MS SQL</text></g><!--MD5=[97d56a143bea6b2e7a338b6c23ae76b8]
+entity rdo--><g id="elem_rdo"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="46.4" x="1578.8" y="563.325"/><path d="M1588.328,570.6 L1587.776,571.176 L1585.552,573.4 L1584.904,572.776 L1584.328,572.2 L1583.2,573.328 L1583.776,573.904 L1584.976,575.104 L1585.528,575.68 L1586.104,575.104 L1588.904,572.304 L1589.48,571.728 L1588.328,570.6 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="28.4" x="1592.8" y="577.2906">Oracle</text></g><!--MD5=[f81ed47a38ff2926b48ea117bf4bd362]
+entity no--><g id="elem_no"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="90.4" x="204.8" y="622.325"/><text fill="#FF69B4" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="82.4" x="208.8" y="633.4906">NoSQL Databases</text></g><!--MD5=[e89e1d9be8abd969c520fe7cba4cb91b]
+entity nod--><g id="elem_nod"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="144" x="42.4" y="563.325"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="44" x="46.4" y="577.2906">Document</text><text fill="#0000FF" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="42.4" x="93.2" y="577.2906">MongoDB</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="46.8" x="135.6" y="577.2906">, CouchDB</text></g><!--MD5=[f0e07d6329019d6675cc4b303e9d59a0]
+entity noc--><g id="elem_noc"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="111.6" x="200.6" y="563.325"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="54.4" x="204.6" y="577.2906">Column DBs</text><text fill="#0000FF" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="46.4" x="261.8" y="577.2906">Cassandra</text></g><!--MD5=[519adc584fd02a25c9c5110b2e06dfff]
+entity not--><g id="elem_not"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="158" x="9.4" y="719.325"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="48.8" x="13.4" y="733.2906">Time series</text><text fill="#0000FF" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="36.4" x="65" y="733.2906">InfluxDB</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="62" x="101.4" y="733.2906">, TimescaleDB</text></g><!--MD5=[031917f239f52efa54ca44145bb9fb55]
+entity nor--><g id="elem_nor"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="137.2" x="181.4" y="719.325"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="37.6" x="185.4" y="733.2906">Realtime</text><text fill="#0000FF" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="37.2" x="225.8" y="733.2906">Firebase</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="51.6" x="263" y="733.2906">, RethinkDB</text></g><!--MD5=[59c8dc116973b963802d1a1d8343d73e]
+entity mdb--><g id="elem_mdb"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="110.4" x="1226" y="566.125"/><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="102.4" x="1230" y="577.2906">More about Databases</text></g><!--MD5=[0c09e57e7eae67798650875cc872761d]
+entity mbdo--><g id="elem_mbdo"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="44.8" x="1430.8" y="513.325"/><path d="M1435.2,520.6 L1435.2,526.2 L1440.8,526.2 L1440.8,523.328 L1440,524.128 L1440,525.4 L1436,525.4 L1436,521.4 L1438.872,521.4 L1439.672,520.6 L1435.2,520.6 M1440.8,520.6 L1438.4,523 L1437.6,522.2 L1436.8,523 L1438.4,524.6 L1441.6,521.4 L1440.8,520.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="26.8" x="1444.8" y="527.2906">ORMs</text></g><!--MD5=[d000eff0b4f9f33b10977a246e4abb4e]
+entity mdba--><g id="elem_mdba"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="40" x="1052.4" y="513.325"/><path d="M1056.8,520.6 L1056.8,526.2 L1062.4,526.2 L1062.4,523.328 L1061.6,524.128 L1061.6,525.4 L1057.6,525.4 L1057.6,521.4 L1060.472,521.4 L1061.272,520.6 L1056.8,520.6 M1062.4,520.6 L1060,523 L1059.2,522.2 L1058.4,523 L1060,524.6 L1063.2,521.4 L1062.4,520.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="22" x="1066.4" y="527.2906">ACID</text></g><!--MD5=[80f1498e15b5acaf5d76d63e71cefbe1]
+entity mdbt--><g id="elem_mdbt"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="72.8" x="1106.4" y="513.325"/><path d="M1110.8,520.6 L1110.8,526.2 L1116.4,526.2 L1116.4,523.328 L1115.6,524.128 L1115.6,525.4 L1111.6,525.4 L1111.6,521.4 L1114.472,521.4 L1115.272,520.6 L1110.8,520.6 M1116.4,520.6 L1114,523 L1113.2,522.2 L1112.4,523 L1114,524.6 L1117.2,521.4 L1116.4,520.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="54.8" x="1120.4" y="527.2906">Transactions</text></g><!--MD5=[7aa0a7b27eab6f59f958efd1e7bc16e3]
+entity mdbn--><g id="elem_mdbn"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="74.4" x="1193.2" y="513.325"/><path d="M1197.6,520.6 L1197.6,526.2 L1203.2,526.2 L1203.2,523.328 L1202.4,524.128 L1202.4,525.4 L1198.4,525.4 L1198.4,521.4 L1201.272,521.4 L1202.072,520.6 L1197.6,520.6 M1203.2,520.6 L1200.8,523 L1200,522.2 L1199.2,523 L1200.8,524.6 L1204,521.4 L1203.2,520.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="56.4" x="1207.2" y="527.2906">N+1 Problem</text></g><!--MD5=[b35c82496fbaac450255d04e110f0bc0]
+entity mdbd--><g id="elem_mdbd"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="120" x="1092" y="563.325"/><path d="M1096.4,570.6 L1096.4,576.2 L1102,576.2 L1102,573.328 L1101.2,574.128 L1101.2,575.4 L1097.2,575.4 L1097.2,571.4 L1100.072,571.4 L1100.872,570.6 L1096.4,570.6 M1102,570.6 L1099.6,573 L1098.8,572.2 L1098,573 L1099.6,574.6 L1102.8,571.4 L1102,570.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="102" x="1106" y="577.2906">Database Normalization</text></g><!--MD5=[4d8b2427be924785e5b129ba491ea929]
+entity mdbi--><g id="elem_mdbi"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="134.8" x="1281.8" y="513.325"/><path d="M1286.2,520.6 L1286.2,526.2 L1291.8,526.2 L1291.8,523.328 L1291,524.128 L1291,525.4 L1287,525.4 L1287,521.4 L1289.872,521.4 L1290.672,520.6 L1286.2,520.6 M1291.8,520.6 L1289.4,523 L1288.6,522.2 L1287.8,523 L1289.4,524.6 L1292.6,521.4 L1291.8,520.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="116.8" x="1295.8" y="527.2906">Indexes and how they work</text></g><!--MD5=[7b71f6c4970c4c6f9b2b8edaa1deb319]
+entity mdbs--><g id="elem_mdbs"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="103.2" x="1229.6" y="619.525"/><path d="M1236.472,626.8 C1236.424,626.8 1236.392,626.832 1236.368,626.872 L1234.016,632.32 C1234,632.36 1233.992,632.424 1233.992,632.472 L1233.992,633.12 C1233.992,633.16 1234.024,633.192 1234.064,633.192 L1239.512,633.192 C1239.552,633.192 1239.584,633.16 1239.584,633.12 L1239.584,632.472 C1239.584,632.432 1239.576,632.36 1239.56,632.32 L1237.208,626.872 C1237.192,626.832 1237.152,626.8 1237.104,626.8 L1236.456,626.8 M1236.4,629.2 L1237.2,629.2 L1237.2,630.8 L1236.4,630.8 L1236.4,629.2 M1236.4,631.6 L1237.2,631.6 L1237.2,632.4 L1236.4,632.4 L1236.4,631.6 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="85.2" x="1243.6" y="633.4906">Sharding Strategies</text></g><!--MD5=[6eeaf942c8649423b67192e128f58410]
+entity mdbr--><g id="elem_mdbr"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="88.4" x="1347" y="619.525"/><path d="M1353.872,626.8 C1353.824,626.8 1353.792,626.832 1353.768,626.872 L1351.416,632.32 C1351.4,632.36 1351.392,632.424 1351.392,632.472 L1351.392,633.12 C1351.392,633.16 1351.424,633.192 1351.464,633.192 L1356.912,633.192 C1356.952,633.192 1356.984,633.16 1356.984,633.12 L1356.984,632.472 C1356.984,632.432 1356.976,632.36 1356.96,632.32 L1354.608,626.872 C1354.592,626.832 1354.552,626.8 1354.504,626.8 L1353.856,626.8 M1353.8,629.2 L1354.6,629.2 L1354.6,630.8 L1353.8,630.8 L1353.8,629.2 M1353.8,631.6 L1354.6,631.6 L1354.6,632.4 L1353.8,632.4 L1353.8,631.6 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="70.4" x="1361" y="633.4906">Data Replication</text></g><!--MD5=[f78b02909dc037ec53cf662a770b3b8e]
+entity mdbc--><g id="elem_mdbc"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="78" x="1137.4" y="619.525"/><path d="M1144.272,626.8 C1144.224,626.8 1144.192,626.832 1144.168,626.872 L1141.816,632.32 C1141.8,632.36 1141.792,632.424 1141.792,632.472 L1141.792,633.12 C1141.792,633.16 1141.824,633.192 1141.864,633.192 L1147.312,633.192 C1147.352,633.192 1147.384,633.16 1147.384,633.12 L1147.384,632.472 C1147.384,632.432 1147.376,632.36 1147.36,632.32 L1145.008,626.872 C1144.992,626.832 1144.952,626.8 1144.904,626.8 L1144.256,626.8 M1144.2,629.2 L1145,629.2 L1145,630.8 L1144.2,630.8 L1144.2,629.2 M1144.2,631.6 L1145,631.6 L1145,632.4 L1144.2,632.4 L1144.2,631.6 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="60" x="1151.4" y="633.4906">CAP Theorem</text></g><!--MD5=[e2307af040e3f87d22824e7603ca28ec]
+entity api--><g id="elem_api"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="87.2" x="1498" y="622.325"/><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="79.2" x="1502" y="633.4906">Learn about APIs</text></g><!--MD5=[1d0db04606e148d464dfdbd024a00119]
+entity apitr--><g id="elem_apitr"><rect fill="#7CFC00" height="32.15" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="128" x="1525.6" y="713.325"/><path d="M1530,720.6 L1530,726.2 L1535.6,726.2 L1535.6,723.328 L1534.8,724.128 L1534.8,725.4 L1530.8,725.4 L1530.8,721.4 L1533.672,721.4 L1534.472,720.6 L1530,720.6 M1535.6,720.6 L1533.2,723 L1532.4,722.2 L1531.6,723 L1533.2,724.6 L1536.4,721.4 L1535.6,720.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="25.2" x="1539.6" y="727.2906">REST</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="3.2" x="1529.6" y="739.3656">(</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="113.6" x="1532.8" y="739.3656">Read Roy Fielding’s Paper</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="3.2" x="1646.4" y="739.3656">)</text></g><!--MD5=[7c3e2469af05b26977389a2d8c307b30]
+entity apitj--><g id="elem_apitj"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="66" x="1556.6" y="769.325"/><path d="M1561,776.6 L1561,782.2 L1566.6,782.2 L1566.6,779.328 L1565.8,780.128 L1565.8,781.4 L1561.8,781.4 L1561.8,777.4 L1564.672,777.4 L1565.472,776.6 L1561,776.6 M1566.6,776.6 L1564.2,779 L1563.4,778.2 L1562.6,779 L1564.2,780.6 L1567.4,777.4 L1566.6,776.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="48" x="1570.6" y="783.2906">JSON APIs</text></g><!--MD5=[f914da423a51e38bc443ada3274e00b2]
+entity apits--><g id="elem_apits"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="44.4" x="1567.4" y="821.725"/><path d="M1574.272,829 C1574.224,829 1574.192,829.032 1574.168,829.072 L1571.816,834.52 C1571.8,834.56 1571.792,834.624 1571.792,834.672 L1571.792,835.32 C1571.792,835.36 1571.824,835.392 1571.864,835.392 L1577.312,835.392 C1577.352,835.392 1577.384,835.36 1577.384,835.32 L1577.384,834.672 C1577.384,834.632 1577.376,834.56 1577.36,834.52 L1575.008,829.072 C1574.992,829.032 1574.952,829 1574.904,829 L1574.256,829 M1574.2,831.4 L1575,831.4 L1575,833 L1574.2,833 L1574.2,831.4 M1574.2,833.8 L1575,833.8 L1575,834.6 L1574.2,834.6 L1574.2,833.8 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="26.4" x="1581.4" y="835.6906">SOAP</text></g><!--MD5=[00806964d4ef17e78c66aa902561d1ff]
+entity apitg--><g id="elem_apitg"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="43.6" x="1567.8" y="865.725"/><path d="M1572.2,873 L1572.2,878.6 L1577.8,878.6 L1577.8,875.728 L1577,876.528 L1577,877.8 L1573,877.8 L1573,873.8 L1575.872,873.8 L1576.672,873 L1572.2,873 M1577.8,873 L1575.4,875.4 L1574.6,874.6 L1573.8,875.4 L1575.4,877 L1578.6,873.8 L1577.8,873 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="25.6" x="1581.8" y="879.6906">gRPC</text></g><!--MD5=[c4c820305522cd04713b2e9ec399c878]
+entity apith--><g id="elem_apith"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="62.8" x="1558.2" y="911.725"/><path d="M1565.072,919 C1565.024,919 1564.992,919.032 1564.968,919.072 L1562.616,924.52 C1562.6,924.56 1562.592,924.624 1562.592,924.672 L1562.592,925.32 C1562.592,925.36 1562.624,925.392 1562.664,925.392 L1568.112,925.392 C1568.152,925.392 1568.184,925.36 1568.184,925.32 L1568.184,924.672 C1568.184,924.632 1568.176,924.56 1568.16,924.52 L1565.808,919.072 C1565.792,919.032 1565.752,919 1565.704,919 L1565.056,919 M1565,921.4 L1565.8,921.4 L1565.8,923 L1565,923 L1565,921.4 M1565,923.8 L1565.8,923.8 L1565.8,924.6 L1565,924.6 L1565,923.8 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="44.8" x="1572.2" y="925.6906">HATEOAS</text></g><!--MD5=[faecd5e8dde470af03d69502357c7585]
+entity apito--><g id="elem_apito"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="144.4" x="1517.4" y="964.125"/><path d="M1524.272,971.4 C1524.224,971.4 1524.192,971.432 1524.168,971.472 L1521.816,976.92 C1521.8,976.96 1521.792,977.024 1521.792,977.072 L1521.792,977.72 C1521.792,977.76 1521.824,977.792 1521.864,977.792 L1527.312,977.792 C1527.352,977.792 1527.384,977.76 1527.384,977.72 L1527.384,977.072 C1527.384,977.032 1527.376,976.96 1527.36,976.92 L1525.008,971.472 C1524.992,971.432 1524.952,971.4 1524.904,971.4 L1524.256,971.4 M1524.2,973.8 L1525,973.8 L1525,975.4 L1524.2,975.4 L1524.2,973.8 M1524.2,976.2 L1525,976.2 L1525,977 L1524.2,977 L1524.2,976.2 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="126.4" x="1531.4" y="978.0906">Open API Spec and Swagger</text></g><!--MD5=[44eeb75dd65091c7f3b70de1227b2140]
+entity apita--><g id="elem_apita"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="79.2" x="1566.4" y="1016.525"/><path d="M1570.8,1023.8 L1570.8,1029.4 L1576.4,1029.4 L1576.4,1026.528 L1575.6,1027.328 L1575.6,1028.6 L1571.6,1028.6 L1571.6,1024.6 L1574.472,1024.6 L1575.272,1023.8 L1570.8,1023.8 M1576.4,1023.8 L1574,1026.2 L1573.2,1025.4 L1572.4,1026.2 L1574,1027.8 L1577.2,1024.6 L1576.4,1023.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="61.2" x="1580.4" y="1030.4906">Authentication</text></g><!--MD5=[d41eb035f07c86b580ef168d5fe0a351]
+entity apitatc--><g id="elem_apitatc"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="77.2" x="1716.2" y="1016.525"/><path d="M1723.072,1023.8 C1723.024,1023.8 1722.992,1023.832 1722.968,1023.872 L1720.616,1029.32 C1720.6,1029.36 1720.592,1029.424 1720.592,1029.472 L1720.592,1030.12 C1720.592,1030.16 1720.624,1030.192 1720.664,1030.192 L1726.112,1030.192 C1726.152,1030.192 1726.184,1030.16 1726.184,1030.12 L1726.184,1029.472 C1726.184,1029.432 1726.176,1029.36 1726.16,1029.32 L1723.808,1023.872 C1723.792,1023.832 1723.752,1023.8 1723.704,1023.8 L1723.056,1023.8 M1723,1026.2 L1723.8,1026.2 L1723.8,1027.8 L1723,1027.8 L1723,1026.2 M1723,1028.6 L1723.8,1028.6 L1723.8,1029.4 L1723,1029.4 L1723,1028.6 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="59.2" x="1730.2" y="1030.4906">Cookie Based</text></g><!--MD5=[c41f007948cf89615210e26c5b3575bf]
+entity apitato--><g id="elem_apitato"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="45.6" x="1732" y="1074.925"/><path d="M1736.4,1082.2 L1736.4,1087.8 L1742,1087.8 L1742,1084.928 L1741.2,1085.728 L1741.2,1087 L1737.2,1087 L1737.2,1083 L1740.072,1083 L1740.872,1082.2 L1736.4,1082.2 M1742,1082.2 L1739.6,1084.6 L1738.8,1083.8 L1738,1084.6 L1739.6,1086.2 L1742.8,1083 L1742,1082.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="27.6" x="1746" y="1088.8906">OAuth</text></g><!--MD5=[7f81409b3c52a8ec00eab8431e827304]
+entity apitatb--><g id="elem_apitatb"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="105.2" x="1702.2" y="1118.925"/><path d="M1706.6,1126.2 L1706.6,1131.8 L1712.2,1131.8 L1712.2,1128.928 L1711.4,1129.728 L1711.4,1131 L1707.4,1131 L1707.4,1127 L1710.272,1127 L1711.072,1126.2 L1706.6,1126.2 M1712.2,1126.2 L1709.8,1128.6 L1709,1127.8 L1708.2,1128.6 L1709.8,1130.2 L1713,1127 L1712.2,1126.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="87.2" x="1716.2" y="1132.8906">Basic Authentication</text></g><!--MD5=[6a7bac699f4899a54d680ad53e818747]
+entity apitatt--><g id="elem_apitatt"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="108.4" x="1700.6" y="1162.925"/><path d="M1705,1170.2 L1705,1175.8 L1710.6,1175.8 L1710.6,1172.928 L1709.8,1173.728 L1709.8,1175 L1705.8,1175 L1705.8,1171 L1708.672,1171 L1709.472,1170.2 L1705,1170.2 M1710.6,1170.2 L1708.2,1172.6 L1707.4,1171.8 L1706.6,1172.6 L1708.2,1174.2 L1711.4,1171 L1710.6,1170.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="90.4" x="1714.6" y="1176.8906">Token Authentication</text></g><!--MD5=[6a6ffebf8a2c02b9c9d122898161b2d1]
+entity apitatj--><g id="elem_apitatj"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="37.6" x="1736" y="1206.925"/><path d="M1740.4,1214.2 L1740.4,1219.8 L1746,1219.8 L1746,1216.928 L1745.2,1217.728 L1745.2,1219 L1741.2,1219 L1741.2,1215 L1744.072,1215 L1744.872,1214.2 L1740.4,1214.2 M1746,1214.2 L1743.6,1216.6 L1742.8,1215.8 L1742,1216.6 L1743.6,1218.2 L1746.8,1215 L1746,1214.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="19.6" x="1750" y="1220.8906">JWT</text></g><!--MD5=[f900bfc19ad6bdbdf5017c6233bc72d5]
+entity apitati--><g id="elem_apitati"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="51.2" x="1729.2" y="1250.925"/><path d="M1736.072,1258.2 C1736.024,1258.2 1735.992,1258.232 1735.968,1258.272 L1733.616,1263.72 C1733.6,1263.76 1733.592,1263.824 1733.592,1263.872 L1733.592,1264.52 C1733.592,1264.56 1733.624,1264.592 1733.664,1264.592 L1739.112,1264.592 C1739.152,1264.592 1739.184,1264.56 1739.184,1264.52 L1739.184,1263.872 C1739.184,1263.832 1739.176,1263.76 1739.16,1263.72 L1736.808,1258.272 C1736.792,1258.232 1736.752,1258.2 1736.704,1258.2 L1736.056,1258.2 M1736,1260.6 L1736.8,1260.6 L1736.8,1262.2 L1736,1262.2 L1736,1260.6 M1736,1263 L1736.8,1263 L1736.8,1263.8 L1736,1263.8 L1736,1263 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="33.2" x="1743.2" y="1264.8906">OpenID</text></g><!--MD5=[c9dc98acd79d4f80c6d95b40aa1b5a03]
+entity apitats--><g id="elem_apitats"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="43.2" x="1733.2" y="1324.725"/><path d="M1740.072,1332 C1740.024,1332 1739.992,1332.032 1739.968,1332.072 L1737.616,1337.52 C1737.6,1337.56 1737.592,1337.624 1737.592,1337.672 L1737.592,1338.32 C1737.592,1338.36 1737.624,1338.392 1737.664,1338.392 L1743.112,1338.392 C1743.152,1338.392 1743.184,1338.36 1743.184,1338.32 L1743.184,1337.672 C1743.184,1337.632 1743.176,1337.56 1743.16,1337.52 L1740.808,1332.072 C1740.792,1332.032 1740.752,1332 1740.704,1332 L1740.056,1332 M1740,1334.4 L1740.8,1334.4 L1740.8,1336 L1740,1336 L1740,1334.4 M1740,1336.8 L1740.8,1336.8 L1740.8,1337.6 L1740,1337.6 L1740,1336.8 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="25.2" x="1747.2" y="1338.6906">SAML</text></g><!--MD5=[6377be883f12643b62e189b60fe92e84]
+entity ch--><g id="elem_ch"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="46" x="963.8" y="722.125"/><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="38" x="967.8" y="733.2906">Caching</text></g><!--MD5=[09d74a3b0414459b596888194987f9f7]
+entity chd--><g id="elem_chd"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="38.4" x="911.2" y="719.325"/><path d="M915.6,726.6 L915.6,732.2 L921.2,732.2 L921.2,729.328 L920.4,730.128 L920.4,731.4 L916.4,731.4 L916.4,727.4 L919.272,727.4 L920.072,726.6 L915.6,726.6 M921.2,726.6 L918.8,729 L918,728.2 L917.2,729 L918.8,730.6 L922,727.4 L921.2,726.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="20.4" x="925.2" y="733.2906">CDN</text></g><!--MD5=[8be9e3cf38c330839422b29693726c4a]
+entity chs--><g id="elem_chs"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="57.6" x="958" y="769.325"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="49.6" x="962" y="783.2906">Server Side</text></g><!--MD5=[5e26178faaec5e1a6f8df0664a1b8cb4]
+entity chsr--><g id="elem_chsr"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="42.4" x="903.2" y="821.725"/><path d="M907.6,829 L907.6,834.6 L913.2,834.6 L913.2,831.728 L912.4,832.528 L912.4,833.8 L908.4,833.8 L908.4,829.8 L911.272,829.8 L912.072,829 L907.6,829 M913.2,829 L910.8,831.4 L910,830.6 L909.2,831.4 L910.8,833 L914,829.8 L913.2,829 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="24.4" x="917.2" y="835.6906">Redis</text></g><!--MD5=[d8677d84a524d878d79dd61db2cd12f6]
+entity chsm--><g id="elem_chsm"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="70" x="959.8" y="821.725"/><path d="M969.328,829 L968.776,829.576 L966.552,831.8 L965.904,831.176 L965.328,830.6 L964.2,831.728 L964.776,832.304 L965.976,833.504 L966.528,834.08 L967.104,833.504 L969.904,830.704 L970.48,830.128 L969.328,829 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="52" x="973.8" y="835.6906">Memcached</text></g><!--MD5=[5775f7dcb15ce996972530c2b34d4d96]
+entity chc--><g id="elem_chc"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="64.8" x="954.4" y="619.525"/><path d="M958.8,626.8 L958.8,632.4 L964.4,632.4 L964.4,629.528 L963.6,630.328 L963.6,631.6 L959.6,631.6 L959.6,627.6 L962.472,627.6 L963.272,626.8 L958.8,626.8 M964.4,626.8 L962,629.2 L961.2,628.4 L960.4,629.2 L962,630.8 L965.2,627.6 L964.4,626.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="46.8" x="968.4" y="633.4906">Client Side</text></g><!--MD5=[25fdbc256ceb9e3bdcb330150c9533c0]
+entity sec--><g id="elem_sec"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="123.2" x="529.6" y="772.125"/><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="115.2" x="533.6" y="783.2906">Web Security Knowledge</text></g><!--MD5=[bfe287766aa20a6c0724101822574f97]
+entity sechm--><g id="elem_sechm"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="130" x="357.4" y="719.325"/><path d="M361.8,726.6 L361.8,732.2 L367.4,732.2 L367.4,729.328 L366.6,730.128 L366.6,731.4 L362.6,731.4 L362.6,727.4 L365.472,727.4 L366.272,726.6 L361.8,726.6 M367.4,726.6 L365,729 L364.2,728.2 L363.4,729 L365,730.6 L368.2,727.4 L367.4,726.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="112" x="371.4" y="733.2906">MD5 and why not to use it</text></g><!--MD5=[32da377017197b55e2217fc648a58ecd]
+entity sechf--><g id="elem_sechf"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="68.4" x="388.2" y="769.325"/><path d="M392.6,776.6 L392.6,782.2 L398.2,782.2 L398.2,779.328 L397.4,780.128 L397.4,781.4 L393.4,781.4 L393.4,777.4 L396.272,777.4 L397.072,776.6 L392.6,776.6 M398.2,776.6 L395.8,779 L395,778.2 L394.2,779 L395.8,780.6 L399,777.4 L398.2,776.6 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="50.4" x="402.2" y="783.2906">SHA Family</text></g><!--MD5=[dcbb728f89d8cef64aa7f80b6e088678]
+entity sechb--><g id="elem_sechb"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="44.8" x="400" y="821.725"/><path d="M404.4,829 L404.4,834.6 L410,834.6 L410,831.728 L409.2,832.528 L409.2,833.8 L405.2,833.8 L405.2,829.8 L408.072,829.8 L408.872,829 L404.4,829 M410,829 L407.6,831.4 L406.8,830.6 L406,831.4 L407.6,833 L410.8,829.8 L410,829 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="26.8" x="414" y="835.6906">bcrypt</text></g><!--MD5=[e7e3e3bb6725e927d7c70a34382c4b0c]
+entity sechs--><g id="elem_sechs"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="44" x="400.4" y="865.725"/><path d="M404.8,873 L404.8,878.6 L410.4,878.6 L410.4,875.728 L409.6,876.528 L409.6,877.8 L405.6,877.8 L405.6,873.8 L408.472,873.8 L409.272,873 L404.8,873 M410.4,873 L408,875.4 L407.2,874.6 L406.4,875.4 L408,877 L411.2,873.8 L410.4,873 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="26" x="414.4" y="879.6906">scrypt</text></g><!--MD5=[955dbae4562dd8fc45ab9f383bfa913d]
+entity secth--><g id="elem_secth"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="48.8" x="568.4" y="821.725"/><path d="M572.8,829 L572.8,834.6 L578.4,834.6 L578.4,831.728 L577.6,832.528 L577.6,833.8 L573.6,833.8 L573.6,829.8 L576.472,829.8 L577.272,829 L572.8,829 M578.4,829 L576,831.4 L575.2,830.6 L574.4,831.4 L576,833 L579.2,829.8 L578.4,829 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="30.8" x="582.4" y="835.6906">HTTPS</text></g><!--MD5=[9a9b499aab4902af94e832100ae2e7ac]
+entity sectc--><g id="elem_sectc"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="45.6" x="570" y="865.725"/><path d="M574.4,873 L574.4,878.6 L580,878.6 L580,875.728 L579.2,876.528 L579.2,877.8 L575.2,877.8 L575.2,873.8 L578.072,873.8 L578.872,873 L574.4,873 M580,873 L577.6,875.4 L576.8,874.6 L576,875.4 L577.6,877 L580.8,873.8 L580,873 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="27.6" x="584" y="879.6906">CORS</text></g><!--MD5=[0ef088198358f0c5681952d24f14fbdc]
+entity sectp--><g id="elem_sectp"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="118" x="533.8" y="911.725"/><path d="M538.2,919 L538.2,924.6 L543.8,924.6 L543.8,921.728 L543,922.528 L543,923.8 L539,923.8 L539,919.8 L541.872,919.8 L542.672,919 L538.2,919 M543.8,919 L541.4,921.4 L540.6,920.6 L539.8,921.4 L541.4,923 L544.6,919.8 L543.8,919 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="100" x="547.8" y="925.6906">Content Security Policy</text></g><!--MD5=[44ace977bcbc98984cedbfb4e1ae2f44]
+entity sects--><g id="elem_sects"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="56" x="564.8" y="964.125"/><path d="M569.2,971.4 L569.2,977 L574.8,977 L574.8,974.128 L574,974.928 L574,976.2 L570,976.2 L570,972.2 L572.872,972.2 L573.672,971.4 L569.2,971.4 M574.8,971.4 L572.4,973.8 L571.6,973 L570.8,973.8 L572.4,975.4 L575.6,972.2 L574.8,971.4 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="38" x="578.8" y="978.0906">SSL/TLS</text></g><!--MD5=[72cbfedb0317386f252e5224c245d369]
+entity sectr--><g id="elem_sectr"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="117.2" x="534.2" y="1016.525"/><path d="M538.6,1023.8 L538.6,1029.4 L544.2,1029.4 L544.2,1026.528 L543.4,1027.328 L543.4,1028.6 L539.4,1028.6 L539.4,1024.6 L542.272,1024.6 L543.072,1023.8 L538.6,1023.8 M544.2,1023.8 L541.8,1026.2 L541,1025.4 L540.2,1026.2 L541.8,1027.8 L545,1024.6 L544.2,1023.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="99.2" x="548.2" y="1030.4906">OWASP Security Risks</text></g><!--MD5=[756836afb12381c9b07785d88c911616]
+entity tst--><g id="elem_tst"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="42.4" x="778.4" y="824.525"/><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="34.4" x="782.4" y="835.6906">Testing</text></g><!--MD5=[68c5379064a0fcf379d42e1744151f49]
+entity tsti--><g id="elem_tsti"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="63.6" x="767.8" y="865.725"/><path d="M772.2,873 L772.2,878.6 L777.8,878.6 L777.8,875.728 L777,876.528 L777,877.8 L773,877.8 L773,873.8 L775.872,873.8 L776.672,873 L772.2,873 M777.8,873 L775.4,875.4 L774.6,874.6 L773.8,875.4 L775.4,877 L778.6,873.8 L777.8,873 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="45.6" x="781.8" y="879.6906">Integration</text></g><!--MD5=[260d05cfd0a50f27ff03891913f1959c]
+entity tstu--><g id="elem_tstu"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="35.2" x="845.6" y="865.725"/><path d="M850,873 L850,878.6 L855.6,878.6 L855.6,875.728 L854.8,876.528 L854.8,877.8 L850.8,877.8 L850.8,873.8 L853.672,873.8 L854.472,873 L850,873 M855.6,873 L853.2,875.4 L852.4,874.6 L851.6,875.4 L853.2,877 L856.4,873.8 L855.6,873 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="17.2" x="859.6" y="879.6906">Unit</text></g><!--MD5=[f3d00403d8de6c604b435581895d0b41]
+entity tstf--><g id="elem_tstf"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="63.2" x="690.4" y="865.725"/><path d="M694.8,873 L694.8,878.6 L700.4,878.6 L700.4,875.728 L699.6,876.528 L699.6,877.8 L695.6,877.8 L695.6,873.8 L698.472,873.8 L699.272,873 L694.8,873 M700.4,873 L698,875.4 L697.2,874.6 L696.4,875.4 L698,877 L701.2,873.8 L700.4,873 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="45.2" x="704.4" y="879.6906">Functional</text></g><!--MD5=[51ee6e5b77fe0bd6a63bcde4ad3e24c8]
+entity cid--><g id="elem_cid"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="49.6" x="1052.4" y="868.525"/><path d="M1056.8,873 L1056.8,878.6 L1062.4,878.6 L1062.4,875.728 L1061.6,876.528 L1061.6,877.8 L1057.6,877.8 L1057.6,873.8 L1060.472,873.8 L1061.272,873 L1056.8,873 M1062.4,873 L1060,875.4 L1059.2,874.6 L1058.4,875.4 L1060,877 L1063.2,873.8 L1062.4,873 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#008080" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="1063.6" y="879.6906"> </text><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="31.6" x="1066.4" y="879.6906">CI / CD</text></g><!--MD5=[649a884fad326d7735e1f46386541ed3]
+entity ddp--><g id="elem_ddp"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="171.6" x="1140.6" y="914.525"/><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="163.6" x="1144.6" y="925.6906">Design and Development Principles</text></g><!--MD5=[ddba33c8ec5a0146b86f730f2cdb8dc4]
+entity ddppg--><g id="elem_ddppg"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="110.8" x="1178.2" y="964.125"/><path d="M1185.072,971.4 C1185.024,971.4 1184.992,971.432 1184.968,971.472 L1182.616,976.92 C1182.6,976.96 1182.592,977.024 1182.592,977.072 L1182.592,977.72 C1182.592,977.76 1182.624,977.792 1182.664,977.792 L1188.112,977.792 C1188.152,977.792 1188.184,977.76 1188.184,977.72 L1188.184,977.072 C1188.184,977.032 1188.176,976.96 1188.16,976.92 L1185.808,971.472 C1185.792,971.432 1185.752,971.4 1185.704,971.4 L1185.056,971.4 M1185,973.8 L1185.8,973.8 L1185.8,975.4 L1185,975.4 L1185,973.8 M1185,976.2 L1185.8,976.2 L1185.8,977 L1185,977 L1185,976.2 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="92.8" x="1192.2" y="978.0906">GOF Design Patterns</text></g><!--MD5=[d98d2307068c89474ee80bb809cbf039]
+entity ddpp3--><g id="elem_ddpp3"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="113.6" x="1176.8" y="1016.525"/><path d="M1183.672,1023.8 C1183.624,1023.8 1183.592,1023.832 1183.568,1023.872 L1181.216,1029.32 C1181.2,1029.36 1181.192,1029.424 1181.192,1029.472 L1181.192,1030.12 C1181.192,1030.16 1181.224,1030.192 1181.264,1030.192 L1186.712,1030.192 C1186.752,1030.192 1186.784,1030.16 1186.784,1030.12 L1186.784,1029.472 C1186.784,1029.432 1186.776,1029.36 1186.76,1029.32 L1184.408,1023.872 C1184.392,1023.832 1184.352,1023.8 1184.304,1023.8 L1183.656,1023.8 M1183.6,1026.2 L1184.4,1026.2 L1184.4,1027.8 L1183.6,1027.8 L1183.6,1026.2 M1183.6,1028.6 L1184.4,1028.6 L1184.4,1029.4 L1183.6,1029.4 L1183.6,1028.6 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="95.6" x="1190.8" y="1030.4906">Domain Driven Design</text></g><!--MD5=[6460eaff7685350321b1c00d8e76ebd8]
+entity ddppt--><g id="elem_ddppt"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="125.6" x="1170.8" y="1074.925"/><path d="M1177.672,1082.2 C1177.624,1082.2 1177.592,1082.232 1177.568,1082.272 L1175.216,1087.72 C1175.2,1087.76 1175.192,1087.824 1175.192,1087.872 L1175.192,1088.52 C1175.192,1088.56 1175.224,1088.592 1175.264,1088.592 L1180.712,1088.592 C1180.752,1088.592 1180.784,1088.56 1180.784,1088.52 L1180.784,1087.872 C1180.784,1087.832 1180.776,1087.76 1180.76,1087.72 L1178.408,1082.272 C1178.392,1082.232 1178.352,1082.2 1178.304,1082.2 L1177.656,1082.2 M1177.6,1084.6 L1178.4,1084.6 L1178.4,1086.2 L1177.6,1086.2 L1177.6,1084.6 M1177.6,1087 L1178.4,1087 L1178.4,1087.8 L1177.6,1087.8 L1177.6,1087 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="107.6" x="1184.8" y="1088.8906">Test Driven Development</text></g><!--MD5=[b2be98a1b47d5e29255f64714c507109]
+entity ddpps--><g id="elem_ddpps"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="46.4" x="1210.4" y="1118.925"/><path d="M1214.8,1126.2 L1214.8,1131.8 L1220.4,1131.8 L1220.4,1128.928 L1219.6,1129.728 L1219.6,1131 L1215.6,1131 L1215.6,1127 L1218.472,1127 L1219.272,1126.2 L1214.8,1126.2 M1220.4,1126.2 L1218,1128.6 L1217.2,1127.8 L1216.4,1128.6 L1218,1130.2 L1221.2,1127 L1220.4,1126.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="28.4" x="1224.4" y="1132.8906">SOLID</text></g><!--MD5=[d228d4d3dda144259702c32300e53953]
+entity ddppk--><g id="elem_ddppk"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="39.6" x="1213.8" y="1162.925"/><path d="M1218.2,1170.2 L1218.2,1175.8 L1223.8,1175.8 L1223.8,1172.928 L1223,1173.728 L1223,1175 L1219,1175 L1219,1171 L1221.872,1171 L1222.672,1170.2 L1218.2,1170.2 M1223.8,1170.2 L1221.4,1172.6 L1220.6,1171.8 L1219.8,1172.6 L1221.4,1174.2 L1224.6,1171 L1223.8,1170.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="21.6" x="1227.8" y="1176.8906">KISS</text></g><!--MD5=[0f23227944d9485a00d34e09c6655eb2]
+entity ddppy--><g id="elem_ddppy"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="47.2" x="1210" y="1206.925"/><path d="M1214.4,1214.2 L1214.4,1219.8 L1220,1219.8 L1220,1216.928 L1219.2,1217.728 L1219.2,1219 L1215.2,1219 L1215.2,1215 L1218.072,1215 L1218.872,1214.2 L1214.4,1214.2 M1220,1214.2 L1217.6,1216.6 L1216.8,1215.8 L1216,1216.6 L1217.6,1218.2 L1220.8,1215 L1220,1214.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="29.2" x="1224" y="1220.8906">YAGNI</text></g><!--MD5=[8ef550a1d2e0318fc0438f54f511fe31]
+entity ddppd--><g id="elem_ddppd"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="38" x="1214.6" y="1250.925"/><path d="M1219,1258.2 L1219,1263.8 L1224.6,1263.8 L1224.6,1260.928 L1223.8,1261.728 L1223.8,1263 L1219.8,1263 L1219.8,1259 L1222.672,1259 L1223.472,1258.2 L1219,1258.2 M1224.6,1258.2 L1222.2,1260.6 L1221.4,1259.8 L1220.6,1260.6 L1222.2,1262.2 L1225.4,1259 L1224.6,1258.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="20" x="1228.6" y="1264.8906">DRY</text></g><!--MD5=[0fba388da8b3b698c72ab7ee9bfda447]
+entity ap--><g id="elem_ap"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="107.6" x="1341.4" y="966.925"/><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="99.6" x="1345.4" y="978.0906">Architectural Patterns</text></g><!--MD5=[15e6858dcc45627a9bd9b402a85f2b9d]
+entity apn--><g id="elem_apn"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="86" x="1353" y="1016.525"/><path d="M1357.4,1023.8 L1357.4,1029.4 L1363,1029.4 L1363,1026.528 L1362.2,1027.328 L1362.2,1028.6 L1358.2,1028.6 L1358.2,1024.6 L1361.072,1024.6 L1361.872,1023.8 L1357.4,1023.8 M1363,1023.8 L1360.6,1026.2 L1359.8,1025.4 L1359,1026.2 L1360.6,1027.8 L1363.8,1024.6 L1363,1023.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="68" x="1367" y="1030.4906">Monolithic Apps</text></g><!--MD5=[fa5c2200e12f7f5601ad3888eecae109]
+entity apm--><g id="elem_apm"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="75.2" x="1360" y="1074.925"/><path d="M1364.4,1082.2 L1364.4,1087.8 L1370,1087.8 L1370,1084.928 L1369.2,1085.728 L1369.2,1087 L1365.2,1087 L1365.2,1083 L1368.072,1083 L1368.872,1082.2 L1364.4,1082.2 M1370,1082.2 L1367.6,1084.6 L1366.8,1083.8 L1366,1084.6 L1367.6,1086.2 L1370.8,1083 L1370,1082.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="57.2" x="1374" y="1088.8906">Microservices</text></g><!--MD5=[30e8520c98251ed9f9a926a18731cb7e]
+entity aps--><g id="elem_aps"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="38" x="1381.8" y="1118.925"/><path d="M1386.2,1126.2 L1386.2,1131.8 L1391.8,1131.8 L1391.8,1128.928 L1391,1129.728 L1391,1131 L1387,1131 L1387,1127 L1389.872,1127 L1390.672,1126.2 L1386.2,1126.2 M1391.8,1126.2 L1389.4,1128.6 L1388.6,1127.8 L1387.8,1128.6 L1389.4,1130.2 L1392.6,1127 L1391.8,1126.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="20" x="1395.8" y="1132.8906">SOA</text></g><!--MD5=[64045bc8659f6176c63a980af581be8b]
+entity apc--><g id="elem_apc"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="133.2" x="1335" y="1162.925"/><path d="M1341.872,1170.2 C1341.824,1170.2 1341.792,1170.232 1341.768,1170.272 L1339.416,1175.72 C1339.4,1175.76 1339.392,1175.824 1339.392,1175.872 L1339.392,1176.52 C1339.392,1176.56 1339.424,1176.592 1339.464,1176.592 L1344.912,1176.592 C1344.952,1176.592 1344.984,1176.56 1344.984,1176.52 L1344.984,1175.872 C1344.984,1175.832 1344.976,1175.76 1344.96,1175.72 L1342.608,1170.272 C1342.592,1170.232 1342.552,1170.2 1342.504,1170.2 L1341.856,1170.2 M1341.8,1172.6 L1342.6,1172.6 L1342.6,1174.2 L1341.8,1174.2 L1341.8,1172.6 M1341.8,1175 L1342.6,1175 L1342.6,1175.8 L1341.8,1175.8 L1341.8,1175 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="115.2" x="1349" y="1176.8906">CQRS and Event Sourcing</text></g><!--MD5=[f380087c5cad248df71067474de9d86e]
+entity apl--><g id="elem_apl"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="62.8" x="1370.2" y="1206.925"/><path d="M1374.6,1214.2 L1374.6,1219.8 L1380.2,1219.8 L1380.2,1216.928 L1379.4,1217.728 L1379.4,1219 L1375.4,1219 L1375.4,1215 L1378.272,1215 L1379.072,1214.2 L1374.6,1214.2 M1380.2,1214.2 L1377.8,1216.6 L1377,1215.8 L1376.2,1216.6 L1377.8,1218.2 L1381,1215 L1380.2,1214.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="44.8" x="1384.2" y="1220.8906">Serverless</text></g><!--MD5=[051be2fd78f954f5152ae04633b10bc0]
+entity se--><g id="elem_se"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="80" x="690.4" y="966.925"/><text fill="#FF69B4" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="72" x="694.4" y="978.0906">Search Engines</text></g><!--MD5=[4a78fee18f20071e925c89b532644f66]
+entity see--><g id="elem_see"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="75.2" x="692.8" y="1016.525"/><path d="M697.2,1023.8 L697.2,1029.4 L702.8,1029.4 L702.8,1026.528 L702,1027.328 L702,1028.6 L698,1028.6 L698,1024.6 L700.872,1024.6 L701.672,1023.8 L697.2,1023.8 M702.8,1023.8 L700.4,1026.2 L699.6,1025.4 L698.8,1026.2 L700.4,1027.8 L703.6,1024.6 L702.8,1023.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="57.2" x="706.8" y="1030.4906">Elasticsearch</text></g><!--MD5=[c6e052fbafbdad81e4a7f36c0e098467]
+entity ses--><g id="elem_ses"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="35.2" x="712.8" y="1074.925"/><path d="M722.328,1082.2 L721.776,1082.776 L719.552,1085 L718.904,1084.376 L718.328,1083.8 L717.2,1084.928 L717.776,1085.504 L718.976,1086.704 L719.528,1087.28 L720.104,1086.704 L722.904,1083.904 L723.48,1083.328 L722.328,1082.2 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="17.2" x="726.8" y="1088.8906">Solr</text></g><!--MD5=[7c31de3ec12a3935d139f388f86a067b]
+entity mb--><g id="elem_mb"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="96.8" x="836" y="1019.325"/><path d="M842.872,1023.8 C842.824,1023.8 842.792,1023.832 842.768,1023.872 L840.416,1029.32 C840.4,1029.36 840.392,1029.424 840.392,1029.472 L840.392,1030.12 C840.392,1030.16 840.424,1030.192 840.464,1030.192 L845.912,1030.192 C845.952,1030.192 845.984,1030.16 845.984,1030.12 L845.984,1029.472 C845.984,1029.432 845.976,1029.36 845.96,1029.32 L843.608,1023.872 C843.592,1023.832 843.552,1023.8 843.504,1023.8 L842.856,1023.8 M842.8,1026.2 L843.6,1026.2 L843.6,1027.8 L842.8,1027.8 L842.8,1026.2 M842.8,1028.6 L843.6,1028.6 L843.6,1029.4 L842.8,1029.4 L842.8,1028.6 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FF69B4" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="847.2" y="1030.4906"> </text><text fill="#FF69B4" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="78.8" x="850" y="1030.4906">Message Brokers</text></g><!--MD5=[7f2fd279b9ef9c71ba3ad70e0e8e96bd]
+entity mbr--><g id="elem_mbr"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="71.2" x="1003.2" y="1016.525"/><path d="M1007.6,1023.8 L1007.6,1029.4 L1013.2,1029.4 L1013.2,1026.528 L1012.4,1027.328 L1012.4,1028.6 L1008.4,1028.6 L1008.4,1024.6 L1011.272,1024.6 L1012.072,1023.8 L1007.6,1023.8 M1013.2,1023.8 L1010.8,1026.2 L1010,1025.4 L1009.2,1026.2 L1010.8,1027.8 L1014,1024.6 L1013.2,1023.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="1014.4" y="1030.4906"> </text><path d="M1020.072,1023.8 C1020.024,1023.8 1019.992,1023.832 1019.968,1023.872 L1017.616,1029.32 C1017.6,1029.36 1017.592,1029.424 1017.592,1029.472 L1017.592,1030.12 C1017.592,1030.16 1017.624,1030.192 1017.664,1030.192 L1023.112,1030.192 C1023.152,1030.192 1023.184,1030.16 1023.184,1030.12 L1023.184,1029.472 C1023.184,1029.432 1023.176,1029.36 1023.16,1029.32 L1020.808,1023.872 C1020.792,1023.832 1020.752,1023.8 1020.704,1023.8 L1020.056,1023.8 M1020,1026.2 L1020.8,1026.2 L1020.8,1027.8 L1020,1027.8 L1020,1026.2 M1020,1028.6 L1020.8,1028.6 L1020.8,1029.4 L1020,1029.4 L1020,1028.6 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="43.2" x="1027.2" y="1030.4906">RabbitMQ</text></g><!--MD5=[b4233b00ebb84baa2f1a610e91caf8f8]
+entity mbk--><g id="elem_mbk"><rect fill="#ADD8E6" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="42.4" x="946.8" y="1016.525"/><path d="M956.328,1023.8 L955.776,1024.376 L953.552,1026.6 L952.904,1025.976 L952.328,1025.4 L951.2,1026.528 L951.776,1027.104 L952.976,1028.304 L953.528,1028.88 L954.104,1028.304 L956.904,1025.504 L957.48,1024.928 L956.328,1023.8 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="24.4" x="960.8" y="1030.4906">Kafka</text></g><!--MD5=[6a310a3e99d6016a148bf5e7a91da69e]
+entity cv--><g id="elem_cv"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="170.4" x="947.6" y="1077.725"/><path d="M954.472,1082.2 C954.424,1082.2 954.392,1082.232 954.368,1082.272 L952.016,1087.72 C952,1087.76 951.992,1087.824 951.992,1087.872 L951.992,1088.52 C951.992,1088.56 952.024,1088.592 952.064,1088.592 L957.512,1088.592 C957.552,1088.592 957.584,1088.56 957.584,1088.52 L957.584,1087.872 C957.584,1087.832 957.576,1087.76 957.56,1087.72 L955.208,1082.272 C955.192,1082.232 955.152,1082.2 955.104,1082.2 L954.456,1082.2 M954.4,1084.6 L955.2,1084.6 L955.2,1086.2 L954.4,1086.2 L954.4,1084.6 M954.4,1087 L955.2,1087 L955.2,1087.8 L954.4,1087.8 L954.4,1087 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#008080" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="958.8" y="1088.8906"> </text><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="152.4" x="961.6" y="1088.8906">Containerization vs Virtualization</text></g><!--MD5=[95aa8e5ae481ff7f5b29f10b28008e65]
+entity cvd--><g id="elem_cvd"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="48" x="885.6" y="1074.925"/><path d="M890,1082.2 L890,1087.8 L895.6,1087.8 L895.6,1084.928 L894.8,1085.728 L894.8,1087 L890.8,1087 L890.8,1083 L893.672,1083 L894.472,1082.2 L890,1082.2 M895.6,1082.2 L893.2,1084.6 L892.4,1083.8 L891.6,1084.6 L893.2,1086.2 L896.4,1083 L895.6,1082.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="30" x="899.6" y="1088.8906">Docker</text></g><!--MD5=[403d1ff1c9e938ad5cdec8e600e73f84]
+entity cvr--><g id="elem_cvr"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="28.8" x="842.8" y="1074.925"/><path d="M850.4,1082.2 C848.64,1082.2 847.2,1083.64 847.2,1085.4 C847.2,1087.16 848.64,1088.6 850.4,1088.6 C852.16,1088.6 853.6,1087.16 853.6,1085.4 C853.6,1083.64 852.16,1082.2 850.4,1082.2 M850.4,1083 C850.928,1083 851.408,1083.168 851.8,1083.448 L848.448,1086.8 C848.168,1086.408 848,1085.928 848,1085.4 C848,1084.072 849.072,1083 850.4,1083 M852.352,1084 C852.632,1084.392 852.8,1084.872 852.8,1085.4 C852.8,1086.728 851.728,1087.8 850.4,1087.8 C849.872,1087.8 849.392,1087.632 849,1087.352 L852.352,1084 " fill="#FF0000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="10.8" x="856.8" y="1088.8906">rkt</text></g><!--MD5=[6677536e507dd7b42d80819d6faa0f36]
+entity cvl--><g id="elem_cvl"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="36" x="792.8" y="1074.925"/><path d="M800.4,1082.2 C798.64,1082.2 797.2,1083.64 797.2,1085.4 C797.2,1087.16 798.64,1088.6 800.4,1088.6 C802.16,1088.6 803.6,1087.16 803.6,1085.4 C803.6,1083.64 802.16,1082.2 800.4,1082.2 M800.4,1083 C800.928,1083 801.408,1083.168 801.8,1083.448 L798.448,1086.8 C798.168,1086.408 798,1085.928 798,1085.4 C798,1084.072 799.072,1083 800.4,1083 M802.352,1084 C802.632,1084.392 802.8,1084.872 802.8,1085.4 C802.8,1086.728 801.728,1087.8 800.4,1087.8 C799.872,1087.8 799.392,1087.632 799,1087.352 L802.352,1084 " fill="#FF0000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="18" x="806.8" y="1088.8906">LXC</text></g><!--MD5=[6fc64692c81f72c3ee56bba6f95c89bd]
+entity gql--><g id="elem_gql"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="59.6" x="992.2" y="1121.725"/><path d="M999.072,1126.2 C999.024,1126.2 998.992,1126.232 998.968,1126.272 L996.616,1131.72 C996.6,1131.76 996.592,1131.824 996.592,1131.872 L996.592,1132.52 C996.592,1132.56 996.624,1132.592 996.664,1132.592 L1002.112,1132.592 C1002.152,1132.592 1002.184,1132.56 1002.184,1132.52 L1002.184,1131.872 C1002.184,1131.832 1002.176,1131.76 1002.16,1131.72 L999.808,1126.272 C999.792,1126.232 999.752,1126.2 999.704,1126.2 L999.056,1126.2 M999,1128.6 L999.8,1128.6 L999.8,1130.2 L999,1130.2 L999,1128.6 M999,1131 L999.8,1131 L999.8,1131.8 L999,1131.8 L999,1131 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FF69B4" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="1003.4" y="1132.8906"> </text><text fill="#FF69B4" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="41.6" x="1006.2" y="1132.8906">GraphQL</text></g><!--MD5=[3b513dd2dbb05ee4d3875416b36a91eb]
+entity gqla--><g id="elem_gqla"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="44.8" x="981.6" y="1162.925"/><path d="M986,1170.2 L986,1175.8 L991.6,1175.8 L991.6,1172.928 L990.8,1173.728 L990.8,1175 L986.8,1175 L986.8,1171 L989.672,1171 L990.472,1170.2 L986,1170.2 M991.6,1170.2 L989.2,1172.6 L988.4,1171.8 L987.6,1172.6 L989.2,1174.2 L992.4,1171 L991.6,1170.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="26.8" x="995.6" y="1176.8906">Apollo</text></g><!--MD5=[396cfc6430b78f19f3cbbb15e08da010]
+entity gqlr--><g id="elem_gqlr"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="77.6" x="1040.4" y="1162.925"/><path d="M1049.928,1170.2 L1049.376,1170.776 L1047.152,1173 L1046.504,1172.376 L1045.928,1171.8 L1044.8,1172.928 L1045.376,1173.504 L1046.576,1174.704 L1047.128,1175.28 L1047.704,1174.704 L1050.504,1171.904 L1051.08,1171.328 L1049.928,1170.2 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="59.6" x="1054.4" y="1176.8906">Relay Modern</text></g><!--MD5=[6299834e04b5842dce21161e71f4d0b1]
+entity gdb--><g id="elem_gdb"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="96.4" x="862.6" y="1165.725"/><path d="M869.472,1170.2 C869.424,1170.2 869.392,1170.232 869.368,1170.272 L867.016,1175.72 C867,1175.76 866.992,1175.824 866.992,1175.872 L866.992,1176.52 C866.992,1176.56 867.024,1176.592 867.064,1176.592 L872.512,1176.592 C872.552,1176.592 872.584,1176.56 872.584,1176.52 L872.584,1175.872 C872.584,1175.832 872.576,1175.76 872.56,1175.72 L870.208,1170.272 C870.192,1170.232 870.152,1170.2 870.104,1170.2 L869.456,1170.2 M869.4,1172.6 L870.2,1172.6 L870.2,1174.2 L869.4,1174.2 L869.4,1172.6 M869.4,1175 L870.2,1175 L870.2,1175.8 L869.4,1175.8 L869.4,1175 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FF69B4" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="873.8" y="1176.8906"> </text><text fill="#FF69B4" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="78.4" x="876.6" y="1176.8906">Graph Databases</text></g><!--MD5=[33d96e013beeb8d44a07441a6040a733]
+entity gdbn--><g id="elem_gdbn"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="42.8" x="805.8" y="1162.925"/><path d="M812.672,1170.2 C812.624,1170.2 812.592,1170.232 812.568,1170.272 L810.216,1175.72 C810.2,1175.76 810.192,1175.824 810.192,1175.872 L810.192,1176.52 C810.192,1176.56 810.224,1176.592 810.264,1176.592 L815.712,1176.592 C815.752,1176.592 815.784,1176.56 815.784,1176.52 L815.784,1175.872 C815.784,1175.832 815.776,1175.76 815.76,1175.72 L813.408,1170.272 C813.392,1170.232 813.352,1170.2 813.304,1170.2 L812.656,1170.2 M812.6,1172.6 L813.4,1172.6 L813.4,1174.2 L812.6,1174.2 L812.6,1172.6 M812.6,1175 L813.4,1175 L813.4,1175.8 L812.6,1175.8 L812.6,1175 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="24.8" x="819.8" y="1176.8906">Neo4j</text></g><!--MD5=[a553ea6b86c8b64c5b1c3577d01d44d4]
+entity wsk--><g id="elem_wsk"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="74.8" x="873.4" y="1209.725"/><path d="M880.272,1214.2 C880.224,1214.2 880.192,1214.232 880.168,1214.272 L877.816,1219.72 C877.8,1219.76 877.792,1219.824 877.792,1219.872 L877.792,1220.52 C877.792,1220.56 877.824,1220.592 877.864,1220.592 L883.312,1220.592 C883.352,1220.592 883.384,1220.56 883.384,1220.52 L883.384,1219.872 C883.384,1219.832 883.376,1219.76 883.36,1219.72 L881.008,1214.272 C880.992,1214.232 880.952,1214.2 880.904,1214.2 L880.256,1214.2 M880.2,1216.6 L881,1216.6 L881,1218.2 L880.2,1218.2 L880.2,1216.6 M880.2,1219 L881,1219 L881,1219.8 L880.2,1219.8 L880.2,1219 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#008080" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="884.6" y="1220.8906"> </text><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="56.8" x="887.4" y="1220.8906">WebSockets</text></g><!--MD5=[f4fac300194884c33baf91f15fa65899]
+entity wsv--><g id="elem_wsv"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="75.6" x="873" y="1253.725"/><path d="M879.872,1258.2 C879.824,1258.2 879.792,1258.232 879.768,1258.272 L877.416,1263.72 C877.4,1263.76 877.392,1263.824 877.392,1263.872 L877.392,1264.52 C877.392,1264.56 877.424,1264.592 877.464,1264.592 L882.912,1264.592 C882.952,1264.592 882.984,1264.56 882.984,1264.52 L882.984,1263.872 C882.984,1263.832 882.976,1263.76 882.96,1263.72 L880.608,1258.272 C880.592,1258.232 880.552,1258.2 880.504,1258.2 L879.856,1258.2 M879.8,1260.6 L880.6,1260.6 L880.6,1262.2 L879.8,1262.2 L879.8,1260.6 M879.8,1263 L880.6,1263 L880.6,1263.8 L879.8,1263.8 L879.8,1263 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#008080" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="884.2" y="1264.8906"> </text><text fill="#008080" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="57.6" x="887" y="1264.8906">Web Servers</text></g><!--MD5=[5cceb6ab946798125c19589e7e7c9054]
+entity wsvn--><g id="elem_wsvn"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="52.4" x="1027.4" y="1250.925"/><path d="M1031.8,1258.2 L1031.8,1263.8 L1037.4,1263.8 L1037.4,1260.928 L1036.6,1261.728 L1036.6,1263 L1032.6,1263 L1032.6,1259 L1035.472,1259 L1036.272,1258.2 L1031.8,1258.2 M1037.4,1258.2 L1035,1260.6 L1034.2,1259.8 L1033.4,1260.6 L1035,1262.2 L1038.2,1259 L1037.4,1258.2 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="1038.6" y="1264.8906"> </text><path d="M1044.272,1258.2 C1044.224,1258.2 1044.192,1258.232 1044.168,1258.272 L1041.816,1263.72 C1041.8,1263.76 1041.792,1263.824 1041.792,1263.872 L1041.792,1264.52 C1041.792,1264.56 1041.824,1264.592 1041.864,1264.592 L1047.312,1264.592 C1047.352,1264.592 1047.384,1264.56 1047.384,1264.52 L1047.384,1263.872 C1047.384,1263.832 1047.376,1263.76 1047.36,1263.72 L1045.008,1258.272 C1044.992,1258.232 1044.952,1258.2 1044.904,1258.2 L1044.256,1258.2 M1044.2,1260.6 L1045,1260.6 L1045,1262.2 L1044.2,1262.2 L1044.2,1260.6 M1044.2,1263 L1045,1263 L1045,1263.8 L1044.2,1263.8 L1044.2,1263 " fill="#FF4500" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="24.4" x="1051.4" y="1264.8906">Nginx</text></g><!--MD5=[ee9af8e6edf37f9632314fdeba157888]
+entity wsva--><g id="elem_wsva"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="50.4" x="962.8" y="1250.925"/><path d="M972.328,1258.2 L971.776,1258.776 L969.552,1261 L968.904,1260.376 L968.328,1259.8 L967.2,1260.928 L967.776,1261.504 L968.976,1262.704 L969.528,1263.28 L970.104,1262.704 L972.904,1259.904 L973.48,1259.328 L972.328,1258.2 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="32.4" x="976.8" y="1264.8906">Apache</text></g><!--MD5=[62f11084907ca7d20d468faf86ae245d]
+entity wsvc--><g id="elem_wsvc"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="46" x="813" y="1250.925"/><path d="M822.528,1258.2 L821.976,1258.776 L819.752,1261 L819.104,1260.376 L818.528,1259.8 L817.4,1260.928 L817.976,1261.504 L819.176,1262.704 L819.728,1263.28 L820.304,1262.704 L823.104,1259.904 L823.68,1259.328 L822.528,1258.2 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="28" x="827" y="1264.8906">Caddy</text></g><!--MD5=[069a1c1289fcae2de76ed8ccc13a234a]
+entity wsvm--><g id="elem_wsvm"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="46" x="753" y="1250.925"/><path d="M762.528,1258.2 L761.976,1258.776 L759.752,1261 L759.104,1260.376 L758.528,1259.8 L757.4,1260.928 L757.976,1261.504 L759.176,1262.704 L759.728,1263.28 L760.304,1262.704 L763.104,1259.904 L763.68,1259.328 L762.528,1258.2 " fill="#008000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="28" x="767" y="1264.8906">MS IIS</text></g><!--MD5=[de4eeec964dbb4b42dc9b758e44f21bc]
+entity bfs--><g id="elem_bfs"><rect fill="#FFFF00" height="50.7" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="161.6" x="830" y="1309.325"/><path d="M834.4,1313.8 L834.4,1319.4 L840,1319.4 L840,1316.528 L839.2,1317.328 L839.2,1318.6 L835.2,1318.6 L835.2,1314.6 L838.072,1314.6 L838.872,1313.8 L834.4,1313.8 M840,1313.8 L837.6,1316.2 L836.8,1315.4 L836,1316.2 L837.6,1317.8 L840.8,1314.6 L840,1313.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="841.2" y="1320.4906"> </text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="82.4" x="844" y="1320.4906">Building for Scale</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="153.6" x="834" y="1332.5656">General topics that you should learn</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="151.6" x="834" y="1344.6406">and care about for the sustainability</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="61.2" x="834" y="1356.7156">of the product.</text></g><!--MD5=[c368815a3139931632a9af0ce5a0ba25]
+entity bfsm--><g id="elem_bfsm"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="103.2" x="1005.6" y="1324.725"/><path d="M1010,1332 L1010,1337.6 L1015.6,1337.6 L1015.6,1334.728 L1014.8,1335.528 L1014.8,1336.8 L1010.8,1336.8 L1010.8,1332.8 L1013.672,1332.8 L1014.472,1332 L1010,1332 M1015.6,1332 L1013.2,1334.4 L1012.4,1333.6 L1011.6,1334.4 L1013.2,1336 L1016.4,1332.8 L1015.6,1332 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="85.2" x="1019.6" y="1338.6906">Migration Strategies</text></g><!--MD5=[346a792bfa2e44ce6f8cc693eaa4a6bb]
+entity bfss--><g id="elem_bfss"><rect fill="#7CFC00" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="142.4" x="673.6" y="1324.725"/><path d="M678,1332 L678,1337.6 L683.6,1337.6 L683.6,1334.728 L682.8,1335.528 L682.8,1336.8 L678.8,1336.8 L678.8,1332.8 L681.672,1332.8 L682.472,1332 L678,1332 M683.6,1332 L681.2,1334.4 L680.4,1333.6 L679.6,1334.4 L681.2,1336 L684.4,1332.8 L683.6,1332 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="124.4" x="687.6" y="1338.6906">Horizontal vs Vertical Scaling</text></g><!--MD5=[2ab7a4ec3086b8e31fa17ab5b815a2b5]
+entity bfso--><g id="elem_bfso"><rect fill="#7CFC00" height="56.3" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="196.8" x="663.2" y="1384.525"/><path d="M667.6,1391.8 L667.6,1397.4 L673.2,1397.4 L673.2,1394.528 L672.4,1395.328 L672.4,1396.6 L668.4,1396.6 L668.4,1392.6 L671.272,1392.6 L672.072,1391.8 L667.6,1391.8 M673.2,1391.8 L670.8,1394.2 L670,1393.4 L669.2,1394.2 L670.8,1395.8 L674,1392.6 L673.2,1391.8 " fill="#4B0082" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="2.8" x="674.4" y="1398.4906"> </text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="162.4" x="677.2" y="1398.4906">Building with Observability in mind</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="182.8" x="667.2" y="1410.5656">Metrics logging and other observable items</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="188.8" x="667.2" y="1422.6406">that could help you in debugging and solving</text><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="137.6" x="667.2" y="1434.7156">the issues when things go wrong</text></g><!--MD5=[b918e7f9d4d856be227d67d5395f3bbf]
+entity bfstg--><g id="elem_bfstg"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="98.8" x="888.2" y="1402.725"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="90.8" x="892.2" y="1416.6906">Graceful Degradation</text></g><!--MD5=[c393bd595fa3eb17d46bb863198e3c6f]
+entity bfstt--><g id="elem_bfstt"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="48.4" x="913.4" y="1472.125"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="40.4" x="917.4" y="1486.0906">Throttling</text></g><!--MD5=[34c8c91b68f605ac34eaf999d7dfad40]
+entity bfstb--><g id="elem_bfstb"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="66" x="904.6" y="1523.325"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="58" x="908.6" y="1537.2906">Backpressure</text></g><!--MD5=[f3ae4fcf1981364c25a918a0987e6756]
+entity bfstl--><g id="elem_bfstl"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="59.6" x="907.8" y="1567.325"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="51.6" x="911.8" y="1581.2906">Loadshifting</text></g><!--MD5=[bf7f46bdf385274f34282a4a38a7fc6b]
+entity bfstc--><g id="elem_bfstc"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="71.6" x="901.8" y="1611.325"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="63.6" x="905.8" y="1625.2906">Circuit Breaker</text></g><!--MD5=[fd63ceba0e50028a216026d8d1f8af08]
+entity bfsdi--><g id="elem_bfsdi"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="73.6" x="1030" y="1402.725"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="65.6" x="1034" y="1416.6906">Instrumentation</text></g><!--MD5=[3f6a52b888e658203cc9d6f465c6f6e0]
+entity bfsdm--><g id="elem_bfsdm"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="52.8" x="1040.4" y="1472.125"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="44.8" x="1044.4" y="1486.0906">Monitoring</text></g><!--MD5=[0489939b93960a4e015b97573fbac624]
+entity bfsdt--><g id="elem_bfsdt"><rect fill="none" height="20.075" rx="7" ry="7" style="stroke:#181818;stroke-width:0.20000000000000004;" width="50.8" x="1041.4" y="1523.325"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="42.8" x="1045.4" y="1537.2906">Telemetry</text></g><!--MD5=[77b0ea1454fe7a7546e2e8ed5acd0c75]
+entity BE--><g id="elem_BE"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="45.6" x="1498" y="153.725"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="37.6" x="1502" y="164.8906">Backend</text></g><!--MD5=[c88a36799ca4d6dff2d7449eacfc25f7]
+entity start--><g id="elem_start"><ellipse cx="1520.8" cy="112.525" fill="#F1F1F1" rx="3.2" ry="3.2" style="stroke:#181818;stroke-width:0.20000000000000004;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="18.8" x="1511.4" y="129.2906">start</text></g><!--MD5=[82a0f591645fc63975978f4c818fc01a]
+entity KL--><g id="elem_KL"><rect fill="#FFFF00" height="14.475" rx="1" ry="1" style="stroke:#000000;stroke-width:0.4000000000000001;" width="70.8" x="1132.6" y="1405.525"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="62.8" x="1136.6" y="1416.6906">Keep Learning</text></g><!--MD5=[22efa60cf2b4332bf8574b0c93969d71]
+entity end--><g id="elem_end"><ellipse cx="1168" cy="1482.125" fill="#F1F1F1" rx="3.2" ry="3.2" style="stroke:#181818;stroke-width:0.20000000000000004;"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="16.4" x="1159.8" y="1498.8906">end</text></g><!--MD5=[95ada6434f214260c7f0fc1e5a3cd34d]
+link start to BE--><g id="link_start_BE"><path d="M1520.8,116.161 C1520.8,124.121 1520.8,143.201 1520.8,153.701 " fill="none" id="start-BE" style="stroke:#0000FF;stroke-width:2.0000000000000004;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[7fd3ef8b3797f1f8f8b39b8d6c73aa0c]
+link inetwp to inetwn--><g id="link_inetwp_inetwn"><path d="M1490.4,282.625 C1490.4,294.153 1490.4,312.901 1490.4,324.429 " fill="none" id="inetwp-inetwn" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[59843e3c553ba52c7a6631f469ea66f3]
+link inetwn to inetwh--><g id="link_inetwn_inetwh"><path d="M1490.4,344.617 C1490.4,357.585 1490.4,379.969 1490.4,392.901 " fill="none" id="inetwn-inetwh" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[8036cd9c4437b5cccc6f43216ee5fdf2]
+link inethi to inethb--><g id="link_inethi_inethb"><path d="M1614.8,230.229 C1614.8,239.509 1614.8,253.185 1614.8,262.453 " fill="none" id="inethi-inethb" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[2309cff93bcc5dfc4ec601b0bf519f19]
+link inethb to inethd--><g id="link_inethb_inethd"><path d="M1614.8,282.625 C1614.8,294.153 1614.8,312.901 1614.8,324.429 " fill="none" id="inethb-inethd" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[7e628a455b53979992eb546c8cdf80b4]
+link inet to inetw--><g id="link_inet_inetw"><path d="M1494.176,220.125 C1470.232,220.125 1438.8,220.125 1438.8,220.125 C1438.8,220.125 1438.8,223.1985 1438.8,227.8568 C1438.8,230.1859 1438.8,232.9112 1438.8,235.8466 C1438.8,236.5804 1438.8,237.3274 1438.8,238.0846 C1438.8,238.4632 1438.8,238.8444 1438.8,239.2277 C1438.8,239.3236 1438.8,239.4196 1438.8,239.5157 " fill="none" id="inet-inetw" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[d0275d7597978fb5ca84e08f2cd29050]
+link ineth to inet--><g id="link_ineth_inet"><path d="M1557.9803,220.125 C1557.9134,220.125 1557.8458,220.125 1557.7774,220.125 C1557.6406,220.125 1557.5007,220.125 1557.3579,220.125 C1557.0724,220.125 1556.7751,220.125 1556.467,220.125 C1554.002,220.125 1550.842,220.125 1547.424,220.125 " fill="none" id="ineth-inet" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[d696190379cb7edf7f30d47c4e0141d1]
+link BE to inet--><g id="link_BE_inet"><path d="M1520.8,168.185 C1520.8,179.545 1520.8,201.409 1520.8,212.805 " fill="none" id="BE-inet" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[10c17566e709179525ad6768039c5350]
+link bsh to bs--><g id="link_bsh_bs"><path d="M2075.612,272.525 C2079.908,272.525 2084.64,272.525 2089.6,272.525 " fill="none" id="bsh-bs" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[ceaf5763d616faffe55f01c4046c2ac3]
+link bs to bsc--><g id="link_bs_bsc"><path d="M2232.036,272.525 C2237.016,272.525 2241.724,272.525 2245.932,272.525 " fill="none" id="bs-bsc" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[865576c6449236b51240044c5f898ca8]
+link bs to bsj--><g id="link_bs_bsj"><path d="M2160.8,279.757 C2160.8,290.809 2160.8,311.937 2160.8,324.473 " fill="none" id="bs-bsj" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[370ee21243692d159823355f33b711e0]
+link inet to bs--><g id="link_inet_bs"><path d="M1539.9,227.337 C1539.9,235.157 1539.9,246.525 1539.9,246.525 C1539.9,246.525 2160.8,246.525 2160.8,246.525 C2160.8,246.525 2160.8,257.589 2160.8,265.281 " fill="none" id="inet-bs" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[d32239d28e106ce10e0422cb68703c3e]
+link osmt to osmg--><!--MD5=[2b5e84f3313e869ae213126070ec2c82]
+link osmg to osmp--><!--MD5=[11f46c0ae158beb8480f982bc5553b9e]
+link osmp to osmc--><!--MD5=[e03a7a3cf05a0f05da659cc8bf7ae22d]
+link osmc to oscb--><!--MD5=[a87734fe0fcad91324bc726243307394]
+link osem to osen--><!--MD5=[458443ce2e6e4088c272d02001785977]
+link osen to osei--><!--MD5=[19cf773009ef5d2d33143dc691938113]
+link osei to osex--><!--MD5=[c40358eeb9c6f1d2e7d8b3b3abb8b91b]
+link osex to osew--><!--MD5=[ab4f33a910cc8ee4e10cd15988d32bd6]
+link os to osm--><g id="link_os_osm"><path d="M2382.4,341.845 C2382.4,346.05 2382.4,351.719 2382.4,357.9156 C2382.4,361.0138 2382.4,364.244 2382.4,367.489 C2382.4,368.3003 2382.4,369.1125 2382.4,369.9237 " fill="none" id="os-osm" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[fbc7b77cf40a0d66f4df0577a5f09187]
+link os to ose--><g id="link_os_ose"><path d="M2517.428,334.525 C2528.558,334.525 2538.959,334.525 2546.869,334.525 C2550.824,334.525 2554.1563,334.525 2556.6455,334.525 C2557.2678,334.525 2557.8374,334.525 2558.3509,334.525 " fill="none" id="os-ose" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[a5abaa445d475750fb3a7b0509da132d]
+link bs to os--><g id="link_bs_os"><path d="M2212,279.757 C2212,296.113 2212,334.525 2212,334.525 C2212,334.525 2304.38,334.525 2372.852,334.525 " fill="none" id="bs-os" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[656b45f642b0c88d5f2698abb66835bf]
+link llh to ll--><g id="link_llh_ll"><path d="M1740.4,344.617 C1740.4,354.801 1740.4,370.781 1740.4,383.441 " fill="none" id="llh-ll" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[abec10b86a07dd8224a98ad18dec5f5b]
+link llj to ll--><g id="link_llj_ll"><path d="M1788.4,344.617 C1788.4,354.801 1788.4,370.781 1788.4,383.441 " fill="none" id="llj-ll" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[f68b2aad5a847236afcd4ea3e417d653]
+link llp to ll--><g id="link_llp_ll"><path d="M1840,344.617 C1840,354.801 1840,370.781 1840,383.441 " fill="none" id="llp-ll" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[75c68af387e39ab090a5d06a2bfcc471]
+link lls to ll--><g id="link_lls_ll"><path d="M1904,344.617 C1904,354.801 1904,370.781 1904,383.441 " fill="none" id="lls-ll" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[e5fa222b3046e14893ad74b2aa020f4a]
+link ll to llr--><g id="link_ll_llr"><path d="M1879.6,422.421 C1879.6,433.897 1879.6,447.937 1879.6,457.229 " fill="none" id="ll-llr" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[b5e489cf1ee0e8faec4cd10f69738de9]
+link ll to llg--><g id="link_ll_llg"><path d="M1922.868,422.421 C1922.868,433.897 1922.868,447.937 1922.868,457.229 " fill="none" id="ll-llg" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[1af85270c61f2f89de874d1e52760bc5]
+link ll to llc--><g id="link_ll_llc"><path d="M1724.2,422.421 C1724.2,433.897 1724.2,447.937 1724.2,457.229 " fill="none" id="ll-llc" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[1426cdea160b2e94ec93b5a6247b502c]
+link ll to lly--><g id="link_ll_lly"><path d="M1767.2,422.421 C1767.2,433.897 1767.2,447.937 1767.2,457.229 " fill="none" id="ll-lly" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[71405aca17649d9cfd6ddbac42e13c30]
+link ll to llu--><g id="link_ll_llu"><path d="M1826,422.421 C1826,433.897 1826,447.937 1826,457.229 " fill="none" id="ll-llu" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[12751dc856e1a704000ada49b0d9daf6]
+link os to ll--><g id="link_os_ll"><path d="M2377.5,341.809 C2377.5,356.549 2377.5,388.525 2377.5,388.525 C2377.5,388.525 2103.476,388.525 1943.72,388.525 " fill="none" id="os-ll" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[c2f444c4b6cb14ff9c3d21ca2f929e03]
+link vcsr to vcsrh--><g id="link_vcsr_vcsrh"><path d="M2260.8,483.373 C2260.8,493.005 2260.8,504.957 2260.8,513.269 " fill="none" id="vcsr-vcsrh" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[27763a22da3d61c2e2c5063479092d37]
+link vcsr to vcsrl--><g id="link_vcsr_vcsrl"><path d="M2322.4,483.373 C2322.4,493.005 2322.4,504.957 2322.4,513.269 " fill="none" id="vcsr-vcsrl" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[2bafadf925f0869b284b45e7efbb6622]
+link vcsr to vcsrb--><g id="link_vcsr_vcsrb"><path d="M2196.9,483.373 C2196.9,493.005 2196.9,504.957 2196.9,513.269 " fill="none" id="vcsr-vcsrb" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[ce6657a6328fa6b0cef18af7b19cf0cf]
+link vcs to vcsu--><g id="link_vcs_vcsu"><path d="M2061.6,480.597 C2061.6,490.621 2061.6,504.173 2061.6,513.301 " fill="none" id="vcs-vcsu" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[3d3aa5a058397e53a070197ffd6bcb0a]
+link vcs to vcsr--><g id="link_vcs_vcsr"><path d="M2157.116,467.325 C2161.808,467.325 2166.512,467.325 2171.188,467.325 " fill="none" id="vcs-vcsr" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[54fa31da8fe4382641ccb1cc14e03e4a]
+link ll to vcs--><g id="link_ll_vcs"><path d="M1933.132,422.437 C1933.132,437.477 1933.132,455.725 1933.132,455.725 C1933.132,455.725 1947.212,455.725 1966.048,455.725 " fill="none" id="ll-vcs" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[319728219ac49dc9df4d86ae5332a341]
+link rdp to rd--><g id="link_rdp_rd"><path d="M1541.6,477.337 C1541.6,488.473 1541.6,506.193 1541.6,516.073 " fill="none" id="rdp-rd" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[d9d62dd167f179d310d221c54333dd79]
+link rdm to rd--><g id="link_rdm_rd"><path d="M1594.532,477.337 C1594.532,488.473 1594.532,506.193 1594.532,516.073 " fill="none" id="rdm-rd" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[7bade383358d88d6937ddb6e5d6b8a8d]
+link rd to rda--><g id="link_rd_rda"><path d="M1602.048,523.325 C1606.844,523.325 1611.56,523.325 1615.996,523.325 " fill="none" id="rd-rda" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[0aa9edb6b7f6b8b5bfcfed7d6a8164f8]
+link rd to rds--><g id="link_rd_rds"><path d="M1537.6,530.597 C1537.6,539.209 1537.6,553.605 1537.6,563.281 " fill="none" id="rd-rds" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[f38f4f900ec88cc98ee3c2635eb62d15]
+link rd to rdo--><g id="link_rd_rdo"><path d="M1590.4,530.597 C1590.4,539.209 1590.4,553.605 1590.4,563.281 " fill="none" id="rd-rdo" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[761a4d29d8a25e9b0c3dae84bb0e0a86]
+link vcs to rd--><g id="link_vcs_rd"><path d="M1966.16,478.925 C1830.524,478.925 1598.268,478.925 1598.268,478.925 C1598.268,478.925 1598.268,503.381 1598.268,515.993 " fill="none" id="vcs-rd" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[46b6bdb4f4a9a5dafbdfec6713302821]
+link nod to no--><g id="link_nod_no"><path d="M183.9,583.357 C183.9,598.973 183.9,627.325 183.9,627.325 C183.9,627.325 193.1,627.325 204.632,627.325 " fill="none" id="nod-no" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[7ff7ab2b1afa2edf79b2d35fe4d41f1f]
+link noc to no--><g id="link_noc_no"><path d="M234.932,583.373 C234.932,594.549 234.932,612.333 234.932,622.245 " fill="none" id="noc-no" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[9801836e78d4fdbada91dcc6cdb61631]
+link no to not--><g id="link_no_not"><path d="M204.688,632.125 C162.112,632.125 104.9,632.125 104.9,632.125 C104.9,632.125 104.9,694.453 104.9,719.289 " fill="none" id="no-not" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[f1ac6b5759c4dfa32895456432661838]
+link no to nor--><g id="link_no_nor"><path d="M250,636.865 C250,654.465 250,699.105 250,719.221 " fill="none" id="no-nor" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[865cf3dd8223a1ae5b8f5ffeacfd348b]
+link mbdo to mdb--><g id="link_mbdo_mdb"><path d="M1433.1,533.421 C1433.1,546.961 1433.1,569.325 1433.1,569.325 C1433.1,569.325 1379.9,569.325 1336.468,569.325 " fill="none" id="mbdo-mdb" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[6fb43fedbe4aa6c95e287590904a52d3]
+link mdba to mdb--><g id="link_mdba_mdb"><path d="M1072.2,533.349 C1072.2,535.593 1072.2,537.325 1072.2,537.325 C1072.2,537.325 1236.4,537.325 1236.4,537.325 C1236.4,537.325 1236.4,555.521 1236.4,566.041 " fill="none" id="mdba-mdb" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[12bfcd2569fad41683a42b80e9c1086d]
+link mdbt to mdb--><g id="link_mdbt_mdb"><path d="M1142.8,533.345 C1142.8,534.529 1142.8,535.325 1142.8,535.325 C1142.8,535.325 1246.8,535.325 1246.8,535.325 C1246.8,535.325 1246.8,554.957 1246.8,565.997 " fill="none" id="mdbt-mdb" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[4508ac71d81b0ec65cb766fdfe693eef]
+link mdbn to mdb--><g id="link_mdbn_mdb"><path d="M1257.2,533.445 C1257.2,543.089 1257.2,557.381 1257.2,565.981 " fill="none" id="mdbn-mdb" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[ee279a8e2b2258ba30503b4708440b73]
+link mdbd to mdb--><g id="link_mdbd_mdb"><path d="M1212.06,570.925 C1216.672,570.925 1221.316,570.925 1225.9,570.925 " fill="none" id="mdbd-mdb" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[b8f3f7795c5790ae361135f8f0826294]
+link mdbi to mdb--><g id="link_mdbi_mdb"><path d="M1309.1,533.445 C1309.1,543.089 1309.1,557.381 1309.1,565.981 " fill="none" id="mdbi-mdb" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[10ff1067e6e44f1296d8f49575556b8a]
+link mdb to mdbs--><g id="link_mdb_mdbs"><path d="M1281.2,580.557 C1281.2,590.457 1281.2,608.281 1281.2,619.477 " fill="none" id="mdb-mdbs" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[bf032383682f9d5354bc4f1a77603fac]
+link mdb to mdbr--><g id="link_mdb_mdbr"><path d="M1336.504,577.725 C1359.88,577.725 1381.8,577.725 1381.8,577.725 C1381.8,577.725 1381.8,604.341 1381.8,619.413 " fill="none" id="mdb-mdbr" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[e591d8cbc6e9102e6ef15f6bc3950114]
+link mdb to mdbc--><g id="link_mdb_mdbc"><path d="M1225.924,575.725 C1218.676,575.725 1213.7,575.725 1213.7,575.725 C1213.7,575.725 1213.7,603.821 1213.7,619.405 " fill="none" id="mdb-mdbc" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[883fbcd717f5f9194258b6df5a5c2cea]
+link rd to mdb--><g id="link_rd_mdb"><path d="M1502.2,530.525 C1502.2,544.101 1502.2,572.125 1502.2,572.125 C1502.2,572.125 1402,572.125 1336.54,572.125 " fill="none" id="rd-mdb" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[3bbbb13540e5d7ea76a9ac97c0504225]
+link mdb to no--><g id="link_mdb_no"><path d="M1227.8,580.529 C1227.8,586.945 1227.8,595.325 1227.8,595.325 C1227.8,595.325 265.068,595.325 265.068,595.325 C265.068,595.325 265.068,612.233 265.068,622.273 " fill="none" id="mdb-no" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[f5e91e4008290486421c8a8dc77fd231]
+link apitr to apitj--><!--MD5=[3b4439a9473d186fc7bb7ef5299e89ce]
+link apitj to apits--><!--MD5=[28693d1e3eb4b21eb5b4a572afe90c66]
+link apits to apitg--><!--MD5=[96f1d7b7c473938351b83eda35386022]
+link apitg to apith--><!--MD5=[6ce77b36cc8cc5efbf906e5339b59bc9]
+link apith to apito--><!--MD5=[0e02fa10926ba1fb9454a789bff1ada5]
+link apito to apita--><!--MD5=[f4e5eb93eeec7d007bfbb9d1746db894]
+link apitat to apita--><g id="link_apitat_apita"><path d="M1687.5678,1026.525 C1687.5342,1026.525 1687.5003,1026.525 1687.4662,1026.525 C1687.398,1026.525 1687.3288,1026.525 1687.2587,1026.525 C1686.6979,1026.525 1686.077,1026.525 1685.4011,1026.525 C1682.6975,1026.525 1679.1125,1026.525 1674.958,1026.525 C1666.649,1026.525 1656.062,1026.525 1645.692,1026.525 " fill="none" id="apitat-apita" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[708f91ddde49df405690947ffc1bf4d0]
+link apitatc to apitato--><!--MD5=[f9ea7b5035320aa47f276a8c3c6fc95f]
+link apitato to apitatb--><!--MD5=[fe1cccff9aa0e969319cb1094500b3e7]
+link apitatb to apitatt--><!--MD5=[edd04420c9f1e3d20d7a9f20dee948c0]
+link apitatt to apitatj--><!--MD5=[a3d41c2bddc99b05a9cf1689eb49102b]
+link apitatj to apitati--><!--MD5=[05d9503b7f47c7ca747321fc884cb8f0]
+link apitati to apitats--><!--MD5=[9b992e88907dceabd57f9e962961e059]
+link api to apit--><g id="link_api_apit"><path d="M1507.6,636.865 C1507.6,648.027 1507.6,670.069 1507.6,689.832 C1507.6,689.9864 1507.6,690.1407 1507.6,690.2948 " fill="none" id="api-apit" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[79fe0cc8193b01023b8b561c5e2e2d08]
+link mdb to api--><g id="link_mdb_api"><path d="M1336.436,574.925 C1403.108,574.925 1506.4,574.925 1506.4,574.925 C1506.4,574.925 1506.4,607.421 1506.4,622.273 " fill="none" id="mdb-api" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[30755d498563c01b3cd13b3ec1c91895]
+link chd to ch--><g id="link_chd_ch"><path d="M949.652,726.925 C954.184,726.925 959.06,726.925 963.74,726.925 " fill="none" id="chd-ch" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[b471101c47221fc3ca20978578bda933]
+link ch to chs--><g id="link_ch_chs"><path d="M986.8,736.597 C986.8,745.209 986.8,759.605 986.8,769.281 " fill="none" id="ch-chs" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[4df2cba9f5c2078ad044081ddc38de1c]
+link chc to ch--><g id="link_chc_ch"><path d="M986.8,639.645 C986.8,659.813 986.8,704.585 986.8,722.101 " fill="none" id="chc-ch" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[913d92a0f2d4b54ddd002b9a099f8980]
+link chs to chsr--><g id="link_chs_chsr"><path d="M957.944,788.125 C943.228,788.125 928.4,788.125 928.4,788.125 C928.4,788.125 928.4,808.849 928.4,821.721 " fill="none" id="chs-chsr" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[aebc667e6fb232f2a947dfb3f79d5dd0]
+link chs to chsm--><g id="link_chs_chsm"><path d="M987.7,789.429 C987.7,798.709 987.7,812.385 987.7,821.653 " fill="none" id="chs-chsm" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[2c956bd455c6b37a298b698a4b08bb59]
+link api to ch--><g id="link_api_ch"><path d="M1502.6,636.757 C1502.6,659.129 1502.6,725.725 1502.6,725.725 C1502.6,725.725 1110.332,725.725 1009.964,725.725 " fill="none" id="api-ch" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[fe2bdfc58eefec04d757aa6fb86b50f6]
+link sechm to sechf--><!--MD5=[b28dce6f62378cdeb847ca8f630fecc2]
+link sechf to sechb--><!--MD5=[fc6284a65e39eeae5cb42eb15bea921b]
+link sechb to sechs--><!--MD5=[f692b7b7ebed7450531134f478570f50]
+link secth to sectc--><!--MD5=[2aa822523257864c00b045ce64c4433e]
+link sectc to sectp--><!--MD5=[a907e8a48753104ed5a644bd73eff3a1]
+link sectp to sects--><!--MD5=[05cb1d66e57669249690fa5b0d185b6d]
+link sects to sectr--><!--MD5=[1e8c14602193972e020bc9f7bd710916]
+link sech to sec--><g id="link_sech_sec"><path d="M504.8724,779.325 C504.8989,779.325 504.9255,779.325 504.9522,779.325 C505.3804,779.325 505.8458,779.325 506.3461,779.325 C507.3467,779.325 508.487,779.325 509.749,779.325 C514.797,779.325 521.792,779.325 529.58,779.325 " fill="none" id="sech-sec" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[e673ea5c3f24bffe0a64b6a72266d4cb]
+link sec to sect--><g id="link_sec_sect"><path d="M531.7,786.609 C531.7,788.409 531.7,790.4639 531.7,792.682 C531.7,793.791 531.7,794.9407 531.7,796.1198 C531.7,796.7093 531.7,797.3062 531.7,797.9089 C531.7,798.2103 531.7,798.5131 531.7,798.8173 " fill="none" id="sec-sect" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[06661d969708ac728aea4a340a3fd5e3]
+link ch to sec--><g id="link_ch_sec"><path d="M963.764,731.725 C959.416,731.725 956.2,731.725 956.2,731.725 C956.2,731.725 956.2,779.325 956.2,779.325 C956.2,779.325 756.86,779.325 652.808,779.325 " fill="none" id="ch-sec" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[8685994a2f6e8c862ddb5f4e8f6c55e5]
+link tst to tsti--><g id="link_tst_tsti"><path d="M799.6,838.989 C799.6,846.265 799.6,857.517 799.6,865.649 " fill="none" id="tst-tsti" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[eafa27aa4e413ff2151fe5350f95054b]
+link tst to tstu--><g id="link_tst_tstu"><path d="M820.956,834.125 C839.432,834.125 863.2,834.125 863.2,834.125 C863.2,834.125 863.2,853.345 863.2,865.653 " fill="none" id="tst-tstu" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[2f9ba7c7da6b52738a7766b62d354fb9]
+link tst to tstf--><g id="link_tst_tstf"><path d="M778.396,834.125 C755.42,834.125 722,834.125 722,834.125 C722,834.125 722,853.345 722,865.653 " fill="none" id="tst-tstf" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[c9c2c0ab8ed963c6430c101e0dd9950b]
+link sec to tst--><g id="link_sec_tst"><path d="M634.5,786.597 C634.5,800.461 634.5,829.325 634.5,829.325 C634.5,829.325 733.764,829.325 778.356,829.325 " fill="none" id="sec-tst" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[e16509528f2255ab27c7be5b5f2e2ecf]
+link tst to cid--><g id="link_tst_cid"><path d="M820.916,829.325 C848.204,829.325 892,829.325 892,829.325 C892,829.325 892,875.725 892,875.725 C892,875.725 1001.672,875.725 1052.224,875.725 " fill="none" id="tst-cid" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[08271cb6ea27d101c293e4fcf5d9fd6d]
+link ddppg to ddpp3--><!--MD5=[3f00bbecfe1171904d5b87073d8af00c]
+link ddpp3 to ddppt--><!--MD5=[386898c122a843110c31f1af1b6c7d8e]
+link ddppt to ddpps--><!--MD5=[abc3c6ba71e1bf9e6ce2d452ebc79b95]
+link ddpps to ddppk--><!--MD5=[79d024900122f955db4063c28192743c]
+link ddppk to ddppy--><!--MD5=[40d590c1c0d684a3c11b909b8a7f78b2]
+link ddppy to ddppd--><!--MD5=[072510ff0de7b6c703da5310c64a7db8]
+link ddp to ddpp--><g id="link_ddp_ddpp"><path d="M1161.2,929.009 C1161.2,930.7245 1161.2,932.6716 1161.2,934.7708 C1161.2,935.8204 1161.2,936.9081 1161.2,938.0238 C1161.2,938.5816 1161.2,939.1465 1161.2,939.7172 C1161.2,940.0025 1161.2,940.2892 1161.2,940.5773 C1161.2,940.7213 1161.2,940.8657 1161.2,941.0103 C1161.2,941.0827 1161.2,941.1551 1161.2,941.2275 " fill="none" id="ddp-ddpp" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[14b1f459440991bc4a8a401fb6a01527]
+link cid to ddp--><g id="link_cid_ddp"><path d="M1088.2,883.013 C1088.2,895.985 1088.2,921.725 1088.2,921.725 C1088.2,921.725 1112.344,921.725 1140.448,921.725 " fill="none" id="cid-ddp" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[b098680e7cad271de817edb6b7fd67ef]
+link ap to apn--><!--MD5=[3d92629760c506d0a8b9c7e50885d053]
+link apn to apm--><g id="link_apn_apm"><path d="M1397.6,1036.565 C1397.6,1047.261 1397.6,1064.101 1397.6,1074.821 " fill="none" id="apn-apm" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[d48e93b686d739e76a51d995a515f937]
+link apm to aps--><g id="link_apm_aps"><path d="M1400.8,1095.021 C1400.8,1102.173 1400.8,1111.733 1400.8,1118.877 " fill="none" id="apm-aps" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[933a2b9325d5b30de80f3cf1e5896d97]
+link aps to apc--><g id="link_aps_apc"><path d="M1400.8,1139.021 C1400.8,1146.173 1400.8,1155.733 1400.8,1162.877 " fill="none" id="aps-apc" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[5299157c6c73a0b939a3f01929b3a5b2]
+link apc to apl--><g id="link_apc_apl"><path d="M1401.6,1183.021 C1401.6,1190.173 1401.6,1199.733 1401.6,1206.877 " fill="none" id="apc-apl" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[237ed1dd18bd95e08a65872dd2585359]
+link ddp to ap--><g id="link_ddp_ap"><path d="M1312.32,921.725 C1330.44,921.725 1344.2,921.725 1344.2,921.725 C1344.2,921.725 1344.2,952.441 1344.2,966.841 " fill="none" id="ddp-ap" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[de42e5441ba07cb052a8cf7a5c3d9a89]
+link se to see--><g id="link_se_see"><path d="M730.4,981.409 C730.4,990.521 730.4,1006.169 730.4,1016.429 " fill="none" id="se-see" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[65cd7f84b6531fe11ba211a6450f954d]
+link see to ses--><g id="link_see_ses"><path d="M730.4,1036.565 C730.4,1047.261 730.4,1064.101 730.4,1074.821 " fill="none" id="see-ses" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[9cc4078ac3bca2d2529cf75011a008be]
+link ddp to se--><g id="link_ddp_se"><path d="M1150.7,928.925 C1150.7,942.501 1150.7,970.525 1150.7,970.525 C1150.7,970.525 875.564,970.525 770.508,970.525 " fill="none" id="ddp-se" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[01f2cb53a29dfd15c4c9baf84e497817]
+link mb to mbr--><g id="link_mb_mbr"><path d="M918,1019.281 C918,1011.589 918,1000.525 918,1000.525 C918,1000.525 1016.5,1000.525 1016.5,1000.525 C1016.5,1000.525 1016.5,1009.097 1016.5,1016.397 " fill="none" id="mb-mbr" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[97e29f02baa80b0eb4ecb656bfd25a81]
+link mb to mbk--><g id="link_mb_mbk"><path d="M932.908,1024.125 C937.736,1024.125 942.44,1024.125 946.752,1024.125 " fill="none" id="mb-mbk" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[d24a41654e2a3cfe8c03150e4473c672]
+link se to mb--><g id="link_se_mb"><path d="M770.412,978.125 C802.008,978.125 840.8,978.125 840.8,978.125 C840.8,978.125 840.8,1005.777 840.8,1019.281 " fill="none" id="se-mb" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[b1a7bf1c68724cfeb4c20a9c699c7b99]
+link cvd to cv--><g id="link_cvd_cv"><path d="M933.648,1087.325 C937.952,1087.325 942.656,1087.325 947.596,1087.325 " fill="none" id="cvd-cv" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[607ee97ec1fe6938df988944442c004d]
+link cvr to cv--><g id="link_cvr_cv"><path d="M867.1,1094.977 C867.1,1099.101 867.1,1102.925 867.1,1102.925 C867.1,1102.925 950.448,1102.925 950.448,1102.925 C950.448,1102.925 950.448,1097.149 950.448,1092.141 " fill="none" id="cvr-cv" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[7f89dfb18254787574d6008361be0acc]
+link cvl to cv--><g id="link_cvl_cv"><path d="M817.3,1095.053 C817.3,1102.353 817.3,1110.925 817.3,1110.925 C817.3,1110.925 953.3,1110.925 953.3,1110.925 C953.3,1110.925 953.3,1099.861 953.3,1092.169 " fill="none" id="cvl-cv" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[42bf1bcb471c064d480e01f98cbc75a7]
+link mb to cv--><g id="link_mb_cv"><path d="M932.832,1028.925 C936.96,1028.925 939.6,1028.925 939.6,1028.925 C939.6,1028.925 939.6,1082.525 939.6,1082.525 C939.6,1082.525 942.608,1082.525 947.548,1082.525 " fill="none" id="mb-cv" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[a84c6f0bcbd3735fd44ffded007c67a2]
+link gql to gqla--><g id="link_gql_gqla"><path d="M1009.3,1136.189 C1009.3,1143.465 1009.3,1154.717 1009.3,1162.849 " fill="none" id="gql-gqla" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[1cbf8cd886f34d99ffb8f710087cb3f1]
+link gql to gqlr--><g id="link_gql_gqlr"><path d="M1046.1,1136.189 C1046.1,1143.465 1046.1,1154.717 1046.1,1162.849 " fill="none" id="gql-gqlr" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[980ca557ad421d21d39f6aea39b9d117]
+link cv to gql--><g id="link_cv_gql"><path d="M1022,1092.189 C1022,1100.345 1022,1113.493 1022,1121.649 " fill="none" id="cv-gql" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[aac82fed8d9153228b135b6dc8c26bce]
+link gdbn to gdb--><g id="link_gdbn_gdb"><path d="M848.62,1172.925 C852.976,1172.925 857.72,1172.925 862.584,1172.925 " fill="none" id="gdbn-gdb" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[e7f26c2216b054cad4cc722d00945fa4]
+link gql to gdb--><g id="link_gql_gdb"><path d="M992.156,1128.925 C974.736,1128.925 956.152,1128.925 956.152,1128.925 C956.152,1128.925 956.152,1153.161 956.152,1165.661 " fill="none" id="gql-gdb" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[3793409ff8c401252bd0715b5d3181b1]
+link gdb to wsk--><g id="link_gdb_wsk"><path d="M910.8,1180.189 C910.8,1188.345 910.8,1201.493 910.8,1209.649 " fill="none" id="gdb-wsk" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[07ec8fc5e9de85cf1518cebd237334e8]
+link wsv to wsvn--><g id="link_wsv_wsvn"><path d="M929.5,1253.681 C929.5,1245.989 929.5,1234.925 929.5,1234.925 C929.5,1234.925 1033.9,1234.925 1033.9,1234.925 C1033.9,1234.925 1033.9,1243.497 1033.9,1250.797 " fill="none" id="wsv-wsvn" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[5e4ec485fcc984af238e681494cf4bf4]
+link wsv to wsva--><g id="link_wsv_wsva"><path d="M948.608,1260.925 C953.424,1260.925 958.252,1260.925 962.8,1260.925 " fill="none" id="wsv-wsva" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[b3380d7c583ce1bec3d33e332e6edd81]
+link wsvc to wsv--><g id="link_wsvc_wsv"><path d="M859.052,1260.925 C863.476,1260.925 868.212,1260.925 872.956,1260.925 " fill="none" id="wsvc-wsv" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[596943f69ebca020ad2d1dd10220da80]
+link wsvm to wsv--><g id="link_wsvm_wsv"><path d="M795.9,1250.873 C795.9,1246.749 795.9,1242.925 795.9,1242.925 C795.9,1242.925 892.1,1242.925 892.1,1242.925 C892.1,1242.925 892.1,1248.701 892.1,1253.709 " fill="none" id="wsvm-wsv" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[4cd864d898a8560f8e925dea0956a830]
+link wsk to wsv--><g id="link_wsk_wsv"><path d="M910.8,1224.189 C910.8,1232.345 910.8,1245.493 910.8,1253.649 " fill="none" id="wsk-wsv" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[078f7e62f6318314b3981e940a8a395b]
+link bfstg to bfstt--><!--MD5=[beb3b7b532467247eaa4ce6ea75c5a85]
+link bfstt to bfstb--><!--MD5=[83b35d0e857e9cf6b93e8d1fbe1b71c4]
+link bfstb to bfstl--><!--MD5=[40097228fd53793a81d5a89ffbf41811]
+link bfstl to bfstc--><!--MD5=[cfe7aa620e5d43f278a453c3dafb015c]
+link bfsdi to bfsdm--><!--MD5=[98de364bb07f7d4d27f727bbb26893d3]
+link bfsdm to bfsdt--><!--MD5=[229fff45945707cf04d8eefeb9fdcc56]
+link bfs to bfst--><g id="link_bfs_bfst"><path d="M874,1360.157 C874,1365.581 874,1371.4048 874,1377.1298 C874,1377.8454 874,1378.5595 874,1379.2711 C874,1379.449 874,1379.6267 874,1379.8043 " fill="none" id="bfs-bfst" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[3510c70247998b8437dc6c0ec55e85ef]
+link bfs to bfsd--><g id="link_bfs_bfsd"><path d="M989.3,1360.221 C989.3,1383.041 989.3,1412.925 989.3,1412.925 C989.3,1412.925 995.768,1412.925 1002.337,1412.925 C1005.6215,1412.925 1008.9313,1412.925 1011.4704,1412.925 C1011.7878,1412.925 1012.0931,1412.925 1012.3849,1412.925 C1012.4578,1412.925 1012.5299,1412.925 1012.6011,1412.925 C1012.6367,1412.925 1012.6721,1412.925 1012.7073,1412.925 " fill="none" id="bfs-bfsd" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[9e27ea6fc2579932dceacd6ed8740f4e]
+link bfs to bfsm--><g id="link_bfs_bfsm"><path d="M991.6,1334.925 C996.3,1334.925 1000.96,1334.925 1005.496,1334.925 " fill="none" id="bfs-bfsm" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[80dcf210e0ea3b6aaa83f02d488042a7]
+link bfss to bfs--><g id="link_bfss_bfs"><path d="M816.04,1334.925 C820.66,1334.925 825.324,1334.925 829.98,1334.925 " fill="none" id="bfss-bfs" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[eb5e4f01fa89ae015fd2cfdd0e2a54d3]
+link bfs to bfso--><g id="link_bfs_bfso"><path d="M845,1360.157 C845,1367.937 845,1376.541 845,1384.493 " fill="none" id="bfs-bfso" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[1bdf2a3b86ad4cf102ee26207433a590]
+link wsv to bfs--><g id="link_wsv_bfs"><path d="M910.8,1268.137 C910.8,1277.601 910.8,1294.721 910.8,1309.229 " fill="none" id="wsv-bfs" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[2a0d7941a7b15a4ea10f7fa647ecee84]
+link bfs to KL--><g id="link_bfs_KL"><path d="M991.74,1352.525 C1055.96,1352.525 1135,1352.525 1135,1352.525 C1135,1352.525 1135,1389.453 1135,1405.465 " fill="none" id="bfs-KL" style="stroke:#0000FF;stroke-width:1.2000000000000002;"/></g><!--MD5=[bd697dbdb7c1190fbb472b5f1711cfb0]
+link KL to end--><g id="link_KL_end"><path d="M1168,1420.021 C1168,1434.705 1168,1467.373 1168,1478.405 " fill="none" id="KL-end" style="stroke:#0000FF;stroke-width:2.0000000000000004;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[20e94748309a2b7ed52f19490f7b1e15]
+@startuml hard_skills
+
+title Back-end
+
+'left to right direction
+'scale 1600 width
+
+<style>
+    title {
+        FontSize 24
+        FontColor black
+    }
+    legend {
+        FontSize 24
+        FontColor black
+    }
+    card {
+        BackGroundColor #Yellow
+        LineThickness 1
+        LineColor black
+    }
+    rectangle {
+        BackgroundColor none
+        Padding-left 10
+    }
+</style>
+
+skinparam linetype polyline
+skinparam linetype ortho
+skinparam componentStyle rectangle
+skinparam rectangle {
+    roundCorner 35
+}
+
+/'salt
+{+
+    Password | "**** "
+    [Cancel] | [ OK ]
+}'/
+
+legend top center
+    <color:Indigo><&task></color> - <b>Personal Recommendation</b> / Opinion
+    <color:Green><&check></color> - <b>Alternative</b> Option - Pick this or purple
+    <color:OrangeRed><&warning></color> - Order in roadmap <b>not strict</b> (<i>Learn anytime</i>)
+    <color:Red><&ban></color> - I <b>wouldn't</b> recommend
+    <color:LawnGreen><&media-stop></color> - (<i>highlight</i>) - I know it and <b>I use</b>
+    <color:LightBlue><&media-stop></color> - (<i>highlight</i>) - I know this, but I <b>did not have the opportunity</b> to use it
+end legend
+
+
+card "Backend" as BE
+
+start -[#blue;dashed;thickness=5]- BE
+
+component {
+    card "<color:Indigo><&task></color> <b>Internet"                 as inet  #text:Teal
+
+    rectangle "<i>What is __ " as inetw {
+        rectangle "<color:Indigo><&task></color> <i>HTTP?"           as inetwp #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>Domain Name?"    as inetwn #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>Hosting?"        as inetwh #LawnGreen
+    }
+    rectangle "<i>How is/does __ work?" as ineth {
+        rectangle "<color:Indigo><&task></color> <i>The internet"    as inethi #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>Browser"         as inethb #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>DNS"             as inethd #LawnGreen
+    }
+}
+inetwp .. inetwn
+inetwn .. inetwh
+
+inethi .. inethb
+inethb .. inethd
+
+inet .. inetw
+inet .l. ineth
+
+BE -[#blue;thickness=3]- inet
+
+component {
+    card "<color:Indigo><&task></color> <b>Basic Frontend Knowledge"    as bs  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> HTML"                      as bsh #LawnGreen
+
+    rectangle "<color:Indigo><&task></color> CSS"                       as bsc #LawnGreen
+    rectangle "<color:Indigo><&task></color> JavaScript"                as bsj #LightBlue
+}
+bs .l. bsh
+
+bs .r. bsc
+bs .. bsj
+
+inet -[#blue;thickness=3]- bs
+
+component {
+    card "<color:Indigo><&task></color> <b>OS and General Knowledge"                as os    #text:Teal
+
+    rectangle Management                                                            as osm {
+        rectangle "<color:Indigo><&task></color> Terminal Usage"                    as osmt  #LawnGreen
+        rectangle "<color:Indigo><&task></color> How OSs work in General"           as osmg  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Process Management"                as osmp  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Threads and Concurrency"           as osmc  #LawnGreen
+        rectangle "<color:Indigo><&task></color> <b>Basic Terminal Commands</b>\n<i>grep, awk, sed, lsof, curl, wget\ntail, head, less, find, ssh, kill"                                                  as oscb  #LawnGreen
+    }
+    rectangle Exchange                                                              as ose {
+        rectangle "<color:Indigo><&task></color> Memory Management"                 as osem  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Interprocess Communication"        as osen  #LawnGreen
+        rectangle "<color:Indigo><&task></color> I/O Management"                    as osei  #LawnGreen
+        rectangle "<color:Indigo><&task></color> <b>POSIX Basics<\b>\n<i>stdin, stdout, stderr, pipes"                                                    as osex  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Basic Networking Concepts"         as osew  #LawnGreen
+    }
+}
+osmt .[hidden]. osmg
+osmg .[hidden]. osmp
+osmp .[hidden]. osmc
+osmc .[hidden]. oscb
+
+osem .[hidden]. osen
+osen .[hidden]. osei
+osei .[hidden]. osex
+osex .[hidden]. osew
+
+os .. osm
+os .r. ose
+
+bs -[#blue;thickness=3]- os
+
+component {
+    card "<b>Learn a Language</b>\n<i>Make sure to learn its quirks. Core details about its\nruntime e.g. concurrency, memory model etc."                as ll
+
+    rectangle "<color:Green><&check></color> Rust"          as llr
+    rectangle "<color:Green><&check></color> Go"            as llg
+
+    rectangle "<color:Green><&check></color> Java"          as llj #LawnGreen
+    rectangle "<color:Green><&check></color> C++"           as llc #LawnGreen
+    rectangle "<color:Green><&check></color> C#"            as llh #LightBlue
+    rectangle "<color:Green><&check></color> PHP"           as llp #LawnGreen
+
+    rectangle "<color:Indigo><&task></color> JavaScript"    as lls
+    rectangle "<color:Green><&check></color> Python"        as lly
+    rectangle "<color:Green><&check></color> Ruby"          as llu
+}
+ll .u. llh
+ll .u. llj
+ll .u. llp
+ll .u. lls
+ll .. llr
+ll .. llg
+ll .. llc
+ll .. lly
+ll .. llu
+
+os -[#blue;thickness=3]- ll
+
+component {
+    card "<b><color:Teal>Version Control Systems\n<i>What are they and why you should use one"                     as vcs
+
+    rectangle "<color:Indigo><&task></color> Basic Usage of Git" as vcsu   #LawnGreen
+    rectangle "<b>Repo hosting services\n<i>Create account and Learn to use GitHub"                       as vcsr   #LawnGreen
+        rectangle "<color:Indigo><&task></color> GitHub"         as vcsrh  #LawnGreen
+        rectangle "<color:Green><&check></color> GitLab"         as vcsrl  #LightBlue
+        rectangle "<color:Green><&check></color> Bitbucket"      as vcsrb  #LightBlue
+}
+vcsrh .u. vcsr
+vcsrl .u. vcsr
+vcsrb .u. vcsr
+
+vcs .. vcsu
+vcs .r. vcsr
+
+ll -[#blue;thickness=3]- vcs
+
+component {
+    card "<b>Relational Databases"                       as rd  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> PostgreSQL" as rdp #LawnGreen
+    rectangle "<color:Green><&check></color> MySQL"      as rdm #LawnGreen
+    rectangle "<color:Green><&check></color> MariaDB"    as rda #LawnGreen
+    rectangle "<color:Green><&check></color> MS SQL"     as rds #LightBlue
+    rectangle "<color:Green><&check></color> Oracle"     as rdo #LightBlue
+}
+rd .u. rdp
+rd .u. rdm
+rd .r. rda
+rd .. rds
+rd .. rdo
+
+vcs -[#blue;thickness=3]- rd
+
+component {
+    card "<b>NoSQL Databases"                                         as no  #text:HotPink
+
+    rectangle "Document <color:blue>MongoDB</color>, CouchDB"         as nod #LightBlue
+    rectangle "Column DBs <color:blue>Cassandra</color>"              as noc #LightBlue
+    rectangle "Time series <color:blue>InfluxDB</color>, TimescaleDB" as not
+    rectangle "Realtime <color:blue>Firebase</color>, RethinkDB"      as nor
+}
+no .u. nod
+no .u. noc
+no .. not
+no .. nor
+
+component {
+    card "<b>More about Databases"                                      as mdb  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> ORMs"                      as mbdo #LawnGreen
+    rectangle "<color:Indigo><&task></color> ACID"                      as mdba #LawnGreen
+    rectangle "<color:Indigo><&task></color> Transactions"              as mdbt #LawnGreen
+    rectangle "<color:Indigo><&task></color> N+1 Problem"               as mdbn
+    rectangle "<color:Indigo><&task></color> Database Normalization"    as mdbd #LawnGreen
+    rectangle "<color:Indigo><&task></color> Indexes and how they work" as mdbi #LawnGreen
+
+    rectangle "<color:OrangeRed><&warning></color> Sharding Strategies" as mdbs #LawnGreen
+    rectangle "<color:OrangeRed><&warning></color> Data Replication"    as mdbr #LawnGreen
+    rectangle "<color:OrangeRed><&warning></color> CAP Theorem"         as mdbc
+}
+mdb .u. mbdo
+mdb .u. mdba
+mdb .u. mdbt
+mdb .u. mdbn
+mdb .l. mdbd
+mdb .u. mdbi
+
+mdb .. mdbs
+mdb .. mdbr
+mdb .. mdbc
+
+rd  -[#blue;thickness=3]- mdb
+mdb -[#blue;thickness=3]- no
+
+component {
+    card "<b>Learn about APIs"                                                    as api      #text:Teal
+
+    rectangle "Types"                                                             as apit {
+        rectangle "<color:Indigo><&task></color> REST\n(<i>Read Roy Fielding’s Paper</i>)"                                               as apitr    #LawnGreen
+        rectangle "<color:Indigo><&task></color> JSON APIs"                       as apitj    #LawnGreen
+        rectangle "<color:OrangeRed><&warning></color> SOAP"                      as apits
+        rectangle "<color:Indigo><&task></color> gRPC"                            as apitg
+        rectangle "<color:OrangeRed><&warning></color> HATEOAS"                   as apith
+        rectangle "<color:OrangeRed><&warning></color> Open API Spec and Swagger" as apito
+        rectangle "<color:Indigo><&task></color> Authentication"                  as apita    #LawnGreen
+    }
+    rectangle "Auth Types"                                                        as apitat {
+        rectangle "<color:OrangeRed><&warning></color> Cookie Based"              as apitatc  #LawnGreen
+        rectangle "<color:Indigo><&task></color> OAuth"                           as apitato  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Basic Authentication"            as apitatb  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Token Authentication"            as apitatt  #LawnGreen
+        rectangle "<color:Indigo><&task></color> JWT"                             as apitatj  #LawnGreen
+        rectangle "<color:OrangeRed><&warning></color> OpenID"                    as apitati  #LightBlue
+        rectangle "<color:OrangeRed><&warning></color> SAML"                      as apitats  #LightBlue
+    }
+}
+apitr .[hidden]. apitj
+apitj .[hidden]. apits
+apits .[hidden]. apitg
+apitg .[hidden]. apith
+apith .[hidden]. apito
+apito .[hidden]. apita
+
+apita .l. apitat
+
+apitatc .[hidden]. apitato
+apitato .[hidden]. apitatb
+apitatb .[hidden]. apitatt
+apitatt .[hidden]. apitatj
+apitatj .[hidden]. apitati
+apitati .[hidden]. apitats
+
+api .. apit
+
+mdb -[#blue;thickness=3]- api
+
+component {
+    card "<b>Caching"                                         as ch   #text:Teal
+
+    rectangle "<color:Indigo><&task></color> CDN"             as chd  #LightBlue
+    rectangle "Server Side"                                   as chs  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Redis"       as chsr #LawnGreen
+        rectangle "<color:Green><&check></color> Memcached"   as chsm #LawnGreen
+    rectangle "<color:Indigo><&task></color> Client Side"     as chc  #LawnGreen
+}
+ch .l. chd
+ch .. chs
+ch .u. chc
+
+chs .. chsr
+chs .. chsm
+
+api -[#blue;thickness=3]- ch
+
+component {
+    card "<b>Web Security Knowledge"                                        as sec    #text:teal
+
+    rectangle "<color:Indigo><&task></color> Hashing Algorithms"            as sech {
+        rectangle "<color:Indigo><&task></color> MD5 and why not to use it" as sechm  #LawnGreen
+        rectangle "<color:Indigo><&task></color> SHA Family"                as sechf  #LawnGreen
+        rectangle "<color:Indigo><&task></color> bcrypt"                    as sechb  #LawnGreen
+        rectangle "<color:Indigo><&task></color> scrypt"                    as sechs  #LawnGreen
+    }
+    rectangle "<color:Indigo><&task></color> Security Types"                as sect {
+        rectangle "<color:Indigo><&task></color> HTTPS"                     as secth  #LawnGreen
+        rectangle "<color:Indigo><&task></color> CORS"                      as sectc  #LightBlue
+        rectangle "<color:Indigo><&task></color> Content Security Policy"   as sectp  #LightBlue
+        rectangle "<color:Indigo><&task></color> SSL/TLS"                   as sects  #LawnGreen
+        rectangle "<color:Indigo><&task></color> OWASP Security Risks"      as sectr  #LawnGreen
+    }
+}
+sechm .[hidden]. sechf
+sechf .[hidden]. sechb
+sechb .[hidden]. sechs
+
+secth .[hidden]. sectc
+sectc .[hidden]. sectp
+sectp .[hidden]. sects
+sects .[hidden]. sectr
+
+sec .u. sech
+sec .. sect
+
+ch -[#blue;thickness=3]- sec
+
+component {
+    card "<b>Testing"                                     as tst  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> Integration" as tsti #LawnGreen
+    rectangle "<color:Indigo><&task></color> Unit"        as tstu #LawnGreen
+    rectangle "<color:Indigo><&task></color> Functional"  as tstf #LawnGreen
+}
+tst .. tsti
+tst .. tstu
+tst .. tstf
+
+sec -[#blue;thickness=3]- tst
+
+component {
+    card "<color:Indigo><&task></color> <b>CI / CD" as cid #text:Teal
+}
+
+tst -[#blue;thickness=3]- cid
+
+component {
+    card "<b>Design and Development Principles"                                 as ddp    #text:Teal
+
+    rectangle "<i>Principles"                                                   as ddpp {
+        rectangle "<color:OrangeRed><&warning></color> GOF Design Patterns"     as ddppg
+        rectangle "<color:OrangeRed><&warning></color> Domain Driven Design"    as ddpp3  #LawnGreen
+        rectangle "<color:OrangeRed><&warning></color> Test Driven Development" as ddppt  #LawnGreen
+        rectangle "<color:Indigo><&task></color> SOLID"                         as ddpps  #LawnGreen
+        rectangle "<color:Indigo><&task></color> KISS"                          as ddppk  #LawnGreen
+        rectangle "<color:Indigo><&task></color> YAGNI"                         as ddppy
+        rectangle "<color:Indigo><&task></color> DRY"                           as ddppd  #LawnGreen
+    }
+}
+ddppg .[hidden]. ddpp3
+ddpp3 .[hidden]. ddppt
+ddppt .[hidden]. ddpps
+ddpps .[hidden]. ddppk
+ddppk .[hidden]. ddppy
+ddppy .[hidden]. ddppd
+
+ddp .. ddpp
+
+cid -[#blue;thickness=3]- ddp
+
+component {
+    card "<b>Architectural Patterns"                                        as ap  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> Monolithic Apps"               as apn #LawnGreen
+    rectangle "<color:Indigo><&task></color> Microservices"                 as apm #LawnGreen
+    rectangle "<color:Indigo><&task></color> SOA"                           as aps #LawnGreen
+    rectangle "<color:OrangeRed><&warning></color> CQRS and Event Sourcing" as apc #LawnGreen
+    rectangle "<color:Indigo><&task></color> Serverless"                    as apl #LawnGreen
+}
+ap  .[hidden]. apn
+
+apn .. apm
+apm .. aps
+aps .. apc
+apc .. apl
+
+ddp -[#blue;thickness=3]- ap
+
+component {
+    card "<b>Search Engines"                                as se  #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> Elasticsearch" as see #LightBlue
+    rectangle "<color:Green><&check></color> Solr"          as ses
+}
+se  .. see
+
+see .. ses
+
+ddp -[#blue;thickness=3]- se
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Message Brokers"                          as mb  #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> <color:OrangeRed><&warning></color> RabbitMQ" as mbr #LightBlue
+    rectangle "<color:Green><&check></color> Kafka"                                        as mbk #LightBlue
+}
+mb .r. mbr
+mb .r. mbk
+
+se -[#blue;thickness=3]- mb
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Containerization vs Virtualization" as cv  #text:teal
+
+    rectangle "<color:Indigo><&task></color> Docker"                                 as cvd #LawnGreen
+    rectangle "<color:Red><&ban></color> rkt"                                        as cvr
+    rectangle "<color:Red><&ban></color> LXC"                                        as cvl
+}
+cv .l. cvd
+cv .l. cvr
+cv .l. cvl
+
+mb -[#blue;thickness=3]- cv
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>GraphQL"   as gql  #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> Apollo"        as gqla
+    rectangle "<color:Green><&check></color> Relay Modern"  as gqlr
+}
+gql .. gqla
+gql .. gqlr
+
+cv -[#blue;thickness=3]- gql
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Graph Databases"   as gdb  #text:HotPink
+
+    rectangle "<color:OrangeRed><&warning></color> Neo4j"           as gdbn
+}
+gdb .l. gdbn
+
+gql -[#blue;thickness=3]- gdb
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>WebSockets" as wsk #text:Teal
+}
+
+gdb -[#blue;thickness=3]- wsk
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Web Servers"                           as wsv  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> <color:OrangeRed><&warning></color> Nginx" as wsvn #LawnGreen
+    rectangle "<color:Green><&check></color> Apache"                                    as wsva #LawnGreen
+    rectangle "<color:Green><&check></color> Caddy"                                     as wsvc
+    rectangle "<color:Green><&check></color> MS IIS"                                    as wsvm
+}
+wsv .r. wsvn
+wsv .r. wsva
+wsv .l. wsvc
+wsv .l. wsvm
+
+wsk -[#blue;thickness=3]- wsv
+
+component {
+    card "<color:Indigo><&task></color> <b>Building for Scale\n<i>General topics that you should learn\n<i>and care about for the sustainability\n<i>of the product."                                                          as bfs
+
+    rectangle "<color:Indigo><&task></color> Mitigation Strategies"          as bfst  #text:Teal {
+        rectangle "<i>Graceful Degradation"                                  as bfstg
+        rectangle "<i>Throttling"                                            as bfstt
+        rectangle "<i>Backpressure"                                          as bfstb
+        rectangle "<i>Loadshifting"                                          as bfstl
+        rectangle "<i>Circuit Breaker"                                       as bfstc
+    }
+    rectangle "Understand the Diff."                                         as bfsd  #text:Teal {
+        rectangle "<i>Instrumentation"                                       as bfsdi
+        rectangle "<i>Monitoring"                                            as bfsdm
+        rectangle "<i>Telemetry"                                             as bfsdt
+    }
+    rectangle "<color:Indigo><&task></color> Migration Strategies"           as bfsm  #LawnGreen
+    rectangle "<color:Indigo><&task></color> Horizontal vs Vertical Scaling" as bfss  #LawnGreen
+    rectangle "<color:Indigo><&task></color> <b>Building with Observability in mind\n<i>Metrics logging and other observable items\n<i>that could help you in debugging and solving\n<i>the issues when things go wrong"                                          as bfso  #LawnGreen
+}
+bfstg .[hidden]. bfstt
+bfstt .[hidden]. bfstb
+bfstb .[hidden]. bfstl
+bfstl .[hidden]. bfstc
+
+bfsdi .[hidden]. bfsdm
+bfsdm .[hidden]. bfsdt
+
+bfs .. bfst
+bfs .. bfsd
+
+bfs .r. bfsm
+bfs .l. bfss
+bfs .. bfso
+
+wsv -[#blue;thickness=3]- bfs
+
+card "Keep Learning" as KL
+
+bfs -[#blue;thickness=3]- KL
+KL  -[#blue;dashed;thickness=5]- end
+
+@enduml
+
+@startuml hard_skills
+
+title Back-end
+
+
+<style>
+    title {
+        FontSize 24
+        FontColor black
+    }
+    legend {
+        FontSize 24
+        FontColor black
+    }
+    card {
+        BackGroundColor #Yellow
+        LineThickness 1
+        LineColor black
+    }
+    rectangle {
+        BackgroundColor none
+        Padding-left 10
+    }
+</style>
+
+skinparam linetype polyline
+skinparam linetype ortho
+skinparam componentStyle rectangle
+skinparam rectangle {
+    roundCorner 35
+}
+
+
+legend top center
+    <color:Indigo><&task></color> - <b>Personal Recommendation</b> / Opinion
+    <color:Green><&check></color> - <b>Alternative</b> Option - Pick this or purple
+    <color:OrangeRed><&warning></color> - Order in roadmap <b>not strict</b> (<i>Learn anytime</i>)
+    <color:Red><&ban></color> - I <b>wouldn't</b> recommend
+    <color:LawnGreen><&media-stop></color> - (<i>highlight</i>) - I know it and <b>I use</b>
+    <color:LightBlue><&media-stop></color> - (<i>highlight</i>) - I know this, but I <b>did not have the opportunity</b> to use it
+end legend
+
+
+card "Backend" as BE
+
+start -[#blue;dashed;thickness=5]- BE
+
+component {
+    card "<color:Indigo><&task></color> <b>Internet"                 as inet  #text:Teal
+
+    rectangle "<i>What is __ " as inetw {
+        rectangle "<color:Indigo><&task></color> <i>HTTP?"           as inetwp #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>Domain Name?"    as inetwn #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>Hosting?"        as inetwh #LawnGreen
+    }
+    rectangle "<i>How is/does __ work?" as ineth {
+        rectangle "<color:Indigo><&task></color> <i>The internet"    as inethi #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>Browser"         as inethb #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>DNS"             as inethd #LawnGreen
+    }
+}
+inetwp .. inetwn
+inetwn .. inetwh
+
+inethi .. inethb
+inethb .. inethd
+
+inet .. inetw
+inet .l. ineth
+
+BE -[#blue;thickness=3]- inet
+
+component {
+    card "<color:Indigo><&task></color> <b>Basic Frontend Knowledge"    as bs  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> HTML"                      as bsh #LawnGreen
+
+    rectangle "<color:Indigo><&task></color> CSS"                       as bsc #LawnGreen
+    rectangle "<color:Indigo><&task></color> JavaScript"                as bsj #LightBlue
+}
+bs .l. bsh
+
+bs .r. bsc
+bs .. bsj
+
+inet -[#blue;thickness=3]- bs
+
+component {
+    card "<color:Indigo><&task></color> <b>OS and General Knowledge"                as os    #text:Teal
+
+    rectangle Management                                                            as osm {
+        rectangle "<color:Indigo><&task></color> Terminal Usage"                    as osmt  #LawnGreen
+        rectangle "<color:Indigo><&task></color> How OSs work in General"           as osmg  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Process Management"                as osmp  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Threads and Concurrency"           as osmc  #LawnGreen
+        rectangle "<color:Indigo><&task></color> <b>Basic Terminal Commands</b>\n<i>grep, awk, sed, lsof, curl, wget\ntail, head, less, find, ssh, kill"                                                  as oscb  #LawnGreen
+    }
+    rectangle Exchange                                                              as ose {
+        rectangle "<color:Indigo><&task></color> Memory Management"                 as osem  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Interprocess Communication"        as osen  #LawnGreen
+        rectangle "<color:Indigo><&task></color> I/O Management"                    as osei  #LawnGreen
+        rectangle "<color:Indigo><&task></color> <b>POSIX Basics<\b>\n<i>stdin, stdout, stderr, pipes"                                                    as osex  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Basic Networking Concepts"         as osew  #LawnGreen
+    }
+}
+osmt .[hidden]. osmg
+osmg .[hidden]. osmp
+osmp .[hidden]. osmc
+osmc .[hidden]. oscb
+
+osem .[hidden]. osen
+osen .[hidden]. osei
+osei .[hidden]. osex
+osex .[hidden]. osew
+
+os .. osm
+os .r. ose
+
+bs -[#blue;thickness=3]- os
+
+component {
+    card "<b>Learn a Language</b>\n<i>Make sure to learn its quirks. Core details about its\nruntime e.g. concurrency, memory model etc."                as ll
+
+    rectangle "<color:Green><&check></color> Rust"          as llr
+    rectangle "<color:Green><&check></color> Go"            as llg
+
+    rectangle "<color:Green><&check></color> Java"          as llj #LawnGreen
+    rectangle "<color:Green><&check></color> C++"           as llc #LawnGreen
+    rectangle "<color:Green><&check></color> C#"            as llh #LightBlue
+    rectangle "<color:Green><&check></color> PHP"           as llp #LawnGreen
+
+    rectangle "<color:Indigo><&task></color> JavaScript"    as lls
+    rectangle "<color:Green><&check></color> Python"        as lly
+    rectangle "<color:Green><&check></color> Ruby"          as llu
+}
+ll .u. llh
+ll .u. llj
+ll .u. llp
+ll .u. lls
+ll .. llr
+ll .. llg
+ll .. llc
+ll .. lly
+ll .. llu
+
+os -[#blue;thickness=3]- ll
+
+component {
+    card "<b><color:Teal>Version Control Systems\n<i>What are they and why you should use one"                     as vcs
+
+    rectangle "<color:Indigo><&task></color> Basic Usage of Git" as vcsu   #LawnGreen
+    rectangle "<b>Repo hosting services\n<i>Create account and Learn to use GitHub"                       as vcsr   #LawnGreen
+        rectangle "<color:Indigo><&task></color> GitHub"         as vcsrh  #LawnGreen
+        rectangle "<color:Green><&check></color> GitLab"         as vcsrl  #LightBlue
+        rectangle "<color:Green><&check></color> Bitbucket"      as vcsrb  #LightBlue
+}
+vcsrh .u. vcsr
+vcsrl .u. vcsr
+vcsrb .u. vcsr
+
+vcs .. vcsu
+vcs .r. vcsr
+
+ll -[#blue;thickness=3]- vcs
+
+component {
+    card "<b>Relational Databases"                       as rd  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> PostgreSQL" as rdp #LawnGreen
+    rectangle "<color:Green><&check></color> MySQL"      as rdm #LawnGreen
+    rectangle "<color:Green><&check></color> MariaDB"    as rda #LawnGreen
+    rectangle "<color:Green><&check></color> MS SQL"     as rds #LightBlue
+    rectangle "<color:Green><&check></color> Oracle"     as rdo #LightBlue
+}
+rd .u. rdp
+rd .u. rdm
+rd .r. rda
+rd .. rds
+rd .. rdo
+
+vcs -[#blue;thickness=3]- rd
+
+component {
+    card "<b>NoSQL Databases"                                         as no  #text:HotPink
+
+    rectangle "Document <color:blue>MongoDB</color>, CouchDB"         as nod #LightBlue
+    rectangle "Column DBs <color:blue>Cassandra</color>"              as noc #LightBlue
+    rectangle "Time series <color:blue>InfluxDB</color>, TimescaleDB" as not
+    rectangle "Realtime <color:blue>Firebase</color>, RethinkDB"      as nor
+}
+no .u. nod
+no .u. noc
+no .. not
+no .. nor
+
+component {
+    card "<b>More about Databases"                                      as mdb  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> ORMs"                      as mbdo #LawnGreen
+    rectangle "<color:Indigo><&task></color> ACID"                      as mdba #LawnGreen
+    rectangle "<color:Indigo><&task></color> Transactions"              as mdbt #LawnGreen
+    rectangle "<color:Indigo><&task></color> N+1 Problem"               as mdbn
+    rectangle "<color:Indigo><&task></color> Database Normalization"    as mdbd #LawnGreen
+    rectangle "<color:Indigo><&task></color> Indexes and how they work" as mdbi #LawnGreen
+
+    rectangle "<color:OrangeRed><&warning></color> Sharding Strategies" as mdbs #LawnGreen
+    rectangle "<color:OrangeRed><&warning></color> Data Replication"    as mdbr #LawnGreen
+    rectangle "<color:OrangeRed><&warning></color> CAP Theorem"         as mdbc
+}
+mdb .u. mbdo
+mdb .u. mdba
+mdb .u. mdbt
+mdb .u. mdbn
+mdb .l. mdbd
+mdb .u. mdbi
+
+mdb .. mdbs
+mdb .. mdbr
+mdb .. mdbc
+
+rd  -[#blue;thickness=3]- mdb
+mdb -[#blue;thickness=3]- no
+
+component {
+    card "<b>Learn about APIs"                                                    as api      #text:Teal
+
+    rectangle "Types"                                                             as apit {
+        rectangle "<color:Indigo><&task></color> REST\n(<i>Read Roy Fielding’s Paper</i>)"                                               as apitr    #LawnGreen
+        rectangle "<color:Indigo><&task></color> JSON APIs"                       as apitj    #LawnGreen
+        rectangle "<color:OrangeRed><&warning></color> SOAP"                      as apits
+        rectangle "<color:Indigo><&task></color> gRPC"                            as apitg
+        rectangle "<color:OrangeRed><&warning></color> HATEOAS"                   as apith
+        rectangle "<color:OrangeRed><&warning></color> Open API Spec and Swagger" as apito
+        rectangle "<color:Indigo><&task></color> Authentication"                  as apita    #LawnGreen
+    }
+    rectangle "Auth Types"                                                        as apitat {
+        rectangle "<color:OrangeRed><&warning></color> Cookie Based"              as apitatc  #LawnGreen
+        rectangle "<color:Indigo><&task></color> OAuth"                           as apitato  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Basic Authentication"            as apitatb  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Token Authentication"            as apitatt  #LawnGreen
+        rectangle "<color:Indigo><&task></color> JWT"                             as apitatj  #LawnGreen
+        rectangle "<color:OrangeRed><&warning></color> OpenID"                    as apitati  #LightBlue
+        rectangle "<color:OrangeRed><&warning></color> SAML"                      as apitats  #LightBlue
+    }
+}
+apitr .[hidden]. apitj
+apitj .[hidden]. apits
+apits .[hidden]. apitg
+apitg .[hidden]. apith
+apith .[hidden]. apito
+apito .[hidden]. apita
+
+apita .l. apitat
+
+apitatc .[hidden]. apitato
+apitato .[hidden]. apitatb
+apitatb .[hidden]. apitatt
+apitatt .[hidden]. apitatj
+apitatj .[hidden]. apitati
+apitati .[hidden]. apitats
+
+api .. apit
+
+mdb -[#blue;thickness=3]- api
+
+component {
+    card "<b>Caching"                                         as ch   #text:Teal
+
+    rectangle "<color:Indigo><&task></color> CDN"             as chd  #LightBlue
+    rectangle "Server Side"                                   as chs  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Redis"       as chsr #LawnGreen
+        rectangle "<color:Green><&check></color> Memcached"   as chsm #LawnGreen
+    rectangle "<color:Indigo><&task></color> Client Side"     as chc  #LawnGreen
+}
+ch .l. chd
+ch .. chs
+ch .u. chc
+
+chs .. chsr
+chs .. chsm
+
+api -[#blue;thickness=3]- ch
+
+component {
+    card "<b>Web Security Knowledge"                                        as sec    #text:teal
+
+    rectangle "<color:Indigo><&task></color> Hashing Algorithms"            as sech {
+        rectangle "<color:Indigo><&task></color> MD5 and why not to use it" as sechm  #LawnGreen
+        rectangle "<color:Indigo><&task></color> SHA Family"                as sechf  #LawnGreen
+        rectangle "<color:Indigo><&task></color> bcrypt"                    as sechb  #LawnGreen
+        rectangle "<color:Indigo><&task></color> scrypt"                    as sechs  #LawnGreen
+    }
+    rectangle "<color:Indigo><&task></color> Security Types"                as sect {
+        rectangle "<color:Indigo><&task></color> HTTPS"                     as secth  #LawnGreen
+        rectangle "<color:Indigo><&task></color> CORS"                      as sectc  #LightBlue
+        rectangle "<color:Indigo><&task></color> Content Security Policy"   as sectp  #LightBlue
+        rectangle "<color:Indigo><&task></color> SSL/TLS"                   as sects  #LawnGreen
+        rectangle "<color:Indigo><&task></color> OWASP Security Risks"      as sectr  #LawnGreen
+    }
+}
+sechm .[hidden]. sechf
+sechf .[hidden]. sechb
+sechb .[hidden]. sechs
+
+secth .[hidden]. sectc
+sectc .[hidden]. sectp
+sectp .[hidden]. sects
+sects .[hidden]. sectr
+
+sec .u. sech
+sec .. sect
+
+ch -[#blue;thickness=3]- sec
+
+component {
+    card "<b>Testing"                                     as tst  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> Integration" as tsti #LawnGreen
+    rectangle "<color:Indigo><&task></color> Unit"        as tstu #LawnGreen
+    rectangle "<color:Indigo><&task></color> Functional"  as tstf #LawnGreen
+}
+tst .. tsti
+tst .. tstu
+tst .. tstf
+
+sec -[#blue;thickness=3]- tst
+
+component {
+    card "<color:Indigo><&task></color> <b>CI / CD" as cid #text:Teal
+}
+
+tst -[#blue;thickness=3]- cid
+
+component {
+    card "<b>Design and Development Principles"                                 as ddp    #text:Teal
+
+    rectangle "<i>Principles"                                                   as ddpp {
+        rectangle "<color:OrangeRed><&warning></color> GOF Design Patterns"     as ddppg
+        rectangle "<color:OrangeRed><&warning></color> Domain Driven Design"    as ddpp3  #LawnGreen
+        rectangle "<color:OrangeRed><&warning></color> Test Driven Development" as ddppt  #LawnGreen
+        rectangle "<color:Indigo><&task></color> SOLID"                         as ddpps  #LawnGreen
+        rectangle "<color:Indigo><&task></color> KISS"                          as ddppk  #LawnGreen
+        rectangle "<color:Indigo><&task></color> YAGNI"                         as ddppy
+        rectangle "<color:Indigo><&task></color> DRY"                           as ddppd  #LawnGreen
+    }
+}
+ddppg .[hidden]. ddpp3
+ddpp3 .[hidden]. ddppt
+ddppt .[hidden]. ddpps
+ddpps .[hidden]. ddppk
+ddppk .[hidden]. ddppy
+ddppy .[hidden]. ddppd
+
+ddp .. ddpp
+
+cid -[#blue;thickness=3]- ddp
+
+component {
+    card "<b>Architectural Patterns"                                        as ap  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> Monolithic Apps"               as apn #LawnGreen
+    rectangle "<color:Indigo><&task></color> Microservices"                 as apm #LawnGreen
+    rectangle "<color:Indigo><&task></color> SOA"                           as aps #LawnGreen
+    rectangle "<color:OrangeRed><&warning></color> CQRS and Event Sourcing" as apc #LawnGreen
+    rectangle "<color:Indigo><&task></color> Serverless"                    as apl #LawnGreen
+}
+ap  .[hidden]. apn
+
+apn .. apm
+apm .. aps
+aps .. apc
+apc .. apl
+
+ddp -[#blue;thickness=3]- ap
+
+component {
+    card "<b>Search Engines"                                as se  #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> Elasticsearch" as see #LightBlue
+    rectangle "<color:Green><&check></color> Solr"          as ses
+}
+se  .. see
+
+see .. ses
+
+ddp -[#blue;thickness=3]- se
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Message Brokers"                          as mb  #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> <color:OrangeRed><&warning></color> RabbitMQ" as mbr #LightBlue
+    rectangle "<color:Green><&check></color> Kafka"                                        as mbk #LightBlue
+}
+mb .r. mbr
+mb .r. mbk
+
+se -[#blue;thickness=3]- mb
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Containerization vs Virtualization" as cv  #text:teal
+
+    rectangle "<color:Indigo><&task></color> Docker"                                 as cvd #LawnGreen
+    rectangle "<color:Red><&ban></color> rkt"                                        as cvr
+    rectangle "<color:Red><&ban></color> LXC"                                        as cvl
+}
+cv .l. cvd
+cv .l. cvr
+cv .l. cvl
+
+mb -[#blue;thickness=3]- cv
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>GraphQL"   as gql  #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> Apollo"        as gqla
+    rectangle "<color:Green><&check></color> Relay Modern"  as gqlr
+}
+gql .. gqla
+gql .. gqlr
+
+cv -[#blue;thickness=3]- gql
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Graph Databases"   as gdb  #text:HotPink
+
+    rectangle "<color:OrangeRed><&warning></color> Neo4j"           as gdbn
+}
+gdb .l. gdbn
+
+gql -[#blue;thickness=3]- gdb
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>WebSockets" as wsk #text:Teal
+}
+
+gdb -[#blue;thickness=3]- wsk
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Web Servers"                           as wsv  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> <color:OrangeRed><&warning></color> Nginx" as wsvn #LawnGreen
+    rectangle "<color:Green><&check></color> Apache"                                    as wsva #LawnGreen
+    rectangle "<color:Green><&check></color> Caddy"                                     as wsvc
+    rectangle "<color:Green><&check></color> MS IIS"                                    as wsvm
+}
+wsv .r. wsvn
+wsv .r. wsva
+wsv .l. wsvc
+wsv .l. wsvm
+
+wsk -[#blue;thickness=3]- wsv
+
+component {
+    card "<color:Indigo><&task></color> <b>Building for Scale\n<i>General topics that you should learn\n<i>and care about for the sustainability\n<i>of the product."                                                          as bfs
+
+    rectangle "<color:Indigo><&task></color> Mitigation Strategies"          as bfst  #text:Teal {
+        rectangle "<i>Graceful Degradation"                                  as bfstg
+        rectangle "<i>Throttling"                                            as bfstt
+        rectangle "<i>Backpressure"                                          as bfstb
+        rectangle "<i>Loadshifting"                                          as bfstl
+        rectangle "<i>Circuit Breaker"                                       as bfstc
+    }
+    rectangle "Understand the Diff."                                         as bfsd  #text:Teal {
+        rectangle "<i>Instrumentation"                                       as bfsdi
+        rectangle "<i>Monitoring"                                            as bfsdm
+        rectangle "<i>Telemetry"                                             as bfsdt
+    }
+    rectangle "<color:Indigo><&task></color> Migration Strategies"           as bfsm  #LawnGreen
+    rectangle "<color:Indigo><&task></color> Horizontal vs Vertical Scaling" as bfss  #LawnGreen
+    rectangle "<color:Indigo><&task></color> <b>Building with Observability in mind\n<i>Metrics logging and other observable items\n<i>that could help you in debugging and solving\n<i>the issues when things go wrong"                                          as bfso  #LawnGreen
+}
+bfstg .[hidden]. bfstt
+bfstt .[hidden]. bfstb
+bfstb .[hidden]. bfstl
+bfstl .[hidden]. bfstc
+
+bfsdi .[hidden]. bfsdm
+bfsdm .[hidden]. bfsdt
+
+bfs .. bfst
+bfs .. bfsd
+
+bfs .r. bfsm
+bfs .l. bfss
+bfs .. bfso
+
+wsv -[#blue;thickness=3]- bfs
+
+card "Keep Learning" as KL
+
+bfs -[#blue;thickness=3]- KL
+KL  -[#blue;dashed;thickness=5]- end
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 21:12:26 MSK 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1251
+Language: ru
+Country: RU
+--></g></svg>

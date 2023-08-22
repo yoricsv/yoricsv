@@ -1,0 +1,458 @@
+@startuml hard_skills
+
+title "DevOps"
+
+'left to right direction
+'scale 1600 width
+
+<style>
+    title {
+        FontSize 24
+        FontColor black
+    }
+    legend {
+        FontSize 24
+        FontColor black
+    }
+    card {
+        BackGroundColor #Yellow
+        LineThickness 1
+        LineColor black
+    }
+    rectangle {
+        BackgroundColor none
+        Padding-left 10
+    }
+</style>
+
+skinparam linetype polyline
+skinparam linetype ortho
+skinparam componentStyle rectangle
+skinparam rectangle {
+    roundCorner 35
+}
+
+/'salt
+{+
+    Password | "**** "
+    [Cancel] | [ OK ]
+}'/
+
+legend top center
+    <color:Indigo><&task></color> - <b>Personal Recommendation</b> / Opinion
+    <color:Green><&check></color> - <b>Alternative</b> Option - Pick this or purple
+    <color:OrangeRed><&warning></color> - Order in roadmap <b>not strict</b> (<i>Learn anytime</i>)
+    <color:Red><&ban></color> - I <b>wouldn't</b> recommend
+    <color:LawnGreen><&media-stop></color> - (<i>highlight</i>) - I know it and <b>I use</b>
+    <color:LightBlue><&media-stop></color> - (<i>highlight</i>) - I know this, but I <b>did not have the opportunity</b> to use it
+end legend
+
+card "DevOps" as DO
+
+start -[#blue;dashed;thickness=5]- DO
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>Learn a programming Language"                      as lrn  #text:Teal
+
+    rectangle "<color:Green><&check></color> Python"  as lrnp
+    rectangle "<color:Indigo><&task></color> Go"      as lrng
+    rectangle "<color:Green><&check></color> Rust"    as lrnt
+    rectangle "<color:Green><&check></color> Ruby"    as lrnr
+    rectangle "<color:Green><&check></color> Node.js" as lrnn
+    rectangle "<color:Green><&check></color> C"       as lrns #LawnGreen
+    rectangle "<color:Green><&check></color> C++"     as lrnc #LawnGreen
+
+    rectangle "\
+<i>It doesn't matter which language you\n\
+<i>pick, key is to get some programming\n\
+<i>knowledge for automation"                          as lp   #LightPink;line:blue;text:blue
+}
+lrn .u. lrnp
+lrn .u. lrng
+lrn .u. lrnt
+
+lrn .r. lrnr
+
+lrn .u. lrnn
+lrn .. lrns
+lrn .. lrnc
+
+DO ----- lrn   #blue;line.bold
+
+lrn -[#blue;thickness=3]- lp
+
+component {
+    card "<b>Understand different OS Concepts"                                 as dif  #text:Teal
+
+    rectangle Exchange                                                         as difl #text:Teal {
+        rectangle "<color:Indigo><&task></color> Process Management"           as difp #LawnGreen
+        rectangle "<color:Indigo><&task></color> Threads and Concurrency"      as difc #LawnGreen
+        rectangle "<color:Indigo><&task></color> Sockets"                      as difs #LawnGreen
+        rectangle "<color:Indigo><&task></color> POSIX Basics"                 as difb #LawnGreen
+        rectangle "<color:Indigo><&task></color> Networking Concepts"          as difn #LawnGreen
+    }
+    rectangle Startup                                                          as dift #text:Teal {
+        rectangle "<color:Indigo><&task></color> Startup Management (initd)"   as difi #LawnGreen
+        rectangle "<color:Indigo><&task></color> Service Management (systemd)" as difd #LawnGreen
+    }
+    rectangle Control                                                          as difr #text:Teal {
+        rectangle "<color:Indigo><&task></color> I/O Management"               as difo #LawnGreen
+        rectangle "<color:Indigo><&task></color> Virtualization"               as difv #LawnGreen
+        rectangle "<color:Indigo><&task></color> Memory/Storage"               as difm #LawnGreen
+        rectangle "<color:Indigo><&task></color> File Systems"                 as diff #LawnGreen
+    }
+}
+difp .[hidden]. difc
+difc .[hidden]. difs
+difs .[hidden]. difb
+difb .[hidden]. difn
+
+difo .[hidden]. difv
+difv .[hidden]. difm
+difm .[hidden]. diff
+
+dif .l. difl
+dif .u. dift
+dif ..  difr
+
+dif -[#blue;thickness=3]- lp    #blue;line.bold
+
+component {
+    card "\
+<b><color:Teal>Learn about Managing Servers\n\
+<i>Get some administration knowledge in some OS. Go\n\
+<i>with any Linux distro. Pick Ubuntu if you have a little\n\
+<i>no experience with Linux"                                  as ms
+}
+
+dif -[#blue;thickness=3]- ms    #blue;line.bold
+
+component {
+    card "<b>Operating System"                               as os      #text:Teal
+
+    rectangle "<color:Indigo><&task></color> Linux"          as osl {
+        rectangle "<color:Green><&check></color> SUSE Linux" as oslfds  #LightBlue
+        rectangle "<color:Green><&check></color> Debian"     as oslfd   #LightBlue
+        rectangle "<color:Green><&check></color> Fedora"     as oslf    #LawnGreen
+        rectangle "<color:Indigo><&task></color> Ubuntu"     as oslfu   #LightBlue
+        rectangle "<color:Indigo><&task></color> CentOS"     as oslfuc  #LawnGreen
+        rectangle "<color:Indigo><&task></color> RHEL"       as oslfucr #LawnGreen
+    }
+    rectangle "<color:Green><&check></color> Unix"           as osu {
+        rectangle "<color:Indigo><&task></color> FreeBSD"    as osuf
+        rectangle "<color:Green><&check></color> OpenBSD"    as osufo
+        rectangle "<color:Green><&check></color> NetBSD"     as osufon
+    }
+    rectangle "<color:Green><&check></color> <b>Windows"     as osw     #LawnGreen
+}
+osuf  .[hidden]. osufo
+osufo .[hidden]. osufon
+
+os .. osl
+os .r. osu
+os .u. osw
+
+ms -[#blue;thickness=3]--- os
+
+component {
+    card "<b>Learn to live in terminal"              as cmd   #text:Teal
+
+    rectangle "<color:OrangeRed><&warning></color> \
+terminal multiplexers"                               as cmdm
+        rectangle "<color:Indigo><&task></color> \
+tmux"                                                as cmdmt
+        rectangle "<color:Green><&check></color> \
+screen"                                              as cmdmts
+    rectangle "<color:Indigo><&task></color> \
+Learn Bash Scripting"                                as cmds   #LightBlue
+    rectangle "<color:Indigo><&task></color> \
+Vim/Nano/PowerShell/Emacs"                           as cmdt   #LawnGreen
+    rectangle "<color:OrangeRed><&warning></color> \
+Compiling apps from source\n\
+<i>(gcc, make and other related stuff)"              as cmdb   #LawnGreen
+
+    component "Commands"                             as cmdc {
+        rectangle "<color:Indigo><&task></color> \
+<b>Text Manipulation Tools\n\
+<i>awk, sed, grep, sort, uniq, cat, cut\n\
+<i>echo, fmt, tr, nl, egrep, fgrep, wc"              as cmdct  #LawnGreen
+        rectangle "<color:Indigo><&task></color> \
+<b>Process Monitoring\n\
+<i>ps, top, htop, atop, lsof"                        as cmdcm  #LawnGreen
+        rectangle "<color:Indigo><&task></color> \
+<b>Network\n\
+<i>nmap, tcpdump, ping, mtr, traceroute, dig\n\
+<i>airmon, airodump, dig, iptables, netstat"         as cmdcn  #LawnGreen
+        rectangle "<color:Indigo><&task></color> \
+<b>System Performance\n\
+<i>nmon, iostat, sar, vmstat"                        as cmdcp  #LawnGreen
+        rectangle "<color:Indigo><&task></color> \
+<b>Others\n\
+<i>strace, dtrace, systemtap,\n\
+<i>uname, df, history"                               as cmdco  #LightBlue
+    }
+}
+cmdm  .. cmdmt
+cmdmt .. cmdmts
+
+cmdct .. cmdcm
+cmdcm .. cmdcn
+cmdcn .. cmdcp
+cmdcp .. cmdco
+
+cmd .. cmdm
+cmd .u. cmds
+cmd .u. cmdt
+cmd .l. cmdb
+cmd .r. cmdc
+
+ms -u----- cmd    #blue;line.bold
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>Networking, Security and Protocols"                            as net        #text:Teal
+
+    rectangle "OSI Model"                                         as neto       #LawnGreen
+        rectangle "DNS"                                           as netod      #LawnGreen
+    rectangle "<color:OrangeRed><&warning></color> Emails"        as nete {
+        rectangle "SMTP"                                          as netes      #LightBlue
+        rectangle "IMAPS"                                         as netesi
+        rectangle "POP3S"                                         as netesip
+        rectangle "DMARC"                                         as neted
+        rectangle "SPF"                                           as neteds
+        rectangle "Domain Keys"                                   as netedsd    #LightBlue
+        rectangle "White/Grey Listing"                            as netel      #LightBlue
+    }
+    component "<color:Indigo><&task></color> Protocols"           as netp       #text:Teal {
+        rectangle "<color:Indigo><&task></color> HTTP"            as netph      #LawnGreen
+        rectangle "<color:Indigo><&task></color> HTTPS"           as netphs     #LawnGreen
+        rectangle "<color:Indigo><&task></color> FTP"             as netphsf    #LawnGreen
+        rectangle "<color:Indigo><&task></color> SSL / TLS"       as netphsfl   #LawnGreen
+        rectangle "<color:Indigo><&task></color> SSH"             as netphsflh  #LawnGreen
+        rectangle "<color:Indigo><&task></color> Port Forwarding" as netphsflhp #LawnGreen
+    }
+}
+neto .r. netod
+
+netes  .. netesi
+netesi .. netesip
+neted  .. neteds
+neteds .. netedsd
+
+netph .. netphs
+netphs .. netphsf
+netphsf .. netphsfl
+netphsfl .. netphsflh
+netphsflh .. netphsflhp
+
+net .u. neto
+net .r. nete
+net .. netp
+
+ms -------- net    #blue;line.bold
+
+component {
+    card "<b>What is and how to set up a __ ?" as wis     #text:Teal
+
+    rectangle "<color:Indigo><&task></color> Reverse Proxy"     as wisr    #LawnGreen
+        rectangle "<color:Indigo><&task></color> Forward Proxy" as wisrf   #LawnGreen
+    rectangle "<color:Indigo><&task></color> Caching Server"    as wisc    #LightBlue
+        rectangle "<color:Indigo><&task></color> Load Balancer" as wiscl   #LawnGreen
+    rectangle "<color:Indigo><&task></color> Firewall"          as wisflf  #LawnGreen
+    rectangle "<color:Indigo><&task></color> Web Server"        as wisw {
+        rectangle "<color:Green><&check></color> IIS"           as wiswi
+        rectangle "<color:Indigo><&task></color> Nginx"         as wiswn   #LawnGreen
+        rectangle "<color:Green><&check></color> Apache"        as wiswa   #LawnGreen
+        rectangle "<color:Green><&check></color> Tomcat"        as wiswt   #LawnGreen
+        rectangle "<color:Green><&check></color> Caddy"         as wiswc
+    }
+}
+wisr  .. wisrf
+wisrf .. wisflf
+
+wisc  .. wiscl
+wiscl .. wisflf
+
+wiswi .. wiswn
+wiswn .. wiswa
+wiswa .. wiswt
+wiswt .. wiswc
+
+wis .r. wisw
+wis .. wisr
+wis .. wisc
+
+net -----u------- wis   #blue;line.bold
+
+component {
+    card "<color:Indigo><&task></color> <b>Learn Infrastructure as Code"  as iac      #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> Containers"                  as iacc  {
+        rectangle "<color:Indigo><&task></color> Docker"                  as iaccd    #LawnGreen
+        rectangle "<color:Green><&check></color> LXC"                     as iaccdl
+    }
+    rectangle "<color:Indigo><&task></color> Configuration Management"    as iacm {
+        rectangle "<color:Indigo><&task></color> Ansible"                 as iacma    #LawnGreen
+        rectangle "<color:Green><&check></color> Chef"                    as iacmac   #LightBlue
+        rectangle "<color:Green><&check></color> Salt"                    as iacms
+        rectangle "<color:Green><&check></color> Puppet"                  as iacmsp   #LightBlue
+    }
+    rectangle "<color:Indigo><&task></color> Container Orchestration"     as iaco {
+        rectangle "<color:Indigo><&task></color> Kubernetes"              as iacok    #LightBlue
+        rectangle "<color:Green><&check></color> Docker Swarm"            as iacokd
+        rectangle "<color:Green><&check></color> Mesos"                   as iacom
+        rectangle "<color:Green><&check></color> Nomad"                   as iacomn
+    }
+    rectangle "<color:Indigo><&task></color> Infrastructure Provisioning" as iacp {
+        rectangle "<color:Indigo><&task></color> Terraform"               as iacpt    #LightBlue
+        rectangle "<color:Green><&check></color> Vagrant"                 as iacptv   #LawnGreen
+        rectangle "<color:Green><&check></color> CloudFormation"          as iacptvc
+        rectangle "<color:Green><&check></color> Pulumi"                  as iacptvcp
+    }
+    rectangle "<color:Indigo><&task></color> Service Mesh"                as iacs {
+        rectangle "<color:Indigo><&task></color> Consul"                  as iacsc
+        rectangle "<color:Green><&check></color> Linkerd"                 as iacscl
+        rectangle "<color:Green><&check></color> Envoy"                   as iacscle
+        rectangle "<color:Indigo><&task></color> Istio"                   as iacsclei
+    }
+}
+iaccd .[hidden]. iaccdl
+
+iacma .[hidden]. iacmac
+iacms .[hidden]. iacmsp
+
+iacok .[hidden]. iacokd
+iacom .[hidden]. iacomn
+
+iac .l. iacc
+iac .u. iacm
+iac .. iaco
+iac .u. iacp
+iac .. iacs
+
+wis -[#blue;thickness=3]--------- iac   #blue;line.bold
+
+component {
+    card "<color:Indigo><&task></color> <b>Learn some CI/CD Tool" as cid     #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> Gitlab CI"           as cidg
+        rectangle "<color:Indigo><&task></color> GitHub Actions"  as cidga   #LawnGreen
+        rectangle "<color:Green><&check></color> Bamboo"          as cidgab
+        rectangle "<color:Green><&check></color> Azure DevOps"    as cidgaba
+    rectangle "<color:Indigo><&task></color> Jenkins"             as cidj    #LightBlue
+        rectangle "<color:Green><&check></color> Travis CI"       as cidjt
+        rectangle "<color:Green><&check></color> TeamCity"        as cidjtt  #LightBlue
+        rectangle "<color:Indigo><&task></color> Circle CI"       as cidjttc
+}
+cidg   .. cidga
+cidga  .. cidgab
+cidgab .. cidgaba
+
+cidj   .. cidjt
+cidjt  .. cidjtt
+cidjtt .. cidjttc
+
+cid .. cidg
+cid .. cidj
+
+iac -[#blue;thickness=3]----- cid
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>Learn how to monitor software and infrastructure"                    as mon    #text:HotPink
+
+    rectangle "Logs Management"                                         as monl {
+        rectangle "<color:Indigo><&task></color> Elastic Stack"         as monle  #LightBlue
+        rectangle "<color:Green><&check></color> Graylog"               as monlg
+        rectangle "<color:Green><&check></color> Splunk"                as monls
+        rectangle "<color:Green><&check></color> Papertrail"            as monlp
+    }
+    rectangle "<color:Indigo><&task></color> Application Monitoring"    as mona {
+        rectangle "<color:Indigo><&task></color> Jaeger"                as monaj
+        rectangle "<color:Green><&check></color> AppDynamics"           as monaja
+        rectangle "<color:Indigo><&task></color> New Relic"             as monar
+        rectangle "<color:Green><&check></color> Instana"               as monari
+        rectangle "<color:Green><&check></color> OpenTracing"           as monaai
+    }
+    rectangle "<color:Indigo><&task></color> Infrastructure Monitoring" as moni {
+        rectangle "<color:Indigo><&task></color> Prometheus"            as monip  #LightBlue
+        rectangle "<color:Green><&check></color> Nogios"                as monin
+        rectangle "<color:Indigo><&task></color> Grafana"               as monig  #LightBlue
+        rectangle "<color:Green><&check></color> Zabbix"                as moniz
+        rectangle "<color:Green><&check></color> Monit"                 as monim
+        rectangle "<color:Green><&check></color> Datadog"               as monid
+    }
+}
+monle .. monlg
+monlg .. monls
+monls .. monlp
+
+monaj .. monaja
+
+monar .. monari
+
+monaja .. monaai
+monari .. monaai
+
+monip .. monin
+monin .. monig
+monig .. moniz
+moniz .. monim
+monim .. monid
+
+mon .. monl
+mon .. mona
+mon .. moni
+
+cid -[#blue;thickness=3]---- mon   #blue;line.bold
+
+component {
+    card "<color:Indigo><&task></color> <b>Cloud Providers"    as cld      #text:HotPink
+
+    rectangle "<color:Red><&ban></color> Alibaba Cloud"        as clda
+        rectangle "<color:Green><&check></color> Heroku"       as cldah    #LightBlue
+        rectangle "<color:Green><&check></color> Azure"        as cldaha
+        rectangle "<color:Green><&check></color> Google Cloud" as cldahag
+        rectangle "<color:Indigo><&task></color> AWS"          as cldahaga #LawnGreen
+    rectangle "<color:Indigo><&task></color> Digital Ocean"    as cldd
+        rectangle "<color:Green><&check></color> Linode"       as clddl
+        rectangle "<color:Green><&check></color> Vultr"        as clddlv
+}
+clda    .. cldah
+cldah   .. cldaha
+cldaha  .. cldahag
+cldahag .. cldahaga
+
+cldd  .. clddl
+clddl .. clddlv
+
+cld .. clda
+cld .. cldd
+
+mon -[#blue;thickness=3]- cld   #blue;line.bold
+
+component {
+    card "<color:Indigo><&task></color> \
+<color:OrangeRed><&warning></color> \
+<b><color:Teal>Cloud Design Patterns\n\
+<i>http://bit.ly/cloud-arch-patterns"                           as cdp
+
+    rectangle "<i>Availability"                                 as cdpa #LightBlue
+    rectangle "<i>Data Management"                              as cdpd #LightBlue
+    rectangle "<i>Design and Implementation"                    as cdpi #LightBlue
+    rectangle "<i>Management and Monitoring"                    as cdpm #LightBlue
+}
+cdp  .. cdpd
+cdpd .. cdpa
+cdp  ..  cdpi
+cdpi ..  cdpm
+
+cld -[#blue;thickness=3]- cdp
+
+card "Keep Learning" as KL
+
+cdp -[#blue;thickness=3]- KL
+KL  -[#blue;dashed;thickness=5]- end
+
+@enduml

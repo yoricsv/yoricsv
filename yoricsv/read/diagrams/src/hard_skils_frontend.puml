@@ -1,0 +1,548 @@
+@startuml hard_skills
+
+title "Frontend"
+
+'left to right direction
+'scale 1600 width
+
+<style>
+    title {
+        FontSize 24
+        FontColor black
+    }
+    legend {
+        FontSize 30
+        FontColor black
+    }
+    card {
+        BackGroundColor #Yellow
+        LineThickness 1
+        LineColor black
+    }
+    rectangle {
+        BackgroundColor none
+        Padding-left 10
+    }
+</style>
+
+skinparam linetype polyline
+skinparam linetype ortho
+skinparam componentStyle rectangle
+skinparam rectangle {
+    roundCorner 35
+}
+
+/'salt
+{+
+    Password | "**** "
+    [Cancel] | [ OK ]
+}'/
+
+legend top center
+    <color:Indigo><&task></color> - <b>Personal Recommendation</b> / Opinion 
+    <color:Green><&check></color> - <b>Alternative</b> Option - Pick this or purple
+    <color:OrangeRed><&warning></color> - Order in roadmap <b>not strict</b> (<i>Learn anytime</i>)
+    <color:Red><&ban></color> - I <b>wouldn't</b> recommend
+    <color:LawnGreen><&media-stop></color> - (<i>highlight</i>) - I know it and <b>I use</b>
+    <color:LightBlue><&media-stop></color> - (<i>highlight</i>) - I know this, but I <b>did not have the opportunity</b> to use it
+end legend
+
+card "Front-end" as FE
+
+start -[#blue;dashed;thickness=5]- FE
+
+component {
+    card "<color:Indigo><&task></color> <b>Internet"                 as inet  #text:Teal
+
+    rectangle "<i>What is __ " as inetw {
+        rectangle "<color:Indigo><&task></color> <i>HTTP?"           as inetwp #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>Domain Name?"    as inetwn #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>Hosting?"        as inetwh #LawnGreen
+    }
+    rectangle "<i>How is/does __ work?" as ineth {
+        rectangle "<color:Indigo><&task></color> <i>The internet"    as inethi #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>Browser"         as inethb #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>DNS"             as inethd #LawnGreen
+    }
+}
+inetwp .. inetwn
+inetwn .. inetwh
+
+inethi .. inethb
+inethb .. inethd
+
+inet .. inetw
+inet .l. ineth
+
+FE -[#blue;thickness=3]- inet
+
+component {
+    card "<b>HTML"                                                                  as html  #text:Teal
+
+    rectangle "<i> Basics" as htmlb {
+        rectangle "<color:Indigo><&task></color> <i>Learn the basics"               as htmlbb #LawnGreen
+        rectangle "<color:OrangeRed><&warning></color> <i>Writing Semantic HTML"    as htmlbw #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>Forms and Validations"          as htmlbf #LawnGreen
+        rectangle "<color:Indigo><&task></color> <i>Convensions and Best Practices" as htmlbc #LawnGreen
+    }
+    rectangle "<i> Advanced" as htmla {
+        rectangle "<color:OrangeRed><&warning></color> <i>Accessibility"            as htmlaa #LawnGreen
+        rectangle "<color:OrangeRed><&warning></color> <i>SEO Basics"               as htmlas #LawnGreen
+    }
+}
+htmlbb .. htmlbw
+htmlbw .. htmlbf
+htmlbf .. htmlbc
+
+htmlaa .. htmlas
+
+html .u. htmlb
+html .. htmla
+
+inet -[#blue;thickness=3]- html
+
+component {
+    card "<b>CSS"                                                                 as css  #text:Teal
+
+    rectangle "<color:Indigo><&task></color> Learn the basics"                    as cssb #LawnGreen
+
+    rectangle "<color:Indigo><&task></color> Marking Layouts"                     as cssm #LawnGreen
+        rectangle "\
+<color:Indigo><&task></color> Floats\n\
+<color:Indigo><&task></color> Positioning\n\
+<color:Indigo><&task></color> Display\n\
+<color:Indigo><&task></color> Box Model\n\
+<color:Indigo><&task></color> CSS Grid\n\
+<color:Indigo><&task></color> Flex Box"                                           as cssme #LawnGreen
+    rectangle "<color:Indigo><&task></color> Responcive design and Media Queries" as cssr #LawnGreen
+}
+css  .u. cssb
+css  .. cssm
+css  .l. cssr
+cssm .l. cssme
+
+html -[#blue;thickness=3]- css
+
+component {
+    card "<b>JavaScript"                                                          as js  #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> Syntax and Basic Constructs"         as jsb #LawnGreen
+    rectangle "<color:Indigo><&task></color> Learn DOM Manipulation"              as jsm #LawnGreen
+    rectangle "<color:Indigo><&task></color> Learn Fetch API / Ajax (XHR)"        as jse #LightBlue
+    rectangle "<color:Indigo><&task></color> ES6+ and modular JavaScript"         as jsm
+    rectangle "\
+<color:Indigo><&task></color> Understand the concepts:\n\
+    <color:Indigo><&task></color> Hoisting,\n\
+    <color:Indigo><&task></color> Event Bubbling,\n\
+    <color:Indigo><&task></color> Scope,\n\
+    <color:Indigo><&task></color> Prototype,\n\
+    <color:Indigo><&task></color> Shadow DOM,\n\
+    <color:Indigo><&task></color> strict"                                         as jsu
+}
+js .u. jsb
+js .u. jsm
+js .r. jse
+
+js .l. jsu
+
+css -[#blue;thickness=3]- js
+
+component {
+    card "<b><color:Teal>Version Control Systems\n\
+<i>What are they and why you should use one"                     as vers
+    rectangle "<color:Indigo><&task></color> Basic Usage of Git" as versu #LawnGreen
+    rectangle "<b>Repo hosting services\n\
+<i>Create account and Learn to use GitHub"                       as rpo   #LawnGreen
+        rectangle "<color:Indigo><&task></color> GitHub"         as rpoh  #LawnGreen
+        rectangle "<color:Green><&check></color> GitLab"         as rpol  #LightBlue
+        rectangle "<color:Green><&check></color> Bitbucket"      as rpob  #LightBlue
+}
+vers .. versu
+
+vers .r. rpo
+rpoh .u. rpo
+rpol .u. rpo
+rpob .u. rpo
+
+js -[#blue;thickness=3]- vers
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Web Security Knowledge" as sec    #text:HotPink
+        rectangle "\
+<color:OrangeRed><&warning></color> \
+Get at least a basic knowledge of all of these"                          as secr {
+        rectangle "CORS"                                                 as secrc  #LightBlue
+        rectangle "HTTPS"                                                as secrh  #LawnGreen
+        rectangle "Content Security Policy"                              as secrp  #LightBlue
+        rectangle "OWASP Security Risks"                                 as secrq  #LawnGreen
+    }
+}
+sec .. secr
+
+secrc .u. secrh
+secrh .r. secrp
+secrp ..  secrq
+secrq .l. secrc
+
+vers -[#blue;thickness=3]-- sec
+
+
+component {
+    card "Package Managers"                        as mng  #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> npm"  as mngn #LawnGreen
+    rectangle "<color:Indigo><&task></color> yarn" as mngy
+
+    rectangle "npm and yarn both are fine, pick\n\
+one or learn both, there is not\n\
+much difference."                                  as mngd #LightPink;line:blue;text:blue
+}
+mng  .left. mngn  #black;line.dashed
+mngy .left. mng   #black;line.dashed
+
+sec -down- mng   #blue;line.bold /'thickness=3'/
+
+component {
+     card "<b><color:HotPink>CSS Architecture\n<i>\
+With modern frameworks and CSS-in-JS you don't\n\
+have to worry about these anymore but still it would\n\
+be a good idea to get familiarized with BEM atleast."        as caka
+
+     rectangle "<color:OrangeRed><&warning></color> BEM"     as cakab #LawnGreen
+     rectangle "<color:Red><&ban></color> OOCSS"             as cakao
+     rectangle "<color:Red><&ban></color> SMACSS"            as cakas
+}
+caka .. cakab
+caka .. cakao
+caka .. cakas
+
+mng -[#blue;thickness=3]- caka
+
+component {
+     card "<b><color:HotPink>CSS Preprocessors\n<i>\
+With how the modern frameworks there has been\n\
+more push towards CSS-in-JS so you may not need\n\
+these but still a good idea to familiarize yourself."        as cakp
+
+     rectangle "<color:OrangeRed><&warning></color> Sass"    as cakps #LawnGreen
+     rectangle "<color:OrangeRed><&warning></color> PostCSS" as cakpp
+     rectangle "<color:Red><&ban></color> Less"              as cakpl #LawnGreen
+}
+cakp .. cakps
+cakp .. cakpp
+cakp .. cakpl
+
+caka -[#blue;thickness=3]- cakp
+
+component {
+    card "<b>Build Tools"                                        as bt   #text:HotPink
+
+    rectangle "<b>Task Runners"                                  as btt  #LawnGreen
+        rectangle "<color:Indigo><&task></color> npm scripts"    as bttn
+        rectangle "Gulp"                                         as bttg #LawnGreen
+    rectangle "<b>Module Bundlers"                               as btm
+        rectangle "<color:Indigo><&task></color> Webpack"        as btmw #LawnGreen
+        rectangle "<color:Indigo><&task></color> esbuild"        as btme
+        rectangle "<color:Green><&check></color> Rollup"         as btmr
+        rectangle "<color:Green><&check></color> Parcel"         as btmp #LightBlue
+        rectangle "<color:Green><&check></color> Vite"           as btmv
+    rectangle "<b>Linters and Formatters"                        as btl  #LawnGreen
+        rectangle "<color:OrangeRed><&warning></color> Prettier" as btlp #LawnGreen
+        rectangle "<color:OrangeRed><&warning></color> ESLint"   as btle
+        rectangle "<color:Red><&ban></color> StandardJS"         as btls
+}
+btt .l. bttn
+btt .r. bttg
+
+btm .u. btmw
+btm .u. btme
+btm .. btmr
+btm .. btmp
+btm .. btmv
+
+btl .. btlp
+btl .. btle
+btl .. btls
+
+bt .u. btt
+bt .l. btm
+bt .. btl
+
+cakp -[#blue;thickness=3]---- bt
+
+component {
+    card "<b>Pick a Framework"                            as pic
+
+    rectangle "<color:Indigo><&task></color> React"       as picr
+        rectangle "<color:Indigo><&task></color> Redux"   as picrr
+        rectangle "<color:Green><&check></color> MobX"    as picrm
+        rectangle "<color:Green><&check></color> Recoil"  as picrc
+    rectangle "<color:Green><&check></color> Angular"     as pica
+        rectangle "<color:Green><&check></color> RxJS"    as picar
+        rectangle "<color:Green><&check></color> NgRx"    as pican
+    rectangle "<color:Green><&check></color> Vue.js"      as picv
+        rectangle "<color:Green><&check></color> VueX"    as picvx
+}
+picr .u. picrr
+picr .u. picrm
+picr .u. picrc
+
+pica .. picar
+pica .. pican
+
+picv .. picvx
+
+pic .u. picr
+pic ..  pica
+pic ..  picv
+
+bt -[#blue;thickness=3]------ pic
+
+component {
+    card "<b>Modern CSS"                                        as cakm  #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> Styled Components" as cakms
+    rectangle "<color:Indigo><&task></color> CSS Modules"       as cakmm #LawnGreen
+    rectangle "<color:Green><&check></color> Styled JSX"        as cakmj
+    rectangle "<color:Green><&check></color> Emotion"           as cakme
+    rectangle "<color:Red><&ban></color> Radium"                as cakmr
+    rectangle "<color:Red><&ban></color> Glamorous"             as cakmg
+}
+cakm .u. cakms
+cakm .u. cakmm
+cakm .l.  cakmj
+cakm .l.  cakme
+cakm .r.  cakmr
+cakm .r.  cakmg
+
+pic -[#blue;thickness=3]----- cakm
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Web Components"    as web  #text:Teal
+
+    rectangle "<color:OrangeRed><&warning></color> HTML Templates"  as webh #LawnGreen
+    rectangle "<color:OrangeRed><&warning></color> Custom Elements" as webc #LawnGreen
+    rectangle "<color:OrangeRed><&warning></color> Shadow DOM"      as webs #LightBlue
+}
+web .. webh
+web .. webc
+web .r. webs
+
+cakm -[#blue;thickness=3]- web
+
+component {
+    card "<b>CSS Frameworks"                                   as cakf  #text:HotPink
+
+    rectangle "CSS first frameworks which\n\
+don't come with JavaScript\n\
+framework components by\n\
+default."                                                      as cakff {
+        rectangle "<color:Green><&check></color> Bootstrap"    as cakffb  #LawnGreen
+        rectangle "<color:Green><&check></color> Bulma"        as cakffu
+    }
+    rectangle "JS based and better to use\n\
+with your framework based\n\
+JavaScript applications."                                      as cakfr {
+        rectangle "<color:Green><&check></color> Tailwind CSS" as cakfrt
+        rectangle "<color:Green><&check></color> Chakra UI"    as cakfrc
+        rectangle "<color:Green><&check></color> Material UI"  as cakfrm
+        rectangle "<color:Green><&check></color> Radix UI"     as cakfrr
+    }
+}
+cakf .u. cakff
+cakfr .. cakf
+
+web -[#blue;thickness=3]- cakf
+
+component {
+    card "<b>Testing your Apps\n\
+<i>Learn the difference between Unit, Integration,\n\
+<i>and Functional tests and learn how to write\n\
+<i>them with the tools listed on the left."                                 as tst
+
+    rectangle "<color:Red><&ban></color> Mocha"                             as tstm
+    rectangle "<color:Red><&ban></color> Chai"                              as tstc
+    rectangle "<color:Red><&ban></color> Ava"                               as tsta
+    rectangle "<color:Red><&ban></color> Jasmine"                           as tstj
+    rectangle "You can fill all your testing\n\
+needs with just these."                                                     as tste {
+        rectangle "<color:Indigo><&task></color> Jest"                      as tstej
+        rectangle "<color:Indigo><&task></color> react-testing-library"     as tster
+        rectangle "<color:Indigo><&task></color> Cypress"                   as tstec
+        rectangle "<color:Indigo><&task></color> Enzyme"                    as tstee
+    }
+}
+tst .. tstm
+tst .. tstc
+tst .. tsta
+tst .. tstj
+
+tst .u. tste
+
+tstej .. tster
+tster .. tstec
+tstec .. tstee
+
+cakf -[#blue;thickness=3]- tst
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Type Checkers"                              as chk #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> <color:OrangeRed><&warning></color> TypeScript" as chkt #LightBlue
+    rectangle "<color:Red><&ban></color> Flow"                                               as chkf
+}
+chk .l. chkt
+chk .. chkf
+
+tst -[#blue;thickness=3]- chk
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Progressive Web Apps" as pwa #text:Teal
+
+    rectangle "<color:OrangeRed><&warning></color> \
+Learn different Web\n\
+APIs used in PWAs"                                                     as pwad {
+        rectangle "Storage"                                            as pwadg #LightBlue
+        rectangle "Web Sockets"                                        as pwadw #LawnGreen
+        rectangle "Service Workers"                                    as pwads #LawnGreen
+        rectangle "Location"                                           as pwadl #LightBlue
+        rectangle "Notifications"                                      as pwadn #LightBlue
+        rectangle "Device Orientation"                                 as pwadd #LightBlue
+        rectangle "Payments"                                           as pwadp #LightBlue
+        rectangle "Credentials"                                        as pwadc #LawnGreen
+    }
+    rectangle "<color:OrangeRed><&warning></color> \
+Calculating, Measuring\n\
+and improving performance"                                             as pwam {
+         rectangle "PRPL Pattern"                                      as pwamp
+         rectangle "RAIL Model"                                        as pwamr
+         rectangle "Performance Metrics"                               as pwamm #LightBlue
+         rectangle "Using Lighthouse"                                  as pwaml
+         rectangle "Using DevTools"                                    as pwamd #LightBlue
+    }
+}
+pwadg .. pwadw
+pwadw .. pwads
+pwads .. pwadl
+pwadl .. pwadn
+pwadn .. pwadd
+pwadd .. pwadp
+pwadp .. pwadc
+
+pwamp .. pwamr
+pwamr .. pwamm
+pwamm .. pwaml
+pwaml .. pwamd
+
+pwa .. pwad
+pwa .. pwam
+
+chk -[#blue;thickness=3]- pwa
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Server Side Rendering (SSR)" as ssr
+
+    rectangle "<color:Indigo><&task></color> React"                           as ssrr
+    rectangle "<color:Indigo><&task></color> Next.js"                         as ssrrn
+    rectangle "<color:Red><&ban></color> After.js"                            as ssrra
+
+    rectangle "<color:Green><&check></color> Angular"                         as ssra
+    rectangle "<color:Green><&check></color> Universal"                       as ssrau
+
+    rectangle "<color:Green><&check></color> Vue.js"                          as ssrv
+    rectangle "<color:Green><&check></color> Nuxt.js"                         as ssrvn
+}
+ssrr .l. ssrrn
+ssrr .r. ssrra
+
+ssra .. ssrau
+ssrv .. ssrvn
+
+ssr .u. ssrr
+ssr .. ssra
+ssr .. ssrv
+
+pwa -[#blue;thickness=3]- ssr
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>GraphQL"   as gql  #text:HotPink
+
+    rectangle "<color:Indigo><&task></color> Apollo"        as gqla
+    rectangle "<color:Green><&check></color> Relay Modern"  as gqlr
+}
+gql .. gqla
+gql .. gqlr
+
+ssr -[#blue;thickness=3]- gql
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Static Site Generators" as ssg
+
+    rectangle "<color:Indigo><&task></color> Next.js"                    as ssgn
+    rectangle "<color:Indigo><&task></color> GatsbyJS"                   as ssgg
+    rectangle "<color:Green><&check></color> Nuxt.js"                    as ssgu
+    rectangle "<color:Green><&check></color> Vuepress"                   as ssgv
+    rectangle "<color:Green><&check></color> Jekyll"                     as ssgj
+    rectangle "<color:Green><&check></color> Hugo"                       as ssgh
+    rectangle "<color:Green><&check></color> Gridsome"                   as ssgs
+    rectangle "<color:Green><&check></color> Eleventy"                   as ssge
+}
+ssg .u. ssgn
+ssg .u. ssgg
+ssg .u. ssgu
+ssg .. ssgv
+ssg .u. ssgj
+ssg .. ssgh
+ssg .. ssgs
+ssg .. ssge
+
+gql -[#blue;thickness=3]- ssg
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Mobile Applications" as ma
+
+    rectangle "<color:Indigo><&task></color> React Native"            as mar
+    rectangle "NativeScript"                                          as man
+    rectangle "Flutter"                                               as maf
+    rectangle "Ionic"                                                 as mai
+}
+
+ma .u. mar
+ma .. man
+ma .u. maf
+ma .. mai
+
+ssg -[#blue;thickness=3]- ma
+
+component {
+    card "<color:OrangeRed><&warning></color> <b>Desktop Applications" as dsk
+
+    rectangle "<color:Indigo><&task></color> Electron"                 as dske
+    rectangle "<color:Red><&ban></color> Carlo"                        as dskc
+    rectangle "<color:Red><&ban></color> Proton Native"                as dskp
+}
+dsk .u. dske
+dsk .. dskc
+dsk .. dskp
+
+ma -[#blue;thickness=3]- dsk
+
+card "<color:OrangeRed><&warning></color> <b>Web Assembly" as wa
+
+rectangle "Web Assembly or WASM is the binary instructions generated from\n\
+higher level languages such as Go, C, C++ or Rust. It is faster than\n\
+JavaScript and WASM 1.0 has already shipped in the major browsers.\n\
+W3C accepted it as an official standard at the end of 2019. It will still\n\
+take quite some time to go mainstream though." as wad
+
+wa <.r. wad
+
+dsk -[#blue;thickness=3]- wa
+
+card "Keep Learning" as KL
+
+wa -[#blue;thickness=3]- KL
+KL -[#blue;dashed;thickness=5]- end
+
+
+@enduml
