@@ -25,9 +25,9 @@ mobile:        | +375(29) 263-99-00
 > - Backend Roadmap ([*Download*][pumlB])
 > - DevOps Roadmap ([*Download*][pumlD])
 
-[pumlF]: https://github.com/yoricsv/src/hard_skills_front.puml
-[pumlB]: https://github.com/yoricsv/src/hard_skills_back.puml
-[pumlD]: https://github.com/yoricsv/src/hard_skills_devops.puml
+[pumlF]: https://github.com/yoricsv/yoricsv/blob/master/yoricsv/read/diagrams/src/hard_skills_devops.puml
+[pumlB]: https://github.com/yoricsv/yoricsv/blob/master/yoricsv/read/diagrams/src/hard_skills_back.puml
+[pumlD]: https://github.com/yoricsv/yoricsv/blob/master/yoricsv/read/diagrams/src/hard_skills_front.puml
 
 - Frontend
 
