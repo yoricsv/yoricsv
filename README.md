@@ -15,6 +15,14 @@ mobile:        | +375(29) 263-99-00
 
 ---
 
+### [LEARN WEB APPLICATION SECURITY TESTING][wast]
+
+> __NOTE:__ "WEB APPLICATION SECURITY TESTING COURSE" *(Start 11-dec-2023)*
+
+[wast]: https://github.com/yoricsv/PenTestCourse.git
+
+---
+
 ## My Hard Skills Roadmaps
 
 > __NOTE:__
