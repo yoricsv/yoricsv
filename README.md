@@ -15,9 +15,9 @@ mobile:        | +375(29) 263-99-00
 
 ---
 
-### [LEARN WEB APPLICATION SECURITY TESTING][wast]
+### [WEB APPLICATION SECURITY TESTING][wast]
 
-> __NOTE:__ "WEB APPLICATION SECURITY TESTING COURSE" *(Start 11-dec-2023)*
+> __NOTE:__ "WEB APPLICATION SECURITY TESTING COURSE" *(Start 11-dec-2023 finish 25-jan-2024)*
 
 [wast]: https://github.com/yoricsv/PenTestCourse.git
 
@@ -49,29 +49,29 @@ mobile:        | +375(29) 263-99-00
 
   ![frontend](yoricsv/read/diagrams/compiled/hard_skills-DevOps.svg)
 
-### [LEARN C++ (GAME DEVELOPMENT)][gameDev]
+### [C++ (GAME DEVELOPMENT)][gameDev]
 
-> __NOTE:__ "C++ GAME DEVELOPMENT PROFFESSIONAL" *(Start 10-nov-2021)*
+> __NOTE:__ "C++ GAME DEVELOPMENT PROFFESSIONAL" *(Start 10-nov-2021 finish 24-jan-2022)*
 
 [gameDev]: https://github.com/yoricsv/_CPP_GAME_DEVELOPMENT_.git
 
 ---
 
-### [LEARN JAVA (ENTERPRISE EDITION)][javaEE]
+### [JAVA (ENTERPRISE EDITION)][javaEE]
 
-> __NOTE:__ "TECHNOLOGIES FOR DEVELOPING ENTERPRISE SOLUTIONS IN JAVA" *(Start 16-sep-2021)*
+> __NOTE:__ "TECHNOLOGIES FOR DEVELOPING ENTERPRISE SOLUTIONS IN JAVA" *(Start 16-sep-2021 finish 10-jan-2022)*
 
 [javaEE]: https://github.com/yoricsv/_JAVA_ENTERPRISE-EDITION_.git
 
 ---
 
-### [LEARN JAVA (BASICS)][javaTaskList]
+### [JAVA (BASICS)][javaTaskList]
 
 > __NOTE:__  Learn Java (basics) in 7 days it was a challenge for me *(Start 08-sep-2021 deadline 16-sep-2021)*. - __Couldn't finish on time__
 
 ---
 
-## LEARN C++ (BASICS)
+## C++ (BASICS)
 <!-- # [LEARN C++ (BASICS)][javaTaskList] -->
 
 > __NOTE:__  I didn't know anything about Git until the last few lectures. Of course I couldn't add my projects *(Start 05-dec-2020 finish 10-mar-2021)*
