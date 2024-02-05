@@ -1,0 +1,518 @@
+@startuml hard_skills
+
+title "Cyber Security"
+
+'left to right direction
+'scale 1600 width
+
+<style>
+     title {
+         FontSize 24
+         FontColor black
+     }
+     legend {
+         FontSize 24
+         FontColor black
+     }
+     card {
+         BackGroundColor #Yellow
+         LineThickness 1
+         LineColor black
+     }
+     rectangle {
+         BackgroundColor none
+         Padding-left 10
+     }
+</style>
+
+skinparam linetype polyline
+skinparam linetype ortho
+skinparam componentStyle rectangle
+skinparam rectangle {
+    roundCorner 35
+}
+
+legend top center
+    <color:Indigo><&task></color> - <b>Personal Recommendation</b> / Opinion
+    <color:Green><&check></color> - <b>Alternative</b> Option - Pick this or purple
+    <color:OrangeRed><&warning></color> - Order in roadmap <b>not strict</b> (<i>Learn anytime</i>)
+    <color:Red><&ban></color> - I <b>wouldn't</b> recommend
+    <color:LawnGreen><&media-stop></color> - (<i>highlight</i>) - I know it and <b>I use</b>
+    <color:LightBlue><&media-stop></color> - (<i>highlight</i>) - I know this, but I <b>did not have the opportunity</b> to use it
+end legend
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>CTFs (Capture the Flag)"                                                 as ctf  #text:Teal
+    rectangle "<color:Green><&check></color> HackTheBox"                    as ctfh
+    rectangle "<color:Green><&check></color> TryHackMe"                     as ctft
+    rectangle "<color:Green><&check></color> VulnHub"                       as ctfv
+    rectangle "<color:Green><&check></color> picoCTF"                       as ctfp
+    rectangle "<color:Green><&check></color> SANS Holiday Hack Challenge"   as ctfs
+}
+ctf  .[hidden]d. ctfh
+ctfh .[hidden]d. ctft
+ctft .[hidden]d. ctfv
+ctfv .[hidden]d. ctfp
+ctfp .[hidden]d. ctfs
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>Certifications"                                                      as cert     #text:Teal
+
+    rectangle "<color:Green><&check></color> Beginner Certifications"   as certbc {
+        rectangle "<color:Green><&check></color> CompTIA A+"            as certta
+        rectangle "<color:Green><&check></color> CompTIA Linux+"        as certtl
+        rectangle "<color:Green><&check></color> CompTIA Network+"      as certtn
+        rectangle "<color:Green><&check></color> CCNA"                  as certna
+        rectangle "<color:Green><&check></color> CompTIA Security+"     as certts
+    }
+    rectangle "<color:Green><&check></color> Advanced Certifications"   as certac {
+        rectangle "<color:Green><&check></color> CISSP"                 as certcs
+        rectangle "<color:Green><&check></color> CISA"                  as certca
+        rectangle "<color:Green><&check></color> CISM"                  as certcm
+        rectangle "<color:Green><&check></color> GSEC"                  as certgs
+        rectangle "<color:Green><&check></color> GPEN"                  as certgn
+        rectangle "<color:Green><&check></color> GWAPT"                 as certgw
+        rectangle "<color:Green><&check></color> GIAC"                  as certgi
+        rectangle "<color:Green><&check></color> OSCP"                  as certos
+        rectangle "<color:Green><&check></color> CREST"                 as certcr
+        rectangle "<color:Green><&check></color> CEH"                   as certch
+    }
+}
+certta .[hidden]r. certtl
+certtn .[hidden]r. certna
+
+certcs .[hidden]r. certca
+certca .[hidden]r. certcm
+certgs .[hidden]r. certgn
+certgn .[hidden]r. certgw
+certgi .[hidden]r. certos
+certos .[hidden]r. certch
+
+cert   .[hidden]d. certbc
+certbc .[hidden]d. certta
+certbc .[hidden]d. certtl
+certta .[hidden]d. certtn
+certtl .[hidden]d. certna
+certtn .[hidden]d. certts
+certna .[hidden]d. certts
+certts .[hidden]d. certac
+certac .[hidden]d. certcs
+certac .[hidden]d. certca
+certac .[hidden]d. certcm
+certcs .[hidden]d. certgs
+certca .[hidden]d. certgn
+certcm .[hidden]d. certgw
+certgs .[hidden]d. certgi
+certgn .[hidden]d. certos
+certgw .[hidden]d. certcr
+certgi .[hidden]d. certch
+certos .[hidden]d. certch
+certcr .[hidden]d. certch
+
+card "Cyber-security" as CS
+
+start -[#blue;dashed;thickness=5]- CS
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>Fundamental IT Skills"                                                           as f  #text:Teal
+'    rectangle "<color:Indigo><&check></color> Fundamental IT Skills"                as fits
+    rectangle "<color:Green><&check></color> Computer Hardware Components"          as fchc
+    rectangle "<color:Green><&check></color> Connection Types and their function"   as fctf
+
+    rectangle "<color:Green><&check></color> OS-Independent Troubleshooting"        as fost
+    rectangle "<color:Green><&check></color> Understand Basics of Popular Suites"   as fbps
+
+    rectangle "<color:Green><&check></color> Basics of Computer Networking"         as fbcn
+}
+
+'rectangle "<color:Indigo><&check></color> Fundamental IT Skills"                as fits
+'rectangle "<color:Green><&check></color> Computer Hardware Components"          as fchc
+'rectangle "<color:Green><&check></color> Connection Types and their function"   as fctf
+'
+'rectangle "<color:Green><&check></color> OS-Independent Troubleshooting"        as fost
+'rectangle "<color:Green><&check></color> Understand Basics of Popular Suites"   as fbps
+'
+'rectangle "<color:Green><&check></color> Basics of Computer Networking"         as fbcn
+
+f    .[hidden]d. fchc
+'fits .[hidden]d. fchc
+fchc .[hidden]d. fctf
+fctf .[hidden]d. fost
+fost .[hidden]d. fbps
+fbps .[hidden]d. fbcn
+
+'f    .d. fchc
+''fits .d. fchc
+'fchc .d. fctf
+'fctf .d. fost
+'fost .d. fbps
+'fbps .d. fbcn
+
+rectangle "Types of connection"                                         as tc {
+    rectangle "<color:Green><&check></color> NFC"                       as tcn
+    rectangle "<color:Green><&check></color> WiFi"                      as tcw
+    rectangle "<color:Green><&check></color> Bluetooth"                 as tcb
+    rectangle "<color:Green><&check></color> Infrared"                  as tci
+}
+tcn .[hidden]r. tcw
+tcw .[hidden]r. tcb
+tcb .[hidden]r. tci
+
+rectangle "Popular Suites"                                              as ps {
+    rectangle "<color:Green><&check></color> iCloud"                    as psi
+    rectangle "<color:Green><&check></color> Google Suite"              as psg
+    rectangle "<color:Green><&check></color> Microsoft Office Suite"    as psm
+}
+psi .[hidden]r. psg
+psg .[hidden]r. psm
+
+fctf .l. tc
+fbps .l. ps
+
+CS -[#blue;thickness=3]- f
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>Operating Systems"                                   as os  #text:Teal
+    'Windows Linux MacOS
+
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Learn following for Each"                            as lrn  #text:Teal
+    'Installation and Configuration
+    'Different Versions and Differences
+    'Navigating using GUI and CLI
+    'Understand Permissions
+    'Installing Software and Applications
+    'Performing CRUD on Files
+    'Troubleshooting
+    'Common Commands
+    }
+}
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>Networking Knowledge"                                 as lrn  #text:Teal
+    'Understand the OSI model
+
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>"                                 as lrn  #text:Teal
+    'Common Protocols and their Uses
+    'Common Ports and their Uses
+    'SSL and TLS Basics
+    'Basics of NAS and SAN
+    }
+}
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>Basics of Subnetting"                                 as lrn  #text:Teal
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>IP Terminology"                                 as lrn  #text:Teal
+        'Public vs Private IP Addresses
+
+        'localhost loopback CIDR
+        'subnet mask default gateway
+    }
+
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Understand the Terminology"                      as lrn  #text:Teal
+    'VLAN DMZ ARP VM
+    'NAT IP DNS DHCP
+    'Router Switch VPN
+    }
+
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Understand these"                      as lrn  #text:Teal
+    'MAN LAN WAN WLAN
+    }
+
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Function of Each"                      as lrn  #text:Teal
+    'DHCP DNS NTP IPAM
+    }
+
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Network Topologies"                      as lrn  #text:Teal
+    'Star Ring Mesh Bus
+    }
+
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Understand Common Protocols"                      as lrn  #text:Teal
+    'SSH RDP FTP SFTP
+    'HTTP / HTTPS SSL / TLS
+    }
+}
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>"                                                        as lrn  #text:Teal
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Common Virtualization Technologies"                  as lrn  #text:Teal
+    'VMWare VirtualBox esxi proxmox
+    }
+
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Understand basics of Virtualization"                 as lrn  #text:Teal
+    'Hypervisor VM GuestOS HostOS
+    }
+
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Troubleshooting Tools"                               as lrn  #text:Teal
+    'nslookup iptables Packet Sniffers
+    'ipconfig netstat Port Scanners
+    'ping dig arp Protocol Analyzers
+    'nmap route tcpdump tracert
+    }
+
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Authentication Methodologies"                        as lrn  #text:Teal
+    'Kerberos LDAP SSO
+    'Certificates Local Auth RADIUS
+    }
+}
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>Security Skills and Knowledge"                           as lrn  #text:Teal
+}
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>"                                            as lrn  #text:Teal
+'Understand Common Hacking Tools
+'Understand Common Exploit Frameworks
+'Understand Concept of Defense in Depth
+'Understand Concept of Runbooks
+'Understand Basics of Forensics
+'Basics and Concepts of Threat Hunting
+'Basics of Vulnerability Management
+'Basics of Reverse Engineering
+'Penetration Testing Rules of Engagement
+'Perimiter vs DMZ vs Segmentation
+}
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>"                           as lrn  #text:Teal
+'Core Concepts of Zero Trust
+'Roles of Compliance and Auditors
+'Understand the Definition of Risk
+'Understand Backups and Resiliency
+'Cyber Kill Chain MFA and 2FA
+'Operating System Hardening
+'Understand the Concept of Isolation
+'Basics of IDS and IPS Honeypots
+'Authentication vs Authorization
+}
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>"                           as lrn  #text:Teal
+'Blue Team vs Red Team vs Purple Team
+'False Negative / False Positive True Negative / True Positive
+'Basics of Threat Intel, OSINT
+'Understand Handshakes
+'Understand CIA Triad
+'Privilege escalation / User based Attacks
+'Web Based Attacks and OWASP 10
+'Learn how Malware Operates and Types
+}
+
+component {
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Tools for Incident Response and Discovery"   as lrn  #text:Teal
+    'nmap tracert nslookup dig curl
+    'ipconfig hping ping arp cat dd
+    'head tail grep wireshark winhex
+    'memdump FTK Imager autopsy
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Understand Frameworks"                       as lrn  #text:Teal
+    'ATT&CK Kill chain Diamond Model
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Understand Common Standards"                 as lrn  #text:Teal
+    'ISO NIST RMF CIS CSF
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Understand"                                  as lrn  #text:Teal
+    'SIEM SOAR
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Common Distros for Hacking"                  as lrn  #text:Teal
+    'ParrotOS Kali Linux
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Using tools for unintended purposes"         as lrn  #text:Teal
+    'LOLBAS
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Learn how to find and use these logs"        as lrn  #text:Teal
+    'Event Logs syslogs netflow
+    'Packet Captures Firewall Logs
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Understand Hardening Concepts"               as lrn  #text:Teal
+    'MAC-based NAC-based Port Blocking
+    'Group Policy ACLs Sinkholes Patching
+    'Jump Server Endpoint Security
+    }
+}
+
+component {
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Basics of Cryptography"                                      as lrn  #text:Teal
+    'Salting Hashing Key Exchange
+    'PKI Pvt Key vs Pub Key Obfuscation
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Understand Secure vs Unsecure Protocols"                     as lrn  #text:Teal
+    'FTP vs SFTP SSL vs TLS IPSEC
+    'DNSSEC LDAPS SRTP S/MIME
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Understand the following Terms"                              as lrn  #text:Teal
+    'Antivirus Antimalware EDR DLP
+    'Firewall and Nextgen Firewall HIPS
+    'NIDS NIPS Host Based Firewall
+    'Sandboxing ACL EAP vs PEAP
+    'WPA vs WPA2 vs WPA3 vs WEP WPS
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Understand the Incident Response Process"                    as lrn  #text:Teal
+    'Preparation Identification
+    'Containment Eradication
+    'Recovery Lessons Learned
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Understand Threat Classification"                            as lrn  #text:Teal
+    'Zero Day Known vs Unknown APT
+        rectangle "<color:Green><&check></color> Zero Day"          as lrnp
+        rectangle "<color:Indigo><&task></color> Known vs Unknown"  as lrng
+        rectangle "<color:Green><&check></color> APT"               as lrnt
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Understand Common Tools"                     as lrn  #text:Teal
+    'VirusTotal Joe Sandbox any.run urlvoid urlscan WHOIS
+    }
+}
+
+component {
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Attack Types and Differences"                     as lrn  #text:Teal
+    'Phishing vs Vishing vs Whaling vs Smishing
+    'Spam vs Spim Shoulder Surfing
+    'Dumpster Diving Tailgating Zero Day
+    'Social Engineering Reconnaissance
+    'Impersonation Watering Hole Attack
+    'Drive by Attack Typo Squatting
+    'Brute Force vs Password Spray
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Common Network Based Attacks"                        as lrn  #text:Teal
+    'DoS vs DDoS MITM ARP Poisoning
+    'Evil Twin DNS Poisoning Spoofing
+    'Deauth Attack VLAN Hopping
+    'Rogue Access Point War-driving/dialing
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>"                                                    as lrn  #text:Teal
+    'Buffer Overflow Memory Leak XSS
+    'SQL Injection CSRF Replay Attack
+    'Pass the Hash Directory Traversal
+    }
+    component {
+        card "<color:Indigo><&task></color> \
+    <b>Understand Audience"                                 as lrn  #text:Teal
+    'Stakeholders HR Legal Compliance
+    'Management
+    }
+}
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>Cloud skills and Knowledge"                           as lrn  #text:Teal
+}
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>"                           as lrn  #text:Teal
+'Understand concepts of security in the cloud
+'Understand the basics and general flow of deploying in the cloud
+'Understand the di"erences between cloud and on-premises
+'Understand the concept of infrastructure as code
+'Understand the concept of Serverless
+'Understand the concept of CDN
+}
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>Understand Cloud Services"                           as lrn  #text:Teal
+'SaaS PaaS IaaS
+}
+component {
+    card "<color:Indigo><&task></color> \
+<b>Common Cloud Environments"                           as lrn  #text:Teal
+'AWS GCP Azure
+}
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>Cloud Models"                           as lrn  #text:Teal
+'Private Public Hybrid
+}
+component {
+    card "<color:Indigo><&task></color> \
+<b>Common Cloud Storage"                           as lrn  #text:Teal
+'S3 Dropbox Box
+'OneDrive Google Drive
+'iCloud
+}
+
+component {
+    card "<color:Indigo><&task></color> \
+<b>Programming Skills and Knowledge (Optional But Recommended)"       as lrn  #text:Teal
+}
+
+'Python
+'Go
+'JavaScript
+'C++
+'Bash
+'PowerShell
+
+'Keep Learning
+
+@enduml
