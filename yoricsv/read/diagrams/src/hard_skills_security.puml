@@ -174,117 +174,241 @@ fbps .l. ps
 
 CS -[#blue;thickness=3]- f
 
-component {
-    card "<color:Indigo><&task></color> \
-<b>Operating Systems"                                   as os  #text:Teal
-    'Windows Linux MacOS
+card "<color:Indigo><&task></color> <b>Operating Systems"                           as os  #text:Teal
 
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Learn following for Each"                            as lrn  #text:Teal
-    'Installation and Configuration
-    'Different Versions and Differences
-    'Navigating using GUI and CLI
-    'Understand Permissions
-    'Installing Software and Applications
-    'Performing CRUD on Files
-    'Troubleshooting
-    'Common Commands
-    }
+rectangle "<color:Green><&check></color> Windows"                                   as winos
+rectangle "<color:Green><&check></color> Linux"                                     as linux
+rectangle "<color:Green><&check></color> MacOS"                                     as macos
+
+rectangle "Learn following for Each"                                                as osl   {
+    rectangle "<color:Green><&check></color> Installation and Configuration"        as oslic
+    rectangle "<color:Green><&check></color> Different Versions and Differences"    as osldv
+    rectangle "<color:Green><&check></color> Navigating using GUI and CLI"          as oslnv
+    rectangle "<color:Green><&check></color> Understand Permissions"                as oslup
+    rectangle "<color:Green><&check></color> Installing Software and Applications"  as oslsa
+    rectangle "<color:Green><&check></color> Performing CRUD on Files"              as oslpf
+    rectangle "<color:Green><&check></color> Troubleshooting"                       as oslts
+    rectangle "<color:Green><&check></color> Common Commands"                       as oslcc
 }
+winos .[hidden]r. linux
+linux .[hidden]r. macos
 
-component {
-    card "<color:Indigo><&task></color> \
-<b>Networking Knowledge"                                 as lrn  #text:Teal
-    'Understand the OSI model
+oslic .[hidden]. osldv
+osldv .[hidden]. oslnv
+oslnv .[hidden]. oslup
+oslup .[hidden]. oslsa
+oslsa .[hidden]. oslpf
+oslpf .[hidden]. oslts
+oslts .[hidden]. oslcc
 
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>"                                 as lrn  #text:Teal
-    'Common Protocols and their Uses
-    'Common Ports and their Uses
-    'SSL and TLS Basics
-    'Basics of NAS and SAN
-    }
+os .u. winos
+os .u. linux
+os .u. macos
+os .d. osl
+
+f -[#blue;thickness=3]r- os
+
+card "<color:Indigo><&task></color> Networking Knowledge"                           as net  #text:Teal
+
+rectangle "Basic network knowledge"                                                 as netb    {
+    rectangle "<color:Green><&check></color> Understand the OSI model"              as netbosi
+    rectangle "<color:Green><&check></color> Common Protocols and their Uses"       as netbpro
+    rectangle "<color:Green><&check></color> Common Ports and their Uses"           as netbprt
+    rectangle "<color:Green><&check></color> SSL and TLS Basics"                    as netbssl
+    rectangle "<color:Green><&check></color> Basics of NAS and SAN"                 as netbnas
 }
+netbosi .[hidden]. netbpro
+netbpro .[hidden]. netbprt
+netbprt .[hidden]. netbssl
+netbssl .[hidden]. netbnas
 
-component {
-    card "<color:Indigo><&task></color> \
-<b>Basics of Subnetting"                                 as lrn  #text:Teal
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>IP Terminology"                                 as lrn  #text:Teal
-        'Public vs Private IP Addresses
+net .d. netb
 
-        'localhost loopback CIDR
-        'subnet mask default gateway
-    }
-
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Understand the Terminology"                      as lrn  #text:Teal
-    'VLAN DMZ ARP VM
-    'NAT IP DNS DHCP
-    'Router Switch VPN
-    }
-
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Understand these"                      as lrn  #text:Teal
-    'MAN LAN WAN WLAN
-    }
-
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Function of Each"                      as lrn  #text:Teal
-    'DHCP DNS NTP IPAM
-    }
-
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Network Topologies"                      as lrn  #text:Teal
-    'Star Ring Mesh Bus
-    }
-
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Understand Common Protocols"                      as lrn  #text:Teal
-    'SSH RDP FTP SFTP
-    'HTTP / HTTPS SSL / TLS
-    }
-}
+f -[#blue;thickness=3]r- net
 
 component {
     card "<color:Indigo><&task></color> \
-<b>"                                                        as lrn  #text:Teal
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Common Virtualization Technologies"                  as lrn  #text:Teal
-    'VMWare VirtualBox esxi proxmox
+<b>Basics of Subnetting"                                                            as nets      #text:Teal
+'rectangle "Basics of Subnetting"                                                    as nets    {
+    rectangle "IT Terminology"                                                      as netsi   {
+        rectangle "<color:Green><&check></color> Public vs Private IP Addresses"    as netsiad
+        rectangle "<color:Green><&check></color> localhost"                         as netsilh
+        rectangle "<color:Green><&check></color> loopback"                          as netsilb
+        rectangle "<color:Green><&check></color> CIDR"                              as netsici
+        rectangle "<color:Green><&check></color> subnet mask"                       as netsism
+        rectangle "<color:Green><&check></color> default gateway"                   as netsidg
     }
-
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Understand basics of Virtualization"                 as lrn  #text:Teal
-    'Hypervisor VM GuestOS HostOS
+    rectangle "Understand the Terminology"                                          as netso   {
+        rectangle "<color:Green><&check></color> VLAN"                              as netsovl
+        rectangle "<color:Green><&check></color> DMZ"                               as netsodm
+        rectangle "<color:Green><&check></color> ARP"                               as netsoar
+        rectangle "<color:Green><&check></color> VM"                                as netsovm
+        rectangle "<color:Green><&check></color> NAT"                               as netsont
+        rectangle "<color:Green><&check></color> IP"                                as netsoip
+        rectangle "<color:Green><&check></color> DNS"                               as netsodn
+        rectangle "<color:Green><&check></color> DHCP"                              as netsodh
+        rectangle "<color:Green><&check></color> Router"                            as netsort
+        rectangle "<color:Green><&check></color> Switch"                            as netsosw
+        rectangle "<color:Green><&check></color> VPN"                               as netsovp
     }
-
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Troubleshooting Tools"                               as lrn  #text:Teal
-    'nslookup iptables Packet Sniffers
-    'ipconfig netstat Port Scanners
-    'ping dig arp Protocol Analyzers
-    'nmap route tcpdump tracert
+    rectangle "Understand these"                                                    as netsk   {
+        rectangle "<color:Green><&check></color> MAN"                               as netskma
+        rectangle "<color:Green><&check></color> LAN"                               as netskla
+        rectangle "<color:Green><&check></color> WAN"                               as netskwa
+        rectangle "<color:Green><&check></color> WLAN"                              as netskwl
     }
-
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Authentication Methodologies"                        as lrn  #text:Teal
-    'Kerberos LDAP SSO
-    'Certificates Local Auth RADIUS
+    rectangle "Function of Each"                                                    as netsf   {
+        rectangle "<color:Green><&check></color> DHCP"                              as netsfdh
+        rectangle "<color:Green><&check></color> DNS"                               as netsfdn
+        rectangle "<color:Green><&check></color> NTP"                               as netsfnt
+        rectangle "<color:Green><&check></color> IPAM"                              as netsfip
+    }
+    rectangle "Network Topologies"                                                  as netst   {
+        rectangle "<color:Green><&check></color> Star"                              as netstst
+        rectangle "<color:Green><&check></color> Ring"                              as netstri
+        rectangle "<color:Green><&check></color> Mesh"                              as netstme
+        rectangle "<color:Green><&check></color> Bus"                               as netstbs
+    }
+    rectangle "Understand Common Protocols"                                         as netsp   {
+        rectangle "<color:Green><&check></color> SSH"                               as netspss
+        rectangle "<color:Green><&check></color> RDP"                               as netsprd
+        rectangle "<color:Green><&check></color> FTP"                               as netspft
+        rectangle "<color:Green><&check></color> SFTP"                              as netspsf
+        rectangle "<color:Green><&check></color> HTTP / HTTPS"                      as netspht
+        rectangle "<color:Green><&check></color> SSL / TLS"                         as netsptl
     }
 }
+' INTERNAL
+netsilh .[hidden]r. netsilb
+netsilb .[hidden]r. netsici
+netsism .[hidden]r. netsidg
+netsovl .[hidden]r. netsodm
+netsodm .[hidden]r. netsoar
+netsoar .[hidden]r. netsovm
+netsont .[hidden]r. netsoip
+netsoip .[hidden]r. netsodn
+netsodn .[hidden]r. netsodh
+netsort .[hidden]r. netsosw
+netsosw .[hidden]r. netsovp
+netskma .[hidden]r. netskla
+netskla .[hidden]r. netskwa
+netskwa .[hidden]r. netskwl
+netsfdh .[hidden]r. netsfdn
+netsfdn .[hidden]r. netsfnt
+netsfnt .[hidden]r. netsfip
+netstst .[hidden]r. netstri
+netstri .[hidden]r. netstme
+netstme .[hidden]r. netstbs
+netspss .[hidden]r. netsprd
+netsprd .[hidden]r. netspft
+netspft .[hidden]r. netspsf
+netspht .[hidden]r. netsptl
+netsiad .[hidden]d. netsilh
+netsiad .[hidden]d. netsici
+netsilh .[hidden]d. netsism
+netsici .[hidden]d. netsidg
+netsovl .[hidden]d. netsont
+netsovm .[hidden]d. netsodh
+netsont .[hidden]d. netsort
+netsodh .[hidden]d. netsovp
+netspss .[hidden]d. netspht
+netsprd .[hidden]d. netspht
+netspft .[hidden]d. netsptl
+netspsf .[hidden]d. netsptl
+' CARD POSITION
+netsosw .[hidden]d. nets
+nets    .[hidden]d. netskla
+nets    .[hidden]d. netskwa
+' EXTERNAL
+netsism .[hidden]d. netsovl
+netsidg .[hidden]d. netsovm
+netsort .[hidden]d. netskma
+netsovp .[hidden]d. netskwl
+netskma .[hidden]d. netsfdh
+netskwl .[hidden]d. netsfip
+netsfdh .[hidden]d. netstst
+netsfip .[hidden]d. netstbs
+netstst .[hidden]d. netspss
+netstbs .[hidden]d. netspsf
+
+net .l. nets
+
+rectangle "Deep knowledge"                                                          as netd    {
+    rectangle "Common Virtualization Technologies"                                  as netdc   {
+        rectangle "<color:Green><&check></color> VMWare"                            as netdcwr
+        rectangle "<color:Green><&check></color> VirtualBox"                        as netdcvb
+        rectangle "<color:Green><&check></color> esxi"                              as netdcex
+        rectangle "<color:Green><&check></color> proxmox"                           as netdcpm
+    }
+    rectangle "<color:Green><&check></color> Understand basics of Virtualization"   as netdv   {
+        rectangle "<color:Green><&check></color> Hypervisor"                        as netdvhv
+        rectangle "<color:Green><&check></color> VM"                                as netdvvm
+        rectangle "<color:Green><&check></color> GuestOS"                           as netdvgo
+        rectangle "<color:Green><&check></color> HostOS"                            as netdvho
+    }
+    rectangle "<color:Green><&check></color> Troubleshooting Tools"                 as netdt   {
+        rectangle "<color:Green><&check></color> nslookup"                          as netdtns
+        rectangle "<color:Green><&check></color> iptables"                          as netdtit
+        rectangle "<color:Green><&check></color> Packet Sniffers"                   as netdtps
+        rectangle "<color:Green><&check></color> ipconfig"                          as netdtic
+        rectangle "<color:Green><&check></color> netstat"                           as netdtst
+        rectangle "<color:Green><&check></color> Port Scanners"                     as netdtsc
+        rectangle "<color:Green><&check></color> ping"                              as netdtpi
+        rectangle "<color:Green><&check></color> dig"                               as netdtdi
+        rectangle "<color:Green><&check></color> arp"                               as netdtar
+        rectangle "<color:Green><&check></color> Protocol Analyzers"                as netdtpa
+        rectangle "<color:Green><&check></color> nmap"                              as netdtnm
+        rectangle "<color:Green><&check></color> route"                             as netdtro
+        rectangle "<color:Green><&check></color> tcpdump"                           as netdttc
+        rectangle "<color:Green><&check></color> tracert"                           as netdttr
+    }
+    rectangle "<color:Green><&check></color> Authentication Methodologies"          as netda   {
+        rectangle "<color:Green><&check></color> Kerberos"                          as netdakr
+        rectangle "<color:Green><&check></color> LDAP"                              as netdald
+        rectangle "<color:Green><&check></color> SSO"                               as netdass
+        rectangle "<color:Green><&check></color> Certificates"                      as netdace
+        rectangle "<color:Green><&check></color> Local Auth"                        as netdala
+        rectangle "<color:Green><&check></color> RADIUS"                            as netdara
+    }
+}
+' INTERNAL
+netdcwr .[hidden]r. netdcvb
+netdcvb .[hidden]r. netdcex
+netdcex .[hidden]r. netdcpm
+netdvhv .[hidden]r. netdvvm
+netdvvm .[hidden]r. netdvgo
+netdvgo .[hidden]r. netdvho
+netdtns .[hidden]r. netdtit
+netdtit .[hidden]r. netdtps
+netdtic .[hidden]r. netdtst
+netdtst .[hidden]r. netdtsc
+netdtpi .[hidden]r. netdtdi
+netdtdi .[hidden]r. netdtar
+netdtar .[hidden]r. netdtpa
+netdtnm .[hidden]r. netdtro
+netdtro .[hidden]r. netdttc
+netdttc .[hidden]r. netdttr
+netdakr .[hidden]r. netdald
+netdald .[hidden]r. netdass
+netdace .[hidden]r. netdala
+netdala .[hidden]r. netdara
+netdtns .[hidden]d. netdtic
+netdtic .[hidden]d. netdtpi
+netdtpi .[hidden]d. netdtnm
+netdtps .[hidden]d. netdtsc
+netdtsc .[hidden]d. netdtpa
+netdtpa .[hidden]d. netdttr
+netdakr .[hidden]d. netdace
+netdass .[hidden]d. netdara
+' EXTERNAL
+netdcwr .[hidden]d. netdvhv
+netdvhv .[hidden]d. netdtns
+netdtnm .[hidden]d. netdakr
+netdcpm .[hidden]d. netdvho
+netdvho .[hidden]d. netdtps
+netdttr .[hidden]d. netdass
+
+nets .l. netd
 
 component {
     card "<color:Indigo><&task></color> \
