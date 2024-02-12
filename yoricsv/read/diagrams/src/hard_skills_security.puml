@@ -2,9 +2,6 @@
 
 title "Cyber Security"
 
-'left to right direction
-'scale 1600 width
-
 <style>
      title {
          FontSize 24
@@ -41,66 +38,56 @@ legend top center
     <color:LightBlue><&media-stop></color> - (<i>highlight</i>) - I know this, but I <b>did not have the opportunity</b> to use it
 end legend
 
-component {
-    card "<color:Indigo><&task></color> \
-<b>CTFs (Capture the Flag)"                                                 as ctf  #text:Teal
+rectangle "<color:Indigo><&task></color> CTFs (Capture the Flag)"           as ctf  {
     rectangle "<color:Green><&check></color> HackTheBox"                    as ctfh
     rectangle "<color:Green><&check></color> TryHackMe"                     as ctft
     rectangle "<color:Green><&check></color> VulnHub"                       as ctfv
     rectangle "<color:Green><&check></color> picoCTF"                       as ctfp
     rectangle "<color:Green><&check></color> SANS Holiday Hack Challenge"   as ctfs
 }
-ctf  .[hidden]d. ctfh
-ctfh .[hidden]d. ctft
-ctft .[hidden]d. ctfv
-ctfv .[hidden]d. ctfp
+' INTERNAL
+ctfh .[hidden]r. ctft
+ctfv .[hidden]r. ctfp
+ctfh .[hidden]d. ctfv
+ctfv .[hidden]d. ctfs
+ctft .[hidden]d. ctfp
 ctfp .[hidden]d. ctfs
-
 component {
-    card "<color:Indigo><&task></color> \
-<b>Certifications"                                                      as cert     #text:Teal
+    card "<color:Indigo><&task></color> <b>Certifications"                  as cert     #text:Teal
 
-    rectangle "<color:Green><&check></color> Beginner Certifications"   as certbc {
-        rectangle "<color:Green><&check></color> CompTIA A+"            as certta
-        rectangle "<color:Green><&check></color> CompTIA Linux+"        as certtl
-        rectangle "<color:Green><&check></color> CompTIA Network+"      as certtn
-        rectangle "<color:Green><&check></color> CCNA"                  as certna
-        rectangle "<color:Green><&check></color> CompTIA Security+"     as certts
+    rectangle "<color:Green><&check></color> Beginner Certifications"       as certbc {
+        rectangle "<color:Green><&check></color> CompTIA A+"                as certta
+        rectangle "<color:Green><&check></color> CompTIA Linux+"            as certtl
+        rectangle "<color:Green><&check></color> CompTIA Network+"          as certtn
+        rectangle "<color:Green><&check></color> CCNA"                      as certna
+        rectangle "<color:Green><&check></color> CompTIA Security+"         as certts
     }
-    rectangle "<color:Green><&check></color> Advanced Certifications"   as certac {
-        rectangle "<color:Green><&check></color> CISSP"                 as certcs
-        rectangle "<color:Green><&check></color> CISA"                  as certca
-        rectangle "<color:Green><&check></color> CISM"                  as certcm
-        rectangle "<color:Green><&check></color> GSEC"                  as certgs
-        rectangle "<color:Green><&check></color> GPEN"                  as certgn
-        rectangle "<color:Green><&check></color> GWAPT"                 as certgw
-        rectangle "<color:Green><&check></color> GIAC"                  as certgi
-        rectangle "<color:Green><&check></color> OSCP"                  as certos
-        rectangle "<color:Green><&check></color> CREST"                 as certcr
-        rectangle "<color:Green><&check></color> CEH"                   as certch
+    rectangle "<color:Green><&check></color> Advanced Certifications"       as certac {
+        rectangle "<color:Green><&check></color> CISSP"                     as certcs
+        rectangle "<color:Green><&check></color> CISA"                      as certca
+        rectangle "<color:Green><&check></color> CISM"                      as certcm
+        rectangle "<color:Green><&check></color> GSEC"                      as certgs
+        rectangle "<color:Green><&check></color> GPEN"                      as certgn
+        rectangle "<color:Green><&check></color> GWAPT"                     as certgw
+        rectangle "<color:Green><&check></color> GIAC"                      as certgi
+        rectangle "<color:Green><&check></color> OSCP"                      as certos
+        rectangle "<color:Green><&check></color> CREST"                     as certcr
+        rectangle "<color:Green><&check></color> CEH"                       as certch
     }
 }
+' INTERNAL
 certta .[hidden]r. certtl
 certtn .[hidden]r. certna
-
 certcs .[hidden]r. certca
 certca .[hidden]r. certcm
 certgs .[hidden]r. certgn
 certgn .[hidden]r. certgw
 certgi .[hidden]r. certos
 certos .[hidden]r. certch
-
-cert   .[hidden]d. certbc
-certbc .[hidden]d. certta
-certbc .[hidden]d. certtl
 certta .[hidden]d. certtn
 certtl .[hidden]d. certna
 certtn .[hidden]d. certts
 certna .[hidden]d. certts
-certts .[hidden]d. certac
-certac .[hidden]d. certcs
-certac .[hidden]d. certca
-certac .[hidden]d. certcm
 certcs .[hidden]d. certgs
 certca .[hidden]d. certgn
 certcm .[hidden]d. certgw
@@ -110,6 +97,13 @@ certgw .[hidden]d. certcr
 certgi .[hidden]d. certch
 certos .[hidden]d. certch
 certcr .[hidden]d. certch
+' EXTERNAL
+cert   .[hidden]d. certta
+cert   .[hidden]d. certtl
+certts .[hidden]d. certcs
+certts .[hidden]d. certcm
+
+ctfs .[hidden]d. cert
 
 card "Cyber-security" as CS
 
@@ -118,81 +112,60 @@ start -[#blue;dashed;thickness=5]- CS
 component {
     card "<color:Indigo><&task></color> \
 <b>Fundamental IT Skills"                                                           as f  #text:Teal
-'    rectangle "<color:Indigo><&check></color> Fundamental IT Skills"                as fits
     rectangle "<color:Green><&check></color> Computer Hardware Components"          as fchc
     rectangle "<color:Green><&check></color> Connection Types and their function"   as fctf
-
     rectangle "<color:Green><&check></color> OS-Independent Troubleshooting"        as fost
     rectangle "<color:Green><&check></color> Understand Basics of Popular Suites"   as fbps
-
     rectangle "<color:Green><&check></color> Basics of Computer Networking"         as fbcn
+
+    rectangle "Types of connection"                                                 as tc  {
+        rectangle "<color:Green><&check></color> NFC"                               as tcn
+        rectangle "<color:Green><&check></color> WiFi"                              as tcw
+        rectangle "<color:Green><&check></color> Bluetooth"                         as tcb
+        rectangle "<color:Green><&check></color> Infrared"                          as tci
+    }
+    rectangle "Popular Suites"                                                      as ps  {
+        rectangle "<color:Green><&check></color> iCloud"                            as psi
+        rectangle "<color:Green><&check></color> Google Suite"                      as psg
+        rectangle "<color:Green><&check></color> Microsoft Office Suite"            as psm
+    }
 }
-
-'rectangle "<color:Indigo><&check></color> Fundamental IT Skills"                as fits
-'rectangle "<color:Green><&check></color> Computer Hardware Components"          as fchc
-'rectangle "<color:Green><&check></color> Connection Types and their function"   as fctf
-'
-'rectangle "<color:Green><&check></color> OS-Independent Troubleshooting"        as fost
-'rectangle "<color:Green><&check></color> Understand Basics of Popular Suites"   as fbps
-'
-'rectangle "<color:Green><&check></color> Basics of Computer Networking"         as fbcn
-
-f    .[hidden]d. fchc
-'fits .[hidden]d. fchc
+' INTERNAL
+tcn  .[hidden]r. tcw
+tcw  .[hidden]r. tcb
+tcb  .[hidden]r. tci
+psi  .[hidden]r. psg
+psg  .[hidden]r. psm
 fchc .[hidden]d. fctf
 fctf .[hidden]d. fost
 fost .[hidden]d. fbps
 fbps .[hidden]d. fbcn
-
-'f    .d. fchc
-''fits .d. fchc
-'fchc .d. fctf
-'fctf .d. fost
-'fost .d. fbps
-'fbps .d. fbcn
-
-rectangle "Types of connection"                                         as tc {
-    rectangle "<color:Green><&check></color> NFC"                       as tcn
-    rectangle "<color:Green><&check></color> WiFi"                      as tcw
-    rectangle "<color:Green><&check></color> Bluetooth"                 as tcb
-    rectangle "<color:Green><&check></color> Infrared"                  as tci
-}
-tcn .[hidden]r. tcw
-tcw .[hidden]r. tcb
-tcb .[hidden]r. tci
-
-rectangle "Popular Suites"                                              as ps {
-    rectangle "<color:Green><&check></color> iCloud"                    as psi
-    rectangle "<color:Green><&check></color> Google Suite"              as psg
-    rectangle "<color:Green><&check></color> Microsoft Office Suite"    as psm
-}
-psi .[hidden]r. psg
-psg .[hidden]r. psm
-
+' EXTERNAL
 fctf .l. tc
 fbps .l. ps
 
 CS -[#blue;thickness=3]- f
 
-card "<color:Indigo><&task></color> <b>Operating Systems"                           as os  #text:Teal
+component {
+    card "<color:Indigo><&task></color> \
+<b>Operating Systems"                                                                   as os  #text:Teal
 
-rectangle "<color:Green><&check></color> Windows"                                   as winos
-rectangle "<color:Green><&check></color> Linux"                                     as linux
-rectangle "<color:Green><&check></color> MacOS"                                     as macos
+    rectangle "<color:Green><&check></color> Windows"                                   as winos
+    rectangle "<color:Green><&check></color> Linux"                                     as linux
+    rectangle "<color:Green><&check></color> MacOS"                                     as macos
 
-rectangle "Learn following for Each"                                                as osl   {
-    rectangle "<color:Green><&check></color> Installation and Configuration"        as oslic
-    rectangle "<color:Green><&check></color> Different Versions and Differences"    as osldv
-    rectangle "<color:Green><&check></color> Navigating using GUI and CLI"          as oslnv
-    rectangle "<color:Green><&check></color> Understand Permissions"                as oslup
-    rectangle "<color:Green><&check></color> Installing Software and Applications"  as oslsa
-    rectangle "<color:Green><&check></color> Performing CRUD on Files"              as oslpf
-    rectangle "<color:Green><&check></color> Troubleshooting"                       as oslts
-    rectangle "<color:Green><&check></color> Common Commands"                       as oslcc
+    rectangle "Learn following for Each"                                                as osl   {
+        rectangle "<color:Green><&check></color> Installation and Configuration"        as oslic
+        rectangle "<color:Green><&check></color> Different Versions and Differences"    as osldv
+        rectangle "<color:Green><&check></color> Navigating using GUI and CLI"          as oslnv
+        rectangle "<color:Green><&check></color> Understand Permissions"                as oslup
+        rectangle "<color:Green><&check></color> Installing Software and Applications"  as oslsa
+        rectangle "<color:Green><&check></color> Performing CRUD on Files"              as oslpf
+        rectangle "<color:Green><&check></color> Troubleshooting"                       as oslts
+        rectangle "<color:Green><&check></color> Common Commands"                       as oslcc
+    }
 }
-winos .[hidden]r. linux
-linux .[hidden]r. macos
-
+' INTERNAL
 oslic .[hidden]. osldv
 osldv .[hidden]. oslnv
 oslnv .[hidden]. oslup
@@ -200,82 +173,118 @@ oslup .[hidden]. oslsa
 oslsa .[hidden]. oslpf
 oslpf .[hidden]. oslts
 oslts .[hidden]. oslcc
+' EXTERNAL
+winos .[hidden]r. linux
+linux .[hidden]r. macos
 
 os .u. winos
 os .u. linux
 os .u. macos
 os .d. osl
 
-f -[#blue;thickness=3]r- os
-
-card "<color:Indigo><&task></color> Networking Knowledge"                           as net  #text:Teal
-
-rectangle "Basic network knowledge"                                                 as netb    {
-    rectangle "<color:Green><&check></color> Understand the OSI model"              as netbosi
-    rectangle "<color:Green><&check></color> Common Protocols and their Uses"       as netbpro
-    rectangle "<color:Green><&check></color> Common Ports and their Uses"           as netbprt
-    rectangle "<color:Green><&check></color> SSL and TLS Basics"                    as netbssl
-    rectangle "<color:Green><&check></color> Basics of NAS and SAN"                 as netbnas
-}
-netbosi .[hidden]. netbpro
-netbpro .[hidden]. netbprt
-netbprt .[hidden]. netbssl
-netbssl .[hidden]. netbnas
-
-net .d. netb
-
-f -[#blue;thickness=3]r- net
+f -[#blue;thickness=3]r--------------- os
 
 component {
     card "<color:Indigo><&task></color> \
-<b>Basics of Subnetting"                                                            as nets      #text:Teal
-'rectangle "Basics of Subnetting"                                                    as nets    {
-    rectangle "IT Terminology"                                                      as netsi   {
-        rectangle "<color:Green><&check></color> Public vs Private IP Addresses"    as netsiad
-        rectangle "<color:Green><&check></color> localhost"                         as netsilh
-        rectangle "<color:Green><&check></color> loopback"                          as netsilb
-        rectangle "<color:Green><&check></color> CIDR"                              as netsici
-        rectangle "<color:Green><&check></color> subnet mask"                       as netsism
-        rectangle "<color:Green><&check></color> default gateway"                   as netsidg
+<b>Networking Knowledge"                                                                as net  #text:Teal
+
+    rectangle "Basic network knowledge"                                                 as netb    {
+        rectangle "<color:Green><&check></color> Understand the OSI model"              as netbosi
+        rectangle "<color:Green><&check></color> Common Protocols and their Uses"       as netbpro
+        rectangle "<color:Green><&check></color> Common Ports and their Uses"           as netbprt
+        rectangle "<color:Green><&check></color> SSL and TLS Basics"                    as netbssl
+        rectangle "<color:Green><&check></color> Basics of NAS and SAN"                 as netbnas
     }
-    rectangle "Understand the Terminology"                                          as netso   {
-        rectangle "<color:Green><&check></color> VLAN"                              as netsovl
-        rectangle "<color:Green><&check></color> DMZ"                               as netsodm
-        rectangle "<color:Green><&check></color> ARP"                               as netsoar
-        rectangle "<color:Green><&check></color> VM"                                as netsovm
-        rectangle "<color:Green><&check></color> NAT"                               as netsont
-        rectangle "<color:Green><&check></color> IP"                                as netsoip
-        rectangle "<color:Green><&check></color> DNS"                               as netsodn
-        rectangle "<color:Green><&check></color> DHCP"                              as netsodh
-        rectangle "<color:Green><&check></color> Router"                            as netsort
-        rectangle "<color:Green><&check></color> Switch"                            as netsosw
-        rectangle "<color:Green><&check></color> VPN"                               as netsovp
+
+    component {
+        card "<color:Indigo><&task></color> \
+<b>Basics of Subnetting"                                                                as nets      #text:Teal
+        rectangle "IT Terminology"                                                      as netsi   {
+            rectangle "<color:Green><&check></color> Public vs Private IP Addresses"    as netsiad
+            rectangle "<color:Green><&check></color> localhost"                         as netsilh
+            rectangle "<color:Green><&check></color> loopback"                          as netsilb
+            rectangle "<color:Green><&check></color> CIDR"                              as netsici
+            rectangle "<color:Green><&check></color> subnet mask"                       as netsism
+            rectangle "<color:Green><&check></color> default gateway"                   as netsidg
+        }
+        rectangle "Understand the Terminology"                                          as netso   {
+            rectangle "<color:Green><&check></color> VLAN"                              as netsovl
+            rectangle "<color:Green><&check></color> DMZ"                               as netsodm
+            rectangle "<color:Green><&check></color> ARP"                               as netsoar
+            rectangle "<color:Green><&check></color> VM"                                as netsovm
+            rectangle "<color:Green><&check></color> NAT"                               as netsont
+            rectangle "<color:Green><&check></color> IP"                                as netsoip
+            rectangle "<color:Green><&check></color> DNS"                               as netsodn
+            rectangle "<color:Green><&check></color> DHCP"                              as netsodh
+            rectangle "<color:Green><&check></color> Router"                            as netsort
+            rectangle "<color:Green><&check></color> Switch"                            as netsosw
+            rectangle "<color:Green><&check></color> VPN"                               as netsovp
+        }
+        rectangle "Understand these"                                                    as netsk   {
+            rectangle "<color:Green><&check></color> MAN"                               as netskma
+            rectangle "<color:Green><&check></color> LAN"                               as netskla
+            rectangle "<color:Green><&check></color> WAN"                               as netskwa
+            rectangle "<color:Green><&check></color> WLAN"                              as netskwl
+        }
+        rectangle "Function of Each"                                                    as netsf   {
+            rectangle "<color:Green><&check></color> DHCP"                              as netsfdh
+            rectangle "<color:Green><&check></color> DNS"                               as netsfdn
+            rectangle "<color:Green><&check></color> NTP"                               as netsfnt
+            rectangle "<color:Green><&check></color> IPAM"                              as netsfip
+        }
+        rectangle "Network Topologies"                                                  as netst   {
+            rectangle "<color:Green><&check></color> Star"                              as netstst
+            rectangle "<color:Green><&check></color> Ring"                              as netstri
+            rectangle "<color:Green><&check></color> Mesh"                              as netstme
+            rectangle "<color:Green><&check></color> Bus"                               as netstbs
+        }
+        rectangle "Understand Common Protocols"                                         as netsp   {
+            rectangle "<color:Green><&check></color> SSH"                               as netspss
+            rectangle "<color:Green><&check></color> RDP"                               as netsprd
+            rectangle "<color:Green><&check></color> FTP"                               as netspft
+            rectangle "<color:Green><&check></color> SFTP"                              as netspsf
+            rectangle "<color:Green><&check></color> HTTP / HTTPS"                      as netspht
+            rectangle "<color:Green><&check></color> SSL / TLS"                         as netsptl
+        }
     }
-    rectangle "Understand these"                                                    as netsk   {
-        rectangle "<color:Green><&check></color> MAN"                               as netskma
-        rectangle "<color:Green><&check></color> LAN"                               as netskla
-        rectangle "<color:Green><&check></color> WAN"                               as netskwa
-        rectangle "<color:Green><&check></color> WLAN"                              as netskwl
-    }
-    rectangle "Function of Each"                                                    as netsf   {
-        rectangle "<color:Green><&check></color> DHCP"                              as netsfdh
-        rectangle "<color:Green><&check></color> DNS"                               as netsfdn
-        rectangle "<color:Green><&check></color> NTP"                               as netsfnt
-        rectangle "<color:Green><&check></color> IPAM"                              as netsfip
-    }
-    rectangle "Network Topologies"                                                  as netst   {
-        rectangle "<color:Green><&check></color> Star"                              as netstst
-        rectangle "<color:Green><&check></color> Ring"                              as netstri
-        rectangle "<color:Green><&check></color> Mesh"                              as netstme
-        rectangle "<color:Green><&check></color> Bus"                               as netstbs
-    }
-    rectangle "Understand Common Protocols"                                         as netsp   {
-        rectangle "<color:Green><&check></color> SSH"                               as netspss
-        rectangle "<color:Green><&check></color> RDP"                               as netsprd
-        rectangle "<color:Green><&check></color> FTP"                               as netspft
-        rectangle "<color:Green><&check></color> SFTP"                              as netspsf
-        rectangle "<color:Green><&check></color> HTTP / HTTPS"                      as netspht
-        rectangle "<color:Green><&check></color> SSL / TLS"                         as netsptl
+
+    rectangle "Deep knowledge"                                                          as netd    {
+        rectangle "Common Virtualization Technologies"                                  as netdc   {
+            rectangle "<color:Green><&check></color> VMWare"                            as netdcwr
+            rectangle "<color:Green><&check></color> VirtualBox"                        as netdcvb
+            rectangle "<color:Green><&check></color> esxi"                              as netdcex
+            rectangle "<color:Green><&check></color> proxmox"                           as netdcpm
+        }
+        rectangle "Understand basics of Virtualization"                                 as netdv   {
+            rectangle "<color:Green><&check></color> Hypervisor"                        as netdvhv
+            rectangle "<color:Green><&check></color> VM"                                as netdvvm
+            rectangle "<color:Green><&check></color> GuestOS"                           as netdvgo
+            rectangle "<color:Green><&check></color> HostOS"                            as netdvho
+        }
+        rectangle "Troubleshooting Tools"                                               as netdt   {
+            rectangle "<color:Green><&check></color> nslookup"                          as netdtns
+            rectangle "<color:Green><&check></color> iptables"                          as netdtit
+            rectangle "<color:Green><&check></color> Packet Sniffers"                   as netdtps
+            rectangle "<color:Green><&check></color> ipconfig"                          as netdtic
+            rectangle "<color:Green><&check></color> netstat"                           as netdtst
+            rectangle "<color:Green><&check></color> Port Scanners"                     as netdtsc
+            rectangle "<color:Green><&check></color> ping"                              as netdtpi
+            rectangle "<color:Green><&check></color> dig"                               as netdtdi
+            rectangle "<color:Green><&check></color> arp"                               as netdtar
+            rectangle "<color:Green><&check></color> Protocol Analyzers"                as netdtpa
+            rectangle "<color:Green><&check></color> nmap"                              as netdtnm
+            rectangle "<color:Green><&check></color> route"                             as netdtro
+            rectangle "<color:Green><&check></color> tcpdump"                           as netdttc
+            rectangle "<color:Green><&check></color> tracert"                           as netdttr
+        }
+        rectangle "Authentication Methodologies"                                        as netda   {
+            rectangle "<color:Green><&check></color> Kerberos"                          as netdakr
+            rectangle "<color:Green><&check></color> LDAP"                              as netdald
+            rectangle "<color:Green><&check></color> SSO"                               as netdass
+            rectangle "<color:Green><&check></color> Certificates"                      as netdace
+            rectangle "<color:Green><&check></color> Local Auth"                        as netdala
+            rectangle "<color:Green><&check></color> RADIUS"                            as netdara
+        }
     }
 }
 ' INTERNAL
@@ -303,75 +312,6 @@ netspss .[hidden]r. netsprd
 netsprd .[hidden]r. netspft
 netspft .[hidden]r. netspsf
 netspht .[hidden]r. netsptl
-netsiad .[hidden]d. netsilh
-netsiad .[hidden]d. netsici
-netsilh .[hidden]d. netsism
-netsici .[hidden]d. netsidg
-netsovl .[hidden]d. netsont
-netsovm .[hidden]d. netsodh
-netsont .[hidden]d. netsort
-netsodh .[hidden]d. netsovp
-netspss .[hidden]d. netspht
-netsprd .[hidden]d. netspht
-netspft .[hidden]d. netsptl
-netspsf .[hidden]d. netsptl
-' CARD POSITION
-netsosw .[hidden]d. nets
-nets    .[hidden]d. netskla
-nets    .[hidden]d. netskwa
-' EXTERNAL
-netsism .[hidden]d. netsovl
-netsidg .[hidden]d. netsovm
-netsort .[hidden]d. netskma
-netsovp .[hidden]d. netskwl
-netskma .[hidden]d. netsfdh
-netskwl .[hidden]d. netsfip
-netsfdh .[hidden]d. netstst
-netsfip .[hidden]d. netstbs
-netstst .[hidden]d. netspss
-netstbs .[hidden]d. netspsf
-
-net .l. nets
-
-rectangle "Deep knowledge"                                                          as netd    {
-    rectangle "Common Virtualization Technologies"                                  as netdc   {
-        rectangle "<color:Green><&check></color> VMWare"                            as netdcwr
-        rectangle "<color:Green><&check></color> VirtualBox"                        as netdcvb
-        rectangle "<color:Green><&check></color> esxi"                              as netdcex
-        rectangle "<color:Green><&check></color> proxmox"                           as netdcpm
-    }
-    rectangle "<color:Green><&check></color> Understand basics of Virtualization"   as netdv   {
-        rectangle "<color:Green><&check></color> Hypervisor"                        as netdvhv
-        rectangle "<color:Green><&check></color> VM"                                as netdvvm
-        rectangle "<color:Green><&check></color> GuestOS"                           as netdvgo
-        rectangle "<color:Green><&check></color> HostOS"                            as netdvho
-    }
-    rectangle "<color:Green><&check></color> Troubleshooting Tools"                 as netdt   {
-        rectangle "<color:Green><&check></color> nslookup"                          as netdtns
-        rectangle "<color:Green><&check></color> iptables"                          as netdtit
-        rectangle "<color:Green><&check></color> Packet Sniffers"                   as netdtps
-        rectangle "<color:Green><&check></color> ipconfig"                          as netdtic
-        rectangle "<color:Green><&check></color> netstat"                           as netdtst
-        rectangle "<color:Green><&check></color> Port Scanners"                     as netdtsc
-        rectangle "<color:Green><&check></color> ping"                              as netdtpi
-        rectangle "<color:Green><&check></color> dig"                               as netdtdi
-        rectangle "<color:Green><&check></color> arp"                               as netdtar
-        rectangle "<color:Green><&check></color> Protocol Analyzers"                as netdtpa
-        rectangle "<color:Green><&check></color> nmap"                              as netdtnm
-        rectangle "<color:Green><&check></color> route"                             as netdtro
-        rectangle "<color:Green><&check></color> tcpdump"                           as netdttc
-        rectangle "<color:Green><&check></color> tracert"                           as netdttr
-    }
-    rectangle "<color:Green><&check></color> Authentication Methodologies"          as netda   {
-        rectangle "<color:Green><&check></color> Kerberos"                          as netdakr
-        rectangle "<color:Green><&check></color> LDAP"                              as netdald
-        rectangle "<color:Green><&check></color> SSO"                               as netdass
-        rectangle "<color:Green><&check></color> Certificates"                      as netdace
-        rectangle "<color:Green><&check></color> Local Auth"                        as netdala
-        rectangle "<color:Green><&check></color> RADIUS"                            as netdara
-    }
-}
-' INTERNAL
 netdcwr .[hidden]r. netdcvb
 netdcvb .[hidden]r. netdcex
 netdcex .[hidden]r. netdcpm
@@ -392,6 +332,22 @@ netdakr .[hidden]r. netdald
 netdald .[hidden]r. netdass
 netdace .[hidden]r. netdala
 netdala .[hidden]r. netdara
+netbosi .[hidden]d. netbpro
+netbpro .[hidden]d. netbprt
+netbprt .[hidden]d. netbssl
+netbssl .[hidden]d. netbnas
+netsiad .[hidden]d. netsilh
+netsilh .[hidden]d. netsism
+netsiad .[hidden]d. netsici
+netsici .[hidden]d. netsidg
+netsovl .[hidden]d. netsont
+netsont .[hidden]d. netsort
+netsovm .[hidden]d. netsodh
+netsodh .[hidden]d. netsovp
+netspss .[hidden]d. netspht
+netsprd .[hidden]d. netspht
+netspft .[hidden]d. netsptl
+netspsf .[hidden]d. netsptl
 netdtns .[hidden]d. netdtic
 netdtic .[hidden]d. netdtpi
 netdtpi .[hidden]d. netdtnm
@@ -401,242 +357,611 @@ netdtpa .[hidden]d. netdttr
 netdakr .[hidden]d. netdace
 netdass .[hidden]d. netdara
 ' EXTERNAL
+netsism -[hidden]d- netskma
+netsidg -[hidden]d- netskwl
+netskma -[hidden]d- netsfdh
+netskwl -[hidden]d- netsfip
+netsfdh -[hidden]d- netsovl
+netsfip -[hidden]d- netsovm
+netsort -[hidden]d- netstst
+netsovp -[hidden]d- netstbs
+netstst .[hidden]d. netspss
+netstbs .[hidden]d. netspsf
 netdcwr .[hidden]d. netdvhv
-netdvhv .[hidden]d. netdtns
-netdtnm .[hidden]d. netdakr
 netdcpm .[hidden]d. netdvho
+netdvhv .[hidden]d. netdtns
 netdvho .[hidden]d. netdtps
+netdtnm .[hidden]d. netdakr
 netdttr .[hidden]d. netdass
+netsiad -[hidden]r- netbosi
+netsilb -[hidden]r- netbpro
+netsidg -[hidden]r- netbprt
+netskwl -[hidden]r- netbssl
+netsfip -[hidden]r- netbnas
+netsovm -[hidden]r- netdcwr
+netsodh -[hidden]r- netdvhv
+netsovp -[hidden]r- netdtns
+netstbs -[hidden]r- netdtic
+netspsf -[hidden]r- netdtpi
+netsptl -[hidden]r- netdtnm
 
+net -[hidden]u- netbnas
+net -[hidden]d- netdcwr
+net -[hidden]d- netdcvb
+
+netsfdh -[hidden]d- nets
+netsfip -[hidden]d- nets
+nets    -[hidden]d- netsovl
+nets    -[hidden]d- netsovm
+
+net .u. netb
+net .r. nets
 nets .l. netd
 
-component {
-    card "<color:Indigo><&task></color> \
-<b>Security Skills and Knowledge"                           as lrn  #text:Teal
+f -[#blue;thickness=3]d------------- net
+
+card "<color:Indigo><&task></color> <b>Security Skills and Knowledge"                   as sec  #text:Teal
+
+rectangle "Basic security knowledge"                                                    as seck    {
+    rectangle "<color:Green><&check></color> Understand Common Hacking Tools"           as seckcht
+    rectangle "<color:Green><&check></color> Understand Common Exploit Frameworks"      as seckcef
+    rectangle "<color:Green><&check></color> Understand Concept of Defense in Depth"    as seckcdd
+    rectangle "<color:Green><&check></color> Understand Concept of Runbooks"            as seckcrb
+    rectangle "<color:Green><&check></color> Understand Basics of Forensics"            as seckubf
+    rectangle "<color:Green><&check></color> Basics and Concepts of Threat Hunting"     as seckcth
+    rectangle "<color:Green><&check></color> Basics of Vulnerability Management"        as seckvul
+    rectangle "<color:Green><&check></color> Basics of Reverse Engineering"             as seckrej
+    rectangle "<color:Green><&check></color> Penetration Testing Rules of Engagement"   as secktre
+    rectangle "<color:Green><&check></color> Perimiter vs DMZ vs Segmentation"          as seckdmz
 }
+rectangle "Security concepts"                                                           as secc    {
+    rectangle "<color:Green><&check></color> Core Concepts of Zero Trust"               as seccczt
+    rectangle "<color:Green><&check></color> Roles of Compliance and Auditors"          as seccrca
+    rectangle "<color:Green><&check></color> Understand the Definition of Risk"         as seccudr
+    rectangle "<color:Green><&check></color> Understand Backups and Resiliency"         as seccubr
+    rectangle "<color:Green><&check></color> Cyber Kill Chain"                          as seccckc
+    rectangle "<color:Green><&check></color> MFA and 2FA"                               as seccmfa
+    rectangle "<color:Green><&check></color> Operating System Hardening"                as seccosh
+    rectangle "<color:Green><&check></color> Understand the Concept of Isolation"       as seccuci
+    rectangle "<color:Green><&check></color> Basics of IDS and IPS"                     as seccids
+    rectangle "<color:Green><&check></color> Honeypots"                                 as secchpt
+    rectangle "<color:Green><&check></color> Authentication vs Authorization"           as seccauz
+}
+rectangle "Security risks"                                                              as secr    {
+    rectangle "<color:Green><&check></color> Blue Team vs Red Team vs Purple Team"      as secrtem
+    rectangle "<color:Green><&check></color> False Negative / False Positive"           as secrfps
+    rectangle "<color:Green><&check></color> True Negative / True Positive"             as secrtps
+    rectangle "<color:Green><&check></color> Basics of Threat Intel, OSINT"             as secrsnt
+    rectangle "<color:Green><&check></color> Understand Handshakes"                     as secruhs
+    rectangle "<color:Green><&check></color> Understand CIA Triad"                      as secrcia
+    rectangle "<color:Green><&check></color> Privilege escalation / User based Attacks" as secresc
+    rectangle "<color:Green><&check></color> Web Based Attacks and OWASP 10"            as secrwsp
+    rectangle "<color:Green><&check></color> Learn how Malware Operates and Types"      as secrmlw
+}
+' INTERNAL
+seccckc .[hidden]r. seccmfa
+seccids .[hidden]r. secchpt
+seckcht .[hidden]d. seckcef
+seckcef .[hidden]d. seckcdd
+seckcdd .[hidden]d. seckcrb
+seckcrb .[hidden]d. seckubf
+seckubf .[hidden]d. seckcth
+seckcth .[hidden]d. seckvul
+seckvul .[hidden]d. seckrej
+seckrej .[hidden]d. secktre
+secktre .[hidden]d. seckdmz
+seccczt .[hidden]d. seccrca
+seccrca .[hidden]d. seccudr
+seccudr .[hidden]d. seccubr
+seccubr .[hidden]d. seccckc
+seccubr .[hidden]d. seccmfa
+seccckc .[hidden]d. seccosh
+seccmfa .[hidden]d. seccosh
+seccosh .[hidden]d. seccuci
+seccuci .[hidden]d. seccids
+seccuci .[hidden]d. secchpt
+seccids .[hidden]d. seccauz
+secchpt .[hidden]d. seccauz
+secrtem .[hidden]d. secrfps
+secrfps .[hidden]d. secrtps
+secrtps .[hidden]d. secrsnt
+secrsnt .[hidden]d. secruhs
+secruhs .[hidden]d. secrcia
+secrcia .[hidden]d. secresc
+secresc .[hidden]d. secrwsp
+secrwsp .[hidden]d. secrmlw
+' EXTERNAL
+seccczt .[hidden]r. seckcht
+seccrca .[hidden]r. seckcef
+seccudr .[hidden]r. seckcdd
+seccubr .[hidden]r. seckcrb
+seccmfa .[hidden]r. seckubf
+seccosh .[hidden]r. seckcth
+seccuci .[hidden]r. seckvul
+secchpt .[hidden]r. seckrej
+seccauz .[hidden]r. secktre
+seckcht .[hidden]r. secrtem
+seckcef .[hidden]r. secrfps
+seckcdd .[hidden]r. secrtps
+seckcrb .[hidden]r. secrsnt
+seckubf .[hidden]r. secruhs
+seckcth .[hidden]r. secrcia
+seckvul .[hidden]r. secresc
+seckrej .[hidden]r. secrwsp
+secktre .[hidden]r. secrmlw
+
+sec .u........... secc
+sec .u........... seck
+sec .u........... secr
+
+rectangle "General security knowledge"                                                          as secg    {
+    rectangle "Tools for Incident Response and Discovery"                                       as secga   {
+        rectangle "<color:Green><&check></color> nmap"                                          as secqanm
+        rectangle "<color:Green><&check></color> tracert"                                       as secqatc
+        rectangle "<color:Green><&check></color> nslookup"                                      as secqans
+        rectangle "<color:Green><&check></color> dig"                                           as secqadg
+        rectangle "<color:Green><&check></color> curl"                                          as secqacu
+        rectangle "<color:Green><&check></color> ipconfig"                                      as secqaic
+        rectangle "<color:Green><&check></color> hping"                                         as secqahp
+        rectangle "<color:Green><&check></color> ping"                                          as secqapi
+        rectangle "<color:Green><&check></color> arp"                                           as secqarp
+        rectangle "<color:Green><&check></color> cat"                                           as secqact
+        rectangle "<color:Green><&check></color> dd"                                            as secqadd
+        rectangle "<color:Green><&check></color> head"                                          as secqahd
+        rectangle "<color:Green><&check></color> tail"                                          as secqatl
+        rectangle "<color:Green><&check></color> grep"                                          as secqagr
+        rectangle "<color:Green><&check></color> wireshark"                                     as secqaws
+        rectangle "<color:Green><&check></color> winhex"                                        as secqawh
+        rectangle "<color:Green><&check></color> memdump"                                       as secqamd
+        rectangle "<color:Green><&check></color> FTK Imager"                                    as secqaft
+        rectangle "<color:Green><&check></color> autopsy"                                       as secqaap
+    }
+    rectangle "Understand Frameworks"                                                           as secgb   {
+        rectangle "<color:Green><&check></color> ATT&CK"                                        as secgbat
+        rectangle "<color:Green><&check></color> Kill chain"                                    as secgbkc
+        rectangle "<color:Green><&check></color> Diamond Model"                                 as secgbdm
+    }
+    rectangle "Understand Common Standards"                                                     as secgc   {
+        rectangle "<color:Green><&check></color> ISO"                                           as secgcis
+        rectangle "<color:Green><&check></color> NIST"                                          as secgcni
+        rectangle "<color:Green><&check></color> RMF"                                           as secgcrm
+        rectangle "<color:Green><&check></color> CIS"                                           as secgcci
+        rectangle "<color:Green><&check></color> CSF"                                           as secgccs
+    }
+    rectangle "Understand"                                                                      as secgd   {
+        rectangle "<color:Green><&check></color> SIEM"                                          as secgdie
+        rectangle "<color:Green><&check></color> SOAR"                                          as secgdoa
+    }
+    rectangle "Common Distros for Hacking"                                                      as secge   {
+        rectangle "<color:Green><&check></color> ParrotOS"                                      as secgepr
+        rectangle "<color:Green><&check></color> Kali Linux"                                    as secgekl
+    }
+    rectangle "Using tools for unintended purposes"                                             as secgf   {
+        rectangle "<color:Green><&check></color> LOLBAS"                                        as secgflb
+    }
+    rectangle "Learn how to find and use these logs"                                            as secgg   {
+        rectangle "<color:Green><&check></color> Event Logs"                                    as secggel
+        rectangle "<color:Green><&check></color> syslogs"                                       as secggsl
+        rectangle "<color:Green><&check></color> netflow"                                       as secggnf
+        rectangle "<color:Green><&check></color> Packet Captures"                               as secggpc
+        rectangle "<color:Green><&check></color> Firewall Logs"                                 as secggfl
+    }
+    rectangle "Understand Hardening Concepts"                                                   as secgh   {
+        rectangle "<color:Green><&check></color> MAC-based"                                     as secghmb
+        rectangle "<color:Green><&check></color> NAC-based"                                     as secghnb
+        rectangle "<color:Green><&check></color> Port Blocking"                                 as secghpb
+        rectangle "<color:Green><&check></color> Group Policy"                                  as secghgp
+        rectangle "<color:Green><&check></color> ACLs"                                          as secghac
+        rectangle "<color:Green><&check></color> Sinkholes"                                     as secghsh
+        rectangle "<color:Green><&check></color> Patching"                                      as secghpc
+        rectangle "<color:Green><&check></color> Jump Server"                                   as secghjs
+        rectangle "<color:Green><&check></color> Endpoint Security"                             as secghes
+    }
+' INTERNAL
+secqanm .[hidden]r. secqatc
+secqatc .[hidden]r. secqans
+secqans .[hidden]r. secqadg
+secqadg .[hidden]r. secqacu
+secqaic .[hidden]r. secqahp
+secqahp .[hidden]r. secqapi
+secqapi .[hidden]r. secqarp
+secqarp .[hidden]r. secqact
+secqadd .[hidden]r. secqahd
+secqahd .[hidden]r. secqatl
+secqatl .[hidden]r. secqagr
+secqagr .[hidden]r. secqaws
+secqawh .[hidden]r. secqamd
+secqamd .[hidden]r. secqaft
+secqaft .[hidden]r. secqaap
+secgbat .[hidden]r. secgbkc
+secgbkc .[hidden]r. secgbdm
+secgcis .[hidden]r. secgcni
+secgcni .[hidden]r. secgcrm
+secgcrm .[hidden]r. secgcci
+secgcci .[hidden]r. secgccs
+secgdie .[hidden]r. secgdoa
+secgepr .[hidden]r. secgekl
+secggel .[hidden]r. secggsl
+secggsl .[hidden]r. secggnf
+secggpc .[hidden]r. secggfl
+secghmb .[hidden]r. secghnb
+secghnb .[hidden]r. secghpb
+secghgp .[hidden]r. secghac
+secghac .[hidden]r. secghsh
+secghpc .[hidden]r. secghjs
+secghjs .[hidden]r. secghes
+secqanm .[hidden]d. secqaic
+secqaic .[hidden]d. secqadd
+secqadd .[hidden]d. secqawh
+secqacu .[hidden]d. secqact
+secqact .[hidden]d. secqaws
+secqaws .[hidden]d. secqaap
+secggel .[hidden]d. secggpc
+secggnf .[hidden]d. secggfl
+secghmb .[hidden]d. secghgp
+secghgp .[hidden]d. secghpc
+secghpb .[hidden]d. secghpc
+secghsh .[hidden]d. secghes
+' EXTERNAL
+secqawh .[hidden]d. secgbat
+secgbat .[hidden]d. secgcis
+secgcis .[hidden]d. secgdie
+secgdie .[hidden]d. secgflb
+secgflb .[hidden]d. secggel
+secggpc .[hidden]d. secghmb
+secqaap .[hidden]d. secgbdm
+secgbdm .[hidden]d. secgcci
+secgccs .[hidden]d. secgekl
+secgekl .[hidden]d. secgflb
+secgflb .[hidden]d. secggnf
+secggfl .[hidden]d. secghpb
+    rectangle "Basics of Cryptography"                                                          as secgi   {
+        rectangle "<color:Green><&check></color> Salting"                                       as secgisl
+        rectangle "<color:Green><&check></color> Hashing"                                       as secgihs
+        rectangle "<color:Green><&check></color> Key Exchange"                                  as secgike
+        rectangle "<color:Green><&check></color> PKI"                                           as secgipi
+        rectangle "<color:Green><&check></color> Pvt Key vs Pub Key"                            as secgipk
+        rectangle "<color:Green><&check></color> Obfuscation"                                   as secgiof
+    }
+    rectangle "Understand Secure vs Unsecure Protocols"                                         as secgj   {
+        rectangle "<color:Green><&check></color> FTP vs SFTP"                                   as secgjft
+        rectangle "<color:Green><&check></color> SSL vs TLS"                                    as secgjtl
+        rectangle "<color:Green><&check></color> IPSEC"                                         as secgjis
+        rectangle "<color:Green><&check></color> DNSSEC"                                        as secgjds
+        rectangle "<color:Green><&check></color> LDAPS"                                         as secgjld
+        rectangle "<color:Green><&check></color> SRTP"                                          as secgjsr
+        rectangle "<color:Green><&check></color> S/MIME"                                        as secgjsm
+    }
+    rectangle "Understand the following Terms"                                                  as secgk   {
+        rectangle "<color:Green><&check></color> Antivirus"                                     as secgkav
+        rectangle "<color:Green><&check></color> Antimalware"                                   as secgkam
+        rectangle "<color:Green><&check></color> EDR"                                           as secgked
+        rectangle "<color:Green><&check></color> DLP"                                           as secgkdl
+        rectangle "<color:Green><&check></color> Firewall and Nextgen Firewall"                 as secgknf
+        rectangle "<color:Green><&check></color> HIPS"                                          as secgkhi
+        rectangle "<color:Green><&check></color> NIDS"                                          as secgknd
+        rectangle "<color:Green><&check></color> NIPS"                                          as secgknp
+        rectangle "<color:Green><&check></color> Host Based Firewall"                           as secgkfw
+        rectangle "<color:Green><&check></color> Sandboxing"                                    as secgksb
+        rectangle "<color:Green><&check></color> ACL"                                           as secgkac
+        rectangle "<color:Green><&check></color> EAP vs PEAP"                                   as secgkea
+        rectangle "<color:Green><&check></color> WPA vs WPA2 vs WPA3 vs WEP"                    as secgkwp
+        rectangle "<color:Green><&check></color> WPS"                                           as secgkws
+    }
+    rectangle "Understand the Incident Response Process"                                        as secgl   {
+        rectangle "<color:Green><&check></color> Preparation"                                   as secglpr
+        rectangle "<color:Green><&check></color> Identification"                                as secglid
+        rectangle "<color:Green><&check></color> Containment"                                   as secglct
+        rectangle "<color:Green><&check></color> Eradication"                                   as secgler
+        rectangle "<color:Green><&check></color> Recovery"                                      as secglrc
+        rectangle "<color:Green><&check></color> Lessons Learned"                               as secglll
+    }
+    rectangle "Understand Threat Classification"                                                as secgm   {
+        rectangle "<color:Green><&check></color> Zero Day"                                      as secgmzd
+        rectangle "<color:Green><&check></color> Known vs Unknown"                              as secgmku
+        rectangle "<color:Green><&check></color> APT"                                           as secgmap
+    }
+    rectangle "Understand Common Tools"                                                         as secgn   {
+        rectangle "<color:Green><&check></color> VirusTotal"                                    as secgnvt
+        rectangle "<color:Green><&check></color> Joe Sandbox"                                   as secgnjs
+        rectangle "<color:Green><&check></color> any.run"                                       as secgnar
+        rectangle "<color:Green><&check></color> urlvoid"                                       as secgnuv
+        rectangle "<color:Green><&check></color> urlscan"                                       as secgnus
+        rectangle "<color:Green><&check></color> WHOIS"                                         as secgnwi
+    }
+' INTERNAL
+secgisl .[hidden]r. secgihs
+secgihs .[hidden]r. secgike
+secgipi .[hidden]r. secgipk
+secgipk .[hidden]r. secgiof
+secgjft .[hidden]r. secgjtl
+secgjtl .[hidden]r. secgjis
+secgjds .[hidden]r. secgjld
+secgjld .[hidden]r. secgjsr
+secgjsr .[hidden]r. secgjsm
+secgkav .[hidden]r. secgkam
+secgkam .[hidden]r. secgked
+secgked .[hidden]r. secgkdl
+secgknf .[hidden]r. secgkhi
+secgknd .[hidden]r. secgknp
+secgknp .[hidden]r. secgkfw
+secgksb .[hidden]r. secgkac
+secgkac .[hidden]r. secgkea
+secgkwp .[hidden]r. secgkws
+secglpr .[hidden]r. secglid
+secglct .[hidden]r. secgler
+secglrc .[hidden]r. secglll
+secgmzd .[hidden]r. secgmku
+secgmku .[hidden]r. secgmap
+secgnvt .[hidden]r. secgnjs
+secgnjs .[hidden]r. secgnar
+secgnuv .[hidden]r. secgnus
+secgnus .[hidden]r. secgnwi
+secgjft .[hidden]d. secgjds
+secgjis .[hidden]d. secgjsm
+secgisl .[hidden]d. secgipi
+secgike .[hidden]d. secgiof
+secgkav .[hidden]d. secgknf
+secgknf .[hidden]d. secgknd
+secgknd .[hidden]d. secgksb
+secgksb .[hidden]d. secgkwp
+secgkdl .[hidden]d. secgkhi
+secgkhi .[hidden]d. secgkfw
+secgkfw .[hidden]d. secgkea
+secgkea .[hidden]d. secgkws
+secglpr .[hidden]d. secglct
+secglct .[hidden]d. secglrc
+secglid .[hidden]d. secgler
+secgler .[hidden]d. secglll
+secgnvt .[hidden]d. secgnuv
+secgnar .[hidden]d. secgnwi
+' EXTERNAL
+secgipi .[hidden]d. secgjft
+secgjds .[hidden]d. secgkav
+secgkwp .[hidden]d. secglpr
+secglrc .[hidden]d. secgmzd
+secgmzd .[hidden]d. secgnvt
+secgiof .[hidden]d. secgjis
+secgjsm .[hidden]d. secgkdl
+secgkws .[hidden]d. secglid
+secglll .[hidden]d. secgmap
+secgmap .[hidden]d. secgnar
+    rectangle "Attack Types and Differences"                                                    as secgo   {
+        rectangle "<color:Green><&check></color> Phishing vs Vishing vs Whaling vs Smishing"    as secgoin
+        rectangle "<color:Green><&check></color> Spam vs Spim"                                  as secgosp
+        rectangle "<color:Green><&check></color> Shoulder Surfing"                              as secgoss
+        rectangle "<color:Green><&check></color> Dumpster Diving"                               as secgodd
+        rectangle "<color:Green><&check></color> Tailgating"                                    as secgotg
+        rectangle "<color:Green><&check></color> Zero Day"                                      as secgozd
+        rectangle "<color:Green><&check></color> Social Engineering"                            as secgose
+        rectangle "<color:Green><&check></color> Reconnaissance"                                as secgorn
+        rectangle "<color:Green><&check></color> Impersonation"                                 as secgois
+        rectangle "<color:Green><&check></color> Watering Hole Attack"                          as secgowa
+        rectangle "<color:Green><&check></color> Drive by Attack"                               as secgoda
+        rectangle "<color:Green><&check></color> Typo Squatting"                                as secgots
+        rectangle "<color:Green><&check></color> Brute Force vs Password Spray"                 as secgobf
+    }
+    rectangle "Common Network Based Attacks"                                                    as secgp   {
+        rectangle "<color:Green><&check></color> DoS vs DDoS"                                   as secgpdd
+        rectangle "<color:Green><&check></color> MITM"                                          as secgpmi
+        rectangle "<color:Green><&check></color> ARP Poisoning"                                 as secgprp
+        rectangle "<color:Green><&check></color> Evil Twin"                                     as secgpet
+        rectangle "<color:Green><&check></color> DNS Poisoning"                                 as secgpdp
+        rectangle "<color:Green><&check></color> Spoofing"                                      as secgpsf
+        rectangle "<color:Green><&check></color> Deauth Attack"                                 as secgpda
+        rectangle "<color:Green><&check></color> VLAN Hopping"                                  as secgpvh
+        rectangle "<color:Green><&check></color> Rogue Access Point"                            as secgpra
+        rectangle "<color:Green><&check></color> War-driving/dialing"                           as secgpwd
+    }
+    rectangle "Popular attack types"                                                            as secgq   {
+        rectangle "<color:Green><&check></color> Buffer Overflow"                               as secgqbo
+        rectangle "<color:Green><&check></color> Memory Leak"                                   as secgqml
+        rectangle "<color:Green><&check></color> XSS"                                           as secgqxs
+        rectangle "<color:Green><&check></color> SQL Injection"                                 as secgqsl
+        rectangle "<color:Green><&check></color> CSRF"                                          as secgqcs
+        rectangle "<color:Green><&check></color> Replay Attack"                                 as secgqra
+        rectangle "<color:Green><&check></color> Pass the Hash"                                 as secgqph
+        rectangle "<color:Green><&check></color> Directory Traversal"                           as secgqdt
+    }
+    rectangle "Understand Audience"                                                             as secgr   {
+        rectangle "<color:Green><&check></color> Stakeholders"                                  as secgrst
+        rectangle "<color:Green><&check></color> HR"                                            as secgrhr
+        rectangle "<color:Green><&check></color> Legal"                                         as secgrlg
+        rectangle "<color:Green><&check></color> Compliance"                                    as secgrcl
+        rectangle "<color:Green><&check></color> Management"                                    as secgrmg
+    }
+}
+' INTERNAL
+secgosp .[hidden]r. secgoss
+secgodd .[hidden]r. secgotg
+secgotg .[hidden]r. secgozd
+secgose .[hidden]r. secgorn
+secgois .[hidden]r. secgowa
+secgoda .[hidden]r. secgots
+secgpdd .[hidden]r. secgpmi
+secgpmi .[hidden]r. secgprp
+secgpet .[hidden]r. secgpdp
+secgpdp .[hidden]r. secgpsf
+secgpda .[hidden]r. secgpvh
+secgpra .[hidden]r. secgpwd
+secgqbo .[hidden]r. secgqml
+secgqml .[hidden]r. secgqxs
+secgqsl .[hidden]r. secgqcs
+secgqcs .[hidden]r. secgqra
+secgqph .[hidden]r. secgqdt
+secgrst .[hidden]r. secgrhr
+secgrhr .[hidden]r. secgrlg
+secgrcl .[hidden]r. secgrmg
+secgoin .[hidden]d. secgosp
+secgosp .[hidden]d. secgodd
+secgodd .[hidden]d. secgose
+secgose .[hidden]d. secgois
+secgois .[hidden]d. secgoda
+secgoda .[hidden]d. secgobf
+secgoin .[hidden]d. secgoss
+secgoss .[hidden]d. secgozd
+secgozd .[hidden]d. secgorn
+secgorn .[hidden]d. secgowa
+secgowa .[hidden]d. secgots
+secgots .[hidden]d. secgobf
+secgpdd .[hidden]d. secgpet
+secgpet .[hidden]d. secgpda
+secgpda .[hidden]d. secgpra
+secgprp .[hidden]d. secgpsf
+secgpsf .[hidden]d. secgpvh
+secgpvh .[hidden]d. secgpwd
+secgqbo .[hidden]d. secgqsl
+secgqsl .[hidden]d. secgqph
+secgqxs .[hidden]d. secgqra
+secgqra .[hidden]d. secgqdt
+secgrst .[hidden]d. secgrcl
+secgrlg .[hidden]d. secgrmg
+' EXTERNAL
+secgobf .[hidden]d. secgpdd
+secgpra .[hidden]d. secgqbo
+secgqph .[hidden]d. secgrst
+secgobf .[hidden]d. secgprp
+secgpwd .[hidden]d. secgqxs
+secgqdt .[hidden]d. secgrlg
+secgoin .[hidden]r. secgisl
+secgoss .[hidden]r. secgipi
+secgozd .[hidden]r. secgjft
+secgorn .[hidden]r. secgjds
+secgowa .[hidden]r. secgkav
+secgots .[hidden]r. secgknf
+secgobf .[hidden]r. secgknd
+secgprp .[hidden]r. secgksb
+secgpsf .[hidden]r. secgkwp
+secgpvh .[hidden]r. secglpr
+secgpwd .[hidden]r. secglct
+secgqxs .[hidden]r. secglrc
+secgqra .[hidden]r. secgmzd
+secgqdt .[hidden]r. secgnvt
+secgrlg .[hidden]r. secgnuv
+secgike .[hidden]r. secqanm
+secgiof .[hidden]r. secqaic
+secgjis .[hidden]r. secqadd
+secgjsm .[hidden]r. secqawh
+secgkdl .[hidden]r. secgbat
+secgkhi .[hidden]r. secgcis
+secgkfw .[hidden]r. secgdie
+secgkea .[hidden]r. secgflb
+secgkws .[hidden]r. secggel
+secglid .[hidden]r. secggpc
+secgler .[hidden]r. secghmb
+secglll .[hidden]r. secghgp
+secgmap .[hidden]r. secghpc
+
+sec .d. secg
+
+sec .[hidden]d. secga
+sec .[hidden]d. secgi
+
+f -[#blue;thickness=3]d------------- sec
 
 component {
     card "<color:Indigo><&task></color> \
-<b>"                                            as lrn  #text:Teal
-'Understand Common Hacking Tools
-'Understand Common Exploit Frameworks
-'Understand Concept of Defense in Depth
-'Understand Concept of Runbooks
-'Understand Basics of Forensics
-'Basics and Concepts of Threat Hunting
-'Basics of Vulnerability Management
-'Basics of Reverse Engineering
-'Penetration Testing Rules of Engagement
-'Perimiter vs DMZ vs Segmentation
-}
+<b>Cloud skills and Knowledge"                                      as csk #text:Teal
 
-component {
-    card "<color:Indigo><&task></color> \
-<b>"                           as lrn  #text:Teal
-'Core Concepts of Zero Trust
-'Roles of Compliance and Auditors
-'Understand the Definition of Risk
-'Understand Backups and Resiliency
-'Cyber Kill Chain MFA and 2FA
-'Operating System Hardening
-'Understand the Concept of Isolation
-'Basics of IDS and IPS Honeypots
-'Authentication vs Authorization
-}
+    rectangle "Cloud knowledge"                                     as clk   {
+        rectangle "<color:Green><&check></color> \
+Understand concepts of security in the cloud"                       as clksc
+        rectangle "<color:Green><&check></color> \
+Understand the basics and general flow of deploying in the cloud"   as clkdc
+        rectangle "<color:Green><&check></color> \
+Understand the differences between cloud and on-premises"           as clkdf
+        rectangle "<color:Green><&check></color> \
+Understand the concept of infrastructure as code"                   as clkic
+        rectangle "<color:Green><&check></color> \
+Understand the concept of Serverless"                               as clksl
+        rectangle "<color:Green><&check></color> \
+Understand the concept of CDN"                                      as clkcd
+    }
 
-component {
-    card "<color:Indigo><&task></color> \
-<b>"                           as lrn  #text:Teal
-'Blue Team vs Red Team vs Purple Team
-'False Negative / False Positive True Negative / True Positive
-'Basics of Threat Intel, OSINT
-'Understand Handshakes
-'Understand CIA Triad
-'Privilege escalation / User based Attacks
-'Web Based Attacks and OWASP 10
-'Learn how Malware Operates and Types
-}
+    rectangle "Understand Cloud Services"                           as ucs   {
+        rectangle "<color:Green><&check></color> SaaS"              as ucsss
+        rectangle "<color:Green><&check></color> PaaS"              as ucsps
+        rectangle "<color:Green><&check></color> IaaS"              as ucsis
+    }
+    rectangle "Common Cloud Environments"                           as cce   {
+        rectangle "<color:Green><&check></color> AWS"               as cceaw
+        rectangle "<color:Green><&check></color> GCP"               as ccegc
+        rectangle "<color:Green><&check></color> Azure"             as cceaz
+    }
 
-component {
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Tools for Incident Response and Discovery"   as lrn  #text:Teal
-    'nmap tracert nslookup dig curl
-    'ipconfig hping ping arp cat dd
-    'head tail grep wireshark winhex
-    'memdump FTK Imager autopsy
+    rectangle "Cloud Models"                                        as clm   {
+        rectangle "<color:Green><&check></color> Private"           as clmpr
+        rectangle "<color:Green><&check></color> Public"            as clmpb
+        rectangle "<color:Green><&check></color> Hybrid"            as clmhb
     }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Understand Frameworks"                       as lrn  #text:Teal
-    'ATT&CK Kill chain Diamond Model
-    }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Understand Common Standards"                 as lrn  #text:Teal
-    'ISO NIST RMF CIS CSF
-    }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Understand"                                  as lrn  #text:Teal
-    'SIEM SOAR
-    }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Common Distros for Hacking"                  as lrn  #text:Teal
-    'ParrotOS Kali Linux
-    }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Using tools for unintended purposes"         as lrn  #text:Teal
-    'LOLBAS
-    }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Learn how to find and use these logs"        as lrn  #text:Teal
-    'Event Logs syslogs netflow
-    'Packet Captures Firewall Logs
-    }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Understand Hardening Concepts"               as lrn  #text:Teal
-    'MAC-based NAC-based Port Blocking
-    'Group Policy ACLs Sinkholes Patching
-    'Jump Server Endpoint Security
+    rectangle "Common Cloud Storage"                                as ccs   {
+        rectangle "<color:Green><&check></color> S3"                as ccss3
+        rectangle "<color:Green><&check></color> Dropbox"           as ccsdb
+        rectangle "<color:Green><&check></color> Box"               as ccsbx
+        rectangle "<color:Green><&check></color> OneDrive"          as ccsod
+        rectangle "<color:Green><&check></color> Google Drive"      as ccsgd
+        rectangle "<color:Green><&check></color> iCloud"            as ccsic
     }
 }
+' INTERNAL
+ucsss .[hidden]r. ucsps
+ucsps .[hidden]r. ucsis
+cceaw .[hidden]r. ccegc
+ccegc .[hidden]r. cceaz
+clmpr .[hidden]r. clmpb
+clmpb .[hidden]r. clmhb
+ccss3 .[hidden]r. ccsdb
+ccsdb .[hidden]r. ccsbx
+ccsod .[hidden]r. ccsgd
+ccsgd .[hidden]r. ccsic
+clksc .[hidden]d. clkdc
+clkdc .[hidden]d. clkdf
+clkdf .[hidden]d. clkic
+clkic .[hidden]d. clksl
+clksl .[hidden]d. clkcd
+ccss3 .[hidden]d. ccsod
+ccsdb .[hidden]d. ccsgd
+ccsbx .[hidden]d. ccsic
+' EXTERNAL
+clksc -[hidden]r- ucsss
+clkdc -[hidden]r- cceaw
+clkic -[hidden]r- clmpr
+clksl -[hidden]r- ccss3
+clkcd -[hidden]r- ccsod
 
-component {
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Basics of Cryptography"                                      as lrn  #text:Teal
-    'Salting Hashing Key Exchange
-    'PKI Pvt Key vs Pub Key Obfuscation
-    }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Understand Secure vs Unsecure Protocols"                     as lrn  #text:Teal
-    'FTP vs SFTP SSL vs TLS IPSEC
-    'DNSSEC LDAPS SRTP S/MIME
-    }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Understand the following Terms"                              as lrn  #text:Teal
-    'Antivirus Antimalware EDR DLP
-    'Firewall and Nextgen Firewall HIPS
-    'NIDS NIPS Host Based Firewall
-    'Sandboxing ACL EAP vs PEAP
-    'WPA vs WPA2 vs WPA3 vs WEP WPS
-    }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Understand the Incident Response Process"                    as lrn  #text:Teal
-    'Preparation Identification
-    'Containment Eradication
-    'Recovery Lessons Learned
-    }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Understand Threat Classification"                            as lrn  #text:Teal
-    'Zero Day Known vs Unknown APT
-        rectangle "<color:Green><&check></color> Zero Day"          as lrnp
-        rectangle "<color:Indigo><&task></color> Known vs Unknown"  as lrng
-        rectangle "<color:Green><&check></color> APT"               as lrnt
-    }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Understand Common Tools"                     as lrn  #text:Teal
-    'VirusTotal Joe Sandbox any.run urlvoid urlscan WHOIS
-    }
-}
+csk .d. clk
+clk .r. ucs
+ucs .d. cce
+clk .r. clm
+clm .d. ccs
 
-component {
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Attack Types and Differences"                     as lrn  #text:Teal
-    'Phishing vs Vishing vs Whaling vs Smishing
-    'Spam vs Spim Shoulder Surfing
-    'Dumpster Diving Tailgating Zero Day
-    'Social Engineering Reconnaissance
-    'Impersonation Watering Hole Attack
-    'Drive by Attack Typo Squatting
-    'Brute Force vs Password Spray
-    }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Common Network Based Attacks"                        as lrn  #text:Teal
-    'DoS vs DDoS MITM ARP Poisoning
-    'Evil Twin DNS Poisoning Spoofing
-    'Deauth Attack VLAN Hopping
-    'Rogue Access Point War-driving/dialing
-    }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>"                                                    as lrn  #text:Teal
-    'Buffer Overflow Memory Leak XSS
-    'SQL Injection CSRF Replay Attack
-    'Pass the Hash Directory Traversal
-    }
-    component {
-        card "<color:Indigo><&task></color> \
-    <b>Understand Audience"                                 as lrn  #text:Teal
-    'Stakeholders HR Legal Compliance
-    'Management
-    }
-}
+f -[#blue;thickness=3]d----------------------- csk
 
-component {
-    card "<color:Indigo><&task></color> \
-<b>Cloud skills and Knowledge"                           as lrn  #text:Teal
-}
+card "<color:OrangeRed><&warning></color> \
+<b>Programming Skills and Knowledge (Optional But Recommended)"         as psk
 
-component {
-    card "<color:Indigo><&task></color> \
-<b>"                           as lrn  #text:Teal
-'Understand concepts of security in the cloud
-'Understand the basics and general flow of deploying in the cloud
-'Understand the di"erences between cloud and on-premises
-'Understand the concept of infrastructure as code
-'Understand the concept of Serverless
-'Understand the concept of CDN
+rectangle "<color:OrangeRed><&warning></color> Programming Languages"   as lng   {
+    rectangle "<color:Green><&check></color> Python"                    as lngpy
+    rectangle "<color:Green><&check></color> Go"                        as lnggo
+    rectangle "<color:Green><&check></color> JavaScript"                as lngjs
+    rectangle "<color:Green><&check></color> C++"                       as lngcp
+    rectangle "<color:Green><&check></color> Bash"                      as lngsh
+    rectangle "<color:Green><&check></color> PowerShell"                as lngps
 }
+' INTERNAL
+lngpy .[hidden]d. lnggo
+lnggo .[hidden]d. lngjs
+lngjs .[hidden]d. lngcp
+lngcp .[hidden]d. lngsh
+lngsh .[hidden]d. lngps
+' EXTERNAL
+psk .d. lng
 
-component {
-    card "<color:Indigo><&task></color> \
-<b>Understand Cloud Services"                           as lrn  #text:Teal
-'SaaS PaaS IaaS
-}
-component {
-    card "<color:Indigo><&task></color> \
-<b>Common Cloud Environments"                           as lrn  #text:Teal
-'AWS GCP Azure
-}
+csk -[#blue;thickness=3]l---------- psk
 
-component {
-    card "<color:Indigo><&task></color> \
-<b>Cloud Models"                           as lrn  #text:Teal
-'Private Public Hybrid
-}
-component {
-    card "<color:Indigo><&task></color> \
-<b>Common Cloud Storage"                           as lrn  #text:Teal
-'S3 Dropbox Box
-'OneDrive Google Drive
-'iCloud
-}
+card "Keep Learning" as KL
 
-component {
-    card "<color:Indigo><&task></color> \
-<b>Programming Skills and Knowledge (Optional But Recommended)"       as lrn  #text:Teal
-}
-
-'Python
-'Go
-'JavaScript
-'C++
-'Bash
-'PowerShell
-
-'Keep Learning
+psk -[#blue;thickness=3]------- KL
+KL  -[#blue;dashed;thickness=5]- end
 
 @enduml
