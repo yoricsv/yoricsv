@@ -167,15 +167,14 @@ rpob .u. rpo
 js -[#blue;thickness=3]- vers
 
 component {
-    card "<color:OrangeRed><&warning></color> \
-<b>Web Security Knowledge"                                                  as sec    #text:Teal
+    card "<color:OrangeRed><&warning></color> <b>Web Security Knowledge" as sec    #text:HotPink
         rectangle "\
 <color:OrangeRed><&warning></color> \
-Get at least a basic knowledge of all of these"                             as secr {
-        rectangle "CORS"                                                    as secrc  #LawnGreen
-        rectangle "HTTPS"                                                   as secrh  #LawnGreen
-        rectangle "Content Security Policy"                                 as secrp  #LawnGreen
-        rectangle "OWASP Security Risks"                                    as secrq  #LawnGreen
+Get at least a basic knowledge of all of these"                          as secr {
+        rectangle "CORS"                                                 as secrc  #LightBlue
+        rectangle "HTTPS"                                                as secrh  #LawnGreen
+        rectangle "Content Security Policy"                              as secrp  #LightBlue
+        rectangle "OWASP Security Risks"                                 as secrq  #LawnGreen
     }
 }
 sec .. secr
@@ -201,7 +200,7 @@ much difference."                                  as mngd #LightPink;line:blue;
 mng  .left. mngn  #black;line.dashed
 mngy .left. mng   #black;line.dashed
 
-sec -[#blue;thickness=3]d- mng
+sec -down- mng   #blue;line.bold /'thickness=3'/
 
 component {
      card "<b><color:HotPink>CSS Architecture\n<i>\

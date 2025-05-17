@@ -1,0 +1,126 @@
+@startuml hard_skills
+
+title Front-end
+
+<style>
+    title {
+        HorizontalAlignment right
+        FontSize 24
+        FontColor black
+    }
+    card {
+        BackGroundColor #Yellow
+        LineThickness 1
+        LineColor black
+    }
+    rectangle {
+        BackgroundColor none
+    }
+</style>
+
+skinparam rectangle {
+    roundCorner <<Concept>> 15
+}
+
+
+' Internet  ..> How does the internet work?
+
+' [*]         -> FrontEnd
+' FrontEnd -- Internet
+' Новая       ---> Согласуется : эксперт\nответил\nна заявку\nи\nпредложил\nвремя
+' Согласуется ---> Согласована : пользователь\nсогласовал\nзаявку
+' Согласуется ---> Новая       : пользователь\nотказался\nсогласовывать\nзаявку
+' Согласована ---> Выполнена   : консультация\nсостоялась
+' Выполнена   ---> [*]
+
+' Новая       ---> Отменена    : пользователь\nотменил\nзаявку
+' Согласуется ---> Отменена    : пользователь\nотменил\nзаявку
+' Согласована ---> Отменена    : пользователь\nотменил\nзаявку
+' Отменена    ---> [*]
+
+' Новая       ---> Проблемная  : [время с момента\nсоздания > недели]
+' Согласуется ---> Проблемная  : [прошло\nвремя\nпредложенное\nэкспертом]
+' Проблемная  ---> Отменена    : Заявка\nотменена\nпользователем\nили\nадминистратором
+' Проблемная  ---> Согласуется : Администратор\nназначил\nэксперта
+
+' title Create Article Diagram
+
+!include <cloudinsight/tomcat>
+!include <cloudinsight/kafka>
+!include <cloudinsight/java>
+!include <cloudinsight/cassandra>
+
+' title Cloudinsight sprites example
+
+' skinparam monochrome true
+
+' ' BackgroundColor DarkSeaGreen
+
+' rectangle "<$tomcat>\nwebapp" as webapp
+' queue     "<$kafka>"          as kafka
+' rectangle "<$java>\ndaemon"   as daemon
+' database  "<$cassandra>"      as cassandra
+
+' webapp ->  kafka        #line:olive;
+' kafka  ->  daemon       #line:green
+' daemon --> cassandra    #blue;line.dotted;text:blue : some text
+
+' title Create Article Diagram
+
+' class "<b>MainWindow</b>" as MW
+' {
+'     - passkey : <i>String</i>
+'     --
+
+'     + <b>MainWindow \t()</b>
+'     + <b>MainWindow \t(passkey \t: <i>String</i>)</b>
+
+'     + getListOfArticles \t() \t\t\t\t: <i>List <Article></i>
+'     + getArticle \t\t\t(postId \t: <i>UUID</i>) \t: <i>Post</i>
+
+'     + newArticle \t\t()
+'     + editArticle \t\t(postId \t: <i>UUID</i>) \t: <i>int</i>
+' }
+
+' class "<b>Main</b>" as M
+' {
+'     - hash : <i>String</i>
+'     --
+
+'     + <b>Main \t()</b>
+'     + <b>Main \t(hash \t: <i>String</i>)</b>
+
+'     - readFile \t\t()
+'     - writeFile \t\t()
+'     - checkHash \t()
+'     - encrypt \t\t()
+'     - decript \t\t()
+' '    + frxRepNoticeAfterPrintReport \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+' }
+
+' class "<b>AddArticle</b>" as A
+' {
+'     - name \t\t: String
+'     - url \t: String
+'     - login \t: String
+'     - password \t\t: UUID
+'     - password2 \t\t: UUID
+'     - comment \t\t: String
+'     --
+
+'     + <b>AddArticle \t()</b>
+'     + <b>AddArticle \t(name \t: <i>String</i>)</b>
+' }
+
+' package DB <<Database>>
+' {
+
+' }
+' MW -right-|> DB
+' MW -right-|> M
+' DB -left-|> M
+' M  -right-|> DB
+' A  --|> M
+' MW --|> A
+
+@enduml
